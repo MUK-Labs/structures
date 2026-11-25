@@ -1,0 +1,522 @@
+{
+  "source": {
+    "scoreUrl": "https://cantorion.org/music/1147/6-Preludes-and-Fugues",
+    "scorePdfUrl": "https://cantorion.org/download/1147/67cea37f6146dd100dae068e66d5b2ef/6%20Preludes%20and%20Fugues%20-%20Piano.pdf",
+    "scoreSha256": "933d0b7203ec49cf88f59adc9c27d720f0232d6581fa0397a042503ad8349a09",
+    "analysisUrl": "https://open.uct.ac.za/server/api/core/bitstreams/4fe8b467-1f77-40c1-8e65-0d4093dc3a13/content",
+    "method": "Manual reading of the public-domain score, corroborated by Saayman's discussion of entry order and subject design. Quarter-note coordinates are relative to each fugue, not to its prelude. Only the opening exposition is mapped. Entry endpoints mark the subject core; continuing counterpoint and extensions are not automatically included."
+  },
+  "pieces": [
+    {
+      "number": 1,
+      "key": "E minor",
+      "scorePage": 5,
+      "meter": [
+        4,
+        4
+      ],
+      "measureCount": 10,
+      "keySignature": 1,
+      "clef": "bass",
+      "analysisPages": "37–38, 71, 81",
+      "subjectExample": "4.60 and 4.79",
+      "entries": [
+        [
+          "bass",
+          0,
+          10
+        ],
+        [
+          "tenor",
+          10,
+          20
+        ],
+        [
+          "alto",
+          20.5,
+          30
+        ],
+        [
+          "soprano",
+          30,
+          40
+        ]
+      ],
+      "entryNotes": [
+        "Subject: m. 1 beat 1 to m. 3 beat 3.",
+        "Answer: m. 3 beat 3 to m. 6 beat 1.",
+        "Subject: m. 6 after the opening eighth rest to m. 8 beat 3; the initial note is shortened.",
+        "Answer: m. 8 beat 3 to the end of m. 10."
+      ],
+      "previewMeasures": [
+        1,
+        2
+      ],
+      "previewNotes": [
+        [
+          "E3",
+          1
+        ],
+        [
+          "G3",
+          0.5
+        ],
+        [
+          "F#3",
+          0.25
+        ],
+        [
+          "E3",
+          0.25
+        ],
+        [
+          "D#3",
+          0.5
+        ],
+        [
+          "F#3",
+          0.5
+        ],
+        [
+          "A3",
+          1.5
+        ],
+        [
+          "G#3",
+          0.5
+        ],
+        [
+          "D4",
+          1.5
+        ],
+        [
+          "C4",
+          0.5
+        ],
+        [
+          "F4",
+          0.5
+        ],
+        [
+          "E4",
+          0.5
+        ]
+      ],
+      "notes": "The excerpt ends after the four initial entries, at m. 10. The alto begins an eighth note later than a simple ten-beat entry grid would predict. The later chorale and all subsequent subject entries are outside this map."
+    },
+    {
+      "number": 2,
+      "key": "D major",
+      "scorePage": 12,
+      "meter": [
+        3,
+        4
+      ],
+      "measureCount": 13,
+      "keySignature": 2,
+      "clef": "bass",
+      "analysisPages": "37–38, 49",
+      "subjectExample": "4.18",
+      "entries": [
+        [
+          "bass",
+          0,
+          9
+        ],
+        [
+          "tenor",
+          9,
+          18
+        ],
+        [
+          "alto",
+          21,
+          30
+        ],
+        [
+          "soprano",
+          30,
+          39
+        ]
+      ],
+      "entryNotes": [
+        "Subject: mm. 1–3.",
+        "Answer: mm. 4–6.",
+        "Subject: mm. 8–10, after the intervening bar.",
+        "Answer: mm. 11–13."
+      ],
+      "previewMeasures": [
+        1,
+        2
+      ],
+      "previewNotes": [
+        [
+          "D3",
+          1
+        ],
+        [
+          "F#3",
+          1
+        ],
+        [
+          "B3",
+          1
+        ],
+        [
+          "A3",
+          1.5
+        ],
+        [
+          "G3",
+          0.5
+        ],
+        [
+          "F#3",
+          1
+        ]
+      ],
+      "notes": "The excerpt covers mm. 1–13. Subject boundaries follow the three-bar core bracketed in Saayman's Example 4.18. The final F-sharp in the two-bar preview continues by a tie into m. 3 in the full score."
+    },
+    {
+      "number": 3,
+      "key": "B minor",
+      "scorePage": 17,
+      "meter": [
+        4,
+        4
+      ],
+      "measureCount": 11,
+      "keySignature": 2,
+      "clef": "bass",
+      "analysisPages": "37–38, 53",
+      "subjectExample": "4.26",
+      "entries": [
+        [
+          "tenor",
+          0,
+          10
+        ],
+        [
+          "alto",
+          10,
+          20
+        ],
+        [
+          "soprano",
+          24,
+          34
+        ],
+        [
+          "bass",
+          34,
+          44
+        ]
+      ],
+      "entryNotes": [
+        "Subject: m. 1 beat 1 to m. 3 beat 3.",
+        "Answer: m. 3 beat 3 to m. 6 beat 1.",
+        "Subject: m. 7 beat 1 to m. 9 beat 3.",
+        "Answer: m. 9 beat 3 to the end of m. 11."
+      ],
+      "previewMeasures": [
+        1
+      ],
+      "previewNotes": [
+        [
+          "B3",
+          1
+        ],
+        [
+          "B3",
+          0.75
+        ],
+        [
+          "B3",
+          0.25
+        ],
+        [
+          "C#4",
+          1
+        ],
+        [
+          "rest",
+          0.25
+        ],
+        [
+          "B3",
+          0.25
+        ],
+        [
+          "A#3",
+          0.25
+        ],
+        [
+          "B3",
+          0.25
+        ]
+      ],
+      "notes": "The excerpt covers mm. 1–11. The opening voice is the tenor, followed by alto, soprano and bass. The tenor drops out during the final bass entry, as discussed by Saayman. The later inverted subject is outside this excerpt."
+    },
+    {
+      "number": 4,
+      "key": "A-flat major",
+      "scorePage": 24,
+      "meter": [
+        2,
+        2
+      ],
+      "measureCount": 22,
+      "keySignature": -4,
+      "clef": "bass",
+      "analysisPages": "37–38, 49",
+      "subjectExample": "4.19",
+      "entries": [
+        [
+          "bass",
+          0,
+          21
+        ],
+        [
+          "tenor",
+          20,
+          41
+        ],
+        [
+          "alto",
+          44,
+          65
+        ],
+        [
+          "soprano",
+          64,
+          85
+        ]
+      ],
+      "entryNotes": [
+        "Subject: m. 1 to the release of the tied first-quarter note in m. 6.",
+        "Answer: m. 6 to the first-quarter release in m. 11.",
+        "Subject: m. 12 to the first-quarter release in m. 17.",
+        "Answer: m. 17 to the first-quarter release in m. 22."
+      ],
+      "previewMeasures": [
+        1,
+        2
+      ],
+      "previewNotes": [
+        [
+          "A-2",
+          2
+        ],
+        [
+          "E-3",
+          2
+        ],
+        [
+          "D-3",
+          3
+        ],
+        [
+          "C3",
+          1
+        ]
+      ],
+      "notes": "The excerpt covers mm. 1–22. The source uses cut time; the horizontal coordinate remains in quarter-note units. The core includes the tie into the next entry's first bar, so adjacent statements overlap by one quarter note. The third entry starts in m. 12 after a one-bar link."
+    },
+    {
+      "number": 5,
+      "key": "F minor",
+      "scorePage": 30,
+      "meter": [
+        6,
+        8
+      ],
+      "measureCount": 19,
+      "pickup": 0.5,
+      "keySignature": -4,
+      "clef": "treble",
+      "analysisPages": "37–38, 71–72",
+      "subjectExample": "4.61",
+      "entries": [
+        [
+          "soprano",
+          0,
+          12.5
+        ],
+        [
+          "alto",
+          12,
+          24.5
+        ],
+        [
+          "tenor",
+          30,
+          42.5
+        ],
+        [
+          "bass",
+          45,
+          57.5
+        ]
+      ],
+      "entryNotes": [
+        "Subject: the opening eighth-note pickup (m. 0) and mm. 1–4.",
+        "Answer: the last eighth note of m. 4 and mm. 5–8.",
+        "Subject: the last eighth note of m. 10 and mm. 11–14.",
+        "Answer: the last eighth note of m. 15 and mm. 16–19."
+      ],
+      "previewMeasures": [
+        0,
+        1
+      ],
+      "previewNotes": [
+        [
+          "C4",
+          0.5
+        ],
+        [
+          "C5",
+          0.5
+        ],
+        [
+          "C5",
+          0.5
+        ],
+        [
+          "C5",
+          0.5
+        ],
+        [
+          "C5",
+          0.5
+        ],
+        [
+          "C5",
+          0.5
+        ],
+        [
+          "C5",
+          0.5
+        ]
+      ],
+      "notes": "The excerpt includes the opening eighth-note pickup as m. 0, then mm. 1–19. This is the set's descending soprano–alto–tenor–bass exposition. The initial octave leap and six repeated eighth notes are shown in the preview."
+    },
+    {
+      "number": 6,
+      "key": "B-flat major",
+      "scorePage": 37,
+      "meter": [
+        4,
+        4
+      ],
+      "measureCount": 28,
+      "keySignature": -2,
+      "clef": "bass",
+      "analysisPages": "37–38, 54–55",
+      "subjectExample": "4.30 (captioned 1.30)",
+      "entries": [
+        [
+          "bass",
+          0,
+          14
+        ],
+        [
+          "tenor",
+          16,
+          30
+        ],
+        [
+          "alto",
+          44,
+          58
+        ],
+        [
+          "soprano",
+          60,
+          74
+        ],
+        [
+          "bass",
+          96,
+          110
+        ]
+      ],
+      "entryNotes": [
+        "Subject: m. 1 to the release on beat 3 of m. 4.",
+        "Answer: m. 5 to the release on beat 3 of m. 8.",
+        "Subject: m. 12 to the release on beat 3 of m. 15; the opening group is written on the lower staff.",
+        "Answer: m. 16 to the release on beat 3 of m. 19.",
+        "Redundant bass entry: m. 25 through the beat-2 note of m. 28, explicitly identified by Saayman."
+      ],
+      "previewMeasures": [
+        1
+      ],
+      "previewNotes": [
+        [
+          "B-2",
+          0.25
+        ],
+        [
+          "C3",
+          0.25
+        ],
+        [
+          "B-2",
+          0.25
+        ],
+        [
+          "C3",
+          0.25
+        ],
+        [
+          "D3",
+          0.25
+        ],
+        [
+          "E-3",
+          0.25
+        ],
+        [
+          "D3",
+          0.25
+        ],
+        [
+          "E-3",
+          0.25
+        ],
+        [
+          "F3",
+          0.25
+        ],
+        [
+          "G3",
+          0.25
+        ],
+        [
+          "F3",
+          0.25
+        ],
+        [
+          "G3",
+          0.25
+        ],
+        [
+          "A3",
+          0.25
+        ],
+        [
+          "F3",
+          0.25
+        ],
+        [
+          "G3",
+          0.25
+        ],
+        [
+          "A3",
+          0.25
+        ]
+      ],
+      "notes": "The excerpt covers mm. 1–28, including the redundant bass entry identified by Saayman. The fourteen-quarter-note core ends after the second longer-note gesture; subsequent tails are extensions. The alto's cross-staff notation does not make it a bass entry."
+    }
+  ]
+}

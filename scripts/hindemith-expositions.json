@@ -1,0 +1,670 @@
+{
+  "source": {
+    "scoreUrl": "https://petruccilibrary.ca/files/imglnks/caimg/e/e9/IMSLP310100-PMLP501152-Hindemith_-_Ludus_Tonalis.pdf",
+    "scoreCatalogUrl": "https://imslp.org/wiki/Ludus_Tonalis_(Hindemith,_Paul)",
+    "analysisUrl": "https://digital.library.unt.edu/ark:/67531/metadc663498/",
+    "analysisPdfUrl": "https://digital.library.unt.edu/ark:/67531/metadc663498/m2/1/high_res_d/1002773775-Foster.pdf",
+    "method": "Manual score transcription of opening subject and answer statements, checked against Dorothy Nell Foster (1973), Chapter IV. Quarter-note units; entry ends include the final note and all its written ties. Excerpts extend through the final subject release when it passes the exposition cadence. No recording timing has been estimated. A short independently engraved subject incipit is included; the source score, thesis prose and chart images are not redistributed.",
+    "analysisTitle": "A Comparative Analysis of the Expositions in the Fugues of J.S. Bach in the Well-Tempered Clavier and Those of Paul Hindemith in Ludus Tonalis",
+    "scoreSha256": "d5f940da5a4491c5a74da654667431a35986847f0cc44fb5cbe8775db25bd84b",
+    "analysisSha256": "9dbbf01df1bd5ed702de386b783d4be5521ae29f5628b10706db3c4742d9c035"
+  },
+  "pieces": [
+    {
+      "number": 1,
+      "key": "C",
+      "meter": [
+        4,
+        4
+      ],
+      "totalBeats": 40,
+      "scorePages": "4–5",
+      "analysisPages": "126–127",
+      "clef": "treble",
+      "previewNotes": [
+        [
+          "G4",
+          3
+        ],
+        [
+          "C4",
+          1
+        ]
+      ],
+      "entries": [
+        [
+          "alto",
+          0,
+          12,
+          "Subject, tonal centre C; mm. 1–3."
+        ],
+        [
+          "soprano",
+          12,
+          24.5,
+          "Answer, tonal centre F; m. 4 to the tied first eighth of m. 7."
+        ],
+        [
+          "bass",
+          28,
+          40,
+          "Subject, tonal centre C; mm. 8–10."
+        ]
+      ],
+      "notes": "The interlude in m. 7 precedes the bass entry."
+    },
+    {
+      "number": 2,
+      "key": "G",
+      "meter": [
+        5,
+        8
+      ],
+      "totalBeats": 42.5,
+      "scorePages": "9",
+      "analysisPages": "127–129",
+      "clef": "bass",
+      "previewNotes": [
+        [
+          "G2",
+          0.5
+        ],
+        [
+          "G2",
+          0.5
+        ],
+        [
+          "G2",
+          0.5
+        ],
+        [
+          "G2",
+          0.5
+        ],
+        [
+          "G2",
+          0.5
+        ]
+      ],
+      "entries": [
+        [
+          "bass",
+          0,
+          7,
+          "Subject, tonal centre G; m. 1 to the end of the quarter note in m. 3."
+        ],
+        [
+          "alto",
+          5,
+          12,
+          "Answer, tonal centre C; m. 3 to the end of the quarter note in m. 5."
+        ],
+        [
+          "soprano",
+          17.5,
+          24.5,
+          "Subject, tonal centre D; m. 8 to the end of the quarter note in m. 10."
+        ],
+        [
+          "bass",
+          27.5,
+          34.5,
+          "Redundant entry, tonal centre C; m. 12 to the end of the quarter note in m. 14."
+        ],
+        [
+          "soprano",
+          35,
+          42,
+          "Redundant entry, tonal centre G; m. 15 to the end of the quarter note in m. 17."
+        ]
+      ],
+      "notes": "Includes the two redundant exposition entries identified by Foster. The last eighth in each final subject measure belongs to the continuation."
+    },
+    {
+      "number": 3,
+      "key": "F",
+      "meter": [
+        4,
+        4
+      ],
+      "totalBeats": 73,
+      "scorePages": "13",
+      "analysisPages": "129–130",
+      "clef": "treble",
+      "previewNotes": [
+        [
+          "F4",
+          2
+        ],
+        [
+          "A4",
+          2
+        ]
+      ],
+      "entries": [
+        [
+          "soprano",
+          0,
+          25,
+          "Subject, tonal centre F; m. 1 through the final quarter note on beat 1 of m. 7."
+        ],
+        [
+          "bass",
+          24,
+          48,
+          "Answer, tonal centre D; mm. 7–12; the final note is altered."
+        ],
+        [
+          "alto",
+          48,
+          73,
+          "Subject, tonal centre F; m. 13 through the final quarter note on beat 1 of m. 19."
+        ]
+      ],
+      "notes": "Three uninterrupted entries. The excerpt includes the final subject note after the exposition cadence at m. 19."
+    },
+    {
+      "number": 4,
+      "key": "A",
+      "meter": [
+        3,
+        2
+      ],
+      "totalBeats": 53,
+      "scorePages": "16–17",
+      "analysisPages": "131–132",
+      "clef": "bass",
+      "previewNotes": [
+        [
+          "C4",
+          2
+        ],
+        [
+          "C4",
+          1
+        ],
+        [
+          "D4",
+          1
+        ],
+        [
+          "F4",
+          2
+        ]
+      ],
+      "entries": [
+        [
+          "alto",
+          0,
+          13,
+          "Subject, tonal centre A; mm. 1–2, with the final note tied to the first quarter of m. 3."
+        ],
+        [
+          "soprano",
+          12,
+          25,
+          "Answer, tonal centre C; mm. 3–4, with the final note tied to the first quarter of m. 5."
+        ],
+        [
+          "bass",
+          36,
+          53,
+          "Subject, tonal centre A; mm. 7–8, with the final note tied through the first five quarter-note units of m. 9."
+        ]
+      ],
+      "notes": "The interlude occupies mm. 5–6. Only the first-subject exposition is represented; the second subject introduced at m. 28 is outside this excerpt. The final tied note extends past the exposition cadence."
+    },
+    {
+      "number": 5,
+      "key": "E",
+      "meter": [
+        6,
+        8
+      ],
+      "totalBeats": 67,
+      "scorePages": "24–25",
+      "analysisPages": "132–133",
+      "clef": "treble",
+      "previewNotes": [
+        [
+          "rest",
+          0.5
+        ],
+        [
+          "rest",
+          0.5
+        ],
+        [
+          "D5",
+          0.5
+        ],
+        [
+          "B4",
+          1
+        ],
+        [
+          "E4",
+          0.5
+        ]
+      ],
+      "entries": [
+        [
+          "alto",
+          1,
+          22,
+          "Subject, tonal centre E; third eighth of m. 1 through the first quarter of m. 8."
+        ],
+        [
+          "soprano",
+          22,
+          43,
+          "Answer, tonal centre A; third eighth of m. 8 through the first quarter of m. 15; the final two notes are altered."
+        ],
+        [
+          "bass",
+          46,
+          67,
+          "Subject, tonal centre E; third eighth of m. 16 through the first quarter of m. 23."
+        ]
+      ],
+      "notes": "The initial two eighth rests are retained in the incipit. The interlude in m. 15 precedes the bass entry. The excerpt includes the final subject note after the exposition cadence at m. 23."
+    },
+    {
+      "number": 6,
+      "key": "E♭",
+      "meter": [
+        4,
+        8
+      ],
+      "totalBeats": 24,
+      "scorePages": "28–29",
+      "analysisPages": "133–134",
+      "clef": "treble",
+      "previewNotes": [
+        [
+          "B-4",
+          0.75
+        ],
+        [
+          "E-4",
+          "1/12"
+        ],
+        [
+          "B-4",
+          "1/12"
+        ],
+        [
+          "E-4",
+          "1/12"
+        ],
+        [
+          "A-4",
+          1
+        ]
+      ],
+      "entries": [
+        [
+          "alto",
+          0,
+          8,
+          "Subject, tonal centre E-flat; mm. 1–4."
+        ],
+        [
+          "soprano",
+          7,
+          14.75,
+          "Answer, tonal centre A-flat; third eighth of m. 4 through the dotted eighth at the start of m. 8."
+        ],
+        [
+          "bass",
+          16,
+          23.5,
+          "Subject, tonal centre E-flat; m. 9 through the third eighth of m. 12."
+        ]
+      ],
+      "notes": "The subject uses thirty-second-note triplets. The short interlude at m. 8 follows the answer; the bass statement ends with an eighth rest in m. 12."
+    },
+    {
+      "number": 7,
+      "key": "A♭",
+      "meter": [
+        3,
+        4
+      ],
+      "totalBeats": 40,
+      "scorePages": "32–33",
+      "analysisPages": "134–136",
+      "clef": "treble",
+      "previewNotes": [
+        [
+          "A-4",
+          0.75
+        ],
+        [
+          "F4",
+          0.25
+        ],
+        [
+          "B-4",
+          1
+        ],
+        [
+          "B-4",
+          0.75
+        ],
+        [
+          "C-5",
+          0.25
+        ]
+      ],
+      "entries": [
+        [
+          "soprano",
+          0,
+          13.5,
+          "Subject, tonal centre A-flat; m. 1 through the dotted quarter at the start of m. 5."
+        ],
+        [
+          "bass",
+          12,
+          26,
+          "Answer, tonal centre E-flat; m. 5 through the half note beginning on beat 1 of m. 9; the following B-natural quarter is continuation."
+        ],
+        [
+          "alto",
+          27,
+          40,
+          "Subject, tonal centre A-flat; m. 10 through the quarter note at the start of m. 14."
+        ]
+      ],
+      "notes": "The subject changes tonal centre within its phrase; Foster identifies the real answer in the dominant. The excerpt includes the final subject note after the exposition cadence at m. 14."
+    },
+    {
+      "number": 8,
+      "key": "D",
+      "meter": [
+        4,
+        4
+      ],
+      "pickup": 0.5,
+      "totalBeats": 16.5,
+      "scorePages": "36–37",
+      "analysisPages": "136–137",
+      "clef": "treble",
+      "previewCaption": "Subject opening, pickup and m. 1",
+      "previewNotes": [
+        [
+          "D4",
+          0.5
+        ],
+        [
+          "A4",
+          0.875
+        ],
+        [
+          "D4",
+          0.125
+        ],
+        [
+          "E4",
+          "1/3"
+        ],
+        [
+          "D4",
+          "1/3"
+        ],
+        [
+          "E4",
+          "1/3"
+        ],
+        [
+          "A3",
+          1
+        ],
+        [
+          "B4",
+          1
+        ]
+      ],
+      "entries": [
+        [
+          "alto",
+          0,
+          5.833333333333333,
+          "Subject, tonal centre D; opening eighth-note pickup through the G4 in m. 2, tied from a quarter to the first triplet eighth of beat 2."
+        ],
+        [
+          "soprano",
+          5,
+          11.5,
+          "Answer, tonal centre A; eighth-note pickup halfway through beat 1 of m. 2 through the half note beginning on beat 2 of m. 3."
+        ],
+        [
+          "bass",
+          10,
+          16.5,
+          "Subject, tonal centre D; eighth-note pickup halfway through beat 2 of m. 3 through the half note beginning on beat 3 of m. 4."
+        ]
+      ],
+      "notes": "The opening pickup is measure 0. The complete subject includes its pickup before the main accented entry; each following statement shifts one quarter-note beat later within the bar. Foster describes the bass main accent at m. 3 beat 3; the plotted statement also includes its preceding eighth-note pickup. The first subject final note is tied into a triplet."
+    },
+    {
+      "number": 9,
+      "key": "B♭",
+      "meter": [
+        2,
+        4
+      ],
+      "totalBeats": 22.5,
+      "scorePages": "41–42",
+      "analysisPages": "137–138",
+      "clef": "treble",
+      "previewNotes": [
+        [
+          "B-4",
+          0.5
+        ],
+        [
+          "C5",
+          0.25
+        ],
+        [
+          "rest",
+          0.25
+        ],
+        [
+          "C5",
+          0.5
+        ],
+        [
+          "F5",
+          0.25
+        ],
+        [
+          "rest",
+          0.25
+        ]
+      ],
+      "entries": [
+        [
+          "alto",
+          0,
+          6.5,
+          "Subject, tonal centre B-flat; m. 1 through the first eighth of m. 4."
+        ],
+        [
+          "soprano",
+          6,
+          12.5,
+          "Answer, tonal centre F; m. 4 through the first eighth of m. 7."
+        ],
+        [
+          "bass",
+          16,
+          22.5,
+          "Subject, tonal centre B-flat; m. 9 through the first eighth of m. 12."
+        ]
+      ],
+      "notes": "The bass entry is at m. 9 in the AMP score, after the short interlude. Foster identifies the entry order and exposition cadence at m. 12, but gives a less precise description of the interlude; the plotted positions follow the score. Only the opening statements are represented; subsequent inversions, retrogrades and augmentation are outside this excerpt."
+    },
+    {
+      "number": 10,
+      "key": "D♭",
+      "meter": [
+        4,
+        4
+      ],
+      "totalBeats": 28.5,
+      "scorePages": "46",
+      "analysisPages": "138–139",
+      "clef": "treble",
+      "previewNotes": [
+        [
+          "rest",
+          1
+        ],
+        [
+          "rest",
+          0.5
+        ],
+        [
+          "D-5",
+          0.5
+        ],
+        [
+          "B-4",
+          1
+        ],
+        [
+          "rest",
+          0.5
+        ],
+        [
+          "A-4",
+          0.5
+        ]
+      ],
+      "entries": [
+        [
+          "alto",
+          1.5,
+          8.5,
+          "Subject, tonal centre D-flat; eighth-note onset halfway through beat 2 of m. 1 through the first eighth of m. 3."
+        ],
+        [
+          "soprano",
+          9.5,
+          16.5,
+          "Answer, tonal centre A-flat; eighth-note onset halfway through beat 2 of m. 3 through the first eighth of m. 5."
+        ],
+        [
+          "bass",
+          21.5,
+          28.5,
+          "Subject, tonal centre D-flat; eighth-note onset halfway through beat 2 of m. 6 through the first eighth of m. 8."
+        ]
+      ],
+      "notes": "The initial quarter and eighth rests are retained in the incipit. This map includes subject and answer statements only: Foster also identifies a recurring countersubject in mm. 3–4 and 6–7, which is not plotted. The excerpt includes the final subject note after the exposition cadence at m. 8."
+    },
+    {
+      "number": 11,
+      "key": "B",
+      "meter": [
+        4,
+        2
+      ],
+      "totalBeats": 35,
+      "scorePages": "51",
+      "analysisPages": "139–140",
+      "clef": "treble",
+      "previewNotes": [
+        [
+          "B4",
+          2
+        ],
+        [
+          "B-4",
+          4
+        ],
+        [
+          "F4",
+          2
+        ]
+      ],
+      "entries": [
+        [
+          "alto",
+          0,
+          19,
+          "First canonic statement, tonal centre B; m. 1 through the dotted half note at the start of m. 3."
+        ],
+        [
+          "soprano",
+          16,
+          35,
+          "Canonic answer, tonal centre F-sharp; m. 3 through the dotted half note at the start of m. 5."
+        ]
+      ],
+      "notes": "Foster identifies this movement as an accompanied two-voice canon and explicitly states that the bass does not give the subject. Accordingly, only the two opening canonic statements are plotted; the bass accompaniment lane is empty. This is an opening canon excerpt, not a complete fugue exposition. The recurring countersubject and the new subject in the second half are outside this map."
+    },
+    {
+      "number": 12,
+      "key": "F♯",
+      "meter": [
+        9,
+        8
+      ],
+      "totalBeats": 31.5,
+      "scorePages": "55",
+      "analysisPages": "140–141",
+      "clef": "treble",
+      "previewNotes": [
+        [
+          "C#5",
+          1.25
+        ],
+        [
+          "C#5",
+          0.25
+        ],
+        [
+          "D5",
+          1.25
+        ],
+        [
+          "C#5",
+          0.25
+        ],
+        [
+          "D5",
+          1.25
+        ],
+        [
+          "C#5",
+          0.25
+        ]
+      ],
+      "entries": [
+        [
+          "alto",
+          0,
+          13.5,
+          "Initial subject; mm. 1–3, ending with the F-sharp dotted quarter on the last compound beat of m. 3."
+        ],
+        [
+          "soprano",
+          4.5,
+          18,
+          "Overlapping answer; mm. 2–4, ending with the B dotted quarter on the last compound beat of m. 4."
+        ],
+        [
+          "bass",
+          18,
+          31.5,
+          "Subject; mm. 5–7, ending with the F-sharp dotted quarter on the last compound beat of m. 7."
+        ]
+      ],
+      "notes": "The answer begins in m. 2 while the first statement is still sounding, forming a stretto. The bass entry begins in m. 5. The incipit preserves the quarter-note ties to sixteenths before each repeated sixteenth-note attack. Entry labels follow the literal score imitation without inferring tonal centres from transposition alone."
+    }
+  ]
+}

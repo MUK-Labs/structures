@@ -1,4 +1,4 @@
-import { validatePiece, themeColor, qPerBar, measureCount, measureAtIndex, formatPosition, formatTime, safeUrl } from './model.js';
+import { validatePiece, themeColor, analysisLabel, qPerBar, measureCount, measureAtIndex, formatPosition, formatTime, safeUrl } from './model.js';
 import { SegmentPlayer, getClipBounds } from './player.js';
 
 const $ = id => document.getElementById(id);
@@ -123,7 +123,11 @@ function renderPiece(piece, index) {
   const head=node('div','piece-head'), titleGroup=node('div');
   titleGroup.append(node('p','composer-line',piece.composer), node('h1','',piece.title));
   const meta=node('div','piece-meta');
-  [piece.subtitle, piece.form, `${piece.voices.length} voices`, `${measureCount(piece)} bars`, !piece.recordings.length?'Analysis only':null].filter(Boolean).forEach(v=>meta.append(node('span','',v)));
+  const coverage=additionalAnalysisLabel(piece), subtitle=String(piece.subtitle||'');
+  const countedBars=piece.measures?.filter(m=>m.number>0&&!m.sourceDontCount).length;
+  const extraBars=piece.measures?.filter(m=>m.number===0||m.sourceDontCount).map(m=>m.label?.toLowerCase()||(m.number===0?'pickup':'unnumbered bar'))||[];
+  const barSummary=extraBars.length?`${countedBars} bars + ${extraBars.join(' + ')}`:`${measureCount(piece)} bars`;
+  [subtitle, piece.form, `${piece.voices.length} voices`, barSummary, coverage, !piece.recordings.length?'Analysis only':null].filter(Boolean).forEach(v=>meta.append(node('span','',v)));
   titleGroup.append(meta); head.append(titleGroup);
   if(index){const remove=node('button','remove-compare','Remove');remove.type='button';remove.addEventListener('click',()=>removeComparison(piece.id));head.append(remove);}
   card.append(head);
@@ -134,12 +138,12 @@ function renderPiece(piece, index) {
     button.addEventListener('click',()=>{const hidden=state.hiddenThemes.get(piece.id)||new Set();if(hidden.has(theme.id))hidden.delete(theme.id);else hidden.add(theme.id);state.hiddenThemes.set(piece.id,hidden);hideTooltip();renderDiagrams();});
     legend.append(button);
   }
-  legend.append(node('span','legend-hint','Hover to inspect · click to listen'));card.append(legend);
+  legend.append(node('span','legend-hint',piece.recordings.length?'Hover to inspect · click to listen':'Hover or focus to inspect'));card.append(legend);
   const scroll=node('div','timeline-scroll'), timeline=node('div','timeline');timeline.style.setProperty('--timeline-width',`${state.zoom*100}%`);
   const axis=node('div','axis-row');axis.append(node('div','axis-label','Bar'));
   const axisTrack=node('div','axis-track'), step=tickStep(piece), bars=measureCount(piece);
   const ticks=[];for(let m=1;m<=bars;m+=step)ticks.push(m);if(bars-ticks.at(-1)>step*.65)ticks.push(bars);
-  ticks.forEach(m=>{const measure=measureAtIndex(piece,m-1);const t=node('span','axis-tick',String(measure.number));t.style.left=`${measure.start/piece.totalBeats*100}%`;axisTrack.append(t);});axis.append(axisTrack);timeline.append(axis);
+  ticks.forEach(m=>{const measure=measureAtIndex(piece,m-1);const t=node('span','axis-tick',measure.label||String(measure.number));t.style.left=`${measure.start/piece.totalBeats*100}%`;axisTrack.append(t);});axis.append(axisTrack);timeline.append(axis);
   for(const voice of piece.voices){
     const row=node('div','voice-row');row.append(node('div','voice-label',voice.label));
     const track=node('div','voice-track');track.style.setProperty('--grid-size',`${qPerBar(piece)*step/piece.totalBeats*100}%`);
@@ -174,7 +178,7 @@ function renderPiece(piece, index) {
     }
   }
   const playhead=node('div','playhead');playhead.dataset.piece=piece.id;playhead.hidden=true;timeline.append(playhead);scroll.append(timeline);scroll.addEventListener('scroll',hideTooltip,{passive:true});card.append(scroll);
-  card.append(node('p','diagram-note',state.pieces.length>1?'Each diagram fits the whole piece; widths show relative duration.':'Unmarked stretches may contain free counterpoint or thematic fragments.'));
+  card.append(node('p','diagram-note',state.pieces.length>1?'Each diagram fits its displayed score span; widths show relative duration.':piece.analysis?.coverage==='selected-entries'?'Only selected entries are shown; unmarked passages have not been classified.':piece.analysis?.coverage==='exposition'?'This diagram covers the exposition excerpt only.':'Unmarked stretches may contain free counterpoint or thematic fragments.'));
   return card;
 }
 function renderDiagrams(){
@@ -185,15 +189,22 @@ function renderSources(){
   const content=$('sources-content');content.replaceChildren();
   for(const piece of state.pieces){
     content.append(node('p','source-heading',`${piece.composer} · ${piece.title}`));
+    if(piece.analysis)content.append(node('p','',piece.analysis.description));
     if(piece.notes)content.append(node('p','',Array.isArray(piece.notes)?piece.notes.join(' '):piece.notes));
     const list=node('ul');
     for(const source of piece.sources){const item=node('li');const url=safeUrl(source.url);if(url){const a=node('a','',source.title);a.href=url;a.target='_blank';a.rel='noopener noreferrer';item.append(a);}else item.append(document.createTextNode(source.title));if(source.author)item.append(document.createTextNode(` — ${source.author}`));if(source.license)item.append(document.createTextNode(` (${source.license})`));list.append(item);}content.append(list);
     for(const recording of piece.recordings){if(recording.alignment?.description)content.append(node('p','',`${recording.title}: ${recording.alignment.description}`));}
     const download=node('button','quiet','Download piece JSON');download.type='button';download.addEventListener('click',()=>{const url=URL.createObjectURL(new Blob([JSON.stringify(piece,null,2)],{type:'application/json'}));const a=node('a');a.href=url;a.download=`${piece.id}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});content.append(download);
   }
-  content.append(node('p','','Analytical labels reflect the cited source. The notation preview is the first occurrence of the theme; it does not automatically change to match the clicked entry’s transposition or transformation. YouTube clips play the whole texture, with timing interpolated between the source’s synchronization anchors.'));
+  content.append(node('p','','Each piece identifies its analytical source or score-derived method and coverage. Selected-entry maps do not claim a complete thematic inventory. The notation preview shows the cited theme excerpt; it does not automatically change to match the clicked entry’s transposition or transformation. YouTube clips play the whole texture, with timing interpolated between the source’s synchronization anchors.'));
 }
-function catalogLabel(item){return `${item.composer.replace('Johann Sebastian ','J. S. ')} · ${item.title}${item.subtitle?` · ${item.subtitle}`:''}${item.playback==='analysis-only'?' · Analysis only':''}`;}
+function additionalAnalysisLabel(piece){
+  const label=analysisLabel(piece), text=`${piece.title} ${piece.subtitle||''}`.toLowerCase();
+  if(piece.analysis?.coverage==='exposition'&&text.includes('exposition'))return '';
+  if(piece.analysis?.coverage==='selected-entries'&&text.includes('selected'))return '';
+  return label;
+}
+function catalogLabel(item){const coverage=additionalAnalysisLabel(item);return `${item.composer.replace('Johann Sebastian ','J. S. ')} · ${item.title}${item.subtitle?` · ${item.subtitle}`:''}${coverage?` · ${coverage}`:''}${item.playback==='analysis-only'?' · Analysis only':''}`;}
 function fillSelects(){
   $('piece-select').replaceChildren(...state.catalog.map(item=>{const o=node('option','',catalogLabel(item));o.value=item.id;return o;}));
   $('piece-select').value=state.pieces[0]?.id||'';
@@ -257,7 +268,7 @@ $('about-dialog').addEventListener('click',event=>{if(event.target===$('about-di
 $('import-open').addEventListener('click',()=>$('import-file').click());
 $('import-file').addEventListener('change',async event=>{
   const file=event.target.files[0];if(!file)return;
-  try{if(file.size>15*1024*1024)throw new Error('Choose a piece JSON smaller than 15 MB.');const piece=validatePiece(JSON.parse(await file.text()));state.cache.set(piece.id,piece);state.localIds.add(piece.id);const item={id:piece.id,title:piece.title,composer:piece.composer,subtitle:piece.subtitle,form:piece.form,file:''};const index=state.catalog.findIndex(c=>c.id===piece.id);if(index<0)state.catalog.push(item);else state.catalog[index]=item;await switchPiece(piece.id);status('Opened locally. Add this JSON to the repository to make its link shareable.');}
+  try{if(file.size>15*1024*1024)throw new Error('Choose a piece JSON smaller than 15 MB.');const piece=validatePiece(JSON.parse(await file.text()));state.cache.set(piece.id,piece);state.localIds.add(piece.id);const item={id:piece.id,title:piece.title,composer:piece.composer,subtitle:piece.subtitle,form:piece.form,analysis:piece.analysis,file:''};const index=state.catalog.findIndex(c=>c.id===piece.id);if(index<0)state.catalog.push(item);else state.catalog[index]=item;await switchPiece(piece.id);status('Opened locally. Add this JSON to the repository to make its link shareable.');}
   catch(error){status(error.message,true);}finally{event.target.value='';}
 });
 document.addEventListener('keydown',event=>{

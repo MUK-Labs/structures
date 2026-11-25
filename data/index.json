@@ -1,5 +1,35 @@
 [
   {
+    "id": "beethoven-op110-exposition",
+    "file": "data/pieces/beethoven-op110-exposition.json",
+    "title": "Piano Sonata No. 31, Op. 110 · Fugue",
+    "composer": "Ludwig van Beethoven",
+    "subtitle": "First fugue exposition · movement III, upbeat and mm. 28–41 (excerpt)",
+    "form": "Fugue",
+    "key": "A-flat major",
+    "voices": 3,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "beethoven-op131-01",
+    "file": "data/pieces/beethoven-op131-01.json",
+    "title": "String Quartet No. 14 · I. Adagio ma non troppo e molto espressivo",
+    "composer": "Ludwig van Beethoven",
+    "subtitle": "Op. 131 · Selected subject entries",
+    "form": "Fugue",
+    "key": "C-sharp minor",
+    "voices": 4,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "selected-entries"
+    },
+    "playback": "analysis-only"
+  },
+  {
     "id": "bwv846",
     "file": "data/pieces/bwv846.json",
     "title": "Fugue in C major",
@@ -174,6 +204,291 @@
     "key": "B major",
     "voices": 4,
     "playback": "synchronized"
+  },
+  {
+    "id": "hindemith-ludus-01",
+    "file": "data/pieces/hindemith-ludus-01.json",
+    "title": "Fugue No. 1 in C — exposition",
+    "composer": "Paul Hindemith",
+    "subtitle": "Ludus Tonalis · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "C",
+    "voices": 3,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "hindemith-ludus-02",
+    "file": "data/pieces/hindemith-ludus-02.json",
+    "title": "Fugue No. 2 in G — exposition",
+    "composer": "Paul Hindemith",
+    "subtitle": "Ludus Tonalis · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "G",
+    "voices": 3,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "hindemith-ludus-03",
+    "file": "data/pieces/hindemith-ludus-03.json",
+    "title": "Fugue No. 3 in F — exposition",
+    "composer": "Paul Hindemith",
+    "subtitle": "Ludus Tonalis · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "F",
+    "voices": 3,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "hindemith-ludus-04",
+    "file": "data/pieces/hindemith-ludus-04.json",
+    "title": "Fugue No. 4 in A — exposition",
+    "composer": "Paul Hindemith",
+    "subtitle": "Ludus Tonalis · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "A",
+    "voices": 3,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "hindemith-ludus-05",
+    "file": "data/pieces/hindemith-ludus-05.json",
+    "title": "Fugue No. 5 in E — exposition",
+    "composer": "Paul Hindemith",
+    "subtitle": "Ludus Tonalis · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "E",
+    "voices": 3,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "hindemith-ludus-06",
+    "file": "data/pieces/hindemith-ludus-06.json",
+    "title": "Fugue No. 6 in E♭ — exposition",
+    "composer": "Paul Hindemith",
+    "subtitle": "Ludus Tonalis · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "E♭",
+    "voices": 3,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "hindemith-ludus-07",
+    "file": "data/pieces/hindemith-ludus-07.json",
+    "title": "Fugue No. 7 in A♭ — exposition",
+    "composer": "Paul Hindemith",
+    "subtitle": "Ludus Tonalis · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "A♭",
+    "voices": 3,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "hindemith-ludus-08",
+    "file": "data/pieces/hindemith-ludus-08.json",
+    "title": "Fugue No. 8 in D — exposition",
+    "composer": "Paul Hindemith",
+    "subtitle": "Ludus Tonalis · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "D",
+    "voices": 3,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "hindemith-ludus-09",
+    "file": "data/pieces/hindemith-ludus-09.json",
+    "title": "Fugue No. 9 in B♭ — exposition",
+    "composer": "Paul Hindemith",
+    "subtitle": "Ludus Tonalis · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "B♭",
+    "voices": 3,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "hindemith-ludus-10",
+    "file": "data/pieces/hindemith-ludus-10.json",
+    "title": "Fugue No. 10 in D♭ — exposition",
+    "composer": "Paul Hindemith",
+    "subtitle": "Ludus Tonalis · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "D♭",
+    "voices": 3,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "hindemith-ludus-11",
+    "file": "data/pieces/hindemith-ludus-11.json",
+    "title": "Fugue No. 11 in B — opening canon",
+    "composer": "Paul Hindemith",
+    "subtitle": "Ludus Tonalis · Opening canon excerpt",
+    "form": "Fugue opening canon",
+    "key": "B",
+    "voices": 3,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "selected-entries"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "hindemith-ludus-12",
+    "file": "data/pieces/hindemith-ludus-12.json",
+    "title": "Fugue No. 12 in F♯ — exposition",
+    "composer": "Paul Hindemith",
+    "subtitle": "Ludus Tonalis · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "F♯",
+    "voices": 3,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "mendelssohn-op35-01",
+    "file": "data/pieces/mendelssohn-op35-01.json",
+    "title": "Fugue No. 1 in E minor — exposition",
+    "composer": "Felix Mendelssohn",
+    "subtitle": "Six Preludes and Fugues, Op. 35 · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "E minor",
+    "voices": 4,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "mendelssohn-op35-02",
+    "file": "data/pieces/mendelssohn-op35-02.json",
+    "title": "Fugue No. 2 in D major — exposition",
+    "composer": "Felix Mendelssohn",
+    "subtitle": "Six Preludes and Fugues, Op. 35 · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "D major",
+    "voices": 4,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "mendelssohn-op35-03",
+    "file": "data/pieces/mendelssohn-op35-03.json",
+    "title": "Fugue No. 3 in B minor — exposition",
+    "composer": "Felix Mendelssohn",
+    "subtitle": "Six Preludes and Fugues, Op. 35 · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "B minor",
+    "voices": 4,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "mendelssohn-op35-04",
+    "file": "data/pieces/mendelssohn-op35-04.json",
+    "title": "Fugue No. 4 in A-flat major — exposition",
+    "composer": "Felix Mendelssohn",
+    "subtitle": "Six Preludes and Fugues, Op. 35 · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "A-flat major",
+    "voices": 4,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "mendelssohn-op35-05",
+    "file": "data/pieces/mendelssohn-op35-05.json",
+    "title": "Fugue No. 5 in F minor — exposition",
+    "composer": "Felix Mendelssohn",
+    "subtitle": "Six Preludes and Fugues, Op. 35 · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "F minor",
+    "voices": 4,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "mendelssohn-op35-06",
+    "file": "data/pieces/mendelssohn-op35-06.json",
+    "title": "Fugue No. 6 in B-flat major — exposition",
+    "composer": "Felix Mendelssohn",
+    "subtitle": "Six Preludes and Fugues, Op. 35 · Exposition excerpt",
+    "form": "Fugue exposition",
+    "key": "B-flat major",
+    "voices": 4,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "exposition"
+    },
+    "playback": "analysis-only"
+  },
+  {
+    "id": "mozart-k546-fugue",
+    "file": "data/pieces/mozart-k546-fugue.json",
+    "title": "Fugue in C minor, K. 546",
+    "composer": "Wolfgang Amadeus Mozart",
+    "subtitle": "String version · selected subject entries",
+    "form": "Fugue",
+    "key": "C minor",
+    "voices": 4,
+    "analysis": {
+      "kind": "pattern-matching",
+      "coverage": "selected-entries"
+    },
+    "playback": "analysis-only"
   },
   {
     "id": "shostakovich-op87-01",

@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "id": "mendelssohn-op35-03",
+  "title": "Fugue No. 3 in B minor — exposition",
+  "composer": "Felix Mendelssohn",
+  "subtitle": "Six Preludes and Fugues, Op. 35 · Exposition excerpt",
+  "form": "Fugue exposition",
+  "key": "B minor",
+  "totalBeats": 44.0,
+  "meter": {
+    "beats": 4,
+    "unit": 4
+  },
+  "measures": [
+    {
+      "number": 1,
+      "start": 0.0,
+      "end": 4.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 2,
+      "start": 4.0,
+      "end": 8.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 3,
+      "start": 8.0,
+      "end": 12.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 4,
+      "start": 12.0,
+      "end": 16.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 5,
+      "start": 16.0,
+      "end": 20.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 6,
+      "start": 20.0,
+      "end": 24.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 7,
+      "start": 24.0,
+      "end": 28.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 8,
+      "start": 28.0,
+      "end": 32.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 9,
+      "start": 32.0,
+      "end": 36.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 10,
+      "start": 36.0,
+      "end": 40.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 11,
+      "start": 40.0,
+      "end": 44.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    }
+  ],
+  "voices": [
+    {
+      "id": "soprano",
+      "label": "Soprano"
+    },
+    {
+      "id": "alto",
+      "label": "Alto"
+    },
+    {
+      "id": "tenor",
+      "label": "Tenor"
+    },
+    {
+      "id": "bass",
+      "label": "Bass"
+    }
+  ],
+  "themes": [
+    {
+      "id": "subject",
+      "label": "Subject / answer",
+      "color": "#3263b9",
+      "previewSvg": "<svg viewBox=\"0 0 244 87\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"a1ocosq0\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"E062-a1ocosq0\"><path transform=\"scale(1,-1)\" d=\"M582 -120c0 32 26 58 58 58s58 -26 58 -58s-26 -58 -58 -58s-58 26 -58 58zM582 120c0 32 26 58 58 58s58 -26 58 -58s-26 -58 -58 -58s-58 26 -58 58zM158 96c51 0 73 -14 88 -49l16 -39c0 -17 -2 -30 -7 -40c-3 -11 -10 -21 -19 -31c-17 -18 -49 -43 -84 -43 c-55 0 -77 13 -112 44c-24 21 -35 55 -35 100c0 46 14 81 32 112c30 52 71 79 137 93l36 6l26 2c154 0 235 -68 274 -182c11 -32 18 -68 18 -107c0 -103 -26 -182 -68 -250c-89 -145 -234 -230 -412 -288l-30 -5c-9 0 -14 3 -14 8c3 10 5 11 10 16c35 15 70 30 96 44l78 43 c96 57 162 136 197 258c9 33 17 60 22 100c3 22 5 35 6 39c-7 69 -16 115 -23 140s-4 22 -16 40c-8 12 -19 23 -31 34c-24 21 -62 44 -118 44c-48 0 -84 -8 -113 -28c-28 -19 -42 -44 -42 -73v-16c2 -5 3 -9 4 -11c24 22 52 39 84 39z\"/></g><g id=\"E262-a1ocosq0\"><path transform=\"scale(1,-1)\" d=\"M136 186v169h17v-164l44 14v-91l-44 -14v-165l44 12v-91l-44 -13v-155h-17v150l-76 -22v-155h-17v149l-43 -13v90l43 14v167l-43 -14v92l43 13v169h17v-163zM60 73v-167l76 22v168z\"/></g><g id=\"E084-a1ocosq0\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"E0A4-a1ocosq0\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g><g id=\"E4E7-a1ocosq0\"><path transform=\"scale(1,-1)\" d=\"M133 -111c0 -33 -21 -50 -52 -55c10 -3 18 -4 25 -4c40 0 69 24 90 47l66 197c-36 -18 -64 -25 -112 -25c-23 0 -38 3 -45 8c-37 7 -55 27 -55 59c8 35 30 54 68 58c45 -6 49 -13 64 -48c0 -3 1 -5 1 -7c0 -27 -25 -46 -52 -49c6 -4 15 -6 26 -6c32 2 62 14 88 29 c32 19 44 36 59 71l7 1l10 2h4c-72 -220 -143 -439 -215 -659h-37l108 324c-20 -13 -51 -20 -82 -20c-21 0 -35 4 -43 10c-37 6 -55 26 -55 58c8 35 31 56 68 60c43 -8 48 -13 64 -51z\"/></g></defs><style type=\"text/css\">#a1ocosq0 g.ending, #a1ocosq0 g.fing, #a1ocosq0 g.reh, #a1ocosq0 g.tempo {font-weight:bold;}#a1ocosq0 g.dir, #a1ocosq0 g.dynam, #a1ocosq0 g.mNum {font-style:italic;}#a1ocosq0 g.label {font-weight:normal;}#a1ocosq0 ellipse, #a1ocosq0 path, #a1ocosq0 polygon, #a1ocosq0 polyline, #a1ocosq0 rect {stroke:currentColor}#a1ocosq0 g.cursor {fill:dodgerblue; color:dodgerblue;}#a1ocosq0 g.cursor.chord {fill:limegreen; color:limegreen;}#a1ocosq0 g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 6090 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"kzj2jxw\" class=\"mdiv pageMilestone\"/><g id=\"ljwjt1c\" class=\"score pageMilestone\"/><g id=\"d19l0jcp\" class=\"system\"><g id=\"n1g0e5aw\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"x12vdnx4\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"a9m3d2q\" class=\"measure\"><g id=\"ju99hat\" class=\"staff\"><path d=\"M0 540 L5738 540\" stroke-width=\"13\"/><path d=\"M0 720 L5738 720\" stroke-width=\"13\"/><path d=\"M0 900 L5738 900\" stroke-width=\"13\"/><path d=\"M0 1080 L5738 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L5738 1260\" stroke-width=\"13\"/><g id=\"jvgtinn\" class=\"clef\"><use xlink:href=\"#E062-a1ocosq0\" transform=\"translate(88, 720) scale(0.72, 0.72)\"/></g><g id=\"k8tmoeb\" class=\"keySig\"><g id=\"l1nouwbm\" class=\"keyAccid\"><use xlink:href=\"#E262-a1ocosq0\" transform=\"translate(769, 720) scale(0.72, 0.72)\"/></g><g id=\"m1kigs0o\" class=\"keyAccid\"><use xlink:href=\"#E262-a1ocosq0\" transform=\"translate(947, 990) scale(0.72, 0.72)\"/></g></g><g id=\"n18e98rw\" class=\"meterSig\"><use xlink:href=\"#E084-a1ocosq0\" transform=\"translate(1254, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#E084-a1ocosq0\" transform=\"translate(1254, 1080) scale(0.72, 0.72)\"/></g><g class=\"ledgerLines above\"><path d=\"M3354 360 L3676 360\" stroke-width=\"22\"/></g><g id=\"kjvjhvo\" class=\"layer\"><g id=\"l887j5j\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-a1ocosq0\" transform=\"translate(1816, 450) scale(0.72, 0.72)\"/></g><g id=\"o1t28hop\" class=\"stem\"><path d=\"M1825 478 L1825 1080\" stroke-width=\"18\"/></g></g><g id=\"m127c1yn\" class=\"beam\"><polygon points=\"2506,1080 3104,1080 3104,990 2506,990\"/><polygon points=\"2878,945 3104,945 3104,855 2878,855\"/><g id=\"n15jyia9\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-a1ocosq0\" transform=\"translate(2506, 450) scale(0.72, 0.72)\"/></g><g id=\"qoulsm\" class=\"dots\"><ellipse cx=\"2822\" cy=\"450\" rx=\"36\" ry=\"36\"/></g><g id=\"p5h870z\" class=\"stem\"><path d=\"M2515 478 L2515 1062\" stroke-width=\"18\"/></g></g><g id=\"o1388qbu\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-a1ocosq0\" transform=\"translate(3086, 450) scale(0.72, 0.72)\"/></g><g id=\"r1pcm1kb\" class=\"stem\"><path d=\"M3095 478 L3095 1062\" stroke-width=\"18\"/></g></g></g><g id=\"p1d6d7a9\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-a1ocosq0\" transform=\"translate(3402, 360) scale(0.72, 0.72)\"/></g><g id=\"skrecww\" class=\"stem\"><path d=\"M3411 388 L3411 990\" stroke-width=\"18\"/></g><g id=\"q1thk3tc\" class=\"accid\"/></g><g id=\"r15dx2so\" class=\"rest\"><use xlink:href=\"#E4E7-a1ocosq0\" transform=\"translate(4092, 900) scale(0.72, 0.72)\"/></g><g id=\"scpmf0f\" class=\"beam\"><polygon points=\"4415,1125 5251,1125 5251,1035 4415,1035\"/><polygon points=\"4415,990 4926,990 4926,900 4415,900\"/><polygon points=\"4926,990 5251,990 5251,900 4926,900\"/><g id=\"t1o7fg1e\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-a1ocosq0\" transform=\"translate(4415, 450) scale(0.72, 0.72)\"/></g><g id=\"t1mnk6ay\" class=\"stem\"><path d=\"M4424 478 L4424 1107\" stroke-width=\"18\"/></g></g><g id=\"u1i51alz\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-a1ocosq0\" transform=\"translate(4917, 540) scale(0.72, 0.72)\"/></g><g id=\"u1pu6poq\" class=\"stem\"><path d=\"M4926 568 L4926 1107\" stroke-width=\"18\"/></g><g id=\"vyqyayt\" class=\"accid\"><use xlink:href=\"#E262-a1ocosq0\" transform=\"translate(4731, 540) scale(0.72, 0.72)\"/></g></g><g id=\"w1i5lxo8\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-a1ocosq0\" transform=\"translate(5233, 450) scale(0.72, 0.72)\"/></g><g id=\"vlkya61\" class=\"stem\"><path d=\"M5242 478 L5242 1107\" stroke-width=\"18\"/></g></g></g></g></g><g id=\"izhciih\" class=\"barLine\"><path d=\"M5563 540 L5563 1260\" stroke-width=\"27\"/><path d=\"M5693 540 L5693 1260\" stroke-width=\"90\"/></g></g><g id=\"g1fhyshv\" class=\"systemMilestoneEnd x12vdnx4\"/><g id=\"hvmz6oo\" class=\"systemMilestoneEnd n1g0e5aw\"/></g><g id=\"i4ar1fz\" class=\"pageMilestoneEnd ljwjt1c\"/><g id=\"j1hkr7g7\" class=\"pageMilestoneEnd kzj2jxw\"/></g></svg></svg>",
+      "previewCaption": "Subject opening, m. 1; independently engraved from the score.",
+      "previewSource": {
+        "id": "score",
+        "title": "Six Preludes and Fugues, Op. 35 — public-domain score, p. 17",
+        "author": "Felix Mendelssohn",
+        "url": "https://cantorion.org/music/1147/6-Preludes-and-Fugues",
+        "license": "Public-domain composition and historical score, as identified by Cantorion; newly engraved incipit."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "subject-1",
+      "voice": "tenor",
+      "theme": "subject",
+      "start": 0,
+      "end": 10,
+      "sourceIds": [
+        "score",
+        "saayman"
+      ],
+      "notes": "Subject: m. 1 beat 1 to m. 3 beat 3."
+    },
+    {
+      "id": "subject-2",
+      "voice": "alto",
+      "theme": "subject",
+      "start": 10,
+      "end": 20,
+      "sourceIds": [
+        "score",
+        "saayman"
+      ],
+      "notes": "Answer: m. 3 beat 3 to m. 6 beat 1."
+    },
+    {
+      "id": "subject-3",
+      "voice": "soprano",
+      "theme": "subject",
+      "start": 24,
+      "end": 34,
+      "sourceIds": [
+        "score",
+        "saayman"
+      ],
+      "notes": "Subject: m. 7 beat 1 to m. 9 beat 3."
+    },
+    {
+      "id": "subject-4",
+      "voice": "bass",
+      "theme": "subject",
+      "start": 34,
+      "end": 44,
+      "sourceIds": [
+        "score",
+        "saayman"
+      ],
+      "notes": "Answer: m. 9 beat 3 to the end of m. 11."
+    }
+  ],
+  "sections": [],
+  "sources": [
+    {
+      "id": "score",
+      "title": "Six Preludes and Fugues, Op. 35 — public-domain score, p. 17",
+      "author": "Felix Mendelssohn",
+      "url": "https://cantorion.org/music/1147/6-Preludes-and-Fugues",
+      "license": "Public-domain composition and historical score, as identified by Cantorion; newly engraved incipit."
+    },
+    {
+      "id": "saayman",
+      "title": "The influence of J.S. Bach's contrapuntal style… (2011), pp. 37–38, 53; Example 4.26",
+      "author": "Jasper Jacobus Saayman",
+      "url": "https://open.uct.ac.za/server/api/core/bitstreams/4fe8b467-1f77-40c1-8e65-0d4093dc3a13/content",
+      "license": "Copyright retained by the author. Cited for musical analysis; no thesis prose or chart images reproduced."
+    }
+  ],
+  "recordings": [],
+  "analysis": {
+    "kind": "editorial",
+    "coverage": "exposition",
+    "description": "Opening subject and answer entries only, manually transcribed from the score and checked against Saayman's discussion. The rest of the fugue is not represented."
+  },
+  "notes": "The excerpt covers mm. 1–11. The opening voice is the tenor, followed by alto, soprano and bass. The tenor drops out during the final bass entry, as discussed by Saayman. The later inverted subject is outside this excerpt. Manual reading of the public-domain score, corroborated by Saayman's discussion of entry order and subject design. Quarter-note coordinates are relative to each fugue, not to its prelude. Only the opening exposition is mapped. Entry endpoints mark the subject core; continuing counterpoint and extensions are not automatically included."
+}

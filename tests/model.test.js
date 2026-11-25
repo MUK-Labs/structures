@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
-import { validatePiece, qPerBar, measureCount, measureAtIndex, formatPosition, formatTime, safeUrl, themeColor, PALETTE } from '../src/model.js';
+import { validatePiece, qPerBar, measureCount, measureAtIndex, formatPosition, formatTime, safeUrl, themeColor, analysisLabel, PALETTE } from '../src/model.js';
 import { getClipBounds } from '../src/player.js';
 
 function fixture() {
@@ -63,6 +63,22 @@ test('display timestamps carry rounded seconds into the next minute', () => {
   assert.equal(formatTime(NaN), '—');
 });
 
+test('partial analytical coverage stays explicit and requires a method description', () => {
+  const piece = fixture();
+  assert.equal(analysisLabel(piece), '');
+  piece.analysis = { kind: 'pattern-matching', coverage: 'selected-entries', description: 'Exact transposed subject matches; altered statements are not included.' };
+  assert.equal(validatePiece(piece), piece);
+  assert.equal(analysisLabel(piece), 'Selected subject matches');
+  piece.analysis.coverage = 'exposition';
+  piece.analysis.kind = 'editorial';
+  assert.equal(analysisLabel(piece), 'Exposition excerpt');
+  for (const change of [{kind:'guessed'}, {coverage:'unknown'}, {description:''}]) {
+    const invalid = structuredClone(piece);
+    Object.assign(invalid.analysis, change);
+    assert.throws(() => validatePiece(invalid), /analysis needs/);
+  }
+});
+
 test('explicit measure maps retain pickups and changing meter without shifting entries', () => {
   const piece = fixture();
   piece.totalBeats = 9;
@@ -78,6 +94,9 @@ test('explicit measure maps retain pickups and changing meter without shifting e
   assert.equal(formatPosition(piece, 2), 'm. 1, beat 1');
   assert.equal(formatPosition(piece, 6.5), 'm. 2, beat 2');
   assert.equal(formatPosition(piece, 9), 'end of m. 2');
+  piece.measures[2].label = 'Closing bar';
+  assert.equal(formatPosition(piece, 6.5), 'Closing bar, beat 2');
+  assert.equal(formatPosition(piece, 9), 'end of Closing bar');
   for (const mutate of [
     p => { p.measures = []; },
     p => { p.measures[0].start = 1; },
@@ -85,10 +104,20 @@ test('explicit measure maps retain pickups and changing meter without shifting e
     p => { p.measures[1].number = 0; },
     p => { p.measures[2].end = 10; },
     p => { p.measures[2].meter.unit = 7; },
+    p => { p.measures[2].label = ''; },
+    p => { p.measures[2].sourceDontCount = 'false'; },
   ]) {
     const invalid = structuredClone(piece); mutate(invalid);
     assert.throws(() => validatePiece(invalid), /Invalid piece:/);
   }
+});
+
+test('an excerpt ending mid-bar reports the ending beat, not the complete bar end', () => {
+  const piece = fixture();
+  piece.totalBeats = 1.5;
+  piece.measures = [{number:41,start:0,end:1.5,meter:{beats:6,unit:8}}];
+  piece.analysis = {kind:'editorial',coverage:'exposition',description:'Opening exposition only.'};
+  assert.equal(formatPosition(piece,1.5),'m. 41, beat 4');
 });
 
 test('piece validation allows score preroll and pieces with no linked recording', () => {

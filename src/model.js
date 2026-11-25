@@ -7,11 +7,17 @@ export function measureAtIndex(piece, index) {
 }
 export function formatPosition(piece, beat) {
   if (piece.measures) {
-    if (Math.abs(beat - piece.totalBeats) < 1e-7) return `end of m. ${piece.measures.at(-1).number}`;
+    if (Math.abs(beat - piece.totalBeats) < 1e-7) {
+      const last = piece.measures.at(-1), label = last.label || `m. ${last.number}`;
+      if (piece.analysis?.coverage === 'exposition' && last.end-last.start < last.meter.beats*4/last.meter.unit-1e-7) {
+        return `${label}, beat ${Math.round(((beat-last.start)/(4/last.meter.unit)+1)*100)/100}`;
+      }
+      return `end of ${label}`;
+    }
     const measure = piece.measures.find(m => beat >= m.start - 1e-7 && beat < m.end - 1e-7);
     if (!measure) return 'Outside score';
     const local = (beat - measure.start) / (4 / measure.meter.unit) + 1;
-    return `m. ${measure.number}, beat ${Math.round(local * 100) / 100}`;
+    return `${measure.label || `m. ${measure.number}`}, beat ${Math.round(local * 100) / 100}`;
   }
   const bar = qPerBar(piece);
   const measure = Math.floor((beat + 1e-7) / bar) + 1;
@@ -32,6 +38,11 @@ export function safeUrl(value) {
 export function themeColor(theme, index = 0) {
   return /^#[a-f\d]{6}$/i.test(theme.color || '') ? theme.color : PALETTE[index % PALETTE.length];
 }
+export function analysisLabel(piece) {
+  if (piece.analysis?.coverage === 'exposition') return 'Exposition excerpt';
+  if (piece.analysis?.coverage === 'selected-entries') return piece.analysis.kind === 'pattern-matching' ? 'Selected subject matches' : 'Selected entries';
+  return piece.analysis?.kind === 'pattern-matching' ? 'Pattern matches' : '';
+}
 export function validatePiece(piece) {
   const fail = message => { throw new Error(`Invalid piece: ${message}`); };
   if (!piece || typeof piece !== 'object') fail('expected an object.');
@@ -44,6 +55,8 @@ export function validatePiece(piece) {
     piece.measures.forEach((measure, index) => {
       const previous = piece.measures[index - 1];
       if (!measure || !Number.isInteger(measure.number) || measure.number < 0 || (previous && measure.number <= previous.number)) fail('measure numbers must increase.');
+      if (measure.label !== undefined && (typeof measure.label !== 'string' || !measure.label.trim())) fail('measure label must be nonempty text.');
+      if (measure.sourceDontCount !== undefined && typeof measure.sourceDontCount !== 'boolean') fail('sourceDontCount must be a boolean.');
       if (!Number.isFinite(measure.start) || !Number.isFinite(measure.end) || measure.end <= measure.start || Math.abs(measure.start - (previous?.end || 0)) > 1e-7) fail('measures must cover the score contiguously from zero.');
       if (!measure.meter || !Number.isFinite(measure.meter.beats) || measure.meter.beats <= 0 || ![1,2,4,8,16,32].includes(measure.meter.unit)) fail('each measure needs a valid meter.');
     });
@@ -53,6 +66,11 @@ export function validatePiece(piece) {
   if (!piece.voices.length || !piece.themes.length || !piece.entries.length) fail('at least one voice, theme and entry are required.');
   if (piece.sections !== undefined && !Array.isArray(piece.sections)) fail('sections must be an array.');
   if (piece.notes !== undefined && typeof piece.notes !== 'string' && !(Array.isArray(piece.notes) && piece.notes.every(n=>typeof n==='string'))) fail('notes must be text or an array of text.');
+  if (piece.analysis !== undefined) {
+    if (!piece.analysis || !['reference','editorial','pattern-matching'].includes(piece.analysis.kind)) fail('analysis needs a known method.');
+    if (!['complete','selected-entries','exposition'].includes(piece.analysis.coverage)) fail('analysis needs a known coverage.');
+    if (typeof piece.analysis.description !== 'string' || !piece.analysis.description.trim()) fail('analysis needs a description of its method and limits.');
+  }
   for (const field of ['voices','themes','entries','recordings']) {
     if(piece[field].some(item=>!item||typeof item!=='object'))fail(`${field} must contain objects.`);
     const ids = piece[field].map(item => item.id);

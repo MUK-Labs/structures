@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "id": "hindemith-ludus-05",
+  "title": "Fugue No. 5 in E — exposition",
+  "composer": "Paul Hindemith",
+  "subtitle": "Ludus Tonalis · Exposition excerpt",
+  "form": "Fugue exposition",
+  "key": "E",
+  "totalBeats": 67,
+  "meter": {
+    "beats": 6,
+    "unit": 8
+  },
+  "measures": [
+    {
+      "number": 1,
+      "start": 0.0,
+      "end": 3.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 2,
+      "start": 3.0,
+      "end": 6.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 3,
+      "start": 6.0,
+      "end": 9.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 4,
+      "start": 9.0,
+      "end": 12.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 5,
+      "start": 12.0,
+      "end": 15.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 6,
+      "start": 15.0,
+      "end": 18.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 7,
+      "start": 18.0,
+      "end": 21.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 8,
+      "start": 21.0,
+      "end": 24.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 9,
+      "start": 24.0,
+      "end": 27.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 10,
+      "start": 27.0,
+      "end": 30.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 11,
+      "start": 30.0,
+      "end": 33.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 12,
+      "start": 33.0,
+      "end": 36.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 13,
+      "start": 36.0,
+      "end": 39.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 14,
+      "start": 39.0,
+      "end": 42.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 15,
+      "start": 42.0,
+      "end": 45.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 16,
+      "start": 45.0,
+      "end": 48.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 17,
+      "start": 48.0,
+      "end": 51.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 18,
+      "start": 51.0,
+      "end": 54.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 19,
+      "start": 54.0,
+      "end": 57.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 20,
+      "start": 57.0,
+      "end": 60.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 21,
+      "start": 60.0,
+      "end": 63.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 22,
+      "start": 63.0,
+      "end": 66.0,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    },
+    {
+      "number": 23,
+      "start": 66.0,
+      "end": 67,
+      "meter": {
+        "beats": 6,
+        "unit": 8
+      }
+    }
+  ],
+  "voices": [
+    {
+      "id": "soprano",
+      "label": "Soprano"
+    },
+    {
+      "id": "alto",
+      "label": "Alto"
+    },
+    {
+      "id": "bass",
+      "label": "Bass"
+    }
+  ],
+  "themes": [
+    {
+      "id": "subject",
+      "label": "Subject / answer",
+      "color": "#3263b9",
+      "previewSvg": "<svg viewBox=\"0 0 175 87\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"hindemith-ludus-05-0\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"hindemith-ludus-05-1\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"hindemith-ludus-05-2\"><path transform=\"scale(1,-1)\" d=\"M284 -91c0 37 -28 92 -67 92c-35 0 -65 -54 -65 -111c0 -52 22 -104 68 -104c47 0 64 68 64 123zM230 214c-36 0 -90 -33 -90 -184l2 -36c40 24 81 36 120 36c80 0 140 -48 140 -121c0 -99 -99 -159 -182 -159c-160 0 -200 173 -200 244c0 21 2 43 7 71l10 35 c26 85 73 115 98 126c41 19 74 24 103 24c93 0 142 -63 142 -105c0 -58 -52 -72 -73 -72c-33 0 -59 24 -65 35c-3 5 -6 14 -7 25l11 30c6 15 9 27 9 35c0 11 -9 16 -25 16z\"/></g><g id=\"hindemith-ludus-05-3\"><path transform=\"scale(1,-1)\" d=\"M195 -214c76 0 88 58 90 68c0 34 -35 60 -57 73l-52 29c-21 10 -32 17 -34 20c-39 -33 -58 -54 -62 -92c5 -23 23 -98 115 -98zM301 135c0 61 -72 76 -113 76c-40 0 -77 -17 -77 -51c3 -21 15 -38 26 -50c17 -15 33 -26 48 -34l65 -28c34 27 51 56 51 87zM176 -250 c-57 0 -166 26 -166 132c0 47 30 86 89 116c-33 15 -79 60 -79 119c0 79 85 132 178 132h18c5 0 21 1 28 -1c25 0 126 -30 126 -110c0 -37 -23 -76 -69 -116c43 -25 83 -71 83 -119c0 -101 -118 -153 -208 -153z\"/></g><g id=\"hindemith-ludus-05-4\"><path transform=\"scale(1,-1)\" d=\"M0 123c7 34 33 56 69 60c29 -3 43 -9 53 -29c4 -8 7 -15 10 -22c0 -21 -1 -25 -11 -35c-5 -8 -18 -14 -40 -20l12 -3l15 -1c44 0 97 26 122 56c10 11 18 26 24 42c7 1 15 2 22 3l-140 -424h-36l111 330c-10 -6 -27 -12 -53 -16l-52 -8h-10l-20 1c-1 0 -8 3 -21 6 c-37 9 -55 28 -55 60z\"/></g><g id=\"hindemith-ludus-05-5\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g><g id=\"hindemith-ludus-05-6\"><path transform=\"scale(1,-1)\" d=\"M179 646c-4 8 -17 30 -18 33l-4 10c0 3 2 5 5 5s7 -2 13 -7c23 -33 46 -81 66 -132c22 -57 35 -125 35 -163c0 -104 -60 -183 -122 -241c-63 -59 -57 -53 -61 -56c-38 -34 -63 -95 -71 -95h-22v190c40 7 69 11 87 16c88 27 168 95 168 200c0 30 -12 89 -30 138 c-17 47 -31 73 -46 102z\"/></g><g id=\"hindemith-ludus-05-7\"><path transform=\"scale(1,-1)\" d=\"M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z\"/></g></defs><style type=\"text/css\">#hindemith-ludus-05-0 g.ending, #hindemith-ludus-05-0 g.fing, #hindemith-ludus-05-0 g.reh, #hindemith-ludus-05-0 g.tempo {font-weight:bold;}#hindemith-ludus-05-0 g.dir, #hindemith-ludus-05-0 g.dynam, #hindemith-ludus-05-0 g.mNum {font-style:italic;}#hindemith-ludus-05-0 g.label {font-weight:normal;}#hindemith-ludus-05-0 ellipse, #hindemith-ludus-05-0 path, #hindemith-ludus-05-0 polygon, #hindemith-ludus-05-0 polyline, #hindemith-ludus-05-0 rect {stroke:currentColor}#hindemith-ludus-05-0 g.cursor {fill:dodgerblue; color:dodgerblue;}#hindemith-ludus-05-0 g.cursor.chord {fill:limegreen; color:limegreen;}#hindemith-ludus-05-0 g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 4360 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"hindemith-ludus-05-8\" class=\"mdiv pageMilestone\"/><g id=\"hindemith-ludus-05-9\" class=\"score pageMilestone\"/><g id=\"hindemith-ludus-05-10\" class=\"system\"><g id=\"hindemith-ludus-05-11\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"hindemith-ludus-05-12\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"hindemith-ludus-05-13\" class=\"measure\"><g id=\"hindemith-ludus-05-14\" class=\"staff\"><path d=\"M0 540 L4005 540\" stroke-width=\"13\"/><path d=\"M0 720 L4005 720\" stroke-width=\"13\"/><path d=\"M0 900 L4005 900\" stroke-width=\"13\"/><path d=\"M0 1080 L4005 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L4005 1260\" stroke-width=\"13\"/><g id=\"hindemith-ludus-05-15\" class=\"clef\"><use xlink:href=\"#hindemith-ludus-05-1\" transform=\"translate(90, 1080) scale(0.72, 0.72)\"/></g><g id=\"hindemith-ludus-05-16\" class=\"keySig\"/><g id=\"hindemith-ludus-05-17\" class=\"meterSig\"><use xlink:href=\"#hindemith-ludus-05-2\" transform=\"translate(721, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#hindemith-ludus-05-3\" transform=\"translate(728, 1080) scale(0.72, 0.72)\"/></g><g id=\"hindemith-ludus-05-18\" class=\"layer\"><g id=\"hindemith-ludus-05-19\" class=\"rest\"><use xlink:href=\"#hindemith-ludus-05-4\" transform=\"translate(1280, 900) scale(0.72, 0.72)\"/></g><g id=\"hindemith-ludus-05-20\" class=\"rest\"><use xlink:href=\"#hindemith-ludus-05-4\" transform=\"translate(1730, 900) scale(0.72, 0.72)\"/></g><g id=\"hindemith-ludus-05-21\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#hindemith-ludus-05-5\" transform=\"translate(2180, 720) scale(0.72, 0.72)\"/></g><g id=\"hindemith-ludus-05-22\" class=\"stem\"><path d=\"M2189 748 L2189 1350\" stroke-width=\"18\"/><g id=\"hindemith-ludus-05-23\" class=\"flag\"><use xlink:href=\"#hindemith-ludus-05-6\" transform=\"translate(2180, 1350) scale(0.72, 0.72)\"/></g></g></g><g id=\"hindemith-ludus-05-24\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#hindemith-ludus-05-5\" transform=\"translate(2630, 900) scale(0.72, 0.72)\"/></g><g id=\"hindemith-ludus-05-25\" class=\"stem\"><path d=\"M2639 928 L2639 1500\" stroke-width=\"18\"/></g></g><g id=\"hindemith-ludus-05-26\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#hindemith-ludus-05-5\" transform=\"translate(3320, 1260) scale(0.72, 0.72)\"/></g><g id=\"hindemith-ludus-05-27\" class=\"stem\"><path d=\"M3537 1232 L3537 630\" stroke-width=\"18\"/><g id=\"hindemith-ludus-05-28\" class=\"flag\"><use xlink:href=\"#hindemith-ludus-05-7\" transform=\"translate(3528, 630) scale(0.72, 0.72)\"/></g></g></g></g></g><g id=\"hindemith-ludus-05-29\" class=\"barLine\"><path d=\"M3830 540 L3830 1260\" stroke-width=\"27\"/><path d=\"M3960 540 L3960 1260\" stroke-width=\"90\"/></g></g><g id=\"hindemith-ludus-05-30\" class=\"systemMilestoneEnd hindemith-ludus-05-12\"/><g id=\"hindemith-ludus-05-31\" class=\"systemMilestoneEnd hindemith-ludus-05-11\"/></g><g id=\"hindemith-ludus-05-32\" class=\"pageMilestoneEnd hindemith-ludus-05-9\"/><g id=\"hindemith-ludus-05-33\" class=\"pageMilestoneEnd hindemith-ludus-05-8\"/></g></svg></svg>",
+      "previewCaption": "Subject opening, m. 1; independently engraved from the score.",
+      "previewSource": {
+        "id": "score",
+        "title": "Ludus Tonalis — AMP score (1943), pp. 24–25",
+        "author": "Paul Hindemith",
+        "url": "https://petruccilibrary.ca/files/imglnks/caimg/e/e9/IMSLP310100-PMLP501152-Hindemith_-_Ludus_Tonalis.pdf",
+        "sha256": "d5f940da5a4491c5a74da654667431a35986847f0cc44fb5cbe8775db25bd84b",
+        "license": "Underlying music and historical edition retain their respective rights. Only a short newly engraved subject incipit is reproduced; no full score or page images are redistributed."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "subject-1",
+      "voice": "alto",
+      "theme": "subject",
+      "start": 1,
+      "end": 22,
+      "sourceIds": [
+        "score",
+        "foster"
+      ],
+      "notes": "Subject, tonal centre E; third eighth of m. 1 through the first quarter of m. 8. Endpoint includes the final note's written duration and ties."
+    },
+    {
+      "id": "subject-2",
+      "voice": "soprano",
+      "theme": "subject",
+      "start": 22,
+      "end": 43,
+      "sourceIds": [
+        "score",
+        "foster"
+      ],
+      "notes": "Answer, tonal centre A; third eighth of m. 8 through the first quarter of m. 15; the final two notes are altered. Endpoint includes the final note's written duration and ties."
+    },
+    {
+      "id": "subject-3",
+      "voice": "bass",
+      "theme": "subject",
+      "start": 46,
+      "end": 67,
+      "sourceIds": [
+        "score",
+        "foster"
+      ],
+      "notes": "Subject, tonal centre E; third eighth of m. 16 through the first quarter of m. 23. Endpoint includes the final note's written duration and ties."
+    }
+  ],
+  "sections": [],
+  "recordings": [],
+  "sources": [
+    {
+      "id": "score",
+      "title": "Ludus Tonalis — AMP score (1943), pp. 24–25",
+      "author": "Paul Hindemith",
+      "url": "https://petruccilibrary.ca/files/imglnks/caimg/e/e9/IMSLP310100-PMLP501152-Hindemith_-_Ludus_Tonalis.pdf",
+      "sha256": "d5f940da5a4491c5a74da654667431a35986847f0cc44fb5cbe8775db25bd84b",
+      "license": "Underlying music and historical edition retain their respective rights. Only a short newly engraved subject incipit is reproduced; no full score or page images are redistributed."
+    },
+    {
+      "id": "foster",
+      "title": "A Comparative Analysis of the Expositions in the Fugues of J.S. Bach in the Well-Tempered Clavier and Those of Paul Hindemith in Ludus Tonalis (1973), pp. 132–133",
+      "author": "Dorothy Nell Foster",
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc663498/",
+      "documentUrl": "https://digital.library.unt.edu/ark:/67531/metadc663498/m2/1/high_res_d/1002773775-Foster.pdf",
+      "sha256": "9dbbf01df1bd5ed702de386b783d4be5521ae29f5628b10706db3c4742d9c035",
+      "license": "Copyright retained by the author. Cited for analytical context; no thesis prose or chart images reproduced."
+    }
+  ],
+  "analysis": {
+    "kind": "editorial",
+    "coverage": "exposition",
+    "description": "Opening subject and answer statements only, manually transcribed from the score and checked against Foster's discussion. The rest of the fugue is not represented."
+  },
+  "notes": "The initial two eighth rests are retained in the incipit. The interlude in m. 15 precedes the bass entry. The excerpt includes the final subject note after the exposition cadence at m. 23. Manual score transcription of opening subject and answer statements, checked against Dorothy Nell Foster (1973), Chapter IV. Quarter-note units; entry ends include the final note and all its written ties. Excerpts extend through the final subject release when it passes the exposition cadence. No recording timing has been estimated. A short independently engraved subject incipit is included; the source score, thesis prose and chart images are not redistributed."
+}

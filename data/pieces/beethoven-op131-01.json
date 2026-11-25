@@ -1,0 +1,1538 @@
+{
+  "schemaVersion": 1,
+  "id": "beethoven-op131-01",
+  "title": "String Quartet No. 14 · I. Adagio ma non troppo e molto espressivo",
+  "composer": "Ludwig van Beethoven",
+  "subtitle": "Op. 131 · Selected subject entries",
+  "form": "Fugue",
+  "key": "C-sharp minor",
+  "totalBeats": 484,
+  "meter": {
+    "beats": 2,
+    "unit": 2
+  },
+  "measures": [
+    {
+      "number": 0,
+      "start": 0,
+      "end": 1,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 1,
+      "label": "Pickup",
+      "sourceDontCount": true
+    },
+    {
+      "number": 1,
+      "start": 1,
+      "end": 5,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 2
+    },
+    {
+      "number": 2,
+      "start": 5,
+      "end": 9,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 3
+    },
+    {
+      "number": 3,
+      "start": 9,
+      "end": 13,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 4
+    },
+    {
+      "number": 4,
+      "start": 13,
+      "end": 17,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 5
+    },
+    {
+      "number": 5,
+      "start": 17,
+      "end": 21,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 6
+    },
+    {
+      "number": 6,
+      "start": 21,
+      "end": 25,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 7
+    },
+    {
+      "number": 7,
+      "start": 25,
+      "end": 29,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 8
+    },
+    {
+      "number": 8,
+      "start": 29,
+      "end": 33,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 9
+    },
+    {
+      "number": 9,
+      "start": 33,
+      "end": 37,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 10
+    },
+    {
+      "number": 10,
+      "start": 37,
+      "end": 41,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 11
+    },
+    {
+      "number": 11,
+      "start": 41,
+      "end": 45,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 12
+    },
+    {
+      "number": 12,
+      "start": 45,
+      "end": 49,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 13
+    },
+    {
+      "number": 13,
+      "start": 49,
+      "end": 53,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 14
+    },
+    {
+      "number": 14,
+      "start": 53,
+      "end": 57,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 15
+    },
+    {
+      "number": 15,
+      "start": 57,
+      "end": 61,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 16
+    },
+    {
+      "number": 16,
+      "start": 61,
+      "end": 65,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 17
+    },
+    {
+      "number": 17,
+      "start": 65,
+      "end": 69,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 18
+    },
+    {
+      "number": 18,
+      "start": 69,
+      "end": 73,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 19
+    },
+    {
+      "number": 19,
+      "start": 73,
+      "end": 77,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 20
+    },
+    {
+      "number": 20,
+      "start": 77,
+      "end": 81,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 21
+    },
+    {
+      "number": 21,
+      "start": 81,
+      "end": 85,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 22
+    },
+    {
+      "number": 22,
+      "start": 85,
+      "end": 89,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 23
+    },
+    {
+      "number": 23,
+      "start": 89,
+      "end": 93,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 24
+    },
+    {
+      "number": 24,
+      "start": 93,
+      "end": 97,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 25
+    },
+    {
+      "number": 25,
+      "start": 97,
+      "end": 101,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 26
+    },
+    {
+      "number": 26,
+      "start": 101,
+      "end": 105,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 27
+    },
+    {
+      "number": 27,
+      "start": 105,
+      "end": 109,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 28
+    },
+    {
+      "number": 28,
+      "start": 109,
+      "end": 113,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 29
+    },
+    {
+      "number": 29,
+      "start": 113,
+      "end": 117,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 30
+    },
+    {
+      "number": 30,
+      "start": 117,
+      "end": 121,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 31
+    },
+    {
+      "number": 31,
+      "start": 121,
+      "end": 125,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 32
+    },
+    {
+      "number": 32,
+      "start": 125,
+      "end": 129,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 33
+    },
+    {
+      "number": 33,
+      "start": 129,
+      "end": 133,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 34
+    },
+    {
+      "number": 34,
+      "start": 133,
+      "end": 137,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 35
+    },
+    {
+      "number": 35,
+      "start": 137,
+      "end": 141,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 36
+    },
+    {
+      "number": 36,
+      "start": 141,
+      "end": 145,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 37
+    },
+    {
+      "number": 37,
+      "start": 145,
+      "end": 149,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 38
+    },
+    {
+      "number": 38,
+      "start": 149,
+      "end": 153,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 39
+    },
+    {
+      "number": 39,
+      "start": 153,
+      "end": 157,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 40
+    },
+    {
+      "number": 40,
+      "start": 157,
+      "end": 161,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 41
+    },
+    {
+      "number": 41,
+      "start": 161,
+      "end": 165,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 42
+    },
+    {
+      "number": 42,
+      "start": 165,
+      "end": 169,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 43
+    },
+    {
+      "number": 43,
+      "start": 169,
+      "end": 173,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 44
+    },
+    {
+      "number": 44,
+      "start": 173,
+      "end": 177,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 45
+    },
+    {
+      "number": 45,
+      "start": 177,
+      "end": 181,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 46
+    },
+    {
+      "number": 46,
+      "start": 181,
+      "end": 185,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 47
+    },
+    {
+      "number": 47,
+      "start": 185,
+      "end": 189,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 48
+    },
+    {
+      "number": 48,
+      "start": 189,
+      "end": 193,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 49
+    },
+    {
+      "number": 49,
+      "start": 193,
+      "end": 197,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 50
+    },
+    {
+      "number": 50,
+      "start": 197,
+      "end": 201,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 51
+    },
+    {
+      "number": 51,
+      "start": 201,
+      "end": 205,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 52
+    },
+    {
+      "number": 52,
+      "start": 205,
+      "end": 209,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 53
+    },
+    {
+      "number": 53,
+      "start": 209,
+      "end": 213,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 54
+    },
+    {
+      "number": 54,
+      "start": 213,
+      "end": 217,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 55
+    },
+    {
+      "number": 55,
+      "start": 217,
+      "end": 221,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 56
+    },
+    {
+      "number": 56,
+      "start": 221,
+      "end": 225,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 57
+    },
+    {
+      "number": 57,
+      "start": 225,
+      "end": 229,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 58
+    },
+    {
+      "number": 58,
+      "start": 229,
+      "end": 233,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 59
+    },
+    {
+      "number": 59,
+      "start": 233,
+      "end": 237,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 60
+    },
+    {
+      "number": 60,
+      "start": 237,
+      "end": 241,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 61
+    },
+    {
+      "number": 61,
+      "start": 241,
+      "end": 245,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 62
+    },
+    {
+      "number": 62,
+      "start": 245,
+      "end": 249,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 63
+    },
+    {
+      "number": 63,
+      "start": 249,
+      "end": 253,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 64
+    },
+    {
+      "number": 64,
+      "start": 253,
+      "end": 257,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 65
+    },
+    {
+      "number": 65,
+      "start": 257,
+      "end": 261,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 66
+    },
+    {
+      "number": 66,
+      "start": 261,
+      "end": 265,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 67
+    },
+    {
+      "number": 67,
+      "start": 265,
+      "end": 269,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 68
+    },
+    {
+      "number": 68,
+      "start": 269,
+      "end": 273,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 69
+    },
+    {
+      "number": 69,
+      "start": 273,
+      "end": 277,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 70
+    },
+    {
+      "number": 70,
+      "start": 277,
+      "end": 281,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 71
+    },
+    {
+      "number": 71,
+      "start": 281,
+      "end": 285,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 72
+    },
+    {
+      "number": 72,
+      "start": 285,
+      "end": 289,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 73
+    },
+    {
+      "number": 73,
+      "start": 289,
+      "end": 293,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 74
+    },
+    {
+      "number": 74,
+      "start": 293,
+      "end": 297,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 75
+    },
+    {
+      "number": 75,
+      "start": 297,
+      "end": 301,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 76
+    },
+    {
+      "number": 76,
+      "start": 301,
+      "end": 305,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 77
+    },
+    {
+      "number": 77,
+      "start": 305,
+      "end": 309,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 78
+    },
+    {
+      "number": 78,
+      "start": 309,
+      "end": 313,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 79
+    },
+    {
+      "number": 79,
+      "start": 313,
+      "end": 317,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 80
+    },
+    {
+      "number": 80,
+      "start": 317,
+      "end": 321,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 81
+    },
+    {
+      "number": 81,
+      "start": 321,
+      "end": 325,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 82
+    },
+    {
+      "number": 82,
+      "start": 325,
+      "end": 329,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 83
+    },
+    {
+      "number": 83,
+      "start": 329,
+      "end": 333,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 84
+    },
+    {
+      "number": 84,
+      "start": 333,
+      "end": 337,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 85
+    },
+    {
+      "number": 85,
+      "start": 337,
+      "end": 341,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 86
+    },
+    {
+      "number": 86,
+      "start": 341,
+      "end": 345,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 87
+    },
+    {
+      "number": 87,
+      "start": 345,
+      "end": 349,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 88
+    },
+    {
+      "number": 88,
+      "start": 349,
+      "end": 353,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 89
+    },
+    {
+      "number": 89,
+      "start": 353,
+      "end": 357,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 90
+    },
+    {
+      "number": 90,
+      "start": 357,
+      "end": 361,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 91
+    },
+    {
+      "number": 91,
+      "start": 361,
+      "end": 365,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 92
+    },
+    {
+      "number": 92,
+      "start": 365,
+      "end": 369,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 93
+    },
+    {
+      "number": 93,
+      "start": 369,
+      "end": 373,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 94
+    },
+    {
+      "number": 94,
+      "start": 373,
+      "end": 377,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 95
+    },
+    {
+      "number": 95,
+      "start": 377,
+      "end": 381,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 96
+    },
+    {
+      "number": 96,
+      "start": 381,
+      "end": 385,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 97
+    },
+    {
+      "number": 97,
+      "start": 385,
+      "end": 389,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 98
+    },
+    {
+      "number": 98,
+      "start": 389,
+      "end": 393,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 99
+    },
+    {
+      "number": 99,
+      "start": 393,
+      "end": 397,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 100
+    },
+    {
+      "number": 100,
+      "start": 397,
+      "end": 401,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 101
+    },
+    {
+      "number": 101,
+      "start": 401,
+      "end": 405,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 102
+    },
+    {
+      "number": 102,
+      "start": 405,
+      "end": 409,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 103
+    },
+    {
+      "number": 103,
+      "start": 409,
+      "end": 413,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 104
+    },
+    {
+      "number": 104,
+      "start": 413,
+      "end": 417,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 105
+    },
+    {
+      "number": 105,
+      "start": 417,
+      "end": 421,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 106
+    },
+    {
+      "number": 106,
+      "start": 421,
+      "end": 425,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 107
+    },
+    {
+      "number": 107,
+      "start": 425,
+      "end": 429,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 108
+    },
+    {
+      "number": 108,
+      "start": 429,
+      "end": 433,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 109
+    },
+    {
+      "number": 109,
+      "start": 433,
+      "end": 437,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 110
+    },
+    {
+      "number": 110,
+      "start": 437,
+      "end": 441,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 111
+    },
+    {
+      "number": 111,
+      "start": 441,
+      "end": 445,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 112
+    },
+    {
+      "number": 112,
+      "start": 445,
+      "end": 449,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 113
+    },
+    {
+      "number": 113,
+      "start": 449,
+      "end": 453,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 114
+    },
+    {
+      "number": 114,
+      "start": 453,
+      "end": 457,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 115
+    },
+    {
+      "number": 115,
+      "start": 457,
+      "end": 461,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 116
+    },
+    {
+      "number": 116,
+      "start": 461,
+      "end": 465,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 117
+    },
+    {
+      "number": 117,
+      "start": 465,
+      "end": 469,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 118
+    },
+    {
+      "number": 118,
+      "start": 469,
+      "end": 473,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 119
+    },
+    {
+      "number": 119,
+      "start": 473,
+      "end": 477,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 120
+    },
+    {
+      "number": 120,
+      "start": 477,
+      "end": 481,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 121
+    },
+    {
+      "number": 121,
+      "start": 481,
+      "end": 484,
+      "meter": {
+        "beats": 2,
+        "unit": 2
+      },
+      "sourceMeasureCount": 122,
+      "label": "Closing bar",
+      "sourceMeasureNumber": 120,
+      "sourceDontCount": true
+    }
+  ],
+  "analysis": {
+    "kind": "editorial",
+    "coverage": "selected-entries",
+    "description": "Ten selected substantial subject statements and transformed answers, checked against the ABC score and Ormesher's discussion. Includes the middle viola statement's altered continuation, the high A-major entry and the final cello augmentation. This is not an exhaustive map: false entries, subject fragments, episodic imitations and short stretti are omitted. Bounds are editorial selections measured in the score, not published recording times. The opening pickup and separate unnumbered closing bar retain their actual durations."
+  },
+  "dataLicense": "CC BY-NC-SA-4.0",
+  "voices": [
+    {
+      "id": "voice-1",
+      "label": "Violin I"
+    },
+    {
+      "id": "voice-2",
+      "label": "Violin II"
+    },
+    {
+      "id": "voice-3",
+      "label": "Viola"
+    },
+    {
+      "id": "voice-4",
+      "label": "Cello"
+    }
+  ],
+  "themes": [
+    {
+      "id": "subject",
+      "label": "Subject and answer",
+      "color": "#3263b9",
+      "description": "Selected substantial statements, including melodic and rhythmic transformations. No regular countersubject is asserted.",
+      "previewSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 317 87\" version=\"1.1\" overflow=\"visible\" id=\"x1fwgyhq\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"E050-x1fwgyhq\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\" /></g><g id=\"E262-x1fwgyhq\"><path transform=\"scale(1,-1)\" d=\"M136 186v169h17v-164l44 14v-91l-44 -14v-165l44 12v-91l-44 -13v-155h-17v150l-76 -22v-155h-17v149l-43 -13v90l43 14v167l-43 -14v92l43 13v169h17v-163zM60 73v-167l76 22v168z\" /></g><g id=\"E082-x1fwgyhq\"><path transform=\"scale(1,-1)\" d=\"M124 -185c-18 0 -55 -14 -65 -65h-36l-3 30c0 25 6 45 18 63c11 19 22 30 39 43l121 82l37 29c15 11 27 29 38 54c12 24 18 47 18 70c0 40 -19 88 -94 88c-25 0 -32 0 -50 -8c-14 -5 -23 -12 -26 -22c3 -9 7 -15 10 -18l24 -17c12 -7 17 -11 27 -21c5 -7 7 -16 7 -27 c0 -12 0 -57 -79 -74c-30 0 -76 26 -76 94c0 66 81 135 197 135c72 0 181 -32 181 -150c0 -53 -32 -95 -113 -133l-91 -41c-26 -11 -45 -23 -57 -37l49 7c84 0 115 -41 148 -41c20 0 33 20 39 61h35c0 -152 -68 -168 -114 -168c-17 0 -65 0 -79 7h10l-28 17 c-49 37 -69 40 -87 42z\" /></g><g id=\"E0A4-x1fwgyhq\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\" /></g><g id=\"E0A3-x1fwgyhq\"><path transform=\"scale(1,-1)\" d=\"M278 64c0 22 -17 39 -43 39c-12 0 -26 -3 -41 -10c-85 -43 -165 -94 -165 -156c5 -25 15 -32 49 -32c67 11 200 95 200 159zM0 -36c0 68 73 174 200 174c66 0 114 -39 114 -97c0 -84 -106 -173 -218 -173c-64 0 -96 32 -96 96z\" /></g></defs><style type=\"text/css\">#x1fwgyhq g.ending, #x1fwgyhq g.fing, #x1fwgyhq g.reh, #x1fwgyhq g.tempo {font-weight:bold;}#x1fwgyhq g.dir, #x1fwgyhq g.dynam, #x1fwgyhq g.mNum {font-style:italic;}#x1fwgyhq g.label {font-weight:normal;}#x1fwgyhq ellipse, #x1fwgyhq path, #x1fwgyhq polygon, #x1fwgyhq polyline, #x1fwgyhq rect {stroke:currentColor}#x1fwgyhq g.cursor {fill:dodgerblue; color:dodgerblue;}#x1fwgyhq g.cursor.chord {fill:limegreen; color:limegreen;}#x1fwgyhq g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 7910 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"h1d6sk89\" class=\"mdiv pageMilestone\" /><g id=\"i9xycch\" class=\"score pageMilestone\" /><g id=\"t1g2lvp3\" class=\"system\"><g id=\"x1jq4n7r\" class=\"measure\"><g id=\"g1r6t4gj\" class=\"staff\"><path d=\"M0 540 L2852 540\" stroke-width=\"13\" /><path d=\"M0 720 L2852 720\" stroke-width=\"13\" /><path d=\"M0 900 L2852 900\" stroke-width=\"13\" /><path d=\"M0 1080 L2852 1080\" stroke-width=\"13\" /><path d=\"M0 1260 L2852 1260\" stroke-width=\"13\" /><g id=\"xgebnjv\" class=\"clef\"><use xlink:href=\"#E050-x1fwgyhq\" transform=\"translate(90, 1080) scale(0.72, 0.72)\" /></g><g id=\"yc1yz5\" class=\"keySig\"><g id=\"z1ukns8i\" class=\"keyAccid\"><use xlink:href=\"#E262-x1fwgyhq\" transform=\"translate(735, 540) scale(0.72, 0.72)\" /></g><g id=\"aswpckq\" class=\"keyAccid\"><use xlink:href=\"#E262-x1fwgyhq\" transform=\"translate(913, 810) scale(0.72, 0.72)\" /></g><g id=\"b1v78xr9\" class=\"keyAccid\"><use xlink:href=\"#E262-x1fwgyhq\" transform=\"translate(1091, 450) scale(0.72, 0.72)\" /></g><g id=\"ciz3m08\" class=\"keyAccid\"><use xlink:href=\"#E262-x1fwgyhq\" transform=\"translate(1269, 720) scale(0.72, 0.72)\" /></g></g><g id=\"d1i1vg6g\" class=\"meterSig\"><use xlink:href=\"#E082-x1fwgyhq\" transform=\"translate(1576, 720) scale(0.72, 0.72)\" /><use xlink:href=\"#E082-x1fwgyhq\" transform=\"translate(1576, 1080) scale(0.72, 0.72)\" /></g><g id=\"h11c3z3a\" class=\"layer\"><g id=\"irb4ocs\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-x1fwgyhq\" transform=\"translate(2149, 1080) scale(0.72, 0.72)\" /></g><g id=\"k1wlmcob\" class=\"stem\"><path d=\"M2366 1052 L2366 450\" stroke-width=\"18\" /></g><g id=\"j1mot1f9\" class=\"accid\" /></g></g></g><g id=\"fr9pg0g\" class=\"barLine\"><path d=\"M2839 540 L2839 1260\" stroke-width=\"27\" /></g></g><g id=\"kre3x9d\" class=\"measure\"><g id=\"tqi3963\" class=\"staff\"><path d=\"M2852 540 L5331 540\" stroke-width=\"13\" /><path d=\"M2852 720 L5331 720\" stroke-width=\"13\" /><path d=\"M2852 900 L5331 900\" stroke-width=\"13\" /><path d=\"M2852 1080 L5331 1080\" stroke-width=\"13\" /><path d=\"M2852 1260 L5331 1260\" stroke-width=\"13\" /><g id=\"u1n2ps15\" class=\"layer\"><g id=\"v8uzh6h\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A3-x1fwgyhq\" transform=\"translate(3218, 900) scale(0.72, 0.72)\" /></g><g id=\"l15z2w58\" class=\"stem\"><path d=\"M3227 925 L3227 1500\" stroke-width=\"18\" /></g><g id=\"w1y805cs\" class=\"accid\"><use xlink:href=\"#E262-x1fwgyhq\" transform=\"translate(3032, 900) scale(0.72, 0.72)\" /></g></g><g id=\"xg7bzun\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A3-x1fwgyhq\" transform=\"translate(4268, 810) scale(0.72, 0.72)\" /></g><g id=\"m1i8ndvf\" class=\"stem\"><path d=\"M4277 835 L4277 1440\" stroke-width=\"18\" /></g><g id=\"y1r28wop\" class=\"accid\" /></g></g></g><g id=\"sus7d00\" class=\"barLine\"><path d=\"M5318 540 L5318 1260\" stroke-width=\"27\" /></g></g><g id=\"z1tas31c\" class=\"measure\"><g id=\"i15gfh8t\" class=\"staff\"><path d=\"M5331 540 L7554 540\" stroke-width=\"13\" /><path d=\"M5331 720 L7554 720\" stroke-width=\"13\" /><path d=\"M5331 900 L7554 900\" stroke-width=\"13\" /><path d=\"M5331 1080 L7554 1080\" stroke-width=\"13\" /><path d=\"M5331 1260 L7554 1260\" stroke-width=\"13\" /><g id=\"j14fmjub\" class=\"layer\"><g id=\"k1n61yhs\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A3-x1fwgyhq\" transform=\"translate(5511, 990) scale(0.72, 0.72)\" /></g><g id=\"ozjfu6z\" class=\"dots\"><ellipse cx=\"5827\" cy=\"990\" rx=\"36\" ry=\"36\" /></g><g id=\"nyic26t\" class=\"stem\"><path d=\"M5728 962 L5728 360\" stroke-width=\"18\" /></g></g><g id=\"l8w0kcd\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-x1fwgyhq\" transform=\"translate(6851, 1080) scale(0.72, 0.72)\" /></g><g id=\"pess12b\" class=\"stem\"><path d=\"M7068 1052 L7068 450\" stroke-width=\"18\" /></g><g id=\"m8bqyvd\" class=\"accid\" /></g></g></g><g id=\"h8lpe2f\" class=\"barLine\"><path d=\"M7541 540 L7541 1260\" stroke-width=\"27\" /></g></g><g id=\"wsunsky\" class=\"systemMilestoneEnd na7aoni\" /><g id=\"x113fb7x\" class=\"systemMilestoneEnd k160iilm\" /></g><g id=\"y1ekkfc5\" class=\"pageMilestoneEnd i9xycch\" /><g id=\"zw3cajl\" class=\"pageMilestoneEnd h1d6sk89\" /></g></svg></svg>",
+      "previewCaption": "Subject opening · violin I · pickup and mm. 1–2",
+      "previewSource": {
+        "url": "https://github.com/DCMLab/ABC/blob/b6b7d38500bacb30c81db7e09d8790df1a2edd46/notes/n14op131_01.notes.tsv",
+        "credit": "Ludwig van Beethoven; Annotated Beethoven Corpus score encoding (CC BY-NC-SA 4.0). Newly engraved with Verovio.",
+        "license": "CC BY-NC-SA-4.0",
+        "sourceType": "Subject opening",
+        "voice": 1,
+        "startBeat": 0,
+        "endBeat": 9,
+        "entryReleaseBeat": 18,
+        "lastNoteReleaseMatched": true,
+        "firstMeasure": 0,
+        "lastMeasure": 2,
+        "completeEntry": false
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "beethoven-op131-01-entry-1",
+      "voice": "voice-1",
+      "theme": "subject",
+      "start": 0,
+      "end": 18,
+      "sourceEnd": 15,
+      "label": "Subject",
+      "sourceIds": [
+        "score",
+        "editorial",
+        "ormesher"
+      ],
+      "notes": "Editorially selected substantial statement; ending includes the last selected note's full notated duration and explicit ties.",
+      "sourceLocation": {
+        "startMeasure": 0,
+        "startMeasureOnset": "3/4",
+        "finalNoteMeasure": 4,
+        "finalNoteMeasureOnset": "1/2"
+      }
+    },
+    {
+      "id": "beethoven-op131-01-entry-2",
+      "voice": "voice-2",
+      "theme": "subject",
+      "start": 16,
+      "end": 32,
+      "sourceEnd": 31,
+      "label": "Answer",
+      "sourceIds": [
+        "score",
+        "editorial",
+        "ormesher"
+      ],
+      "notes": "Editorially selected substantial statement; ending includes the last selected note's full notated duration and explicit ties.",
+      "sourceLocation": {
+        "startMeasure": 4,
+        "startMeasureOnset": "3/4",
+        "finalNoteMeasure": 8,
+        "finalNoteMeasureOnset": "1/2"
+      }
+    },
+    {
+      "id": "beethoven-op131-01-entry-3",
+      "voice": "voice-3",
+      "theme": "subject",
+      "start": 32,
+      "end": 50,
+      "sourceEnd": 47,
+      "label": "Subject",
+      "sourceIds": [
+        "score",
+        "editorial",
+        "ormesher"
+      ],
+      "notes": "Editorially selected substantial statement; ending includes the last selected note's full notated duration and explicit ties.",
+      "sourceLocation": {
+        "startMeasure": 8,
+        "startMeasureOnset": "3/4",
+        "finalNoteMeasure": 12,
+        "finalNoteMeasureOnset": "1/2"
+      }
+    },
+    {
+      "id": "beethoven-op131-01-entry-4",
+      "voice": "voice-4",
+      "theme": "subject",
+      "start": 48,
+      "end": 66,
+      "sourceEnd": 63,
+      "label": "Answer",
+      "sourceIds": [
+        "score",
+        "editorial",
+        "ormesher"
+      ],
+      "notes": "Editorially selected substantial statement; ending includes the last selected note's full notated duration and explicit ties.",
+      "sourceLocation": {
+        "startMeasure": 12,
+        "startMeasureOnset": "3/4",
+        "finalNoteMeasure": 16,
+        "finalNoteMeasureOnset": "1/2"
+      }
+    },
+    {
+      "id": "beethoven-op131-01-entry-5",
+      "voice": "voice-3",
+      "theme": "subject",
+      "start": 136,
+      "end": 153,
+      "sourceEnd": 152,
+      "label": "Subject · altered continuation",
+      "sourceIds": [
+        "score",
+        "editorial",
+        "ormesher"
+      ],
+      "notes": "Editorially selected substantial statement; ending includes the last selected note's full notated duration and explicit ties. The altered continuation is included through the last quarter note of m. 38; this is not an exact transposition.",
+      "sourceLocation": {
+        "startMeasure": 34,
+        "startMeasureOnset": "3/4",
+        "finalNoteMeasure": 38,
+        "finalNoteMeasureOnset": "3/4"
+      }
+    },
+    {
+      "id": "beethoven-op131-01-entry-6",
+      "voice": "voice-1",
+      "theme": "subject",
+      "start": 250,
+      "end": 268,
+      "sourceEnd": 265,
+      "label": "Subject · A major",
+      "sourceIds": [
+        "score",
+        "editorial",
+        "ormesher"
+      ],
+      "notes": "Editorially selected substantial statement; ending includes the last selected note's full notated duration and explicit ties.",
+      "sourceLocation": {
+        "startMeasure": 63,
+        "startMeasureOnset": "1/4",
+        "finalNoteMeasure": 67,
+        "finalNoteMeasureOnset": "0"
+      }
+    },
+    {
+      "id": "beethoven-op131-01-entry-7",
+      "voice": "voice-3",
+      "theme": "subject",
+      "start": 368,
+      "end": 385.5,
+      "sourceEnd": 383,
+      "label": "Subject · altered",
+      "sourceIds": [
+        "score",
+        "editorial",
+        "ormesher"
+      ],
+      "notes": "Editorially selected substantial statement; ending includes the last selected note's full notated duration and explicit ties.",
+      "sourceLocation": {
+        "startMeasure": 92,
+        "startMeasureOnset": "3/4",
+        "finalNoteMeasure": 96,
+        "finalNoteMeasureOnset": "1/2"
+      }
+    },
+    {
+      "id": "beethoven-op131-01-entry-8",
+      "voice": "voice-2",
+      "theme": "subject",
+      "start": 372.5,
+      "end": 387.5,
+      "sourceEnd": 386,
+      "label": "Answer · diminished tail",
+      "sourceIds": [
+        "score",
+        "editorial",
+        "ormesher"
+      ],
+      "notes": "Editorially selected substantial statement; ending includes the last selected note's full notated duration and explicit ties. The eighth-note pickup and repeated D5 lead into a diminished continuation; the endpoint precedes the repeated C#5 at m. 97, beat 3.5 (quarter-note count).",
+      "sourceLocation": {
+        "startMeasure": 93,
+        "startMeasureOnset": "7/8",
+        "finalNoteMeasure": 97,
+        "finalNoteMeasureOnset": "1/4"
+      }
+    },
+    {
+      "id": "beethoven-op131-01-entry-9",
+      "voice": "voice-1",
+      "theme": "subject",
+      "start": 392,
+      "end": 410,
+      "sourceEnd": 407,
+      "label": "Answer · altered",
+      "sourceIds": [
+        "score",
+        "editorial",
+        "ormesher"
+      ],
+      "notes": "Editorially selected substantial statement; ending includes the last selected note's full notated duration and explicit ties.",
+      "sourceLocation": {
+        "startMeasure": 98,
+        "startMeasureOnset": "3/4",
+        "finalNoteMeasure": 102,
+        "finalNoteMeasureOnset": "1/2"
+      }
+    },
+    {
+      "id": "beethoven-op131-01-entry-10",
+      "voice": "voice-4",
+      "theme": "subject",
+      "start": 395,
+      "end": 427,
+      "sourceEnd": 425,
+      "label": "Subject · augmentation",
+      "sourceIds": [
+        "score",
+        "editorial",
+        "ormesher"
+      ],
+      "notes": "Editorially selected substantial statement; ending includes the last selected note's full notated duration and explicit ties. Augmentation with an altered initial pitch and final G natural; the following F# is outside this selected statement.",
+      "sourceLocation": {
+        "startMeasure": 99,
+        "startMeasureOnset": "1/2",
+        "finalNoteMeasure": 107,
+        "finalNoteMeasureOnset": "0"
+      }
+    }
+  ],
+  "sections": [],
+  "sources": [
+    {
+      "id": "score",
+      "title": "Annotated Beethoven Corpus — Op. 131/I score encoding",
+      "url": "https://github.com/DCMLab/ABC/blob/b6b7d38500bacb30c81db7e09d8790df1a2edd46/MS3/n14op131_01.mscx",
+      "author": "Ludwig van Beethoven; Digital and Cognitive Musicology Lab (DCML)",
+      "license": "CC BY-NC-SA 4.0 (score encoding and derived JSON/preview); public-domain composition"
+    },
+    {
+      "id": "editorial",
+      "title": "Reproducible score-based editorial selection — method and verified note sequences",
+      "url": "https://github.com/MUK-Labs/structures/blob/main/scripts/import-beethoven-op131.py",
+      "author": "Structures editorial selection",
+      "license": "Derived analytical data: CC BY-NC-SA 4.0; script code: MIT"
+    },
+    {
+      "id": "abc-publication",
+      "title": "The Annotated Beethoven Corpus (ABC): A Dataset of Harmonic Analyses of All Beethoven String Quartets (2018)",
+      "url": "https://doi.org/10.3389/fdigh.2018.00016",
+      "author": "Markus Neuwirth, Daniel Harasim, Fabian C. Moss and Martin Rohrmeier"
+    },
+    {
+      "id": "ormesher",
+      "title": "Beethoven's instrumental fugal style (1989), vol. I pp. 223–236; vol. II examples 6.20–6.39",
+      "url": "https://etheses.whiterose.ac.uk/id/eprint/1894/",
+      "author": "Richard Ormesher",
+      "license": "Thesis: CC BY-NC-ND 2.5. Consulted for analysis; its diagrams and engravings are not reproduced."
+    },
+    {
+      "id": "barry",
+      "title": "Teleology and Structural Determinants in Beethoven's C-sharp Minor Quartet, Op. 131 (1990)",
+      "url": "https://symposium.music.org/30/articles/teleology-and-structural-determinants-in-beethovens-c-minor-quartet-op-131",
+      "author": "Barbara Barry"
+    }
+  ],
+  "recordings": []
+}
