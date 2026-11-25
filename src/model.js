@@ -47,6 +47,7 @@ export function themeColor(theme, index = 0) {
   return /^#[a-f\d]{6}$/i.test(theme.color || '') ? theme.color : PALETTE[index % PALETTE.length];
 }
 export function analysisLabel(piece) {
+  if (piece.analysis?.coverage === 'formal-outline') return 'Thematic form';
   if (piece.analysis?.coverage === 'exposition') return 'Exposition excerpt';
   if (piece.analysis?.coverage === 'selected-entries') return piece.analysis.kind === 'pattern-matching' ? 'Selected subject matches' : 'Selected entries';
   return piece.analysis?.kind === 'pattern-matching' ? 'Pattern matches' : '';
@@ -76,7 +77,7 @@ export function validatePiece(piece) {
   if (piece.notes !== undefined && typeof piece.notes !== 'string' && !(Array.isArray(piece.notes) && piece.notes.every(n=>typeof n==='string'))) fail('notes must be text or an array of text.');
   if (piece.analysis !== undefined) {
     if (!piece.analysis || !['reference','editorial','pattern-matching'].includes(piece.analysis.kind)) fail('analysis needs a known method.');
-    if (!['complete','selected-entries','exposition'].includes(piece.analysis.coverage)) fail('analysis needs a known coverage.');
+    if (!['complete','selected-entries','exposition','formal-outline'].includes(piece.analysis.coverage)) fail('analysis needs a known coverage.');
     if (typeof piece.analysis.description !== 'string' || !piece.analysis.description.trim()) fail('analysis needs a description of its method and limits.');
   }
   for (const field of ['voices','themes','entries','recordings']) {

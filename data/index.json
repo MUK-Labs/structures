@@ -1,5 +1,50 @@
 [
   {
+    "id": "bartok-duo-37",
+    "file": "data/pieces/bartok-duo-37.json",
+    "title": "Prelude and Canon · Duo No. 37",
+    "composer": "Béla Bartók",
+    "subtitle": "Forty-Four Duos, Sz. 98 / BB 104 · Selected folk-tune and canonic statements",
+    "form": "Prelude and canon",
+    "key": "B Dorian / E Dorian",
+    "voices": 2,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "selected-entries"
+    },
+    "playback": "manual-timing"
+  },
+  {
+    "id": "bartok-mikrokosmos-141",
+    "file": "data/pieces/bartok-mikrokosmos-141.json",
+    "title": "Mikrokosmos No. 141 · Subject and Reflection",
+    "composer": "Béla Bartók",
+    "subtitle": "Sz. 107, Book VI · Selected refrain phrases and mirrored imitation",
+    "form": "Rondo with mirrored imitation",
+    "key": "B-flat axis; changing tonal centers",
+    "voices": 2,
+    "analysis": {
+      "kind": "editorial",
+      "coverage": "selected-entries"
+    },
+    "playback": "manual-timing"
+  },
+  {
+    "id": "bartok-quartet-5-1",
+    "file": "data/pieces/bartok-quartet-5-1.json",
+    "title": "String Quartet No. 5 · I. Allegro",
+    "composer": "Béla Bartók",
+    "subtitle": "Sz. 102 / BB 110 · Thematic form",
+    "form": "Sonata form with reversed and inverted thematic return",
+    "key": "B-flat",
+    "voices": 3,
+    "analysis": {
+      "kind": "reference",
+      "coverage": "formal-outline"
+    },
+    "playback": "manual-timing"
+  },
+  {
     "id": "beethoven-op110-exposition",
     "file": "data/pieces/beethoven-op110-exposition.json",
     "title": "Piano Sonata No. 31, Op. 110 · Fugue",

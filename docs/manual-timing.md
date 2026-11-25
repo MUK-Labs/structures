@@ -1,6 +1,6 @@
 # Manual recording timing
 
-**33 pieces / 33 recordings need initial manual timing.** 0 pieces have no listening source. 4 additional entries in otherwise synchronized pieces fall outside every available map.
+**36 pieces / 36 recordings need initial manual timing.** 0 pieces have no listening source. 4 additional entries in otherwise synchronized pieces fall outside every available map.
 
 Listening links are available now. An empty timing map deliberately keeps entry playback disabled. Recording identity was checked from public metadata on 25 November 2026; no musical timestamps were inferred from those metadata.
 
@@ -10,6 +10,9 @@ Each row links the editable piece JSON and the exact recording. Match the record
 
 | Piece / JSON | Listen | Recording ID | Recording scope |
 | --- | --- | --- | --- |
+| [Béla Bartók · Prelude and Canon · Duo No. 37](../data/pieces/bartok-duo-37.json) | [Herman Krebbers and Theo Olof](https://www.youtube.com/watch?v=B6qvrSSL7AY) | `krebbers-olof-1955` | Complete Duo No. 37, including Prelude and Canon. |
+| [Béla Bartók · Mikrokosmos No. 141 · Subject and Reflection](../data/pieces/bartok-mikrokosmos-141.json) | [Zoltán Kocsis](https://www.youtube.com/watch?v=pcwknfkxkOA) | `kocsis-mikrokosmos-141` | Complete Mikrokosmos No. 141; the diagram marks selected phrases. |
+| [Béla Bartók · String Quartet No. 5 · I. Allegro](../data/pieces/bartok-quartet-5-1.json) | [Takács Quartet](https://www.youtube.com/watch?v=7f29-B2XVDA) | `takacs-quartet-5-i` | Complete first movement only. |
 | [Ludwig van Beethoven · Piano Sonata No. 31, Op. 110 · Fugue](../data/pieces/beethoven-op110-exposition.json) | [András Schiff](https://www.youtube.com/watch?v=-XIt5pcbyYE) | `schiff-op110-iii` | Complete movement III; the graph starts at the first fugue upbeat, after the Arioso. |
 | [Ludwig van Beethoven · String Quartet No. 14 · I. Adagio ma non troppo e molto espressivo](../data/pieces/beethoven-op131-01.json) | [Amadeus Quartet](https://www.youtube.com/watch?v=-wWdDHxHfo4) | `amadeus-quartet-op131-i` | Complete first movement; the graph marks selected subject statements. |
 | [Paul Hindemith · Fugue No. 1 in C — exposition](../data/pieces/hindemith-ludus-01.json) | [Jane Carlson](https://www.youtube.com/watch?v=kMj8YXC8U1E) | `carlson-ludus-01` | Individual complete fugue; the graph covers its opening excerpt. |
@@ -52,7 +55,7 @@ Every current piece has at least one listening source.
 2. Use [the CSV worksheet](manual-timing-template.csv), filtering by `piece_id` and `recording_id`, or edit `recordings[].alignment.anchors` directly in the linked JSON. **Save your completed CSV under another name**, then send it back for integration. The worksheet lists every entry boundary and bar start; seconds are intentionally blank.
 3. Enter absolute seconds on the recording's media timeline (e.g. 1:23.4 = 83.4). A diagram's beat 0 need not be recording second 0: Mozart's video includes the Adagio and Beethoven Op. 110 includes the Arioso before the first fugue. Even individual tracks can have leading silence.
 4. The CSV's `beat` is already the correct zero-based **quarter-note coordinate**. Do not replace it with a bar number. The adjacent score-position column uses the score's notated beat unit. A 6/8 bar spans 3 quarter units; a 2/2 bar spans 4. Pickups, unnumbered spans and partial final bars are already included. Excerpts keep their original score labels but their timeline starts at zero.
-5. Time the starts **and ends** of the entries you want playable, adding bar/intermediate anchors wherever tempo changes or fermatas make interpolation inaccurate. Optional bar/span rows may be left blank. Shostakovich's published endpoints mark the onset of the final subject note; follow the encoded endpoint, not an assumed release. Other additions document their selected-note releases.
+5. Time the starts **and ends** of the entries you want playable, adding bar/intermediate anchors wherever tempo changes or fermatas make interpolation inaccurate. Optional bar/span rows may be left blank. Shostakovich's published endpoints mark the onset of the final subject note; follow the encoded endpoint, not an assumed release. Other voice-entry additions document their selected-note releases. **Thematic-form maps use formal boundaries**, including changes inside a bar; these need not coincide with a note release.
 6. Keep anchors strictly increasing in both beat and seconds, with no duplicates. Two anchors are the technical minimum, not sufficient evidence for an entire performance. Until a map is checked, leave `status: "unavailable"`; partial work can be saved without enabling playback. Use `estimated` for usable but approximate maps, or `source-aligned` for a manually checked score-to-recording map and explain who checked it in `description`.
 7. Check several entry starts, end stops and passages between anchors in the viewer. Only entries whose two endpoints lie inside a usable map become playable. Never extrapolate or transfer times to a different recording.
 

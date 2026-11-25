@@ -6,14 +6,14 @@ A listening atlas of counterpoint: colored voice timelines, miniature theme scor
 
 ## Using the viewer
 
-- Choose a fugue. The rows are voices, ordered from highest to lowest; colors identify subjects and countersubjects.
+- Choose a piece. Voice-entry diagrams follow the performing or contrapuntal parts; thematic-form diagrams follow thematic families. Colors identify related material.
 - Hover or keyboard-focus an entry to inspect its theme. Where synchronized playback is available, click to play the full recorded texture during that entry, then stop automatically.
 - Use **Loop entry** for repeated listening. **Space** plays/pauses outside form controls; arrow keys move between entry buttons.
 - **Compare** stacks up to three pieces with the same thematic color convention. Each diagram fits its displayed score span, so horizontal widths compare proportions, not equal elapsed seconds. Exposition excerpts are identified explicitly.
 - **Presentation** (`view=slides`) shows only the composer/title, theme legend and diagram on white. Click entries to listen with the video hidden; hover or keyboard-focus still shows the theme. **Escape** restores all controls, including the recording player; **Space** plays/pauses. If a browser requires interaction with YouTube to start playback, leave slides with Escape and start it there, then return to Presentation. **Copy link** preserves the piece, comparison, entry and presentation view.
 - **Open piece…** loads a self-contained JSON from your computer. Nothing is uploaded. Publish the JSON in the repository before sharing its URL.
 
-The collection contains **49 diagrams**, with different levels of analytical coverage:
+The collection contains **52 diagrams**, with different levels of analytical coverage:
 
 | Repertoire | Diagrams | Coverage |
 | --- | --- | --- |
@@ -24,14 +24,21 @@ The collection contains **49 diagrams**, with different levels of analytical cov
 | Mozart, K. 546 | 1 | Selected subject and head matches across the fugue movement |
 | Beethoven, Op. 131/I | 1 | Ten selected substantial statements across the movement |
 | Beethoven, Op. 110/III | 1 | The first fugue's opening three-voice exposition |
+| Bartók | 3 | Selected Duo 37 and Mikrokosmos 141 phrases; a thematic-form map of Quartet 5/I |
 
-All 49 pieces have listening links. The 33 additions beyond Bach are labelled **Manual timing needed**: you can open their recordings now, while synchronized entry playback remains disabled until anchors are checked. Selected-entry maps and exposition excerpts retain their coverage labels; they do not imply complete analyses of those works.
+All 52 pieces have listening links. The 36 additions beyond Bach are labelled **Manual timing needed**: you can open their recordings now, while synchronized entry playback remains disabled until anchors are checked. Selected-entry maps, exposition excerpts and thematic-form maps retain their coverage labels; they do not imply complete inventories of voice entries.
+
+The first Bartók selection offers three ways to follow returning material:
+
+- [Duo no. 37, Prelude and Canon](https://muk-labs.github.io/structures/?piece=bartok-duo-37): selected folk-tune statements and three canons across two violins.
+- [Mikrokosmos no. 141, Subject and Reflection](https://muk-labs.github.io/structures/?piece=bartok-mikrokosmos-141): selected refrain phrases, inversion and changing imitation delays in the moving piano lines.
+- [String Quartet no. 5/I](https://muk-labs.github.io/structures/?piece=bartok-quartet-5-1): thematic regions from Bartók's own outline, including inverted returns in reversed order. Its rows represent thematic families.
 
 **[Manual timing checklist and instructions](docs/manual-timing.md)** · [CSV timing worksheet](docs/manual-timing-template.csv). The checklist links every pending piece and its exact recording, and separately lists four Bach entries needing timing-map extensions. Download a copy of the CSV, fill the `seconds` column for your chosen pieces, and send it back for integration.
 
 The [repertoire source register](docs/repertoire-sources.md) distinguishes these implemented diagrams from sources for further work, including whole-fugue inventories, later sections, other Beethoven and Romantic fugues, and recording alignment. [Data provenance](data/README.md) documents the exact methods and reproduction commands.
 
-The [counterpoint research register](docs/counterpoint-research.md) extends the search to Bartók, recurring themes, canons, rhythmic layers, and other contrapuntal repertoire. It includes verified analyses, page and measure references, data sources, and priorities for future diagrams. These research candidates are separate from the implemented collection.
+The [counterpoint research register](docs/counterpoint-research.md) extends the search to Bartók, recurring themes, canons, rhythmic layers, and other contrapuntal repertoire. It includes verified analyses, page and measure references, data sources, and priorities for future diagrams, with the first three Bartók implementations identified explicitly.
 
 ## Timing and interpretation
 
@@ -83,7 +90,9 @@ Each file contains metadata, voice definitions, thematic entries, inline SVG not
 
 The numbers above illustrate the format; they are not a musical analysis. Replace the SVG placeholder with actual notation. A piece can be displayed without a recording. Optional entry fields include `variant`, `key`, `label`, `notes`, and `sourceEnd`; optional section fields are `id`, `label`, `start`, `end`, and `type`. Sections can overlap, so retain distinct types such as `structure` and `pedal`.
 
-For a new analytical source, include an `analysis` object with `kind` (`reference`, `editorial`, or `pattern-matching`), `coverage` (`complete`, `selected-entries`, or `exposition`), and a plain-language `description` of the method and its limits. Selected entries and exposition excerpts receive visible coverage labels, including in slides. A full-length timeline does not itself imply a complete inventory.
+For a new analytical source, include an `analysis` object with `kind` (`reference`, `editorial`, or `pattern-matching`), `coverage` (`complete`, `selected-entries`, `exposition`, or `formal-outline`), and a plain-language `description` of the method and its limits. Selected entries, exposition excerpts and thematic-form maps receive visible coverage labels, including in slides. A full-length timeline does not itself imply a complete inventory.
+
+Use `formal-outline` when blocks describe thematic regions in a formal design. In this mode, `voices` defines labeled thematic rows and each `entry` is a source-defined region, which can contain several literal statements or transformations. The viewer calls these **thematic rows** and labels the map **Thematic form**. Keep exact score coordinates and document alternative formal boundaries. Hover/focus shows the cited theme preview and the selected block's label and variant.
 
 To enable playback, add a recording:
 

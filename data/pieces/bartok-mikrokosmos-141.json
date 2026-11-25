@@ -1,0 +1,2480 @@
+{
+  "schemaVersion": 1,
+  "id": "bartok-mikrokosmos-141",
+  "title": "Mikrokosmos No. 141 · Subject and Reflection",
+  "composer": "Béla Bartók",
+  "subtitle": "Sz. 107, Book VI · Selected refrain phrases and mirrored imitation",
+  "form": "Rondo with mirrored imitation",
+  "key": "B-flat axis; changing tonal centers",
+  "meter": {
+    "beats": 2,
+    "unit": 4
+  },
+  "totalBeats": 179,
+  "measures": [
+    {
+      "number": 1,
+      "start": 0.0,
+      "end": 2.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 2,
+      "start": 2.0,
+      "end": 4.5,
+      "meter": {
+        "beats": 5,
+        "unit": 8
+      }
+    },
+    {
+      "number": 3,
+      "start": 4.5,
+      "end": 6.0,
+      "meter": {
+        "beats": 3,
+        "unit": 8
+      }
+    },
+    {
+      "number": 4,
+      "start": 6.0,
+      "end": 8.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 5,
+      "start": 8.0,
+      "end": 10.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 6,
+      "start": 10.0,
+      "end": 11.5,
+      "meter": {
+        "beats": 3,
+        "unit": 8
+      }
+    },
+    {
+      "number": 7,
+      "start": 11.5,
+      "end": 13.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 8,
+      "start": 13.5,
+      "end": 15.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 9,
+      "start": 15.5,
+      "end": 18.0,
+      "meter": {
+        "beats": 5,
+        "unit": 8
+      }
+    },
+    {
+      "number": 10,
+      "start": 18.0,
+      "end": 20.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 11,
+      "start": 20.0,
+      "end": 22.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 12,
+      "start": 22.0,
+      "end": 24.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 13,
+      "start": 24.0,
+      "end": 26.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 14,
+      "start": 26.0,
+      "end": 29.0,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 15,
+      "start": 29.0,
+      "end": 31.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 16,
+      "start": 31.0,
+      "end": 33.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 17,
+      "start": 33.0,
+      "end": 35.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 18,
+      "start": 35.0,
+      "end": 37.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 19,
+      "start": 37.0,
+      "end": 39.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 20,
+      "start": 39.0,
+      "end": 41.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 21,
+      "start": 41.0,
+      "end": 43.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 22,
+      "start": 43.0,
+      "end": 45.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 23,
+      "start": 45.0,
+      "end": 48.0,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 24,
+      "start": 48.0,
+      "end": 51.0,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 25,
+      "start": 51.0,
+      "end": 54.0,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 26,
+      "start": 54.0,
+      "end": 56.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 27,
+      "start": 56.0,
+      "end": 58.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 28,
+      "start": 58.0,
+      "end": 59.5,
+      "meter": {
+        "beats": 3,
+        "unit": 8
+      }
+    },
+    {
+      "number": 29,
+      "start": 59.5,
+      "end": 62.5,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 30,
+      "start": 62.5,
+      "end": 64.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 31,
+      "start": 64.5,
+      "end": 66.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 32,
+      "start": 66.5,
+      "end": 68.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 33,
+      "start": 68.5,
+      "end": 70.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 34,
+      "start": 70.5,
+      "end": 72.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 35,
+      "start": 72.5,
+      "end": 74.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 36,
+      "start": 74.5,
+      "end": 76.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 37,
+      "start": 76.5,
+      "end": 78.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 38,
+      "start": 78.5,
+      "end": 80.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 39,
+      "start": 80.5,
+      "end": 82.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 40,
+      "start": 82.5,
+      "end": 85.0,
+      "meter": {
+        "beats": 5,
+        "unit": 8
+      }
+    },
+    {
+      "number": 41,
+      "start": 85.0,
+      "end": 87.5,
+      "meter": {
+        "beats": 5,
+        "unit": 8
+      }
+    },
+    {
+      "number": 42,
+      "start": 87.5,
+      "end": 89.0,
+      "meter": {
+        "beats": 3,
+        "unit": 8
+      }
+    },
+    {
+      "number": 43,
+      "start": 89.0,
+      "end": 91.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 44,
+      "start": 91.0,
+      "end": 93.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 45,
+      "start": 93.0,
+      "end": 94.5,
+      "meter": {
+        "beats": 3,
+        "unit": 8
+      }
+    },
+    {
+      "number": 46,
+      "start": 94.5,
+      "end": 98.0,
+      "meter": {
+        "beats": 7,
+        "unit": 8
+      }
+    },
+    {
+      "number": 47,
+      "start": 98.0,
+      "end": 100.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 48,
+      "start": 100.0,
+      "end": 102.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 49,
+      "start": 102.0,
+      "end": 104.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 50,
+      "start": 104.0,
+      "end": 106.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 51,
+      "start": 106.0,
+      "end": 108.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 52,
+      "start": 108.0,
+      "end": 110.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 53,
+      "start": 110.0,
+      "end": 112.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 54,
+      "start": 112.0,
+      "end": 114.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 55,
+      "start": 114.0,
+      "end": 116.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 56,
+      "start": 116.0,
+      "end": 118.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 57,
+      "start": 118.0,
+      "end": 120.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 58,
+      "start": 120.0,
+      "end": 122.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 59,
+      "start": 122.0,
+      "end": 124.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 60,
+      "start": 124.0,
+      "end": 126.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 61,
+      "start": 126.0,
+      "end": 128.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 62,
+      "start": 128.0,
+      "end": 130.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 63,
+      "start": 130.0,
+      "end": 132.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 64,
+      "start": 132.0,
+      "end": 135.0,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 65,
+      "start": 135.0,
+      "end": 137.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 66,
+      "start": 137.0,
+      "end": 140.0,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 67,
+      "start": 140.0,
+      "end": 143.0,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 68,
+      "start": 143.0,
+      "end": 144.5,
+      "meter": {
+        "beats": 3,
+        "unit": 8
+      }
+    },
+    {
+      "number": 69,
+      "start": 144.5,
+      "end": 146.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 70,
+      "start": 146.5,
+      "end": 148.5,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 71,
+      "start": 148.5,
+      "end": 151.0,
+      "meter": {
+        "beats": 5,
+        "unit": 8
+      }
+    },
+    {
+      "number": 72,
+      "start": 151.0,
+      "end": 152.5,
+      "meter": {
+        "beats": 3,
+        "unit": 8
+      }
+    },
+    {
+      "number": 73,
+      "start": 152.5,
+      "end": 155.5,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 74,
+      "start": 155.5,
+      "end": 158.5,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 75,
+      "start": 158.5,
+      "end": 161.0,
+      "meter": {
+        "beats": 5,
+        "unit": 8
+      }
+    },
+    {
+      "number": 76,
+      "start": 161.0,
+      "end": 164.0,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 77,
+      "start": 164.0,
+      "end": 166.5,
+      "meter": {
+        "beats": 5,
+        "unit": 8
+      }
+    },
+    {
+      "number": 78,
+      "start": 166.5,
+      "end": 169.5,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 79,
+      "start": 169.5,
+      "end": 172.0,
+      "meter": {
+        "beats": 5,
+        "unit": 8
+      }
+    },
+    {
+      "number": 80,
+      "start": 172.0,
+      "end": 174.5,
+      "meter": {
+        "beats": 5,
+        "unit": 8
+      }
+    },
+    {
+      "number": 81,
+      "start": 174.5,
+      "end": 177.0,
+      "meter": {
+        "beats": 5,
+        "unit": 8
+      }
+    },
+    {
+      "number": 82,
+      "start": 177.0,
+      "end": 179.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    }
+  ],
+  "voices": [
+    {
+      "id": "right",
+      "label": "RH melody"
+    },
+    {
+      "id": "left",
+      "label": "LH reflection"
+    }
+  ],
+  "themes": [
+    {
+      "id": "refrain",
+      "label": "Refrain phrase",
+      "shortLabel": "R",
+      "color": "#3263b9",
+      "previewSvg": "<svg viewBox=\"0 0 155 159\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"x1351jes\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"E050-x1351jes\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"E082-x1351jes\"><path transform=\"scale(1,-1)\" d=\"M124 -185c-18 0 -55 -14 -65 -65h-36l-3 30c0 25 6 45 18 63c11 19 22 30 39 43l121 82l37 29c15 11 27 29 38 54c12 24 18 47 18 70c0 40 -19 88 -94 88c-25 0 -32 0 -50 -8c-14 -5 -23 -12 -26 -22c3 -9 7 -15 10 -18l24 -17c12 -7 17 -11 27 -21c5 -7 7 -16 7 -27 c0 -12 0 -57 -79 -74c-30 0 -76 26 -76 94c0 66 81 135 197 135c72 0 181 -32 181 -150c0 -53 -32 -95 -113 -133l-91 -41c-26 -11 -45 -23 -57 -37l49 7c84 0 115 -41 148 -41c20 0 33 20 39 61h35c0 -152 -68 -168 -114 -168c-17 0 -65 0 -79 7h10l-28 17 c-49 37 -69 40 -87 42z\"/></g><g id=\"E084-x1351jes\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"E0A4-x1351jes\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g><g id=\"E260-x1351jes\"><path transform=\"scale(1,-1)\" d=\"M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z\"/></g><g id=\"E062-x1351jes\"><path transform=\"scale(1,-1)\" d=\"M582 -120c0 32 26 58 58 58s58 -26 58 -58s-26 -58 -58 -58s-58 26 -58 58zM582 120c0 32 26 58 58 58s58 -26 58 -58s-26 -58 -58 -58s-58 26 -58 58zM158 96c51 0 73 -14 88 -49l16 -39c0 -17 -2 -30 -7 -40c-3 -11 -10 -21 -19 -31c-17 -18 -49 -43 -84 -43 c-55 0 -77 13 -112 44c-24 21 -35 55 -35 100c0 46 14 81 32 112c30 52 71 79 137 93l36 6l26 2c154 0 235 -68 274 -182c11 -32 18 -68 18 -107c0 -103 -26 -182 -68 -250c-89 -145 -234 -230 -412 -288l-30 -5c-9 0 -14 3 -14 8c3 10 5 11 10 16c35 15 70 30 96 44l78 43 c96 57 162 136 197 258c9 33 17 60 22 100c3 22 5 35 6 39c-7 69 -16 115 -23 140s-4 22 -16 40c-8 12 -19 23 -31 34c-24 21 -62 44 -118 44c-48 0 -84 -8 -113 -28c-28 -19 -42 -44 -42 -73v-16c2 -5 3 -9 4 -11c24 22 52 39 84 39z\"/></g></defs><style type=\"text/css\">#x1351jes g.ending, #x1351jes g.fing, #x1351jes g.reh, #x1351jes g.tempo {font-weight:bold;}#x1351jes g.dir, #x1351jes g.dynam, #x1351jes g.mNum {font-style:italic;}#x1351jes g.label {font-weight:normal;}#x1351jes ellipse, #x1351jes path, #x1351jes polygon, #x1351jes polyline, #x1351jes rect {stroke:currentColor}#x1351jes g.cursor {fill:dodgerblue; color:dodgerblue;}#x1351jes g.cursor.chord {fill:limegreen; color:limegreen;}#x1351jes g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 3870 3960\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"hcejr7q\" class=\"mdiv pageMilestone\"/><g id=\"i19pbfky\" class=\"score pageMilestone\"/><g id=\"zs1cckh\" class=\"system\"><path d=\"M13 540 L13 3060\" stroke-width=\"27\"/><g id=\"k1xktkaa\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"t10k775s\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"w5eqo5\" class=\"measure\"><g id=\"f1mayc2f\" class=\"staff\"><path d=\"M0 540 L3516 540\" stroke-width=\"13\"/><path d=\"M0 720 L3516 720\" stroke-width=\"13\"/><path d=\"M0 900 L3516 900\" stroke-width=\"13\"/><path d=\"M0 1080 L3516 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L3516 1260\" stroke-width=\"13\"/><g id=\"bc36dne\" class=\"clef\"><use xlink:href=\"#E050-x1351jes\" transform=\"translate(117, 1080) scale(0.72, 0.72)\"/></g><g id=\"cwwnnfx\" class=\"keySig\"/><g id=\"dkx24ax\" class=\"meterSig\"><use xlink:href=\"#E082-x1351jes\" transform=\"translate(784, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#E084-x1351jes\" transform=\"translate(789, 1080) scale(0.72, 0.72)\"/></g><g id=\"gjtvtht\" class=\"layer\"><g id=\"hrli0wr\" class=\"beam\"><polygon points=\"1544,1485 2065,1440 2065,1350 1544,1395\"/><g id=\"i4i861k\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-x1351jes\" transform=\"translate(1544, 900) scale(0.72, 0.72)\"/></g><g id=\"i1fvm2m7\" class=\"stem\"><path d=\"M1553 928 L1553 1467\" stroke-width=\"18\"/></g><g id=\"j1bp9gg3\" class=\"accid\"><use xlink:href=\"#E260-x1351jes\" transform=\"translate(1357, 900) scale(0.72, 0.72)\"/></g></g><g id=\"k1bq4yn2\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-x1351jes\" transform=\"translate(2047, 810) scale(0.72, 0.72)\"/></g><g id=\"j14yyvpv\" class=\"stem\"><path d=\"M2056 838 L2056 1422\" stroke-width=\"18\"/></g></g></g><g id=\"l144e7eo\" class=\"beam\"><polygon points=\"2550,1350 3071,1395 3071,1305 2550,1260\"/><g id=\"m1vlf4mo\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-x1351jes\" transform=\"translate(2550, 630) scale(0.72, 0.72)\"/></g><g id=\"kfusmks\" class=\"stem\"><path d=\"M2559 658 L2559 1332\" stroke-width=\"18\"/></g><g id=\"n1fu8m9c\" class=\"accid\"><use xlink:href=\"#E260-x1351jes\" transform=\"translate(2363, 630) scale(0.72, 0.72)\"/></g></g><g id=\"otlejwr\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-x1351jes\" transform=\"translate(3053, 720) scale(0.72, 0.72)\"/></g><g id=\"lwugh5r\" class=\"stem\"><path d=\"M3062 748 L3062 1377\" stroke-width=\"18\"/></g></g></g></g></g><g id=\"ie6v1ue\" class=\"staff\"><path d=\"M0 2340 L3516 2340\" stroke-width=\"13\"/><path d=\"M0 2520 L3516 2520\" stroke-width=\"13\"/><path d=\"M0 2700 L3516 2700\" stroke-width=\"13\"/><path d=\"M0 2880 L3516 2880\" stroke-width=\"13\"/><path d=\"M0 3060 L3516 3060\" stroke-width=\"13\"/><g id=\"e186f7rh\" class=\"clef\"><use xlink:href=\"#E062-x1351jes\" transform=\"translate(117, 2520) scale(0.72, 0.72)\"/></g><g id=\"f1wp58qb\" class=\"keySig\"/><g id=\"g1d8pr9r\" class=\"meterSig\"><use xlink:href=\"#E082-x1351jes\" transform=\"translate(784, 2520) scale(0.72, 0.72)\"/><use xlink:href=\"#E084-x1351jes\" transform=\"translate(789, 2880) scale(0.72, 0.72)\"/></g><g id=\"jj6uhui\" class=\"layer\"><g id=\"krvwlxh\" class=\"beam\"><polygon points=\"1544,2925 2065,2970 2065,2880 1544,2835\"/><g id=\"l37pjlk\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-x1351jes\" transform=\"translate(1544, 2250) scale(0.72, 0.72)\"/></g><g id=\"mpcxq4s\" class=\"stem\"><path d=\"M1553 2278 L1553 2907\" stroke-width=\"18\"/></g><g id=\"m1p95qsm\" class=\"accid\"><use xlink:href=\"#E260-x1351jes\" transform=\"translate(1357, 2250) scale(0.72, 0.72)\"/></g></g><g id=\"n11v1k10\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-x1351jes\" transform=\"translate(2047, 2340) scale(0.72, 0.72)\"/></g><g id=\"n1xo0ql8\" class=\"stem\"><path d=\"M2056 2368 L2056 2952\" stroke-width=\"18\"/></g><g id=\"o1vk4zgs\" class=\"accid\"><use xlink:href=\"#E260-x1351jes\" transform=\"translate(1860, 2340) scale(0.72, 0.72)\"/></g></g></g><g id=\"p4e4rh4\" class=\"beam\"><polygon points=\"2550,3195 3071,3150 3071,3060 2550,3105\"/><g id=\"q1txo8ox\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-x1351jes\" transform=\"translate(2550, 2520) scale(0.72, 0.72)\"/></g><g id=\"o3ps5pu\" class=\"stem\"><path d=\"M2559 2548 L2559 3177\" stroke-width=\"18\"/></g></g><g id=\"r1daqe1m\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-x1351jes\" transform=\"translate(3053, 2430) scale(0.72, 0.72)\"/></g><g id=\"pt8myum\" class=\"stem\"><path d=\"M3062 2458 L3062 3132\" stroke-width=\"18\"/></g><g id=\"s2dquf8\" class=\"accid\"><use xlink:href=\"#E260-x1351jes\" transform=\"translate(2866, 2430) scale(0.72, 0.72)\"/></g></g></g></g></g><g id=\"eyntg3w\" class=\"barLine\"><path d=\"M3503 540 L3503 1260\" stroke-width=\"27\"/><path d=\"M3503 2340 L3503 3060\" stroke-width=\"27\"/></g></g><g id=\"c3ey5ts\" class=\"systemMilestoneEnd t10k775s\"/><g id=\"d88niy1\" class=\"systemMilestoneEnd k1xktkaa\"/></g><g id=\"ecdcr2p\" class=\"pageMilestoneEnd i19pbfky\"/><g id=\"f14gp13r\" class=\"pageMilestoneEnd hcejr7q\"/></g></svg></svg>",
+      "previewCaption": "Opening bar: the four-note right-hand head and its simultaneous left-hand inversion. Moving lines only; the sustained B-flat axis notes are omitted. Original pitches, spelling and eighth-note rhythm, newly engraved.",
+      "previewSource": {
+        "url": "https://zenodo.org/records/6092709",
+        "author": "Pedro Ramoneda, Nazif Can Tamer, Vsevolod Eremenko, Marius Miron and Xavier Serra (2022); MusicXML transcription credited to Pedro Ramoneda",
+        "license": "Encoding: CC BY 4.0; underlying composition and edition rights remain separate.",
+        "start": 0,
+        "end": 2
+      }
+    },
+    {
+      "id": "episode-3",
+      "label": "Episode 3 figure",
+      "shortLabel": "E3",
+      "color": "#c66a27",
+      "previewSvg": "<svg viewBox=\"0 0 122 87\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"w9b2vk0\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"E050-w9b2vk0\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"E082-w9b2vk0\"><path transform=\"scale(1,-1)\" d=\"M124 -185c-18 0 -55 -14 -65 -65h-36l-3 30c0 25 6 45 18 63c11 19 22 30 39 43l121 82l37 29c15 11 27 29 38 54c12 24 18 47 18 70c0 40 -19 88 -94 88c-25 0 -32 0 -50 -8c-14 -5 -23 -12 -26 -22c3 -9 7 -15 10 -18l24 -17c12 -7 17 -11 27 -21c5 -7 7 -16 7 -27 c0 -12 0 -57 -79 -74c-30 0 -76 26 -76 94c0 66 81 135 197 135c72 0 181 -32 181 -150c0 -53 -32 -95 -113 -133l-91 -41c-26 -11 -45 -23 -57 -37l49 7c84 0 115 -41 148 -41c20 0 33 20 39 61h35c0 -152 -68 -168 -114 -168c-17 0 -65 0 -79 7h10l-28 17 c-49 37 -69 40 -87 42z\"/></g><g id=\"E084-w9b2vk0\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"E0A4-w9b2vk0\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g></defs><style type=\"text/css\">#w9b2vk0 g.ending, #w9b2vk0 g.fing, #w9b2vk0 g.reh, #w9b2vk0 g.tempo {font-weight:bold;}#w9b2vk0 g.dir, #w9b2vk0 g.dynam, #w9b2vk0 g.mNum {font-style:italic;}#w9b2vk0 g.label {font-weight:normal;}#w9b2vk0 ellipse, #w9b2vk0 path, #w9b2vk0 polygon, #w9b2vk0 polyline, #w9b2vk0 rect {stroke:currentColor}#w9b2vk0 g.cursor {fill:dodgerblue; color:dodgerblue;}#w9b2vk0 g.cursor.chord {fill:limegreen; color:limegreen;}#w9b2vk0 g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 3040 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"g1bn4261\" class=\"mdiv pageMilestone\"/><g id=\"h3cmocq\" class=\"score pageMilestone\"/><g id=\"o144942b\" class=\"system\"><g id=\"j1cqeryf\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"i1xzbljt\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"v2aj7cj\" class=\"measure\"><g id=\"v1vccgb1\" class=\"mNum autogenerated\"><text y=\"303\" text-anchor=\"middle\" font-size=\"0px\"><tspan id=\"w51uqui\" class=\"text\"><tspan font-size=\"324px\">47</tspan></tspan></text></g><g id=\"ee49ede\" class=\"staff\"><path d=\"M0 546 L2687 546\" stroke-width=\"13\"/><path d=\"M0 726 L2687 726\" stroke-width=\"13\"/><path d=\"M0 906 L2687 906\" stroke-width=\"13\"/><path d=\"M0 1086 L2687 1086\" stroke-width=\"13\"/><path d=\"M0 1266 L2687 1266\" stroke-width=\"13\"/><g id=\"l1popeur\" class=\"clef\"><use xlink:href=\"#E050-w9b2vk0\" transform=\"translate(90, 1086) scale(0.72, 0.72)\"/></g><g id=\"m1ne9ztj\" class=\"keySig\"/><g id=\"numa22d\" class=\"meterSig\"><use xlink:href=\"#E082-w9b2vk0\" transform=\"translate(721, 726) scale(0.72, 0.72)\"/><use xlink:href=\"#E084-w9b2vk0\" transform=\"translate(726, 1086) scale(0.72, 0.72)\"/></g><g class=\"ledgerLines above\"><path d=\"M1246 366 L1568 366\" stroke-width=\"22\"/><path d=\"M1936 366 L2258 366\" stroke-width=\"22\"/><path d=\"M1246 186 L1568 186\" stroke-width=\"22\"/></g><g id=\"fjw9ln\" class=\"layer\"><g id=\"gfne8af\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-w9b2vk0\" transform=\"translate(1294, 96) scale(0.72, 0.72)\"/></g><g id=\"x15ba4p6\" class=\"stem\"><path d=\"M1303 124 L1303 906\" stroke-width=\"18\"/></g></g><g id=\"hmng4oy\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-w9b2vk0\" transform=\"translate(1984, 366) scale(0.72, 0.72)\"/></g><g id=\"y1fkfh22\" class=\"stem\"><path d=\"M1993 394 L1993 996\" stroke-width=\"18\"/></g></g></g></g><g id=\"drcyjqx\" class=\"barLine\"><path d=\"M2674 546 L2674 1266\" stroke-width=\"27\"/></g></g><g id=\"r15u1xy4\" class=\"systemMilestoneEnd i1xzbljt\"/><g id=\"s1vlf79c\" class=\"systemMilestoneEnd j1cqeryf\"/></g><g id=\"t1b9cpcm\" class=\"pageMilestoneEnd h3cmocq\"/><g id=\"u1siajov\" class=\"pageMilestoneEnd g1bn4261\"/></g></svg></svg>",
+      "previewCaption": "Right-hand opening of the third episode, m. 47: D6 and A5, two quarter notes. The left-hand reflected figure enters an eighth later. Sustained axis omitted.",
+      "previewSource": {
+        "url": "https://zenodo.org/records/6092709",
+        "author": "Pedro Ramoneda, Nazif Can Tamer, Vsevolod Eremenko, Marius Miron and Xavier Serra (2022); MusicXML transcription credited to Pedro Ramoneda",
+        "license": "Encoding: CC BY 4.0; underlying composition and edition rights remain separate.",
+        "start": 98,
+        "end": 100
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "bartok-mikrokosmos-141-01",
+      "voice": "right",
+      "theme": "refrain",
+      "start": 0.0,
+      "end": 6.0,
+      "label": "R",
+      "variant": "",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Opening ten-attack refrain core, mm. 1–3; the next repetition begins at m. 4.",
+      "evidence": {
+        "sourceStaff": "upper",
+        "verifiedNotes": [
+          {
+            "start": 0.0,
+            "end": 0.5,
+            "pitch": "B-4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 0.5,
+            "end": 1.0,
+            "pitch": "C5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 1.0,
+            "end": 1.5,
+            "pitch": "E-5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 1.5,
+            "end": 2.0,
+            "pitch": "D5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 2.0,
+            "end": 3.0,
+            "pitch": "F5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 3.0,
+            "end": 3.5,
+            "pitch": "E-5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 3.5,
+            "end": 4.0,
+            "pitch": "C5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 4.0,
+            "end": 4.5,
+            "pitch": "E-5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 4.5,
+            "end": 5.5,
+            "pitch": "D5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 5.5,
+            "end": 6.0,
+            "pitch": "C5",
+            "sourceVoice": "1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-02",
+      "voice": "left",
+      "theme": "refrain",
+      "start": 0.0,
+      "end": 6.0,
+      "label": "R",
+      "variant": "inversion",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Simultaneous inversion of the opening core, mm. 1–3.",
+      "evidence": {
+        "sourceStaff": "lower",
+        "verifiedNotes": [
+          {
+            "start": 0.0,
+            "end": 0.5,
+            "pitch": "B-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 0.5,
+            "end": 1.0,
+            "pitch": "A-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 1.0,
+            "end": 1.5,
+            "pitch": "F3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 1.5,
+            "end": 2.0,
+            "pitch": "G-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 2.0,
+            "end": 3.0,
+            "pitch": "E-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 3.0,
+            "end": 3.5,
+            "pitch": "F3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 3.5,
+            "end": 4.0,
+            "pitch": "A-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 4.0,
+            "end": 4.5,
+            "pitch": "F3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 4.5,
+            "end": 5.5,
+            "pitch": "G-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 5.5,
+            "end": 6.0,
+            "pitch": "A-3",
+            "sourceVoice": "2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-03",
+      "voice": "right",
+      "theme": "refrain",
+      "start": 6.0,
+      "end": 11.5,
+      "label": "R",
+      "variant": "rhythmic variant",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Repetition in mm. 4–6; the fifth note is shortened. The tonic cadence in m. 7 is outside this core.",
+      "evidence": {
+        "sourceStaff": "upper",
+        "verifiedNotes": [
+          {
+            "start": 6.0,
+            "end": 6.5,
+            "pitch": "B-4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 6.5,
+            "end": 7.0,
+            "pitch": "C5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 7.0,
+            "end": 7.5,
+            "pitch": "E-5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 7.5,
+            "end": 8.0,
+            "pitch": "D5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 8.0,
+            "end": 8.5,
+            "pitch": "F5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 8.5,
+            "end": 9.0,
+            "pitch": "E-5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 9.0,
+            "end": 9.5,
+            "pitch": "C5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 9.5,
+            "end": 10.0,
+            "pitch": "E-5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 10.0,
+            "end": 11.0,
+            "pitch": "D5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 11.0,
+            "end": 11.5,
+            "pitch": "C5",
+            "sourceVoice": "1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-04",
+      "voice": "left",
+      "theme": "refrain",
+      "start": 6.0,
+      "end": 11.5,
+      "label": "R",
+      "variant": "inversion; rhythmic variant",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Mirrored repetition in mm. 4–6, ending before the m. 7 cadence.",
+      "evidence": {
+        "sourceStaff": "lower",
+        "verifiedNotes": [
+          {
+            "start": 6.0,
+            "end": 6.5,
+            "pitch": "B-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 6.5,
+            "end": 7.0,
+            "pitch": "A-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 7.0,
+            "end": 7.5,
+            "pitch": "F3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 7.5,
+            "end": 8.0,
+            "pitch": "G-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 8.0,
+            "end": 8.5,
+            "pitch": "E-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 8.5,
+            "end": 9.0,
+            "pitch": "F3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 9.0,
+            "end": 9.5,
+            "pitch": "A-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 9.5,
+            "end": 10.0,
+            "pitch": "F3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 10.0,
+            "end": 11.0,
+            "pitch": "G-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 11.0,
+            "end": 11.5,
+            "pitch": "A-3",
+            "sourceVoice": "2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-05",
+      "voice": "right",
+      "theme": "refrain",
+      "start": 45.0,
+      "end": 54.0,
+      "label": "R",
+      "variant": "transposed; ornamented tail",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Mm. 23–25; the final three notes are the printed triplet. The held D4 beneath F-sharp is the separate axis.",
+      "evidence": {
+        "sourceStaff": "upper",
+        "verifiedNotes": [
+          {
+            "start": 45.0,
+            "end": 46.5,
+            "pitch": "D4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 46.5,
+            "end": 47.0,
+            "pitch": "E4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 47.0,
+            "end": 47.5,
+            "pitch": "G4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 47.5,
+            "end": 48.0,
+            "pitch": "F#4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 48.0,
+            "end": 49.5,
+            "pitch": "A4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 49.5,
+            "end": 50.0,
+            "pitch": "G4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 50.0,
+            "end": 50.5,
+            "pitch": "E4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 50.5,
+            "end": 51.0,
+            "pitch": "G4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 51.0,
+            "end": 53.0,
+            "pitch": "F#4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 53.0,
+            "end": 53.333333333333336,
+            "pitch": "E4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 53.333333333333336,
+            "end": 53.666666666666664,
+            "pitch": "F#4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 53.666666666666664,
+            "end": 54.0,
+            "pitch": "E4",
+            "sourceVoice": "2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-06",
+      "voice": "left",
+      "theme": "refrain",
+      "start": 45.5,
+      "end": 53.5,
+      "label": "R",
+      "variant": "inversion; displaced; altered tail",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Mm. 23–25: begins after an eighth rest, includes the m. 24 opening rest, and ends at the release of C3 before the m. 25 final rest. The scan corrects the encoding’s B-natural to B-flat in m. 25.",
+      "evidence": {
+        "sourceStaff": "lower",
+        "verifiedNotes": [
+          {
+            "start": 45.5,
+            "end": 46.5,
+            "pitch": "D3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 46.5,
+            "end": 47.0,
+            "pitch": "C3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 47.0,
+            "end": 47.5,
+            "pitch": "A2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 47.5,
+            "end": 48.0,
+            "pitch": "B-2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 48.5,
+            "end": 49.5,
+            "pitch": "G2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 49.5,
+            "end": 50.0,
+            "pitch": "A2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 50.0,
+            "end": 50.5,
+            "pitch": "C3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 50.5,
+            "end": 51.0,
+            "pitch": "A2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 51.0,
+            "end": 53.0,
+            "pitch": "B-2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 53.0,
+            "end": 53.5,
+            "pitch": "C3",
+            "sourceVoice": "2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-07",
+      "voice": "right",
+      "theme": "refrain",
+      "start": 54.5,
+      "end": 59.5,
+      "label": "R",
+      "variant": "transposed; incomplete head",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Mm. 26–28: the initial D of the moving refrain line is omitted; the sustained D5 is a distinct axis note.",
+      "evidence": {
+        "sourceStaff": "upper",
+        "verifiedNotes": [
+          {
+            "start": 54.5,
+            "end": 55.0,
+            "pitch": "E5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 55.0,
+            "end": 55.5,
+            "pitch": "G5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 55.5,
+            "end": 56.0,
+            "pitch": "F#5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 56.0,
+            "end": 56.5,
+            "pitch": "A5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 56.5,
+            "end": 57.0,
+            "pitch": "G5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 57.0,
+            "end": 57.5,
+            "pitch": "E5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 57.5,
+            "end": 58.0,
+            "pitch": "G5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 58.0,
+            "end": 59.0,
+            "pitch": "F#5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 59.0,
+            "end": 59.5,
+            "pitch": "E5",
+            "sourceVoice": "1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-08",
+      "voice": "left",
+      "theme": "refrain",
+      "start": 54.0,
+      "end": 59.5,
+      "label": "R",
+      "variant": "inversion; transposed",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Mm. 26–28, before the D4 cadence in m. 29.",
+      "evidence": {
+        "sourceStaff": "lower",
+        "verifiedNotes": [
+          {
+            "start": 54.0,
+            "end": 54.5,
+            "pitch": "D4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 54.5,
+            "end": 55.0,
+            "pitch": "C4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 55.0,
+            "end": 55.5,
+            "pitch": "A3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 55.5,
+            "end": 56.0,
+            "pitch": "B-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 56.0,
+            "end": 56.5,
+            "pitch": "G3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 56.5,
+            "end": 57.0,
+            "pitch": "A3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 57.0,
+            "end": 57.5,
+            "pitch": "C4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 57.5,
+            "end": 58.0,
+            "pitch": "A3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 58.0,
+            "end": 59.0,
+            "pitch": "B-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 59.0,
+            "end": 59.5,
+            "pitch": "C4",
+            "sourceVoice": "2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-09",
+      "voice": "right",
+      "theme": "refrain",
+      "start": 82.5,
+      "end": 89.0,
+      "label": "R",
+      "variant": "transposed; rhythmic variant",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Mm. 40–42, with a lengthened opening F-sharp.",
+      "evidence": {
+        "sourceStaff": "upper",
+        "verifiedNotes": [
+          {
+            "start": 82.5,
+            "end": 83.5,
+            "pitch": "F#3",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 83.5,
+            "end": 84.0,
+            "pitch": "G#3",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 84.0,
+            "end": 84.5,
+            "pitch": "B3",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 84.5,
+            "end": 85.0,
+            "pitch": "A#3",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 85.0,
+            "end": 86.0,
+            "pitch": "C#4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 86.0,
+            "end": 86.5,
+            "pitch": "B3",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 86.5,
+            "end": 87.0,
+            "pitch": "G#3",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 87.0,
+            "end": 87.5,
+            "pitch": "B3",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 87.5,
+            "end": 88.5,
+            "pitch": "A#3",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 88.5,
+            "end": 89.0,
+            "pitch": "G#3",
+            "sourceVoice": "1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-10",
+      "voice": "left",
+      "theme": "refrain",
+      "start": 83.0,
+      "end": 89.0,
+      "label": "R",
+      "variant": "inversion; incomplete head; omissions",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Mm. 40–42: the opening F-sharp is omitted; rests interrupt the moving reflection in each bar.",
+      "evidence": {
+        "sourceStaff": "lower",
+        "verifiedNotes": [
+          {
+            "start": 83.0,
+            "end": 84.0,
+            "pitch": "E3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 84.0,
+            "end": 84.5,
+            "pitch": "C#3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 84.5,
+            "end": 85.0,
+            "pitch": "D3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 85.5,
+            "end": 86.0,
+            "pitch": "B2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 86.0,
+            "end": 86.5,
+            "pitch": "C#3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 86.5,
+            "end": 87.0,
+            "pitch": "E3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 87.0,
+            "end": 87.5,
+            "pitch": "C#3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 88.0,
+            "end": 88.5,
+            "pitch": "D3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 88.5,
+            "end": 89.0,
+            "pitch": "E3",
+            "sourceVoice": "2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-11",
+      "voice": "right",
+      "theme": "refrain",
+      "start": 89.5,
+      "end": 94.5,
+      "label": "R",
+      "variant": "transposed; altered head",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Mm. 43–45: F-sharp appears at the second eighth, followed directly by B and A-sharp; G-sharp from the opening head is absent.",
+      "evidence": {
+        "sourceStaff": "upper",
+        "verifiedNotes": [
+          {
+            "start": 89.5,
+            "end": 90.0,
+            "pitch": "F#4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 90.0,
+            "end": 90.5,
+            "pitch": "B4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 90.5,
+            "end": 91.0,
+            "pitch": "A#4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 91.0,
+            "end": 91.5,
+            "pitch": "C#5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 91.5,
+            "end": 92.0,
+            "pitch": "B4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 92.0,
+            "end": 92.5,
+            "pitch": "G#4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 92.5,
+            "end": 93.0,
+            "pitch": "B4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 93.0,
+            "end": 94.0,
+            "pitch": "A#4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 94.0,
+            "end": 94.5,
+            "pitch": "G#4",
+            "sourceVoice": "1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-12",
+      "voice": "left",
+      "theme": "refrain",
+      "start": 89.0,
+      "end": 94.5,
+      "label": "R",
+      "variant": "inversion; omissions",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Mm. 43–45: the second head note is omitted, the opening F-sharp lasts a quarter, and later rests interrupt the reflection.",
+      "evidence": {
+        "sourceStaff": "lower",
+        "verifiedNotes": [
+          {
+            "start": 89.0,
+            "end": 90.0,
+            "pitch": "F#3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 90.0,
+            "end": 90.5,
+            "pitch": "C#3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 90.5,
+            "end": 91.0,
+            "pitch": "D3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 91.5,
+            "end": 92.0,
+            "pitch": "B2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 92.0,
+            "end": 92.5,
+            "pitch": "E3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 92.5,
+            "end": 93.0,
+            "pitch": "C#3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 93.5,
+            "end": 94.0,
+            "pitch": "D3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 94.0,
+            "end": 94.5,
+            "pitch": "E3",
+            "sourceVoice": "2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-13",
+      "voice": "right",
+      "theme": "episode-3",
+      "start": 98.0,
+      "end": 102.0,
+      "label": "E3",
+      "variant": "",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Four-note opening figure of the third episode, mm. 47–48; the later continuation is unclassified.",
+      "evidence": {
+        "sourceStaff": "upper",
+        "verifiedNotes": [
+          {
+            "start": 98.0,
+            "end": 99.0,
+            "pitch": "D6",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 99.0,
+            "end": 100.0,
+            "pitch": "A5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 100.0,
+            "end": 101.0,
+            "pitch": "C6",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 101.0,
+            "end": 102.0,
+            "pitch": "G5",
+            "sourceVoice": "1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-14",
+      "voice": "left",
+      "theme": "episode-3",
+      "start": 98.5,
+      "end": 102.5,
+      "label": "E3",
+      "variant": "inversion; eighth-note delay",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "The reflected four-note figure begins an eighth after the right hand. F4 ties across m. 47/48; G4 shares the sustained axis’s tie across m. 48/49. The moving line departs to E-flat at 102.5, while the axis continues.",
+      "evidence": {
+        "sourceStaff": "lower",
+        "verifiedNotes": [
+          {
+            "start": 98.5,
+            "end": 99.5,
+            "pitch": "C4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 99.5,
+            "end": 100.5,
+            "pitch": "F4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 100.5,
+            "end": 101.5,
+            "pitch": "D4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 101.5,
+            "end": 102.5,
+            "pitch": "G4",
+            "sourceVoice": "2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-15",
+      "voice": "right",
+      "theme": "refrain",
+      "start": 130.0,
+      "end": 137.0,
+      "label": "R",
+      "variant": "rhythmic variant",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Final refrain, mm. 63–65; ends before the B-flat cadence at m. 66.",
+      "evidence": {
+        "sourceStaff": "upper",
+        "verifiedNotes": [
+          {
+            "start": 130.0,
+            "end": 130.5,
+            "pitch": "B-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 130.5,
+            "end": 131.0,
+            "pitch": "C4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 131.0,
+            "end": 131.5,
+            "pitch": "E-4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 131.5,
+            "end": 132.0,
+            "pitch": "D4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 132.0,
+            "end": 133.5,
+            "pitch": "F4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 133.5,
+            "end": 134.0,
+            "pitch": "E-4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 134.0,
+            "end": 134.5,
+            "pitch": "C4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 134.5,
+            "end": 135.0,
+            "pitch": "E-4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 135.0,
+            "end": 136.5,
+            "pitch": "D4",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 136.5,
+            "end": 137.0,
+            "pitch": "C4",
+            "sourceVoice": "2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-16",
+      "voice": "left",
+      "theme": "refrain",
+      "start": 131.0,
+      "end": 138.0,
+      "label": "R",
+      "variant": "altered inversion; quarter-note delay",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Mm. 63–66: one quarter behind the right-hand core. G3 ties across m. 65/66. The altered pitches are retained; this is not exact chromatic inversion.",
+      "evidence": {
+        "sourceStaff": "lower",
+        "verifiedNotes": [
+          {
+            "start": 131.0,
+            "end": 131.5,
+            "pitch": "B-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 131.5,
+            "end": 132.0,
+            "pitch": "A-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 132.0,
+            "end": 132.5,
+            "pitch": "F3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 132.5,
+            "end": 133.0,
+            "pitch": "G3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 133.0,
+            "end": 134.5,
+            "pitch": "E3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 134.5,
+            "end": 135.0,
+            "pitch": "F3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 135.0,
+            "end": 135.5,
+            "pitch": "A-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 135.5,
+            "end": 136.0,
+            "pitch": "F3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 136.0,
+            "end": 137.5,
+            "pitch": "G3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 137.5,
+            "end": 138.0,
+            "pitch": "A-3",
+            "sourceVoice": "2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-17",
+      "voice": "right",
+      "theme": "refrain",
+      "start": 138.0,
+      "end": 144.5,
+      "label": "R",
+      "variant": "rhythmic variant",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Begins on the second quarter of m. 66; ends at the m. 69 downbeat.",
+      "evidence": {
+        "sourceStaff": "upper",
+        "verifiedNotes": [
+          {
+            "start": 138.0,
+            "end": 138.5,
+            "pitch": "B-4",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 138.5,
+            "end": 139.0,
+            "pitch": "C5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 139.0,
+            "end": 139.5,
+            "pitch": "E-5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 139.5,
+            "end": 140.0,
+            "pitch": "D5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 140.0,
+            "end": 141.5,
+            "pitch": "F5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 141.5,
+            "end": 142.0,
+            "pitch": "E-5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 142.0,
+            "end": 142.5,
+            "pitch": "C5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 142.5,
+            "end": 143.0,
+            "pitch": "E-5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 143.0,
+            "end": 144.0,
+            "pitch": "D5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 144.0,
+            "end": 144.5,
+            "pitch": "C5",
+            "sourceVoice": "1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-18",
+      "voice": "left",
+      "theme": "refrain",
+      "start": 139.5,
+      "end": 145.5,
+      "label": "R",
+      "variant": "altered inversion; changing delay",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Begins on the last eighth of m. 66, 1.5 quarters after the right hand. The shorter central F3 changes the subsequent delay. G3 is tied across m. 68/69; the OMR encoding omits that tie.",
+      "evidence": {
+        "sourceStaff": "lower",
+        "verifiedNotes": [
+          {
+            "start": 139.5,
+            "end": 140.0,
+            "pitch": "B-3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 140.0,
+            "end": 140.5,
+            "pitch": "A3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 140.5,
+            "end": 141.0,
+            "pitch": "F#3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 141.0,
+            "end": 141.5,
+            "pitch": "G3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 141.5,
+            "end": 142.5,
+            "pitch": "F3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 142.5,
+            "end": 143.0,
+            "pitch": "F#3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 143.0,
+            "end": 143.5,
+            "pitch": "A3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 143.5,
+            "end": 144.0,
+            "pitch": "F#3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 144.0,
+            "end": 145.0,
+            "pitch": "G3",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 145.0,
+            "end": 145.5,
+            "pitch": "A-3",
+            "sourceVoice": "2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-19",
+      "voice": "right",
+      "theme": "refrain",
+      "start": 146.5,
+      "end": 152.5,
+      "label": "R",
+      "variant": "octave displacement",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "Mm. 70–72, ending before the first cadence note in m. 73.",
+      "evidence": {
+        "sourceStaff": "upper",
+        "verifiedNotes": [
+          {
+            "start": 146.5,
+            "end": 147.0,
+            "pitch": "B-5",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 147.0,
+            "end": 147.5,
+            "pitch": "C6",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 147.5,
+            "end": 148.0,
+            "pitch": "E-6",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 148.0,
+            "end": 148.5,
+            "pitch": "D6",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 148.5,
+            "end": 149.5,
+            "pitch": "F6",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 149.5,
+            "end": 150.0,
+            "pitch": "E-6",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 150.0,
+            "end": 150.5,
+            "pitch": "C6",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 150.5,
+            "end": 151.0,
+            "pitch": "E-6",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 151.0,
+            "end": 152.0,
+            "pitch": "D6",
+            "sourceVoice": "1"
+          },
+          {
+            "start": 152.0,
+            "end": 152.5,
+            "pitch": "C6",
+            "sourceVoice": "1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bartok-mikrokosmos-141-20",
+      "voice": "left",
+      "theme": "refrain",
+      "start": 147.5,
+      "end": 154.5,
+      "label": "R",
+      "variant": "altered inversion; changing delay",
+      "sourceIds": [
+        "score",
+        "nakahara",
+        "editorial"
+      ],
+      "notes": "The B-flat begins one quarter after the right hand but lasts 1.5 quarters; subsequent motion follows by two quarters. Include B-flat’s tie across m. 70/71 and F-sharp’s tie across m. 71/72. Ends before the closing rest in m. 73.",
+      "evidence": {
+        "sourceStaff": "lower",
+        "verifiedNotes": [
+          {
+            "start": 147.5,
+            "end": 149.0,
+            "pitch": "B-2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 149.0,
+            "end": 149.5,
+            "pitch": "A2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 149.5,
+            "end": 150.0,
+            "pitch": "G2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 150.0,
+            "end": 150.5,
+            "pitch": "A-2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 150.5,
+            "end": 151.5,
+            "pitch": "F#2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 151.5,
+            "end": 152.0,
+            "pitch": "G2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 152.0,
+            "end": 152.5,
+            "pitch": "A2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 152.5,
+            "end": 153.0,
+            "pitch": "G2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 153.0,
+            "end": 154.0,
+            "pitch": "A-2",
+            "sourceVoice": "2"
+          },
+          {
+            "start": 154.0,
+            "end": 154.5,
+            "pitch": "A2",
+            "sourceVoice": "2"
+          }
+        ]
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "section-1",
+      "label": "Refrain 1",
+      "type": "structure",
+      "start": 0.0,
+      "end": 29.0,
+      "sourceIds": [
+        "nakahara"
+      ]
+    },
+    {
+      "id": "section-2",
+      "label": "Episode 1",
+      "type": "structure",
+      "start": 29.0,
+      "end": 45.0,
+      "sourceIds": [
+        "nakahara"
+      ]
+    },
+    {
+      "id": "section-3",
+      "label": "Refrain 2",
+      "type": "structure",
+      "start": 45.0,
+      "end": 62.5,
+      "sourceIds": [
+        "nakahara"
+      ]
+    },
+    {
+      "id": "section-4",
+      "label": "Episode 2",
+      "type": "structure",
+      "start": 62.5,
+      "end": 82.5,
+      "sourceIds": [
+        "nakahara"
+      ]
+    },
+    {
+      "id": "section-5",
+      "label": "Refrain 3",
+      "type": "structure",
+      "start": 82.5,
+      "end": 98.0,
+      "sourceIds": [
+        "nakahara"
+      ]
+    },
+    {
+      "id": "section-6",
+      "label": "Episode 3",
+      "type": "structure",
+      "start": 98.0,
+      "end": 130.0,
+      "sourceIds": [
+        "nakahara"
+      ]
+    },
+    {
+      "id": "section-7",
+      "label": "Final refrain",
+      "type": "structure",
+      "start": 130.0,
+      "end": 179.0,
+      "sourceIds": [
+        "nakahara"
+      ]
+    }
+  ],
+  "analysis": {
+    "kind": "editorial",
+    "coverage": "selected-entries",
+    "description": "Twenty selected phrase segments: nine paired refrain cores and one paired figure from the third episode, transcribed from the printed score and checked against the MusicXML with explicit corrections. The full 82-bar timeline does not classify every refrain continuation, episode, cadence or sustained axis note."
+  },
+  "notes": [
+    "Twenty selected phrase segments: nine paired refrain cores and one paired figure from the third episode, transcribed from the printed score and checked against the MusicXML with explicit corrections. The full 82-bar timeline does not classify every refrain continuation, episode, cadence or sustained axis note.",
+    "Nakahara identifies a seven-part rondo: refrains mm. 1–14, 23–29, 40–46 and 63 onward; episodes mm. 15–22, 30–39 and 47–62. These formal regions are distinct from the narrower selected phrase rectangles.",
+    "The opening refrain core has ten moving-note attacks and ends on C5 / A-flat3 before its repetition. Later selected cores retain altered rhythms, omitted notes and an ornamented ending. This does not label every visible rectangle as a complete unchanged subject.",
+    "The two lanes follow the right- and left-hand moving lines. Each staff also contains sustained symmetry-axis notes; those are not extra occurrences of the moving themes and are unclassified here. Source voice numbers change within a staff and are retained per checked note, not treated as stable global voice identities.",
+    "Nakahara describes increasingly disturbed reflections. The third-episode opening is delayed by an eighth. The last refrain’s three selected pairs begin 1, 1.5 and 1 quarter apart; the last left-hand opening B-flat is lengthened, making subsequent motion two quarters late. Source-specific onset arithmetic is preserved rather than imposing one fixed delay on the entire final refrain.",
+    "All 82 meters were checked against the printed score. Timeline positions use quarter-note units; notated 5/8 and 7/8 bars last 2.5 and 3.5 units. Fermatas and tempo changes do not change score coordinates or establish recording time.",
+    "The OMR MusicXML contains additional errors outside this selection. Only the documented selected-note corrections are applied; no full corrected score is redistributed. The held-axis voice is not extracted as melody.",
+    "The source score is in the dataset archive, PDF pages 213–215, printed pp. 14–16. The ten-note cores, one ornamented variant and four-note episode figure are editorial selections grounded in that score. No dissertation graphic or score facsimile is reproduced.",
+    "Kocsis recording metadata is verified, but no musical timestamps or recording-specific alignment have been measured. Entry playback remains unavailable until manual timing is supplied."
+  ],
+  "editorialCorrections": [
+    {
+      "part": 1,
+      "start": 51,
+      "pitch": "B2",
+      "replacement": "B-2",
+      "reason": "Printed p. 14, m. 25 retains B-flat from the lower refrain; OMR lost the flat."
+    },
+    {
+      "part": 1,
+      "start": 101.5,
+      "pitch": "G4",
+      "tie": "start",
+      "reason": "Printed p. 15, m. 48/49: moving G4 shares the axis tie until its departure at m. 49 second eighth."
+    },
+    {
+      "part": 1,
+      "start": 102,
+      "pitch": "G4",
+      "tie": "stop",
+      "reason": "Continuation of the moving G4 through the first eighth of m. 49, separate from the sustained G4 axis."
+    },
+    {
+      "part": 1,
+      "start": 144,
+      "pitch": "G3",
+      "tie": "start",
+      "reason": "Printed p. 16, m. 68/69: explicit tie omitted in OMR moving voice."
+    },
+    {
+      "part": 1,
+      "start": 144.5,
+      "pitch": "G3",
+      "tie": "stop",
+      "reason": "Continuation of the explicitly tied G3 in m. 69."
+    }
+  ],
+  "sources": [
+    {
+      "id": "score",
+      "title": "Mikrokosmos-difficulty dataset: 141.xml and original score, printed pp. 14–16",
+      "url": "https://zenodo.org/records/6092709",
+      "author": "Pedro Ramoneda, Nazif Can Tamer, Vsevolod Eremenko, Marius Miron and Xavier Serra (2022); MusicXML transcription credited to Pedro Ramoneda",
+      "sha256": "875886bbb229675622ab6f142bd74e67d9b2fd36275815c4ccf1ecdaf6cbc113",
+      "scorePdfSha256": "3d87a6935b93d1ec3ad7a4f983838cb6f282bdd3a24ef4921a30f5253d4e2a74",
+      "license": "Zenodo record: CC BY 4.0 for the dataset. The underlying Bartók composition and historical edition retain their respective rights; the dataset notice does not supersede them."
+    },
+    {
+      "id": "nakahara",
+      "title": "Genesis and the “Spirit” of Bartók’s Mikrokosmos, §8.5, pp. 244–251",
+      "url": "https://bartok-osszkiadas.zti.hu/wp-content/uploads/nakahara-disszertacio.pdf",
+      "author": "Yusuke Nakahara (2020), PhD dissertation, Liszt Academy of Music",
+      "license": "Author copyright; consulted for analytical context. No open adaptation license asserted and no source prose, figures or engravings reproduced."
+    },
+    {
+      "id": "editorial",
+      "title": "Structures — score-checked selected Mikrokosmos 141 phrases",
+      "url": "https://github.com/MUK-Labs/structures/blob/main/scripts/import-bartok-mikrokosmos141.py",
+      "author": "Structures editorial transcription and selection",
+      "license": "Script code MIT; new editorial annotation data ODbL-1.0. Score-encoding attribution and its CC BY 4.0 notice retained; original composition/edition rights are separate."
+    }
+  ],
+  "recordings": [
+    {
+      "id": "kocsis-mikrokosmos-141",
+      "title": "Zoltán Kocsis · Subject and Reflection",
+      "youtubeId": "pcwknfkxkOA",
+      "url": "https://www.youtube.com/watch?v=pcwknfkxkOA",
+      "performer": "Zoltán Kocsis",
+      "scope": "Complete Mikrokosmos No. 141; the diagram marks selected phrases.",
+      "sourceTitle": "Bartók: Mikrokosmos, Sz. 107 - Book 6: No. 141 Subject and Reflection",
+      "notes": "Zoltán Kocsis - Topic; provided by Universal Music Group. Bartók: Complete Solo Piano Works; phonogram 1999 Universal International Music B.V., platform release 2005-01-01. Listening link only; no recording file is redistributed.",
+      "verification": {
+        "checkedDate": "2026-11-25",
+        "url": "https://www.youtube.com/watch?v=pcwknfkxkOA",
+        "method": "Live YouTube watch-page title, performer, label description, playback status OK and allowed embedding checked. No musical synchronization asserted."
+      },
+      "alignment": {
+        "status": "unavailable",
+        "description": "Manual timing needed; no score-to-recording anchors have been measured.",
+        "anchors": []
+      }
+    }
+  ]
+}

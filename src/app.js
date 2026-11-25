@@ -17,7 +17,8 @@ function previewImage(theme, className = '') {
 }
 function entryLabel(piece, entry) {
   const theme = piece.themes.find(t => t.id === entry.theme), voice = piece.voices.find(v => v.id === entry.voice);
-  return `${labelTheme(theme)}, ${voice.label}, ${formatPosition(piece, entry.start)} to ${formatPosition(piece, entry.end)}${entry.variant ? `, ${entry.variant}` : ''}`;
+  const labels = [...new Set([labelTheme(theme), voice.label])].join(', ');
+  return `${labels}, ${formatPosition(piece, entry.start)} to ${formatPosition(piece, entry.end)}${entry.variant ? `, ${entry.variant}` : ''}`;
 }
 function getPlayer() {
   if (state.player) return state.player;
@@ -57,7 +58,7 @@ function selectEntry(piece, entry, play = false, update = true) {
   state.selected = {piece, entry};
   const theme = piece.themes.find(t => t.id === entry.theme), voice = piece.voices.find(v => v.id === entry.voice);
   document.querySelectorAll('.entry').forEach(button => { const yes = button.dataset.piece === piece.id && button.dataset.entry === entry.id; button.classList.toggle('selected', yes); button.setAttribute('aria-pressed', String(yes)); });
-  $('detail-title').textContent = `${labelTheme(theme)} · ${voice.label}`;
+  $('detail-title').textContent = [...new Set([labelTheme(theme), voice.label])].join(' · ');
   $('detail-position').textContent = `${formatPosition(piece, entry.start)} – ${formatPosition(piece, entry.end)}${entry.key ? ` · ${entry.key}` : ''}${entry.variant ? ` · ${entry.variant}` : ''}`;
   $('detail-preview').replaceChildren();
   const img = previewImage(theme);
@@ -106,6 +107,9 @@ function showTooltip(button, piece, entry) {
   tooltip.replaceChildren(node('strong','',labelTheme(theme)), node('p','',`${formatPosition(piece, entry.start)} · ${piece.voices.find(v => v.id === entry.voice).label}`));
   const img = previewImage(theme);
   if (img) tooltip.append(img);
+  const variant = [entry.label !== theme.label ? entry.label : '', entry.variant].filter(Boolean)
+    .filter((label, index, labels) => labels.findIndex(value => value.toLowerCase() === label.toLowerCase()) === index);
+  if (variant.length) tooltip.append(node('p','',variant.join(' · ')));
   tooltip.append(node('p','preview-caption',theme.previewCaption || 'First occurrence; later entries may differ.'));
   tooltip.hidden = false;
   const rect = button.getBoundingClientRect();
@@ -140,7 +144,8 @@ function renderPiece(piece, index) {
   const countedBars=piece.measures?.filter(m=>m.number>0&&!m.sourceDontCount).length;
   const extraBars=piece.measures?.filter(m=>m.number===0||m.sourceDontCount).map(m=>m.label?.toLowerCase()||(m.number===0?'pickup':'unnumbered bar'))||[];
   const barSummary=extraBars.length?`${countedBars} bars + ${extraBars.join(' + ')}`:`${measureCount(piece)} bars`;
-  [subtitle, piece.form, `${piece.voices.length} voices`, barSummary, coverage, playbackLabel(playbackStatus(piece))].filter(Boolean).forEach(v=>meta.append(node('span','',v)));
+  const rowCount = piece.analysis?.coverage === 'formal-outline' ? `${piece.voices.length} thematic ${piece.voices.length === 1 ? 'row' : 'rows'}` : `${piece.voices.length} ${piece.voices.length === 1 ? 'voice' : 'voices'}`;
+  [subtitle, piece.form, rowCount, barSummary, coverage, playbackLabel(playbackStatus(piece))].filter(Boolean).forEach(v=>meta.append(node('span','',v)));
   titleGroup.append(meta); head.append(titleGroup);
   if(index){const remove=node('button','remove-compare','Remove');remove.type='button';remove.addEventListener('click',()=>removeComparison(piece.id));head.append(remove);}
   card.append(head);
@@ -191,7 +196,7 @@ function renderPiece(piece, index) {
     }
   }
   const playhead=node('div','playhead');playhead.dataset.piece=piece.id;playhead.hidden=true;timeline.append(playhead);scroll.append(timeline);scroll.addEventListener('scroll',hideTooltip,{passive:true});card.append(scroll);
-  card.append(node('p','diagram-note',state.pieces.length>1?'Each diagram fits its displayed score span; widths show relative duration.':piece.analysis?.coverage==='selected-entries'?'Only selected entries are shown; unmarked passages have not been classified.':piece.analysis?.coverage==='exposition'?'This diagram covers the exposition excerpt only.':'Unmarked stretches may contain free counterpoint or thematic fragments.'));
+  card.append(node('p','diagram-note',state.pieces.length>1?'Each diagram fits its displayed score span; widths show relative duration.':piece.analysis?.coverage==='formal-outline'?'Rows follow thematic families. Blocks show formal regions, which may contain several statements or transformations.':piece.analysis?.coverage==='selected-entries'?'Only selected entries are shown; unmarked passages have not been classified.':piece.analysis?.coverage==='exposition'?'This diagram covers the exposition excerpt only.':'Unmarked stretches may contain free counterpoint or thematic fragments.'));
   return card;
 }
 function renderDiagrams(){
@@ -209,12 +214,13 @@ function renderSources(){
     for(const recording of piece.recordings){if(recording.alignment?.description)content.append(node('p','',`${recording.title}: ${recording.alignment.description}`));}
     const download=node('button','quiet','Download piece JSON');download.type='button';download.addEventListener('click',()=>{const url=URL.createObjectURL(new Blob([JSON.stringify(piece,null,2)],{type:'application/json'}));const a=node('a');a.href=url;a.download=`${piece.id}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});content.append(download);
   }
-  content.append(node('p','','Each piece identifies its analytical source or score-derived method and coverage. Selected-entry maps do not claim a complete thematic inventory. The notation preview shows the cited theme excerpt; it does not automatically change to match the clicked entry’s transposition or transformation. YouTube clips play the whole texture, with timing interpolated between the source’s synchronization anchors.'));
+  content.append(node('p','','Each piece identifies its analytical source or score-derived method and coverage. Selected-entry maps do not claim a complete thematic inventory. Thematic-form maps follow formal regions rather than individual voice entries. The notation preview shows the cited theme excerpt; it does not automatically change to match the clicked entry’s transposition or transformation. YouTube clips play the whole texture, with timing interpolated between the source’s synchronization anchors.'));
 }
 function additionalAnalysisLabel(piece){
   const label=analysisLabel(piece), text=`${piece.title} ${piece.subtitle||''}`.toLowerCase();
   if(piece.analysis?.coverage==='exposition'&&text.includes('exposition'))return '';
   if(piece.analysis?.coverage==='selected-entries'&&text.includes('selected'))return '';
+  if(piece.analysis?.coverage==='formal-outline'&&text.includes('thematic form'))return '';
   return label;
 }
 function playbackLabel(value){return value==='manual-timing'?'Manual timing needed':value==='analysis-only'?'Analysis only':'';}

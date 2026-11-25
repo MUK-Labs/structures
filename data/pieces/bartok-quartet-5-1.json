@@ -1,0 +1,2430 @@
+{
+  "schemaVersion": 1,
+  "id": "bartok-quartet-5-1",
+  "title": "String Quartet No. 5 · I. Allegro",
+  "composer": "Béla Bartók",
+  "subtitle": "Sz. 102 / BB 110 · Thematic form",
+  "form": "Sonata form with reversed and inverted thematic return",
+  "key": "B-flat",
+  "totalBeats": 932.5,
+  "meter": {
+    "beats": 4,
+    "unit": 4
+  },
+  "measures": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 4.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 2,
+      "start": 4.0,
+      "end": 8.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 3,
+      "start": 8.0,
+      "end": 12.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 4,
+      "start": 12.0,
+      "end": 16.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 5,
+      "start": 16.0,
+      "end": 20.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 6,
+      "start": 20.0,
+      "end": 24.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 7,
+      "start": 24.0,
+      "end": 28.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 8,
+      "start": 28.0,
+      "end": 32.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 9,
+      "start": 32.0,
+      "end": 36.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 10,
+      "start": 36.0,
+      "end": 40.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 11,
+      "start": 40.0,
+      "end": 44.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 12,
+      "start": 44.0,
+      "end": 48.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 13,
+      "start": 48.0,
+      "end": 52.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 14,
+      "start": 52.0,
+      "end": 56.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 15,
+      "start": 56.0,
+      "end": 60.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 16,
+      "start": 60.0,
+      "end": 64.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 17,
+      "start": 64.0,
+      "end": 68.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 18,
+      "start": 68.0,
+      "end": 72.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 19,
+      "start": 72.0,
+      "end": 76.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 20,
+      "start": 76.0,
+      "end": 80.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 21,
+      "start": 80.0,
+      "end": 84.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 22,
+      "start": 84.0,
+      "end": 88.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 23,
+      "start": 88.0,
+      "end": 92.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 24,
+      "start": 92.0,
+      "end": 96.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 25,
+      "start": 96.0,
+      "end": 100.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 26,
+      "start": 100.0,
+      "end": 104.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 27,
+      "start": 104.0,
+      "end": 108.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 28,
+      "start": 108.0,
+      "end": 112.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 29,
+      "start": 112.0,
+      "end": 116.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 30,
+      "start": 116.0,
+      "end": 120.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 31,
+      "start": 120.0,
+      "end": 124.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 32,
+      "start": 124.0,
+      "end": 128.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 33,
+      "start": 128.0,
+      "end": 132.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 34,
+      "start": 132.0,
+      "end": 136.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 35,
+      "start": 136.0,
+      "end": 140.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 36,
+      "start": 140.0,
+      "end": 144.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 37,
+      "start": 144.0,
+      "end": 148.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 38,
+      "start": 148.0,
+      "end": 152.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 39,
+      "start": 152.0,
+      "end": 156.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 40,
+      "start": 156.0,
+      "end": 160.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 41,
+      "start": 160.0,
+      "end": 164.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 42,
+      "start": 164.0,
+      "end": 168.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 43,
+      "start": 168.0,
+      "end": 172.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 44,
+      "start": 172.0,
+      "end": 176.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 45,
+      "start": 176.0,
+      "end": 182.0,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 46,
+      "start": 182.0,
+      "end": 188.0,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 47,
+      "start": 188.0,
+      "end": 196.0,
+      "meter": {
+        "beats": 8,
+        "unit": 4
+      }
+    },
+    {
+      "number": 48,
+      "start": 196.0,
+      "end": 204.0,
+      "meter": {
+        "beats": 8,
+        "unit": 4
+      }
+    },
+    {
+      "number": 49,
+      "start": 204.0,
+      "end": 210.0,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 50,
+      "start": 210.0,
+      "end": 216.0,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 51,
+      "start": 216.0,
+      "end": 224.0,
+      "meter": {
+        "beats": 8,
+        "unit": 4
+      }
+    },
+    {
+      "number": 52,
+      "start": 224.0,
+      "end": 230.0,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 53,
+      "start": 230.0,
+      "end": 235.0,
+      "meter": {
+        "beats": 5,
+        "unit": 4
+      }
+    },
+    {
+      "number": 54,
+      "start": 235.0,
+      "end": 240.0,
+      "meter": {
+        "beats": 5,
+        "unit": 4
+      }
+    },
+    {
+      "number": 55,
+      "start": 240.0,
+      "end": 244.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 56,
+      "start": 244.0,
+      "end": 250.0,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 57,
+      "start": 250.0,
+      "end": 256.0,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 58,
+      "start": 256.0,
+      "end": 261.0,
+      "meter": {
+        "beats": 5,
+        "unit": 4
+      }
+    },
+    {
+      "number": 59,
+      "start": 261.0,
+      "end": 265.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 60,
+      "start": 265.0,
+      "end": 269.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 61,
+      "start": 269.0,
+      "end": 273.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 62,
+      "start": 273.0,
+      "end": 277.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 63,
+      "start": 277.0,
+      "end": 281.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 64,
+      "start": 281.0,
+      "end": 285.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 65,
+      "start": 285.0,
+      "end": 289.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 66,
+      "start": 289.0,
+      "end": 293.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 67,
+      "start": 293.0,
+      "end": 297.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 68,
+      "start": 297.0,
+      "end": 301.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 69,
+      "start": 301.0,
+      "end": 305.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 70,
+      "start": 305.0,
+      "end": 309.0,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 71,
+      "start": 309.0,
+      "end": 314.0,
+      "meter": {
+        "beats": 5,
+        "unit": 4
+      }
+    },
+    {
+      "number": 72,
+      "start": 314.0,
+      "end": 319.5,
+      "meter": {
+        "beats": 11,
+        "unit": 8
+      }
+    },
+    {
+      "number": 73,
+      "start": 319.5,
+      "end": 324.5,
+      "meter": {
+        "beats": 5,
+        "unit": 4
+      }
+    },
+    {
+      "number": 74,
+      "start": 324.5,
+      "end": 328.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 75,
+      "start": 328.5,
+      "end": 332.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 76,
+      "start": 332.5,
+      "end": 336.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 77,
+      "start": 336.5,
+      "end": 340.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 78,
+      "start": 340.5,
+      "end": 344.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 79,
+      "start": 344.5,
+      "end": 348.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 80,
+      "start": 348.5,
+      "end": 352.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 81,
+      "start": 352.5,
+      "end": 356.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 82,
+      "start": 356.5,
+      "end": 360.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 83,
+      "start": 360.5,
+      "end": 364.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 84,
+      "start": 364.5,
+      "end": 368.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 85,
+      "start": 368.5,
+      "end": 372.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 86,
+      "start": 372.5,
+      "end": 376.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 87,
+      "start": 376.5,
+      "end": 380.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 88,
+      "start": 380.5,
+      "end": 384.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 89,
+      "start": 384.5,
+      "end": 388.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 90,
+      "start": 388.5,
+      "end": 392.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 91,
+      "start": 392.5,
+      "end": 396.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 92,
+      "start": 396.5,
+      "end": 400.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 93,
+      "start": 400.5,
+      "end": 404.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 94,
+      "start": 404.5,
+      "end": 408.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 95,
+      "start": 408.5,
+      "end": 412.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 96,
+      "start": 412.5,
+      "end": 416.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 97,
+      "start": 416.5,
+      "end": 420.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 98,
+      "start": 420.5,
+      "end": 424.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 99,
+      "start": 424.5,
+      "end": 428.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 100,
+      "start": 428.5,
+      "end": 432.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 101,
+      "start": 432.5,
+      "end": 436.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 102,
+      "start": 436.5,
+      "end": 440.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 103,
+      "start": 440.5,
+      "end": 444.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 104,
+      "start": 444.5,
+      "end": 448.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 105,
+      "start": 448.5,
+      "end": 452.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 106,
+      "start": 452.5,
+      "end": 456.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 107,
+      "start": 456.5,
+      "end": 460.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 108,
+      "start": 460.5,
+      "end": 464.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 109,
+      "start": 464.5,
+      "end": 468.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 110,
+      "start": 468.5,
+      "end": 472.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 111,
+      "start": 472.5,
+      "end": 476.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 112,
+      "start": 476.5,
+      "end": 480.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 113,
+      "start": 480.5,
+      "end": 484.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 114,
+      "start": 484.5,
+      "end": 488.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 115,
+      "start": 488.5,
+      "end": 492.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 116,
+      "start": 492.5,
+      "end": 496.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 117,
+      "start": 496.5,
+      "end": 500.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 118,
+      "start": 500.5,
+      "end": 504.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 119,
+      "start": 504.5,
+      "end": 508.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 120,
+      "start": 508.5,
+      "end": 512.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 121,
+      "start": 512.5,
+      "end": 516.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 122,
+      "start": 516.5,
+      "end": 520.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 123,
+      "start": 520.5,
+      "end": 524.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 124,
+      "start": 524.5,
+      "end": 528.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 125,
+      "start": 528.5,
+      "end": 532.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 126,
+      "start": 532.5,
+      "end": 536.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 127,
+      "start": 536.5,
+      "end": 540.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 128,
+      "start": 540.5,
+      "end": 544.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 129,
+      "start": 544.5,
+      "end": 548.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 130,
+      "start": 548.5,
+      "end": 552.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 131,
+      "start": 552.5,
+      "end": 556.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 132,
+      "start": 556.5,
+      "end": 562.5,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 133,
+      "start": 562.5,
+      "end": 568.5,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 134,
+      "start": 568.5,
+      "end": 574.5,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 135,
+      "start": 574.5,
+      "end": 582.5,
+      "meter": {
+        "beats": 8,
+        "unit": 4
+      }
+    },
+    {
+      "number": 136,
+      "start": 582.5,
+      "end": 590.5,
+      "meter": {
+        "beats": 8,
+        "unit": 4
+      }
+    },
+    {
+      "number": 137,
+      "start": 590.5,
+      "end": 596.5,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 138,
+      "start": 596.5,
+      "end": 602.5,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 139,
+      "start": 602.5,
+      "end": 610.5,
+      "meter": {
+        "beats": 8,
+        "unit": 4
+      }
+    },
+    {
+      "number": 140,
+      "start": 610.5,
+      "end": 616.5,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 141,
+      "start": 616.5,
+      "end": 621.5,
+      "meter": {
+        "beats": 5,
+        "unit": 4
+      }
+    },
+    {
+      "number": 142,
+      "start": 621.5,
+      "end": 625.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 143,
+      "start": 625.5,
+      "end": 629.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 144,
+      "start": 629.5,
+      "end": 635.5,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 145,
+      "start": 635.5,
+      "end": 641.5,
+      "meter": {
+        "beats": 6,
+        "unit": 4
+      }
+    },
+    {
+      "number": 146,
+      "start": 641.5,
+      "end": 646.5,
+      "meter": {
+        "beats": 5,
+        "unit": 4
+      }
+    },
+    {
+      "number": 147,
+      "start": 646.5,
+      "end": 650.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 148,
+      "start": 650.5,
+      "end": 654.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 149,
+      "start": 654.5,
+      "end": 658.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 150,
+      "start": 658.5,
+      "end": 662.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 151,
+      "start": 662.5,
+      "end": 666.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 152,
+      "start": 666.5,
+      "end": 670.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 153,
+      "start": 670.5,
+      "end": 674.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 154,
+      "start": 674.5,
+      "end": 678.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 155,
+      "start": 678.5,
+      "end": 682.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 156,
+      "start": 682.5,
+      "end": 686.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 157,
+      "start": 686.5,
+      "end": 690.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 158,
+      "start": 690.5,
+      "end": 694.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 159,
+      "start": 694.5,
+      "end": 698.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 160,
+      "start": 698.5,
+      "end": 702.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 161,
+      "start": 702.5,
+      "end": 706.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 162,
+      "start": 706.5,
+      "end": 710.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 163,
+      "start": 710.5,
+      "end": 714.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 164,
+      "start": 714.5,
+      "end": 718.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 165,
+      "start": 718.5,
+      "end": 722.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 166,
+      "start": 722.5,
+      "end": 726.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 167,
+      "start": 726.5,
+      "end": 730.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 168,
+      "start": 730.5,
+      "end": 734.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 169,
+      "start": 734.5,
+      "end": 738.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 170,
+      "start": 738.5,
+      "end": 742.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 171,
+      "start": 742.5,
+      "end": 746.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 172,
+      "start": 746.5,
+      "end": 750.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 173,
+      "start": 750.5,
+      "end": 754.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 174,
+      "start": 754.5,
+      "end": 758.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 175,
+      "start": 758.5,
+      "end": 762.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 176,
+      "start": 762.5,
+      "end": 766.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 177,
+      "start": 766.5,
+      "end": 770.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 178,
+      "start": 770.5,
+      "end": 774.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 179,
+      "start": 774.5,
+      "end": 778.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 180,
+      "start": 778.5,
+      "end": 782.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 181,
+      "start": 782.5,
+      "end": 786.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 182,
+      "start": 786.5,
+      "end": 790.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 183,
+      "start": 790.5,
+      "end": 794.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 184,
+      "start": 794.5,
+      "end": 798.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 185,
+      "start": 798.5,
+      "end": 802.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 186,
+      "start": 802.5,
+      "end": 806.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 187,
+      "start": 806.5,
+      "end": 810.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 188,
+      "start": 810.5,
+      "end": 814.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 189,
+      "start": 814.5,
+      "end": 818.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 190,
+      "start": 818.5,
+      "end": 822.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 191,
+      "start": 822.5,
+      "end": 826.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 192,
+      "start": 826.5,
+      "end": 830.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 193,
+      "start": 830.5,
+      "end": 834.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 194,
+      "start": 834.5,
+      "end": 838.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 195,
+      "start": 838.5,
+      "end": 841.5,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 196,
+      "start": 841.5,
+      "end": 845.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 197,
+      "start": 845.5,
+      "end": 849.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 198,
+      "start": 849.5,
+      "end": 853.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 199,
+      "start": 853.5,
+      "end": 857.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 200,
+      "start": 857.5,
+      "end": 861.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 201,
+      "start": 861.5,
+      "end": 865.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 202,
+      "start": 865.5,
+      "end": 869.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 203,
+      "start": 869.5,
+      "end": 873.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 204,
+      "start": 873.5,
+      "end": 877.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 205,
+      "start": 877.5,
+      "end": 881.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 206,
+      "start": 881.5,
+      "end": 885.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 207,
+      "start": 885.5,
+      "end": 889.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 208,
+      "start": 889.5,
+      "end": 893.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 209,
+      "start": 893.5,
+      "end": 897.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 210,
+      "start": 897.5,
+      "end": 901.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 211,
+      "start": 901.5,
+      "end": 904.5,
+      "meter": {
+        "beats": 3,
+        "unit": 4
+      }
+    },
+    {
+      "number": 212,
+      "start": 904.5,
+      "end": 908.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 213,
+      "start": 908.5,
+      "end": 912.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 214,
+      "start": 912.5,
+      "end": 916.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 215,
+      "start": 916.5,
+      "end": 920.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 216,
+      "start": 920.5,
+      "end": 924.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 217,
+      "start": 924.5,
+      "end": 928.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    },
+    {
+      "number": 218,
+      "start": 928.5,
+      "end": 932.5,
+      "meter": {
+        "beats": 4,
+        "unit": 4
+      }
+    }
+  ],
+  "analysis": {
+    "kind": "reference",
+    "coverage": "formal-outline",
+    "description": "Thematic regions from Bartók’s formal outline, reproduced and discussed by Somfai (2021), with rehearsal markers located in the historical score. Three family rows show the reverse order and inversion of themes at their return. This is a formal map, not a catalogue of instrumental entries or every motivic recurrence. The development and coda are shown as formal sections without inventing internal theme occurrences."
+  },
+  "dataLicense": "CC BY 4.0 (formal annotation data only; composition, previews and recording retain separate rights)",
+  "voices": [
+    {
+      "id": "first",
+      "label": "First theme"
+    },
+    {
+      "id": "transition",
+      "label": "Transition"
+    },
+    {
+      "id": "lyrical",
+      "label": "Lyrical theme"
+    }
+  ],
+  "themes": [
+    {
+      "id": "first",
+      "label": "First theme",
+      "color": "#3263b9",
+      "shortLabel": "T1",
+      "description": "Repeated-note first-theme family, including its appendix, allusion and inverted returns.",
+      "previewSvg": "<svg viewBox=\"0 0 250 87\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"bartok-quartet-5-1-first-0\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"bartok-quartet-5-1-first-1\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"bartok-quartet-5-1-first-2\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"bartok-quartet-5-1-first-3\"><path transform=\"scale(1,-1)\" d=\"M0 123c7 34 33 56 69 60c29 -3 43 -9 53 -29c4 -8 7 -15 10 -22c0 -21 -1 -25 -11 -35c-5 -8 -18 -14 -40 -20l12 -3l15 -1c44 0 97 26 122 56c10 11 18 26 24 42c7 1 15 2 22 3l-140 -424h-36l111 330c-10 -6 -27 -12 -53 -16l-52 -8h-10l-20 1c-1 0 -8 3 -21 6 c-37 9 -55 28 -55 60z\"/></g><g id=\"bartok-quartet-5-1-first-4\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g><g id=\"bartok-quartet-5-1-first-5\"><path transform=\"scale(1,-1)\" d=\"M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z\"/></g></defs><style type=\"text/css\">#bartok-quartet-5-1-first-0 g.ending, #bartok-quartet-5-1-first-0 g.fing, #bartok-quartet-5-1-first-0 g.reh, #bartok-quartet-5-1-first-0 g.tempo {font-weight:bold;}#bartok-quartet-5-1-first-0 g.dir, #bartok-quartet-5-1-first-0 g.dynam, #bartok-quartet-5-1-first-0 g.mNum {font-style:italic;}#bartok-quartet-5-1-first-0 g.label {font-weight:normal;}#bartok-quartet-5-1-first-0 ellipse, #bartok-quartet-5-1-first-0 path, #bartok-quartet-5-1-first-0 polygon, #bartok-quartet-5-1-first-0 polyline, #bartok-quartet-5-1-first-0 rect {stroke:currentColor}#bartok-quartet-5-1-first-0 g.cursor {fill:dodgerblue; color:dodgerblue;}#bartok-quartet-5-1-first-0 g.cursor.chord {fill:limegreen; color:limegreen;}#bartok-quartet-5-1-first-0 g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 6230 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"bartok-quartet-5-1-first-6\" class=\"mdiv pageMilestone\"/><g id=\"bartok-quartet-5-1-first-7\" class=\"score pageMilestone\"/><g id=\"bartok-quartet-5-1-first-8\" class=\"system\"><g id=\"bartok-quartet-5-1-first-9\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"bartok-quartet-5-1-first-10\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"bartok-quartet-5-1-first-11\" class=\"measure\"><g id=\"bartok-quartet-5-1-first-12\" class=\"staff\"><path d=\"M0 540 L5879 540\" stroke-width=\"13\"/><path d=\"M0 720 L5879 720\" stroke-width=\"13\"/><path d=\"M0 900 L5879 900\" stroke-width=\"13\"/><path d=\"M0 1080 L5879 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L5879 1260\" stroke-width=\"13\"/><g id=\"bartok-quartet-5-1-first-13\" class=\"clef\"><use xlink:href=\"#bartok-quartet-5-1-first-1\" transform=\"translate(90, 1080) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-first-14\" class=\"keySig\"/><g id=\"bartok-quartet-5-1-first-15\" class=\"meterSig\"><use xlink:href=\"#bartok-quartet-5-1-first-2\" transform=\"translate(721, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#bartok-quartet-5-1-first-2\" transform=\"translate(721, 1080) scale(0.72, 0.72)\"/></g><g class=\"ledgerLines below\"><path d=\"M1703 1440 L1989 1440\" stroke-width=\"22\"/><path d=\"M2019 1440 L2305 1440\" stroke-width=\"22\"/><path d=\"M2335 1440 L2621 1440\" stroke-width=\"22\"/><path d=\"M2785 1440 L3071 1440\" stroke-width=\"22\"/><path d=\"M3101 1440 L3387 1440\" stroke-width=\"22\"/><path d=\"M3417 1440 L3703 1440\" stroke-width=\"22\"/><path d=\"M3849 1440 L4171 1440\" stroke-width=\"22\"/><path d=\"M4396 1440 L4682 1440\" stroke-width=\"22\"/><path d=\"M4712 1440 L4998 1440\" stroke-width=\"22\"/><path d=\"M5028 1440 L5314 1440\" stroke-width=\"22\"/><path d=\"M5344 1440 L5630 1440\" stroke-width=\"22\"/></g><g id=\"bartok-quartet-5-1-first-16\" class=\"layer\"><g id=\"bartok-quartet-5-1-first-17\" class=\"rest\"><use xlink:href=\"#bartok-quartet-5-1-first-3\" transform=\"translate(1283, 900) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-first-18\" class=\"beam\"><polygon points=\"1941,900 2275,900 2275,990 1941,990\"/><polygon points=\"1941,1035 2275,1035 2275,1125 1941,1125\"/><g id=\"bartok-quartet-5-1-first-19\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-first-4\" transform=\"translate(1733, 1530) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-first-20\" class=\"stem\"><path d=\"M1950 1502 L1950 918\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-first-21\" class=\"accid\"><use xlink:href=\"#bartok-quartet-5-1-first-5\" transform=\"translate(1520, 1530) scale(0.72, 0.72)\"/></g></g><g id=\"bartok-quartet-5-1-first-22\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-first-4\" transform=\"translate(2049, 1530) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-first-23\" class=\"stem\"><path d=\"M2266 1502 L2266 918\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-first-24\" class=\"accid\"/></g></g><g id=\"bartok-quartet-5-1-first-25\" class=\"beam\"><polygon points=\"2573,900 3357,900 3357,990 2573,990\"/><polygon points=\"3032,1035 3357,1035 3357,1125 3032,1125\"/><g id=\"bartok-quartet-5-1-first-26\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-first-4\" transform=\"translate(2365, 1530) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-first-27\" class=\"stem\"><path d=\"M2582 1502 L2582 918\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-first-28\" class=\"accid\"/></g><g id=\"bartok-quartet-5-1-first-29\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-first-4\" transform=\"translate(2815, 1530) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-first-30\" class=\"stem\"><path d=\"M3032 1502 L3032 918\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-first-31\" class=\"accid\"/></g><g id=\"bartok-quartet-5-1-first-32\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-first-4\" transform=\"translate(3131, 1530) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-first-33\" class=\"stem\"><path d=\"M3348 1502 L3348 918\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-first-34\" class=\"accid\"/></g></g><g id=\"bartok-quartet-5-1-first-35\" class=\"beam\"><polygon points=\"3655,855 4123,855 4123,945 3655,945\"/><g id=\"bartok-quartet-5-1-first-36\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-first-4\" transform=\"translate(3447, 1440) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-first-37\" class=\"stem\"><path d=\"M3664 1412 L3664 873\" stroke-width=\"18\"/></g></g><g id=\"bartok-quartet-5-1-first-38\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-first-4\" transform=\"translate(3897, 1440) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-first-39\" class=\"stem\"><path d=\"M4114 1412 L4114 873\" stroke-width=\"18\"/></g></g></g><g id=\"bartok-quartet-5-1-first-40\" class=\"beam\"><polygon points=\"4634,900 5600,900 5600,990 4634,990\"/><polygon points=\"4634,1035 4959,1035 4959,1125 4634,1125\"/><polygon points=\"5275,1035 5600,1035 5600,1125 5275,1125\"/><g id=\"bartok-quartet-5-1-first-41\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-first-4\" transform=\"translate(4426, 1530) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-first-42\" class=\"stem\"><path d=\"M4643 1502 L4643 918\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-first-43\" class=\"accid\"><use xlink:href=\"#bartok-quartet-5-1-first-5\" transform=\"translate(4213, 1530) scale(0.72, 0.72)\"/></g></g><g id=\"bartok-quartet-5-1-first-44\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-first-4\" transform=\"translate(4742, 1530) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-first-45\" class=\"stem\"><path d=\"M4959 1502 L4959 918\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-first-46\" class=\"accid\"/></g><g id=\"bartok-quartet-5-1-first-47\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-first-4\" transform=\"translate(5058, 1530) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-first-48\" class=\"stem\"><path d=\"M5275 1502 L5275 918\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-first-49\" class=\"accid\"/></g><g id=\"bartok-quartet-5-1-first-50\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-first-4\" transform=\"translate(5374, 1530) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-first-51\" class=\"stem\"><path d=\"M5591 1502 L5591 918\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-first-52\" class=\"accid\"/></g></g></g></g><g id=\"bartok-quartet-5-1-first-53\" class=\"barLine\"><path d=\"M5704 540 L5704 1260\" stroke-width=\"27\"/><path d=\"M5834 540 L5834 1260\" stroke-width=\"90\"/></g></g><g id=\"bartok-quartet-5-1-first-54\" class=\"systemMilestoneEnd bartok-quartet-5-1-first-10\"/><g id=\"bartok-quartet-5-1-first-55\" class=\"systemMilestoneEnd bartok-quartet-5-1-first-9\"/></g><g id=\"bartok-quartet-5-1-first-56\" class=\"pageMilestoneEnd bartok-quartet-5-1-first-7\"/><g id=\"bartok-quartet-5-1-first-57\" class=\"pageMilestoneEnd bartok-quartet-5-1-first-6\"/></g></svg></svg>",
+      "previewCaption": "First theme opening, m. 1, Violin I; newly engraved pitch/rhythm incipit, without the surrounding quartet texture. Shows the original form, not each selected transformation.",
+      "previewSource": {
+        "id": "score",
+        "title": "String Quartet No. 5 — UE 10736 (1936), movement I, pp. 3–23",
+        "author": "Béla Bartók; Universal Edition; Wienbibliothek im Rathaus, MHc-14298",
+        "url": "https://www.digital.wienbibliothek.at/wbrobv/content/titleinfo/2819168",
+        "documentUrl": "https://www.digital.wienbibliothek.at/download/pdf/2834708.pdf",
+        "sha256": "5e194ac67e839fc8d0cb8c3bfb649699b65f9087d2aae1ad6dc25abb85925d49",
+        "license": "Wienbibliothek marks its digitized historical copy Public Domain Mark 1.0 and requests attribution. Underlying composition rights depend on jurisdiction; the article/data/code licenses do not relicense the music or newly engraved excerpts. No full score or source page images are redistributed.",
+        "scorePage": 3,
+        "part": "Violin I",
+        "measure": 1,
+        "quarterOffset": 0
+      }
+    },
+    {
+      "id": "transition",
+      "label": "Transition",
+      "color": "#ba5c38",
+      "shortLabel": "Tr",
+      "description": "Bartók’s transitional section, treated as a contrasting theme in Somfai’s discussion and Ligeti’s three-theme terminology.",
+      "previewSvg": "<svg viewBox=\"0 0 299 87\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"bartok-quartet-5-1-transition-0\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"bartok-quartet-5-1-transition-1\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"bartok-quartet-5-1-transition-2\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"bartok-quartet-5-1-transition-3\"><path transform=\"scale(1,-1)\" d=\"M0 123c7 34 33 56 69 60c29 -3 43 -9 53 -29c4 -8 7 -15 10 -22c0 -21 -1 -25 -11 -35c-5 -8 -18 -14 -40 -20l12 -3l15 -1c44 0 97 26 122 56c10 11 18 26 24 42c7 1 15 2 22 3l-140 -424h-36l111 330c-10 -6 -27 -12 -53 -16l-52 -8h-10l-20 1c-1 0 -8 3 -21 6 c-37 9 -55 28 -55 60z\"/></g><g id=\"bartok-quartet-5-1-transition-4\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g><g id=\"bartok-quartet-5-1-transition-5\"><path transform=\"scale(1,-1)\" d=\"M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z\"/></g><g id=\"bartok-quartet-5-1-transition-6\"><path transform=\"scale(1,-1)\" d=\"M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z\"/></g></defs><style type=\"text/css\">#bartok-quartet-5-1-transition-0 g.ending, #bartok-quartet-5-1-transition-0 g.fing, #bartok-quartet-5-1-transition-0 g.reh, #bartok-quartet-5-1-transition-0 g.tempo {font-weight:bold;}#bartok-quartet-5-1-transition-0 g.dir, #bartok-quartet-5-1-transition-0 g.dynam, #bartok-quartet-5-1-transition-0 g.mNum {font-style:italic;}#bartok-quartet-5-1-transition-0 g.label {font-weight:normal;}#bartok-quartet-5-1-transition-0 ellipse, #bartok-quartet-5-1-transition-0 path, #bartok-quartet-5-1-transition-0 polygon, #bartok-quartet-5-1-transition-0 polyline, #bartok-quartet-5-1-transition-0 rect {stroke:currentColor}#bartok-quartet-5-1-transition-0 g.cursor {fill:dodgerblue; color:dodgerblue;}#bartok-quartet-5-1-transition-0 g.cursor.chord {fill:limegreen; color:limegreen;}#bartok-quartet-5-1-transition-0 g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 7470 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"bartok-quartet-5-1-transition-7\" class=\"mdiv pageMilestone\"/><g id=\"bartok-quartet-5-1-transition-8\" class=\"score pageMilestone\"/><g id=\"bartok-quartet-5-1-transition-9\" class=\"system\"><g id=\"bartok-quartet-5-1-transition-10\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"bartok-quartet-5-1-transition-11\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"bartok-quartet-5-1-transition-12\" class=\"measure\"><g id=\"bartok-quartet-5-1-transition-13\" class=\"mNum autogenerated\"><text y=\"297\" text-anchor=\"middle\" font-size=\"0px\"><tspan id=\"bartok-quartet-5-1-transition-14\" class=\"text\"><tspan font-size=\"324px\">24</tspan></tspan></text></g><g id=\"bartok-quartet-5-1-transition-15\" class=\"staff\"><path d=\"M0 540 L3506 540\" stroke-width=\"13\"/><path d=\"M0 720 L3506 720\" stroke-width=\"13\"/><path d=\"M0 900 L3506 900\" stroke-width=\"13\"/><path d=\"M0 1080 L3506 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L3506 1260\" stroke-width=\"13\"/><g id=\"bartok-quartet-5-1-transition-16\" class=\"clef\"><use xlink:href=\"#bartok-quartet-5-1-transition-1\" transform=\"translate(90, 1080) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-transition-17\" class=\"keySig\"/><g id=\"bartok-quartet-5-1-transition-18\" class=\"meterSig\"><use xlink:href=\"#bartok-quartet-5-1-transition-2\" transform=\"translate(721, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#bartok-quartet-5-1-transition-2\" transform=\"translate(721, 1080) scale(0.72, 0.72)\"/></g><g class=\"ledgerLines below\"><path d=\"M2935 1440 L3257 1440\" stroke-width=\"22\"/></g><g id=\"bartok-quartet-5-1-transition-19\" class=\"layer\"><g id=\"bartok-quartet-5-1-transition-20\" class=\"space\"/><g id=\"bartok-quartet-5-1-transition-21\" class=\"rest\"><use xlink:href=\"#bartok-quartet-5-1-transition-3\" transform=\"translate(2533, 900) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-transition-22\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-transition-4\" transform=\"translate(2983, 1440) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-transition-23\" class=\"stem\"><path d=\"M3200 1412 L3200 810\" stroke-width=\"18\"/><g id=\"bartok-quartet-5-1-transition-24\" class=\"flag\"><use xlink:href=\"#bartok-quartet-5-1-transition-5\" transform=\"translate(3191, 810) scale(0.72, 0.72)\"/></g></g></g></g></g><g id=\"bartok-quartet-5-1-transition-25\" class=\"barLine\"><path d=\"M3493 540 L3493 1260\" stroke-width=\"27\"/></g></g><g id=\"bartok-quartet-5-1-transition-26\" class=\"measure\"><g id=\"bartok-quartet-5-1-transition-27\" class=\"staff\"><path d=\"M3506 540 L7110 540\" stroke-width=\"13\"/><path d=\"M3506 720 L7110 720\" stroke-width=\"13\"/><path d=\"M3506 900 L7110 900\" stroke-width=\"13\"/><path d=\"M3506 1080 L7110 1080\" stroke-width=\"13\"/><path d=\"M3506 1260 L7110 1260\" stroke-width=\"13\"/><g class=\"ledgerLines below\"><path d=\"M4515 1440 L4837 1440\" stroke-width=\"22\"/><path d=\"M5701 1440 L6023 1440\" stroke-width=\"22\"/></g><g id=\"bartok-quartet-5-1-transition-28\" class=\"layer\"><g id=\"bartok-quartet-5-1-transition-29\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-transition-4\" transform=\"translate(3873, 630) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-transition-30\" class=\"stem\"><path d=\"M3882 658 L3882 1260\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-transition-31\" class=\"accid\"><use xlink:href=\"#bartok-quartet-5-1-transition-6\" transform=\"translate(3686, 630) scale(0.72, 0.72)\"/></g></g><g id=\"bartok-quartet-5-1-transition-32\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-transition-4\" transform=\"translate(4563, 1440) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-transition-33\" class=\"stem\"><path d=\"M4780 1412 L4780 810\" stroke-width=\"18\"/><g id=\"bartok-quartet-5-1-transition-34\" class=\"flag\"><use xlink:href=\"#bartok-quartet-5-1-transition-5\" transform=\"translate(4771, 810) scale(0.72, 0.72)\"/></g></g></g><g id=\"bartok-quartet-5-1-transition-35\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-transition-4\" transform=\"translate(5059, 630) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-transition-36\" class=\"stem\"><path d=\"M5068 658 L5068 1260\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-transition-37\" class=\"accid\"><use xlink:href=\"#bartok-quartet-5-1-transition-6\" transform=\"translate(4872, 630) scale(0.72, 0.72)\"/></g></g><g id=\"bartok-quartet-5-1-transition-38\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-transition-4\" transform=\"translate(5749, 1440) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-transition-39\" class=\"stem\"><path d=\"M5966 1412 L5966 810\" stroke-width=\"18\"/><g id=\"bartok-quartet-5-1-transition-40\" class=\"flag\"><use xlink:href=\"#bartok-quartet-5-1-transition-5\" transform=\"translate(5957, 810) scale(0.72, 0.72)\"/></g></g></g><g id=\"bartok-quartet-5-1-transition-41\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-transition-4\" transform=\"translate(6245, 540) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-transition-42\" class=\"stem\"><path d=\"M6254 568 L6254 1170\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-transition-43\" class=\"accid\"><use xlink:href=\"#bartok-quartet-5-1-transition-6\" transform=\"translate(6058, 540) scale(0.72, 0.72)\"/></g></g></g></g><g id=\"bartok-quartet-5-1-transition-44\" class=\"barLine\"><path d=\"M6935 540 L6935 1260\" stroke-width=\"27\"/><path d=\"M7065 540 L7065 1260\" stroke-width=\"90\"/></g></g><g id=\"bartok-quartet-5-1-transition-45\" class=\"systemMilestoneEnd bartok-quartet-5-1-transition-11\"/><g id=\"bartok-quartet-5-1-transition-46\" class=\"systemMilestoneEnd bartok-quartet-5-1-transition-10\"/></g><g id=\"bartok-quartet-5-1-transition-47\" class=\"pageMilestoneEnd bartok-quartet-5-1-transition-8\"/><g id=\"bartok-quartet-5-1-transition-48\" class=\"pageMilestoneEnd bartok-quartet-5-1-transition-7\"/></g></svg></svg>",
+      "previewCaption": "Transitional theme opening, m. 24 beat 4 through m. 25, Violin I; newly engraved pitch/rhythm incipit, without the surrounding quartet texture. Shows the original form, not each selected transformation.",
+      "previewSource": {
+        "id": "score",
+        "title": "String Quartet No. 5 — UE 10736 (1936), movement I, pp. 3–23",
+        "author": "Béla Bartók; Universal Edition; Wienbibliothek im Rathaus, MHc-14298",
+        "url": "https://www.digital.wienbibliothek.at/wbrobv/content/titleinfo/2819168",
+        "documentUrl": "https://www.digital.wienbibliothek.at/download/pdf/2834708.pdf",
+        "sha256": "5e194ac67e839fc8d0cb8c3bfb649699b65f9087d2aae1ad6dc25abb85925d49",
+        "license": "Wienbibliothek marks its digitized historical copy Public Domain Mark 1.0 and requests attribution. Underlying composition rights depend on jurisdiction; the article/data/code licenses do not relicense the music or newly engraved excerpts. No full score or source page images are redistributed.",
+        "scorePage": 5,
+        "part": "Violin I",
+        "measure": 24,
+        "quarterOffset": 3
+      }
+    },
+    {
+      "id": "lyrical",
+      "label": "Lyrical theme",
+      "color": "#45816e",
+      "shortLabel": "T2",
+      "description": "The lyrical final theme of the exposition: Bartók’s second theme, the third theme in Ligeti’s terminology.",
+      "previewSvg": "<svg viewBox=\"0 0 208 87\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"bartok-quartet-5-1-lyrical-0\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"bartok-quartet-5-1-lyrical-1\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"bartok-quartet-5-1-lyrical-2\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"bartok-quartet-5-1-lyrical-3\"><path transform=\"scale(1,-1)\" d=\"M0 123c7 34 33 56 69 60c29 -3 43 -9 53 -29c4 -8 7 -15 10 -22c0 -21 -1 -25 -11 -35c-5 -8 -18 -14 -40 -20l12 -3l15 -1c44 0 97 26 122 56c10 11 18 26 24 42c7 1 15 2 22 3l-140 -424h-36l111 330c-10 -6 -27 -12 -53 -16l-52 -8h-10l-20 1c-1 0 -8 3 -21 6 c-37 9 -55 28 -55 60z\"/></g><g id=\"bartok-quartet-5-1-lyrical-4\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g><g id=\"bartok-quartet-5-1-lyrical-5\"><path transform=\"scale(1,-1)\" d=\"M136 186v169h17v-164l44 14v-91l-44 -14v-165l44 12v-91l-44 -13v-155h-17v150l-76 -22v-155h-17v149l-43 -13v90l43 14v167l-43 -14v92l43 13v169h17v-163zM60 73v-167l76 22v168z\"/></g></defs><style type=\"text/css\">#bartok-quartet-5-1-lyrical-0 g.ending, #bartok-quartet-5-1-lyrical-0 g.fing, #bartok-quartet-5-1-lyrical-0 g.reh, #bartok-quartet-5-1-lyrical-0 g.tempo {font-weight:bold;}#bartok-quartet-5-1-lyrical-0 g.dir, #bartok-quartet-5-1-lyrical-0 g.dynam, #bartok-quartet-5-1-lyrical-0 g.mNum {font-style:italic;}#bartok-quartet-5-1-lyrical-0 g.label {font-weight:normal;}#bartok-quartet-5-1-lyrical-0 ellipse, #bartok-quartet-5-1-lyrical-0 path, #bartok-quartet-5-1-lyrical-0 polygon, #bartok-quartet-5-1-lyrical-0 polyline, #bartok-quartet-5-1-lyrical-0 rect {stroke:currentColor}#bartok-quartet-5-1-lyrical-0 g.cursor {fill:dodgerblue; color:dodgerblue;}#bartok-quartet-5-1-lyrical-0 g.cursor.chord {fill:limegreen; color:limegreen;}#bartok-quartet-5-1-lyrical-0 g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 5190 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"bartok-quartet-5-1-lyrical-6\" class=\"mdiv pageMilestone\"/><g id=\"bartok-quartet-5-1-lyrical-7\" class=\"score pageMilestone\"/><g id=\"bartok-quartet-5-1-lyrical-8\" class=\"system\"><g id=\"bartok-quartet-5-1-lyrical-9\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"bartok-quartet-5-1-lyrical-10\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"bartok-quartet-5-1-lyrical-11\" class=\"measure\"><g id=\"bartok-quartet-5-1-lyrical-12\" class=\"mNum autogenerated\"><text y=\"297\" text-anchor=\"middle\" font-size=\"0px\"><tspan id=\"bartok-quartet-5-1-lyrical-13\" class=\"text\"><tspan font-size=\"324px\">44</tspan></tspan></text></g><g id=\"bartok-quartet-5-1-lyrical-14\" class=\"staff\"><path d=\"M0 540 L4834 540\" stroke-width=\"13\"/><path d=\"M0 720 L4834 720\" stroke-width=\"13\"/><path d=\"M0 900 L4834 900\" stroke-width=\"13\"/><path d=\"M0 1080 L4834 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L4834 1260\" stroke-width=\"13\"/><g id=\"bartok-quartet-5-1-lyrical-15\" class=\"clef\"><use xlink:href=\"#bartok-quartet-5-1-lyrical-1\" transform=\"translate(90, 1080) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-lyrical-16\" class=\"keySig\"/><g id=\"bartok-quartet-5-1-lyrical-17\" class=\"meterSig\"><use xlink:href=\"#bartok-quartet-5-1-lyrical-2\" transform=\"translate(721, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#bartok-quartet-5-1-lyrical-2\" transform=\"translate(721, 1080) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-lyrical-18\" class=\"layer\"><g id=\"bartok-quartet-5-1-lyrical-19\" class=\"space\"/><g id=\"bartok-quartet-5-1-lyrical-20\" class=\"rest\"><use xlink:href=\"#bartok-quartet-5-1-lyrical-3\" transform=\"translate(2243, 900) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-lyrical-21\" class=\"beam\"><polygon points=\"2901,675 3235,630 3235,720 2901,765\"/><polygon points=\"2901,810 3235,765 3235,855 2901,900\"/><g id=\"bartok-quartet-5-1-lyrical-22\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-lyrical-4\" transform=\"translate(2693, 1350) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-lyrical-23\" class=\"stem\"><path d=\"M2910 1322 L2910 693\" stroke-width=\"18\"/></g></g><g id=\"bartok-quartet-5-1-lyrical-24\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-lyrical-4\" transform=\"translate(3009, 1260) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-lyrical-25\" class=\"stem\"><path d=\"M3226 1232 L3226 648\" stroke-width=\"18\"/></g></g></g><g id=\"bartok-quartet-5-1-lyrical-26\" class=\"beam\"><polygon points=\"3533,540 4555,450 4555,540 3533,630\"/><polygon points=\"4044,630 4555,585 4555,675 4044,720\"/><g id=\"bartok-quartet-5-1-lyrical-27\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-lyrical-4\" transform=\"translate(3325, 1170) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-lyrical-28\" class=\"stem\"><path d=\"M3542 1142 L3542 558\" stroke-width=\"18\"/></g></g><g id=\"bartok-quartet-5-1-lyrical-29\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-lyrical-4\" transform=\"translate(3827, 1170) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-lyrical-30\" class=\"stem\"><path d=\"M4044 1142 L4044 513\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-lyrical-31\" class=\"accid\"><use xlink:href=\"#bartok-quartet-5-1-lyrical-5\" transform=\"translate(3641, 1170) scale(0.72, 0.72)\"/></g></g><g id=\"bartok-quartet-5-1-lyrical-32\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#bartok-quartet-5-1-lyrical-4\" transform=\"translate(4329, 1080) scale(0.72, 0.72)\"/></g><g id=\"bartok-quartet-5-1-lyrical-33\" class=\"stem\"><path d=\"M4546 1052 L4546 468\" stroke-width=\"18\"/></g><g id=\"bartok-quartet-5-1-lyrical-34\" class=\"accid\"><use xlink:href=\"#bartok-quartet-5-1-lyrical-5\" transform=\"translate(4143, 1080) scale(0.72, 0.72)\"/></g></g></g></g></g><g id=\"bartok-quartet-5-1-lyrical-35\" class=\"barLine\"><path d=\"M4659 540 L4659 1260\" stroke-width=\"27\"/><path d=\"M4789 540 L4789 1260\" stroke-width=\"90\"/></g></g><g id=\"bartok-quartet-5-1-lyrical-36\" class=\"systemMilestoneEnd bartok-quartet-5-1-lyrical-10\"/><g id=\"bartok-quartet-5-1-lyrical-37\" class=\"systemMilestoneEnd bartok-quartet-5-1-lyrical-9\"/></g><g id=\"bartok-quartet-5-1-lyrical-38\" class=\"pageMilestoneEnd bartok-quartet-5-1-lyrical-7\"/><g id=\"bartok-quartet-5-1-lyrical-39\" class=\"pageMilestoneEnd bartok-quartet-5-1-lyrical-6\"/></g></svg></svg>",
+      "previewCaption": "Lyrical theme opening, m. 44 beats 3–4, Violin II; newly engraved pitch/rhythm incipit, without the surrounding quartet texture. Shows the original form, not each selected transformation.",
+      "previewSource": {
+        "id": "score",
+        "title": "String Quartet No. 5 — UE 10736 (1936), movement I, pp. 3–23",
+        "author": "Béla Bartók; Universal Edition; Wienbibliothek im Rathaus, MHc-14298",
+        "url": "https://www.digital.wienbibliothek.at/wbrobv/content/titleinfo/2819168",
+        "documentUrl": "https://www.digital.wienbibliothek.at/download/pdf/2834708.pdf",
+        "sha256": "5e194ac67e839fc8d0cb8c3bfb649699b65f9087d2aae1ad6dc25abb85925d49",
+        "license": "Wienbibliothek marks its digitized historical copy Public Domain Mark 1.0 and requests attribution. Underlying composition rights depend on jurisdiction; the article/data/code licenses do not relicense the music or newly engraved excerpts. No full score or source page images are redistributed.",
+        "scorePage": 7,
+        "part": "Violin II",
+        "measure": 44,
+        "quarterOffset": 2
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "bartok-quartet-5-1-region-1",
+      "voice": "first",
+      "theme": "first",
+      "start": 0,
+      "end": 52.0,
+      "label": "First theme",
+      "variant": "original",
+      "key": "B-flat",
+      "sourceIds": [
+        "somfai",
+        "score",
+        "transcription"
+      ],
+      "sourceLocation": {
+        "start": {
+          "measure": 1,
+          "quarterOffset": 0,
+          "scorePage": 3,
+          "marker": null
+        },
+        "end": {
+          "measure": 14,
+          "quarterOffset": 0,
+          "scorePage": 4,
+          "marker": "A"
+        }
+      },
+      "notes": "First-theme region before A. Bounds are formal section boundaries, including initial rests where present; they do not measure a single subject statement or final-note release. The lane denotes a thematic family, not an instrument."
+    },
+    {
+      "id": "bartok-quartet-5-1-region-2",
+      "voice": "first",
+      "theme": "first",
+      "start": 52.0,
+      "end": 95.0,
+      "label": "Appendix",
+      "variant": "appendix",
+      "key": "B-flat",
+      "sourceIds": [
+        "somfai",
+        "score",
+        "transcription"
+      ],
+      "sourceLocation": {
+        "start": {
+          "measure": 14,
+          "quarterOffset": 0,
+          "scorePage": 4,
+          "marker": "A"
+        },
+        "end": {
+          "measure": 24,
+          "quarterOffset": 3,
+          "scorePage": 5,
+          "marker": "B"
+        }
+      },
+      "notes": "Appendix to the first theme, A–B. Bounds are formal section boundaries, including initial rests where present; they do not measure a single subject statement or final-note release. The lane denotes a thematic family, not an instrument."
+    },
+    {
+      "id": "bartok-quartet-5-1-region-3",
+      "voice": "transition",
+      "theme": "transition",
+      "start": 95.0,
+      "end": 144.0,
+      "label": "Transition",
+      "variant": "original",
+      "key": "C",
+      "sourceIds": [
+        "somfai",
+        "score",
+        "transcription"
+      ],
+      "sourceLocation": {
+        "start": {
+          "measure": 24,
+          "quarterOffset": 3,
+          "scorePage": 5,
+          "marker": "B"
+        },
+        "end": {
+          "measure": 37,
+          "quarterOffset": 0,
+          "scorePage": 6,
+          "marker": null
+        }
+      },
+      "notes": "Transitional region B through m. 36, ending at the m. 37 downbeat. Bounds are formal section boundaries, including initial rests where present; they do not measure a single subject statement or final-note release. The lane denotes a thematic family, not an instrument."
+    },
+    {
+      "id": "bartok-quartet-5-1-region-4",
+      "voice": "first",
+      "theme": "first",
+      "start": 144.0,
+      "end": 174.0,
+      "label": "Allusion",
+      "variant": "allusion",
+      "key": "C",
+      "sourceIds": [
+        "somfai",
+        "score",
+        "transcription"
+      ],
+      "sourceLocation": {
+        "start": {
+          "measure": 37,
+          "quarterOffset": 0,
+          "scorePage": 6,
+          "marker": null
+        },
+        "end": {
+          "measure": 44,
+          "quarterOffset": 2,
+          "scorePage": 7,
+          "marker": "C"
+        }
+      },
+      "notes": "Allusion to the first theme, m. 37–C. Bounds are formal section boundaries, including initial rests where present; they do not measure a single subject statement or final-note release. The lane denotes a thematic family, not an instrument."
+    },
+    {
+      "id": "bartok-quartet-5-1-region-5",
+      "voice": "lyrical",
+      "theme": "lyrical",
+      "start": 174.0,
+      "end": 261.0,
+      "label": "Lyrical theme",
+      "variant": "original",
+      "key": "D",
+      "sourceIds": [
+        "somfai",
+        "score",
+        "transcription"
+      ],
+      "sourceLocation": {
+        "start": {
+          "measure": 44,
+          "quarterOffset": 2,
+          "scorePage": 7,
+          "marker": "C"
+        },
+        "end": {
+          "measure": 59,
+          "quarterOffset": 0,
+          "scorePage": 9,
+          "marker": "D"
+        }
+      },
+      "notes": "Lyrical theme at the end of the exposition, C–D. Bounds are formal section boundaries, including initial rests where present; they do not measure a single subject statement or final-note release. The lane denotes a thematic family, not an instrument."
+    },
+    {
+      "id": "bartok-quartet-5-1-region-6",
+      "voice": "first",
+      "theme": "first",
+      "start": 532.5,
+      "end": 559.5,
+      "label": "Inversion",
+      "variant": "inversion",
+      "key": "E",
+      "sourceIds": [
+        "somfai",
+        "score",
+        "transcription"
+      ],
+      "sourceLocation": {
+        "start": {
+          "measure": 126,
+          "quarterOffset": 0,
+          "scorePage": 15,
+          "marker": "F"
+        },
+        "end": {
+          "measure": 132,
+          "quarterOffset": 3,
+          "scorePage": 16,
+          "marker": "G"
+        }
+      },
+      "notes": "First theme in inversion, F–G; Bartók also permits F as an alternative beginning of the recapitulation. The outline's E denotes the region's tonality, not the first melodic pitch. Bounds are formal section boundaries, including initial rests where present; they do not measure a single subject statement or final-note release. The lane denotes a thematic family, not an instrument."
+    },
+    {
+      "id": "bartok-quartet-5-1-region-7",
+      "voice": "lyrical",
+      "theme": "lyrical",
+      "start": 559.5,
+      "end": 645.0,
+      "label": "Inversion",
+      "variant": "inversion",
+      "key": "F-sharp",
+      "sourceIds": [
+        "somfai",
+        "score",
+        "transcription"
+      ],
+      "sourceLocation": {
+        "start": {
+          "measure": 132,
+          "quarterOffset": 3,
+          "scorePage": 16,
+          "marker": "G"
+        },
+        "end": {
+          "measure": 146,
+          "quarterOffset": 3.5,
+          "scorePage": 17,
+          "marker": "H"
+        }
+      },
+      "notes": "Inverted lyrical theme, G–H: first of the reversed thematic regions in the principal recapitulation reading. Bounds are formal section boundaries, including initial rests where present; they do not measure a single subject statement or final-note release. The lane denotes a thematic family, not an instrument."
+    },
+    {
+      "id": "bartok-quartet-5-1-region-8",
+      "voice": "transition",
+      "theme": "transition",
+      "start": 645.0,
+      "end": 697.0,
+      "label": "Inversion",
+      "variant": "inversion",
+      "key": "A-flat",
+      "sourceIds": [
+        "somfai",
+        "score",
+        "transcription"
+      ],
+      "sourceLocation": {
+        "start": {
+          "measure": 146,
+          "quarterOffset": 3.5,
+          "scorePage": 17,
+          "marker": "H"
+        },
+        "end": {
+          "measure": 159,
+          "quarterOffset": 2.5,
+          "scorePage": 18,
+          "marker": "I"
+        }
+      },
+      "notes": "Inverted transitional region, H–I. Bounds are formal section boundaries, including initial rests where present; they do not measure a single subject statement or final-note release. The lane denotes a thematic family, not an instrument."
+    },
+    {
+      "id": "bartok-quartet-5-1-region-9",
+      "voice": "first",
+      "theme": "first",
+      "start": 697.0,
+      "end": 766.5,
+      "label": "Inversion",
+      "variant": "inversion",
+      "key": "B-flat",
+      "sourceIds": [
+        "somfai",
+        "score",
+        "transcription"
+      ],
+      "sourceLocation": {
+        "start": {
+          "measure": 159,
+          "quarterOffset": 2.5,
+          "scorePage": 18,
+          "marker": "I"
+        },
+        "end": {
+          "measure": 177,
+          "quarterOffset": 0,
+          "scorePage": 20,
+          "marker": "J"
+        }
+      },
+      "notes": "Inverted first-theme region, I–J; Bartók also permits I as an alternative beginning of the coda. Bounds are formal section boundaries, including initial rests where present; they do not measure a single subject statement or final-note release. The lane denotes a thematic family, not an instrument."
+    }
+  ],
+  "sections": [
+    {
+      "id": "section-1",
+      "label": "Exposition",
+      "type": "structure",
+      "start": 0,
+      "end": 261.0
+    },
+    {
+      "id": "section-2",
+      "label": "Development",
+      "type": "structure",
+      "start": 261.0,
+      "end": 532.5
+    },
+    {
+      "id": "section-3",
+      "label": "First-theme inversion",
+      "type": "structure",
+      "start": 532.5,
+      "end": 559.5
+    },
+    {
+      "id": "section-4",
+      "label": "Recapitulation",
+      "type": "structure",
+      "start": 559.5,
+      "end": 766.5
+    },
+    {
+      "id": "section-5",
+      "label": "Coda",
+      "type": "structure",
+      "start": 766.5,
+      "end": 932.5
+    }
+  ],
+  "sources": [
+    {
+      "id": "score",
+      "title": "String Quartet No. 5 — UE 10736 (1936), movement I, pp. 3–23",
+      "author": "Béla Bartók; Universal Edition; Wienbibliothek im Rathaus, MHc-14298",
+      "url": "https://www.digital.wienbibliothek.at/wbrobv/content/titleinfo/2819168",
+      "documentUrl": "https://www.digital.wienbibliothek.at/download/pdf/2834708.pdf",
+      "sha256": "5e194ac67e839fc8d0cb8c3bfb649699b65f9087d2aae1ad6dc25abb85925d49",
+      "license": "Wienbibliothek marks its digitized historical copy Public Domain Mark 1.0 and requests attribution. Underlying composition rights depend on jurisdiction; the article/data/code licenses do not relicense the music or newly engraved excerpts. No full score or source page images are redistributed."
+    },
+    {
+      "id": "somfai",
+      "title": "Bartók’s Most Daring Concept of a Palindromic Structure (2021), Plate 1, p. 202; discussion pp. 199, 204–205",
+      "author": "László Somfai; Plate 1 reproduces Béla Bartók’s formal outline, English translation in Béla Bartók Essays, ed. Benjamin Suchoff (1976), p. 414",
+      "url": "https://real.mtak.hu/144810/1/BartoksMostDaringConceptofaPalindromicStructureTheSonata-FormOpeningMovementoftheFifthQuartet.pdf",
+      "doi": "10.1556/6.2021.00015",
+      "sha256": "b06d66603f9ec7638aaae25f528f2bec567ae5da4e6e1adc630cd4489f58c8f3",
+      "license": "Article: CC BY 4.0, explicitly stated on p. 211. The present independently drawn map adapts its analytical facts and adds score-checked quarter-note coordinates, family lanes and descriptions. Article images, manuscript facsimiles and translated prose are not reproduced; underlying music retains separate rights."
+    },
+    {
+      "id": "transcription",
+      "title": "Reviewable formal-boundary and incipit transcription",
+      "author": "Structures editorial transcription",
+      "url": "https://github.com/MUK-Labs/structures/blob/main/scripts/import-bartok-quartet5.py",
+      "license": "New formal annotation data: CC BY 4.0; importer code: MIT. Short score-derived previews and the underlying composition are excluded from those licenses."
+    }
+  ],
+  "recordings": [
+    {
+      "id": "takacs-quartet-5-i",
+      "title": "Takács Quartet · Quartet No. 5 · I. Allegro",
+      "youtubeId": "7f29-B2XVDA",
+      "url": "https://www.youtube.com/watch?v=7f29-B2XVDA",
+      "performer": "Takács Quartet",
+      "scope": "Complete first movement only.",
+      "sourceTitle": "Bartók: String Quartet No. 5, BB 110 (Sz.102) : 1. Allegro",
+      "alignment": {
+        "status": "unavailable",
+        "anchors": [],
+        "description": "Manual timing needed. No recording-specific measure or section anchors have been measured."
+      },
+      "notes": "Takács Quartet - Topic; provided by Universal Music Group, ℗ 1997 Decca Music Group Limited. Individual first-movement track. No audio is redistributed and no timing is inferred from its duration or the score tempo.",
+      "verification": {
+        "checkedDate": "2026-11-25",
+        "url": "https://www.youtube.com/watch?v=7f29-B2XVDA",
+        "method": "YouTube watch-page metadata verified the work, movement, performer, Topic channel and label credit; playability OK and embedding allowed on the checked date. Musical timing was not measured."
+      }
+    }
+  ],
+  "notes": [
+    "Only movement I is represented. Every duration uses quarter-note units, including the changing notated meters. Numbered measures follow the score; dotted local pulse guides are not counted as new measures.",
+    "Bartók’s outline calls the lyrical theme the second theme and the preceding contrasting region a transition. The three families here use descriptive names to avoid confusing that terminology with Ligeti’s three-theme account.",
+    "The principal reading places recapitulation at G and coda at J. Bartók explicitly allows F and I as alternative boundaries; the map preserves that ambiguity in the affected regions' notes.",
+    "The returned regions occur in reverse family order and inversion. This does not mean a literal note-by-note retrograde of the exposition. Blank family lanes do not imply silence or absence of related material."
+  ]
+}

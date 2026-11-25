@@ -39,7 +39,10 @@ The preview records identify the precise source voice and score positions.
 - All entry positions and timing-anchor beats are zero-based **quarter-note
   units**, regardless of the written time signature. For example, a 2/2 bar is
   four timeline beats; a 6/4 bar is six.
-- Voice order is highest to lowest. Three- and five-voice labels are neutral
+- Voice order is highest to lowest unless the piece documents another arrangement.
+  Thematic-form maps use thematic families as rows and explicitly identify that
+  coverage; their blocks are formal regions rather than literal voice statements.
+  Three- and five-voice labels are neutral
   positional names. Four-voice labels use soprano, alto, tenor, and bass.
 - For the Bach/Shostakovich import, only the authors' reference annotations are imported. Labels explicitly
   marked `ignore` are omitted. Inversion, augmentation, incomplete statements,
@@ -154,12 +157,105 @@ Each later addition includes `analysis.kind`, `analysis.coverage`, and a method
 `description`. An exposition excerpt ends after its first group of entries and
 retains the score's original measure numbers. A selected-entry map can span an
 entire movement without identifying every subject fragment or countersubject.
+The `formal-outline` coverage identifies a map of thematic regions: its rows are
+thematic families, and endpoints follow cited formal boundaries rather than
+necessarily following the release of a single theme statement.
 The viewer displays these distinctions in the piece metadata, including slides.
 
 These additions have listening recordings but no verified recording alignment.
 Their `recordings` contain source links, performer credits, verification dates
 and empty anchors. The catalog marks them **Manual timing needed**. Do not
 create a time map from a score tempo or reuse one from another performance.
+
+### Bartók, Duo no. 37: selected Prelude and Canon statements
+
+`bartok-duo-37.json` contains **10 selected entries**: four prelude stanzas and
+the six dux/comes statements of the three initial canons. The two colors denote
+Prelude and Canon settings of the same folk tune. The altered fifth stanza/coda,
+accompaniment and later Canon development remain unclassified. The full **95-bar /
+190-quarter** timeline counts Prelude bars P1–P48 and Canon bars C1–C47 separately;
+these are editorial bar counts because the consulted edition has no printed
+measure numbers. Entry labels S1–S4 identify the selected prelude stanzas.
+
+The manual manifest follows the final published score, printed pp. 37–38
+(PDF pp. 34–35), and Nakahara's 2021 article. Its two newly engraved six-note
+previews use the published notation, not drafts. Entry ends include final
+releases and ties: the altered third canon's dux and comes are 17 and 15 quarters
+long, rather than being forced into the earlier 16-quarter pattern. The importer
+records source hashes and checks manifest consistency; it is not optical score
+recognition. The article's CC BY 4.0 terms, the new ODbL-1.0 editorial annotations
+and the original music/edition rights are recorded separately.
+
+```sh
+python scripts/import-bartok-duo37.py
+# Optional: verify the exact consulted source PDFs as well.
+python scripts/import-bartok-duo37.py --score-pdf /path/to/duos.pdf --article-pdf /path/to/nakahara.pdf
+```
+
+The official Herman Krebbers / Theo Olof recording `B6qvrSSL7AY` is linked with
+empty timing anchors.
+
+### Bartók, Mikrokosmos no. 141: selected moving phrases
+
+`bartok-mikrokosmos-141.json` contains **20 selected phrase segments**: nine pairs
+of refrain cores and one pair from the third episode. The full **82-bar / 179
+quarter-note-unit** timeline retains changing meters; seven formal sections are
+distinct from the narrower phrase rectangles. The two rows follow moving lines,
+with sustained symmetry-axis notes, other continuations and cadences left
+unclassified. Two newly engraved previews show the opening reflected head and
+the third-episode opening.
+
+The source is the [Mikrokosmos-difficulty dataset](https://zenodo.org/records/6092709),
+`musicxml/141.xml`, checked against the archive's original score, PDF pp. 213–215
+(printed pp. 14–16). The importer verifies the encoding checksum and 185 selected
+note attacks, with explicit corrections for a missing flat and two tied moving
+notes. These checks do not certify the unselected OMR transcription. Nakahara's
+2020 dissertation, §8.5, pp. 244–251, supplies analytical context; no thesis
+figures or facsimile images are copied. The dataset's CC BY 4.0 attribution is
+retained, with composition and edition rights identified separately. New
+editorial annotations are ODbL-1.0; application/importer code is MIT.
+
+The final refrain retains actual, changing entry delays. Its last selected
+left-hand opening starts one quarter after the right hand but lasts longer,
+making subsequent motion two quarters late. A broad analytical description is
+not imposed as a constant onset offset on every note.
+
+Reproduce with the credited archive extracted outside the repository:
+
+```sh
+python scripts/import-bartok-mikrokosmos141.py --score /path/to/musicxml/141.xml
+```
+
+The Zoltán Kocsis / Universal Music Group recording `pcwknfkxkOA` is linked with
+empty anchors. It needs manual timing; score tempi do not establish timestamps.
+
+### Bartók, String Quartet no. 5/I: thematic-form outline
+
+`bartok-quartet-5-1.json` maps **nine formal thematic regions in three family
+rows**, across **218 bars / 932.5 quarter-note units**. Bartók's outline, reproduced
+by Somfai (2021), Plate 1, p. 202, supplies the first-theme, transitional and
+lyrical regions and their inverted returns. The map shows reversed family order;
+it does not assert literal retrograde or a complete inventory of instrumental
+entries. Development and coda are formal sections with unclassified internal
+recurrences. Alternative boundaries at F and I are documented alongside the
+principal G/J reading.
+
+Rehearsal markers and all changing meters were checked in the Wienbibliothek's
+digitized Universal Edition UE 10736 (1936), movement I, pp. 3–23. Changes inside
+bars retain their exact position, including initial rests. Three short theme
+heads are newly engraved from the score. The article and new formal annotations
+are CC BY 4.0; the historical score's own notice and musical-excerpt rights are
+separate. No source scans or article figures are redistributed.
+
+```sh
+python scripts/import-bartok-quartet5.py
+# Optional: verify the exact consulted source PDFs as well.
+python scripts/import-bartok-quartet5.py --score-pdf /path/to/2834708.pdf --analysis-pdf /path/to/somfai.pdf
+```
+
+The official Takács Quartet / Decca first-movement recording `7f29-B2XVDA` is
+linked with empty timing anchors. The three Bartók importers preserve curated
+recording links and manual timing when their data are regenerated.
 
 ### Mozart, K. 546: selected subject matches
 

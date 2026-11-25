@@ -72,6 +72,9 @@ test('partial analytical coverage stays explicit and requires a method descripti
   piece.analysis.coverage = 'exposition';
   piece.analysis.kind = 'editorial';
   assert.equal(analysisLabel(piece), 'Exposition excerpt');
+  piece.analysis.coverage = 'formal-outline';
+  assert.equal(validatePiece(piece), piece);
+  assert.equal(analysisLabel(piece), 'Thematic form');
   for (const change of [{kind:'guessed'}, {coverage:'unknown'}, {description:''}]) {
     const invalid = structuredClone(piece);
     Object.assign(invalid.analysis, change);

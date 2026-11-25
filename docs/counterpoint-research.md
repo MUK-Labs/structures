@@ -1,6 +1,8 @@
 # Counterpoint and recurring themes: research register
 
-Checked 25 November 2026. This extends the [earlier repertoire register](repertoire-sources.md) beyond fugues, with particular attention to Bartók. It records existing scholarship and data, **not newly completed analyses or diagrams**. The current implemented collection remains [data/index.json](../data/index.json).
+Checked 25 November 2026. This extends the [earlier repertoire register](repertoire-sources.md) beyond fugues, with particular attention to Bartók. The source descriptions below record existing scholarship and data. The current implemented collection remains [data/index.json](../data/index.json).
+
+**First implemented Bartók batch:** [Duo 37](../data/pieces/bartok-duo-37.json) and [Mikrokosmos 141](../data/pieces/bartok-mikrokosmos-141.json) contain selected score-checked phrases; [Quartet 5/I](../data/pieces/bartok-quartet-5-1.json) contains a thematic-form map. These are bounded editorial implementations, with coverage and source details in each file and [data provenance](../data/README.md). Their recordings still need [manual timing](manual-timing.md). Other candidates below remain research leads.
 
 The selection favors identifiable motifs, recurring themes, imitation between parts, and transformations with score locations. General program notes and unverified score videos are not treated as analytical ground truth. Priority and proposed visualizations below are editorial recommendations for Structures.
 
@@ -246,6 +248,6 @@ The current Bartók index exposes **22 curated theme pages**, with symbolic them
 
 For each selected passage, preserve analyst and page/figure provenance, exact edition and measure numbering, identified parts, thematic identity, variant and coverage. Check both onset and final written release. A formal section, rhythmic cell, dynamic contour and complete subject are different objects and should remain visibly distinct.
 
-My recommended first research-to-diagram batch is **Duo 37, Mikrokosmos 141, Quartet 5/I and MSPC I/III**, followed by **Webern op. 21/II and Ligeti’s Automne à Varsovie**. CRIM is the strongest parallel route for importing pre-existing analysis at scale. These are proposals; this research update adds no new viewer entries or timing maps.
+The first three Bartók implementations are now identified above. The next recommended research-to-diagram batch is **MSPC I/III**, followed by **Webern op. 21/II and Ligeti’s Automne à Varsovie**. CRIM is the strongest parallel route for importing pre-existing analysis at scale. These later candidates remain proposals.
 
 Listening links above are candidates tied to named works/performers. Existing pieces awaiting manual synchronization remain in the separate [manual timing checklist](manual-timing.md). Future research candidates should enter that checklist only after their score diagrams and specific recordings have been selected.

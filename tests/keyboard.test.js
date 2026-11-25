@@ -10,7 +10,7 @@ import * as playback from '../src/player.js';
 const app = (await readFile(new URL('../src/app.js', import.meta.url), 'utf8'))
   .replace(/^import .*;\n/gm, '');
 
-function environment({ recordings } = {}) {
+function environment({ recordings, analysis } = {}) {
   const elements = new Map(), listeners = new Map(), players = [];
   const document = {};
   class Element {
@@ -71,6 +71,7 @@ function environment({ recordings } = {}) {
     } }],
   };
   if (recordings !== undefined) piece.recordings = recordings;
+  if (analysis !== undefined) piece.analysis = analysis;
   const sandbox = vm.createContext({
     ...model, ...playback, SegmentPlayer: Player, document,
     window: { addEventListener() {} }, location,
@@ -221,4 +222,22 @@ test('local JSON imports preserve untimed playback and analytical coverage in th
   assert.match(label,/Exposition excerpt/);
   assert.match(label,/Manual timing needed/);
   assert.equal(env.element('play-entry').disabled,true);
+});
+
+test('formal outlines identify thematic rows and keep untimed blocks inspectable', () => {
+  const env=environment({
+    analysis:{kind:'editorial',coverage:'formal-outline',description:'Composer-defined thematic regions.'},
+    recordings:[{id:'untimed',title:'Performance',youtubeId:'abcdefghijk',alignment:{status:'unavailable',anchors:[]}}],
+  });
+  const nodes=[];
+  const walk=node=>{nodes.push(node);(node.children||[]).forEach(walk);};
+  walk(env.render());
+  assert.ok(nodes.some(node=>node.textContent==='Thematic form'));
+  assert.ok(nodes.some(node=>node.textContent==='1 thematic row'));
+  assert.ok(!nodes.some(node=>node.textContent==='1 voice'));
+  assert.match(nodes.find(node=>node.className==='diagram-note').textContent,/Blocks show formal regions/);
+  assert.ok(nodes.some(node=>node.className==='entry'));
+  env.select();
+  assert.equal(env.element('play-entry').disabled,true);
+  assert.equal(env.players.length,0);
 });
