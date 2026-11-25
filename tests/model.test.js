@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
-import { validatePiece, qPerBar, measureCount, formatPosition, formatTime, safeUrl, themeColor, PALETTE } from '../src/model.js';
+import { validatePiece, qPerBar, measureCount, measureAtIndex, formatPosition, formatTime, safeUrl, themeColor, PALETTE } from '../src/model.js';
 import { getClipBounds } from '../src/player.js';
 
 function fixture() {
@@ -61,6 +61,34 @@ test('display timestamps carry rounded seconds into the next minute', () => {
   assert.equal(formatTime(59.96), '1:00.0');
   assert.equal(formatTime(119.96), '2:00.0');
   assert.equal(formatTime(NaN), '—');
+});
+
+test('explicit measure maps retain pickups and changing meter without shifting entries', () => {
+  const piece = fixture();
+  piece.totalBeats = 9;
+  piece.measures = [
+    { number: 0, start: 0, end: 2, meter: { beats: 4, unit: 4 } },
+    { number: 1, start: 2, end: 6, meter: { beats: 4, unit: 4 } },
+    { number: 2, start: 6, end: 9, meter: { beats: 6, unit: 8 } },
+  ];
+  assert.equal(validatePiece(piece), piece);
+  assert.equal(measureCount(piece), 3);
+  assert.equal(measureAtIndex(piece, 1).start, 2);
+  assert.equal(formatPosition(piece, 0), 'm. 0, beat 1');
+  assert.equal(formatPosition(piece, 2), 'm. 1, beat 1');
+  assert.equal(formatPosition(piece, 6.5), 'm. 2, beat 2');
+  assert.equal(formatPosition(piece, 9), 'end of m. 2');
+  for (const mutate of [
+    p => { p.measures = []; },
+    p => { p.measures[0].start = 1; },
+    p => { p.measures[1].start = 3; },
+    p => { p.measures[1].number = 0; },
+    p => { p.measures[2].end = 10; },
+    p => { p.measures[2].meter.unit = 7; },
+  ]) {
+    const invalid = structuredClone(piece); mutate(invalid);
+    assert.throws(() => validatePiece(invalid), /Invalid piece:/);
+  }
 });
 
 test('piece validation allows score preroll and pieces with no linked recording', () => {

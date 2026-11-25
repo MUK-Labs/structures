@@ -1,4 +1,4 @@
-import { validatePiece, themeColor, qPerBar, measureCount, formatPosition, formatTime, safeUrl } from './model.js';
+import { validatePiece, themeColor, qPerBar, measureCount, measureAtIndex, formatPosition, formatTime, safeUrl } from './model.js';
 import { SegmentPlayer, getClipBounds } from './player.js';
 
 const $ = id => document.getElementById(id);
@@ -86,7 +86,7 @@ function refreshRecording() {
   const url = recording ? `https://www.youtube.com/watch?v=${encodeURIComponent(recording.youtubeId)}${bounds ? `&t=${Math.floor(bounds.startSeconds)}s` : ''}` : null;
   $('youtube-link').hidden = !url;
   if (url) $('youtube-link').href = url;
-  if (!bounds) $('player-status').textContent = recording ? 'This entry extends beyond the available recording alignment. You can still open the recording on YouTube.' : 'This piece has no linked recording.';
+  if (!bounds) $('player-status').textContent = recording ? 'This entry extends beyond the available recording alignment. You can still open the recording on YouTube.' : 'Analysis only: no verified recording timing is available for this piece yet.';
 }
 function showTooltip(button, piece, entry) {
   const tooltip = $('theme-tooltip'), theme = piece.themes.find(t => t.id === entry.theme);
@@ -123,7 +123,7 @@ function renderPiece(piece, index) {
   const head=node('div','piece-head'), titleGroup=node('div');
   titleGroup.append(node('p','composer-line',piece.composer), node('h1','',piece.title));
   const meta=node('div','piece-meta');
-  [piece.subtitle, piece.form, `${piece.voices.length} voices`, `${measureCount(piece)} bars`].filter(Boolean).forEach(v=>meta.append(node('span','',v)));
+  [piece.subtitle, piece.form, `${piece.voices.length} voices`, `${measureCount(piece)} bars`, !piece.recordings.length?'Analysis only':null].filter(Boolean).forEach(v=>meta.append(node('span','',v)));
   titleGroup.append(meta); head.append(titleGroup);
   if(index){const remove=node('button','remove-compare','Remove');remove.type='button';remove.addEventListener('click',()=>removeComparison(piece.id));head.append(remove);}
   card.append(head);
@@ -139,10 +139,11 @@ function renderPiece(piece, index) {
   const axis=node('div','axis-row');axis.append(node('div','axis-label','Bar'));
   const axisTrack=node('div','axis-track'), step=tickStep(piece), bars=measureCount(piece);
   const ticks=[];for(let m=1;m<=bars;m+=step)ticks.push(m);if(bars-ticks.at(-1)>step*.65)ticks.push(bars);
-  ticks.forEach(m=>{const t=node('span','axis-tick',String(m));t.style.left=`${((m-1)*qPerBar(piece))/piece.totalBeats*100}%`;axisTrack.append(t);});axis.append(axisTrack);timeline.append(axis);
+  ticks.forEach(m=>{const measure=measureAtIndex(piece,m-1);const t=node('span','axis-tick',String(measure.number));t.style.left=`${measure.start/piece.totalBeats*100}%`;axisTrack.append(t);});axis.append(axisTrack);timeline.append(axis);
   for(const voice of piece.voices){
     const row=node('div','voice-row');row.append(node('div','voice-label',voice.label));
     const track=node('div','voice-track');track.style.setProperty('--grid-size',`${qPerBar(piece)*step/piece.totalBeats*100}%`);
+    if(piece.measures){track.style.background='none';for(const m of ticks){const line=node('span','measure-grid');line.style.left=`${measureAtIndex(piece,m-1).start/piece.totalBeats*100}%`;track.append(line);}}
     const voiceEntries=piece.entries.filter(e=>e.voice===voice.id).sort((a,b)=>a.start-b.start||a.end-b.end), laneEnds=[], lanes=new Map();
     for(const e of voiceEntries){let lane=laneEnds.findIndex(end=>end<=e.start+1e-7);if(lane===-1)lane=laneEnds.length;laneEnds[lane]=e.end;lanes.set(e.id,lane);}
     if(laneEnds.length>1){row.style.minHeight=track.style.minHeight=`${laneEnds.length*38+24}px`;}
@@ -192,7 +193,7 @@ function renderSources(){
   }
   content.append(node('p','','Analytical labels reflect the cited source. The notation preview is the first occurrence of the theme; it does not automatically change to match the clicked entry’s transposition or transformation. YouTube clips play the whole texture, with timing interpolated between the source’s synchronization anchors.'));
 }
-function catalogLabel(item){return `${item.composer.replace('Johann Sebastian ','J. S. ')} · ${item.title}${item.subtitle?` · ${item.subtitle}`:''}`;}
+function catalogLabel(item){return `${item.composer.replace('Johann Sebastian ','J. S. ')} · ${item.title}${item.subtitle?` · ${item.subtitle}`:''}${item.playback==='analysis-only'?' · Analysis only':''}`;}
 function fillSelects(){
   $('piece-select').replaceChildren(...state.catalog.map(item=>{const o=node('option','',catalogLabel(item));o.value=item.id;return o;}));
   $('piece-select').value=state.pieces[0]?.id||'';
@@ -214,7 +215,27 @@ async function switchPiece(id){
 async function addComparison(){const id=$('compare-select').value;if(!id||state.pieces.length>=3)return;const loadToken=state.loadToken,compareToken=state.compareToken;try{status('Loading comparison…');const piece=await loadPiece(id);if(loadToken!==state.loadToken||compareToken!==state.compareToken||$('compare-controls').hidden)return;if(state.pieces.some(p=>p.id===id)||state.pieces.length>=3){status();return;}state.pieces.push(piece);renderDiagrams();fillSelects();updateUrl();status();}catch(error){if(loadToken===state.loadToken&&compareToken===state.compareToken)status(error.message,true);}}
 function removeComparison(id){if(state.selected?.piece.id===id){stopPlayer();state.selected=null;selectEntry(state.pieces[0],state.pieces[0].entries[0],false,false);}state.pieces=state.pieces.filter(p=>p.id!==id);renderDiagrams();fillSelects();updateUrl();}
 function toggleComparison(show){if(!show){state.compareToken++;status();}$('compare-controls').hidden=!show;$('compare-toggle').setAttribute('aria-pressed',String(show));if(!show&&state.pieces.length>1){stopPlayer();state.pieces=state.pieces.slice(0,1);if(state.selected?.piece.id!==state.pieces[0].id)selectEntry(state.pieces[0],state.pieces[0].entries[0],false,false);renderDiagrams();fillSelects();updateUrl();}}
-function setPresentation(value){state.present=value;document.body.classList.toggle('presentation',value);$('present-toggle').setAttribute('aria-pressed',String(value));$('present-toggle').textContent=value?'Exit presentation':'Presentation';updateUrl();}
+function setPresentation(value){
+  const wasPresent=state.present;
+  state.present=value;
+  hideTooltip();
+  document.body.classList.toggle('presentation',value);
+  $('present-toggle').setAttribute('aria-pressed',String(value));
+  $('present-toggle').textContent=value?'Exit presentation':'Presentation';
+  // Keep the mounted iframe and its timing callbacks alive while excluding
+  // off-slide controls from keyboard navigation and assistive technology.
+  const listeningPanel=document.querySelector('.listening-panel');
+  listeningPanel.inert=value;
+  if(value)listeningPanel.setAttribute('aria-hidden','true');
+  else listeningPanel.removeAttribute('aria-hidden');
+  if(value){
+    $('diagrams').tabIndex=-1;
+    $('diagrams').focus({preventScroll:true});
+  }else if(wasPresent){
+    $('present-toggle').focus({preventScroll:true});
+  }
+  updateUrl();
+}
 function updateUrl(){
   if(!state.pieces.length)return;const url=new URL(location.href);url.search='';url.searchParams.set('piece',state.pieces[0].id);
   if(state.pieces.length>1)url.searchParams.set('compare',state.pieces.slice(1).map(p=>p.id).join(','));
@@ -241,7 +262,7 @@ $('import-file').addEventListener('change',async event=>{
 });
 document.addEventListener('keydown',event=>{
   if(event.key==='Escape'){hideTooltip();if(!$('about-dialog').open&&state.present)setPresentation(false);return;}
-  if(event.code==='Space'&&!event.repeat&&!$('about-dialog').open&&!event.target.closest('button,input,select,textarea,a')){event.preventDefault();if(state.playing)state.player?.pause();else if(!$('play-entry').disabled)void playSelected();}
+  if(event.code==='Space'&&!event.repeat&&!$('about-dialog').open&&(event.target.closest('.entry')||!event.target.closest('button,input,select,textarea,a'))){event.preventDefault();if(state.playing||state.player?.state==='loading')state.player?.pause();else if(!$('play-entry').disabled)void playSelected();}
 });
 window.addEventListener('scroll',hideTooltip,{passive:true});
 window.addEventListener('pagehide',()=>{state.player?.destroy();state.player=null;state.playing=false;});
@@ -255,7 +276,7 @@ async function init(){
     state.pieces=await Promise.all(ids.map(loadPiece));fillSelects();renderDiagrams();if(state.pieces.length>1)toggleComparison(true);
     const selectedPiece=state.pieces.find(p=>p.id===params.get('entryPiece'))||state.pieces[0];
     const entry=selectedPiece.entries.find(e=>e.id===params.get('entry'))||selectedPiece.entries[0];if(entry)selectEntry(selectedPiece,entry,false,false);
-    state.present=params.get('view')==='slides';setPresentation(state.present);
+    setPresentation(params.get('view')==='slides');
     document.title=`${state.pieces[0].title} — Structures`;status(requested&&requested!==first?'That piece is not in this collection. Showing the C-minor fugue.':'');
   }catch(error){status(error.message,true);$('piece-select').replaceChildren(node('option','','Collection unavailable'));}
 }

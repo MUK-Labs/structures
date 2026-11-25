@@ -1,0 +1,2033 @@
+{
+  "schemaVersion": 1,
+  "id": "shostakovich-op87-05",
+  "title": "Fugue No. 5 in D major",
+  "composer": "Dmitri Shostakovich",
+  "subtitle": "24 Preludes and Fugues, Op. 87",
+  "form": "Fugue",
+  "key": "D major",
+  "totalBeats": 296.0,
+  "meter": {
+    "beats": 2,
+    "unit": 4
+  },
+  "measures": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 2.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 2,
+      "start": 2.0,
+      "end": 4.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 3,
+      "start": 4.0,
+      "end": 6.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 4,
+      "start": 6.0,
+      "end": 8.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 5,
+      "start": 8.0,
+      "end": 10.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 6,
+      "start": 10.0,
+      "end": 12.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 7,
+      "start": 12.0,
+      "end": 14.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 8,
+      "start": 14.0,
+      "end": 16.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 9,
+      "start": 16.0,
+      "end": 18.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 10,
+      "start": 18.0,
+      "end": 20.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 11,
+      "start": 20.0,
+      "end": 22.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 12,
+      "start": 22.0,
+      "end": 24.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 13,
+      "start": 24.0,
+      "end": 26.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 14,
+      "start": 26.0,
+      "end": 28.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 15,
+      "start": 28.0,
+      "end": 30.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 16,
+      "start": 30.0,
+      "end": 32.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 17,
+      "start": 32.0,
+      "end": 34.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 18,
+      "start": 34.0,
+      "end": 36.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 19,
+      "start": 36.0,
+      "end": 38.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 20,
+      "start": 38.0,
+      "end": 40.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 21,
+      "start": 40.0,
+      "end": 42.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 22,
+      "start": 42.0,
+      "end": 44.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 23,
+      "start": 44.0,
+      "end": 46.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 24,
+      "start": 46.0,
+      "end": 48.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 25,
+      "start": 48.0,
+      "end": 50.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 26,
+      "start": 50.0,
+      "end": 52.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 27,
+      "start": 52.0,
+      "end": 54.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 28,
+      "start": 54.0,
+      "end": 56.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 29,
+      "start": 56.0,
+      "end": 58.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 30,
+      "start": 58.0,
+      "end": 60.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 31,
+      "start": 60.0,
+      "end": 62.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 32,
+      "start": 62.0,
+      "end": 64.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 33,
+      "start": 64.0,
+      "end": 66.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 34,
+      "start": 66.0,
+      "end": 68.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 35,
+      "start": 68.0,
+      "end": 70.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 36,
+      "start": 70.0,
+      "end": 72.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 37,
+      "start": 72.0,
+      "end": 74.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 38,
+      "start": 74.0,
+      "end": 76.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 39,
+      "start": 76.0,
+      "end": 78.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 40,
+      "start": 78.0,
+      "end": 80.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 41,
+      "start": 80.0,
+      "end": 82.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 42,
+      "start": 82.0,
+      "end": 84.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 43,
+      "start": 84.0,
+      "end": 86.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 44,
+      "start": 86.0,
+      "end": 88.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 45,
+      "start": 88.0,
+      "end": 90.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 46,
+      "start": 90.0,
+      "end": 92.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 47,
+      "start": 92.0,
+      "end": 94.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 48,
+      "start": 94.0,
+      "end": 96.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 49,
+      "start": 96.0,
+      "end": 98.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 50,
+      "start": 98.0,
+      "end": 100.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 51,
+      "start": 100.0,
+      "end": 102.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 52,
+      "start": 102.0,
+      "end": 104.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 53,
+      "start": 104.0,
+      "end": 106.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 54,
+      "start": 106.0,
+      "end": 108.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 55,
+      "start": 108.0,
+      "end": 110.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 56,
+      "start": 110.0,
+      "end": 112.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 57,
+      "start": 112.0,
+      "end": 114.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 58,
+      "start": 114.0,
+      "end": 116.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 59,
+      "start": 116.0,
+      "end": 118.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 60,
+      "start": 118.0,
+      "end": 120.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 61,
+      "start": 120.0,
+      "end": 122.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 62,
+      "start": 122.0,
+      "end": 124.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 63,
+      "start": 124.0,
+      "end": 126.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 64,
+      "start": 126.0,
+      "end": 128.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 65,
+      "start": 128.0,
+      "end": 130.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 66,
+      "start": 130.0,
+      "end": 132.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 67,
+      "start": 132.0,
+      "end": 134.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 68,
+      "start": 134.0,
+      "end": 136.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 69,
+      "start": 136.0,
+      "end": 138.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 70,
+      "start": 138.0,
+      "end": 140.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 71,
+      "start": 140.0,
+      "end": 142.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 72,
+      "start": 142.0,
+      "end": 144.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 73,
+      "start": 144.0,
+      "end": 146.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 74,
+      "start": 146.0,
+      "end": 148.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 75,
+      "start": 148.0,
+      "end": 150.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 76,
+      "start": 150.0,
+      "end": 152.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 77,
+      "start": 152.0,
+      "end": 154.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 78,
+      "start": 154.0,
+      "end": 156.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 79,
+      "start": 156.0,
+      "end": 158.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 80,
+      "start": 158.0,
+      "end": 160.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 81,
+      "start": 160.0,
+      "end": 162.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 82,
+      "start": 162.0,
+      "end": 164.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 83,
+      "start": 164.0,
+      "end": 166.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 84,
+      "start": 166.0,
+      "end": 168.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 85,
+      "start": 168.0,
+      "end": 170.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 86,
+      "start": 170.0,
+      "end": 172.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 87,
+      "start": 172.0,
+      "end": 174.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 88,
+      "start": 174.0,
+      "end": 176.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 89,
+      "start": 176.0,
+      "end": 178.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 90,
+      "start": 178.0,
+      "end": 180.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 91,
+      "start": 180.0,
+      "end": 182.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 92,
+      "start": 182.0,
+      "end": 184.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 93,
+      "start": 184.0,
+      "end": 186.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 94,
+      "start": 186.0,
+      "end": 188.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 95,
+      "start": 188.0,
+      "end": 190.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 96,
+      "start": 190.0,
+      "end": 192.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 97,
+      "start": 192.0,
+      "end": 194.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 98,
+      "start": 194.0,
+      "end": 196.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 99,
+      "start": 196.0,
+      "end": 198.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 100,
+      "start": 198.0,
+      "end": 200.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 101,
+      "start": 200.0,
+      "end": 202.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 102,
+      "start": 202.0,
+      "end": 204.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 103,
+      "start": 204.0,
+      "end": 206.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 104,
+      "start": 206.0,
+      "end": 208.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 105,
+      "start": 208.0,
+      "end": 210.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 106,
+      "start": 210.0,
+      "end": 212.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 107,
+      "start": 212.0,
+      "end": 214.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 108,
+      "start": 214.0,
+      "end": 216.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 109,
+      "start": 216.0,
+      "end": 218.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 110,
+      "start": 218.0,
+      "end": 220.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 111,
+      "start": 220.0,
+      "end": 222.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 112,
+      "start": 222.0,
+      "end": 224.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 113,
+      "start": 224.0,
+      "end": 226.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 114,
+      "start": 226.0,
+      "end": 228.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 115,
+      "start": 228.0,
+      "end": 230.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 116,
+      "start": 230.0,
+      "end": 232.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 117,
+      "start": 232.0,
+      "end": 234.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 118,
+      "start": 234.0,
+      "end": 236.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 119,
+      "start": 236.0,
+      "end": 238.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 120,
+      "start": 238.0,
+      "end": 240.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 121,
+      "start": 240.0,
+      "end": 242.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 122,
+      "start": 242.0,
+      "end": 244.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 123,
+      "start": 244.0,
+      "end": 246.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 124,
+      "start": 246.0,
+      "end": 248.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 125,
+      "start": 248.0,
+      "end": 250.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 126,
+      "start": 250.0,
+      "end": 252.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 127,
+      "start": 252.0,
+      "end": 254.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 128,
+      "start": 254.0,
+      "end": 256.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 129,
+      "start": 256.0,
+      "end": 258.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 130,
+      "start": 258.0,
+      "end": 260.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 131,
+      "start": 260.0,
+      "end": 262.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 132,
+      "start": 262.0,
+      "end": 264.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 133,
+      "start": 264.0,
+      "end": 266.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 134,
+      "start": 266.0,
+      "end": 268.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 135,
+      "start": 268.0,
+      "end": 270.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 136,
+      "start": 270.0,
+      "end": 272.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 137,
+      "start": 272.0,
+      "end": 274.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 138,
+      "start": 274.0,
+      "end": 276.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 139,
+      "start": 276.0,
+      "end": 278.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 140,
+      "start": 278.0,
+      "end": 280.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 141,
+      "start": 280.0,
+      "end": 282.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 142,
+      "start": 282.0,
+      "end": 284.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 143,
+      "start": 284.0,
+      "end": 286.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 144,
+      "start": 286.0,
+      "end": 288.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 145,
+      "start": 288.0,
+      "end": 290.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 146,
+      "start": 290.0,
+      "end": 292.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 147,
+      "start": 292.0,
+      "end": 294.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    },
+    {
+      "number": 148,
+      "start": 294.0,
+      "end": 296.0,
+      "meter": {
+        "beats": 2,
+        "unit": 4
+      }
+    }
+  ],
+  "voices": [
+    {
+      "id": "voice-s",
+      "label": "Upper"
+    },
+    {
+      "id": "voice-a",
+      "label": "Middle"
+    },
+    {
+      "id": "voice-t",
+      "label": "Lower"
+    }
+  ],
+  "themes": [
+    {
+      "id": "subject",
+      "label": "Subject",
+      "color": "#3263b9",
+      "previewSvg": "<svg viewBox=\"0 0 319 87\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"o2e97ju\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"E050-o2e97ju\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"E262-o2e97ju\"><path transform=\"scale(1,-1)\" d=\"M136 186v169h17v-164l44 14v-91l-44 -14v-165l44 12v-91l-44 -13v-155h-17v150l-76 -22v-155h-17v149l-43 -13v90l43 14v167l-43 -14v92l43 13v169h17v-163zM60 73v-167l76 22v168z\"/></g><g id=\"E082-o2e97ju\"><path transform=\"scale(1,-1)\" d=\"M124 -185c-18 0 -55 -14 -65 -65h-36l-3 30c0 25 6 45 18 63c11 19 22 30 39 43l121 82l37 29c15 11 27 29 38 54c12 24 18 47 18 70c0 40 -19 88 -94 88c-25 0 -32 0 -50 -8c-14 -5 -23 -12 -26 -22c3 -9 7 -15 10 -18l24 -17c12 -7 17 -11 27 -21c5 -7 7 -16 7 -27 c0 -12 0 -57 -79 -74c-30 0 -76 26 -76 94c0 66 81 135 197 135c72 0 181 -32 181 -150c0 -53 -32 -95 -113 -133l-91 -41c-26 -11 -45 -23 -57 -37l49 7c84 0 115 -41 148 -41c20 0 33 20 39 61h35c0 -152 -68 -168 -114 -168c-17 0 -65 0 -79 7h10l-28 17 c-49 37 -69 40 -87 42z\"/></g><g id=\"E084-o2e97ju\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"E0A4-o2e97ju\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g><g id=\"E242-o2e97ju\"><path transform=\"scale(1,-1)\" d=\"M206 -748c32 48 49 100 49 149c0 89 -55 168 -168 203c-18 5 -47 9 -87 16v190v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -32 -7 -65 -17 -96c11 -29 17 -60 17 -94c0 -71 -32 -148 -67 -190c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 6 8 11 16zM248 -463c4 18 7 38 7 57c0 105 -80 173 -168 200c-11 3 -27 6 -47 9c9 -17 23 -61 53 -88c4 -3 -2 3 61 -56c36 -33 71 -74 94 -122z\"/></g><g id=\"E4E7-o2e97ju\"><path transform=\"scale(1,-1)\" d=\"M133 -111c0 -33 -21 -50 -52 -55c10 -3 18 -4 25 -4c40 0 69 24 90 47l66 197c-36 -18 -64 -25 -112 -25c-23 0 -38 3 -45 8c-37 7 -55 27 -55 59c8 35 30 54 68 58c45 -6 49 -13 64 -48c0 -3 1 -5 1 -7c0 -27 -25 -46 -52 -49c6 -4 15 -6 26 -6c32 2 62 14 88 29 c32 19 44 36 59 71l7 1l10 2h4c-72 -220 -143 -439 -215 -659h-37l108 324c-20 -13 -51 -20 -82 -20c-21 0 -35 4 -43 10c-37 6 -55 26 -55 58c8 35 31 56 68 60c43 -8 48 -13 64 -51z\"/></g><g id=\"E4E5-o2e97ju\"><path transform=\"scale(1,-1)\" d=\"M107 292c-13 24 -30 49 -52 71c-1 1 0 2 0 3l-2 2c3 3 4 4 6 4c12 0 26 -7 40 -20s44 -40 89 -81c26 -24 28 -29 46 -47c4 -4 8 -9 10 -14c6 -8 8 -16 8 -27c0 -19 -12 -40 -36 -61c-28 -23 -49 -38 -61 -73c-4 -11 -7 -27 -10 -50c13 -43 34 -83 59 -121 c31 -47 59 -79 101 -129c-8 0 -26 7 -54 20l-62 29l-21 6l-23 1c-25 0 -45 -10 -60 -30l-4 -14l-1 -12c0 -33 20 -56 39 -78c8 -9 17 -18 26 -26c17 -15 27 -24 28 -30l-3 -3c-11 5 -19 10 -25 15c-9 3 -37 21 -45 26c-24 14 -45 32 -63 51c-19 21 -37 44 -37 71 c0 63 27 95 80 95c41 0 86 -18 136 -52c-19 26 -37 48 -55 66c-23 23 -48 44 -73 65c-28 23 -47 40 -58 53s-17 26 -18 39c75 64 113 125 113 183c0 27 -7 48 -18 68z\"/></g></defs><style type=\"text/css\">#o2e97ju g.ending, #o2e97ju g.fing, #o2e97ju g.reh, #o2e97ju g.tempo {font-weight:bold;}#o2e97ju g.dir, #o2e97ju g.dynam, #o2e97ju g.mNum {font-style:italic;}#o2e97ju g.label {font-weight:normal;}#o2e97ju ellipse, #o2e97ju path, #o2e97ju polygon, #o2e97ju polyline, #o2e97ju rect {stroke:currentColor}#o2e97ju g.cursor {fill:dodgerblue; color:dodgerblue;}#o2e97ju g.cursor.chord {fill:limegreen; color:limegreen;}#o2e97ju g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 7960 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"y1m2ralj\" class=\"mdiv pageMilestone\"/><g id=\"z1oa03h3\" class=\"score pageMilestone\"/><g id=\"d1ft92j8\" class=\"system\"><g id=\"bor5yhj\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"x1gd8e22\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"o1emme61\" class=\"measure\"><g id=\"x1hojb6s\" class=\"staff\"><path d=\"M0 540 L5096 540\" stroke-width=\"13\"/><path d=\"M0 720 L5096 720\" stroke-width=\"13\"/><path d=\"M0 900 L5096 900\" stroke-width=\"13\"/><path d=\"M0 1080 L5096 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L5096 1260\" stroke-width=\"13\"/><g id=\"p4esy33\" class=\"clef\"><use xlink:href=\"#E050-o2e97ju\" transform=\"translate(90, 1080) scale(0.72, 0.72)\"/></g><g id=\"qlqe07n\" class=\"keySig\"><g id=\"rai7eh5\" class=\"keyAccid\"><use xlink:href=\"#E262-o2e97ju\" transform=\"translate(735, 540) scale(0.72, 0.72)\"/></g><g id=\"s14hnbf3\" class=\"keyAccid\"><use xlink:href=\"#E262-o2e97ju\" transform=\"translate(913, 810) scale(0.72, 0.72)\"/></g></g><g id=\"tfi3rsn\" class=\"meterSig\"><use xlink:href=\"#E082-o2e97ju\" transform=\"translate(1220, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#E084-o2e97ju\" transform=\"translate(1225, 1080) scale(0.72, 0.72)\"/></g><g id=\"yu8pmjc\" class=\"layer\"><g id=\"z7dhba0\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o2e97ju\" transform=\"translate(1793, 990) scale(0.72, 0.72)\"/></g><g id=\"qsfg9k8\" class=\"stem\"><path d=\"M2010 962 L2010 360\" stroke-width=\"18\"/><g id=\"ruk4bw6\" class=\"flag\"><use xlink:href=\"#E242-o2e97ju\" transform=\"translate(2001, 360) scale(0.72, 0.72)\"/></g></g></g><g id=\"aa1jt5p\" class=\"rest\"><use xlink:href=\"#E4E7-o2e97ju\" transform=\"translate(2289, 900) scale(0.72, 0.72)\"/></g><g id=\"b1khk1zl\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o2e97ju\" transform=\"translate(2612, 990) scale(0.72, 0.72)\"/></g><g id=\"s1q3ey4o\" class=\"stem\"><path d=\"M2829 962 L2829 360\" stroke-width=\"18\"/><g id=\"t103d1ly\" class=\"flag\"><use xlink:href=\"#E242-o2e97ju\" transform=\"translate(2820, 360) scale(0.72, 0.72)\"/></g></g></g><g id=\"cp2nahi\" class=\"rest\"><use xlink:href=\"#E4E7-o2e97ju\" transform=\"translate(3108, 900) scale(0.72, 0.72)\"/></g><g id=\"d1davwbf\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o2e97ju\" transform=\"translate(3431, 990) scale(0.72, 0.72)\"/></g><g id=\"u1contl6\" class=\"stem\"><path d=\"M3648 962 L3648 360\" stroke-width=\"18\"/><g id=\"v162hkfz\" class=\"flag\"><use xlink:href=\"#E242-o2e97ju\" transform=\"translate(3639, 360) scale(0.72, 0.72)\"/></g></g></g><g id=\"esge06p\" class=\"rest\"><use xlink:href=\"#E4E7-o2e97ju\" transform=\"translate(3927, 900) scale(0.72, 0.72)\"/></g><g id=\"f18sk1lx\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o2e97ju\" transform=\"translate(4250, 990) scale(0.72, 0.72)\"/></g><g id=\"w154rrjz\" class=\"stem\"><path d=\"M4467 962 L4467 360\" stroke-width=\"18\"/><g id=\"x1rd6kfi\" class=\"flag\"><use xlink:href=\"#E242-o2e97ju\" transform=\"translate(4458, 360) scale(0.72, 0.72)\"/></g></g></g><g id=\"gsheh16\" class=\"rest\"><use xlink:href=\"#E4E7-o2e97ju\" transform=\"translate(4746, 900) scale(0.72, 0.72)\"/></g></g></g><g id=\"w6p267v\" class=\"barLine\"><path d=\"M5083 540 L5083 1260\" stroke-width=\"27\"/></g></g><g id=\"h4oedan\" class=\"measure\"><g id=\"q1u7zlnl\" class=\"staff\"><path d=\"M5096 540 L7608 540\" stroke-width=\"13\"/><path d=\"M5096 720 L7608 720\" stroke-width=\"13\"/><path d=\"M5096 900 L7608 900\" stroke-width=\"13\"/><path d=\"M5096 1080 L7608 1080\" stroke-width=\"13\"/><path d=\"M5096 1260 L7608 1260\" stroke-width=\"13\"/><g id=\"r1pda5p3\" class=\"layer\"><g id=\"sfhzgup\" class=\"rest\"><use xlink:href=\"#E4E5-o2e97ju\" transform=\"translate(5276, 900) scale(0.72, 0.72)\"/></g><g id=\"tsqdlqg\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o2e97ju\" transform=\"translate(5966, 1350) scale(0.72, 0.72)\"/></g><g id=\"y15fryk9\" class=\"stem\"><path d=\"M6183 1322 L6183 720\" stroke-width=\"18\"/><g id=\"z1lls1jx\" class=\"flag\"><use xlink:href=\"#E242-o2e97ju\" transform=\"translate(6174, 720) scale(0.72, 0.72)\"/></g></g></g><g id=\"uk4hsuy\" class=\"rest\"><use xlink:href=\"#E4E7-o2e97ju\" transform=\"translate(6462, 900) scale(0.72, 0.72)\"/></g><g id=\"v1boaopt\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o2e97ju\" transform=\"translate(6762, 1350) scale(0.72, 0.72)\"/></g><g id=\"a1dqof8j\" class=\"stem\"><path d=\"M6979 1322 L6979 720\" stroke-width=\"18\"/><g id=\"b31tbmi\" class=\"flag\"><use xlink:href=\"#E242-o2e97ju\" transform=\"translate(6970, 720) scale(0.72, 0.72)\"/></g></g></g><g id=\"w18ct917\" class=\"rest\"><use xlink:href=\"#E4E7-o2e97ju\" transform=\"translate(7258, 900) scale(0.72, 0.72)\"/></g></g></g><g id=\"pxkebn8\" class=\"barLine\"><path d=\"M7595 540 L7595 1260\" stroke-width=\"27\"/></g></g><g id=\"g887198\" class=\"systemMilestoneEnd x1gd8e22\"/><g id=\"hi94fr5\" class=\"systemMilestoneEnd bor5yhj\"/></g><g id=\"i36ws9q\" class=\"pageMilestoneEnd z1oa03h3\"/><g id=\"jtx3c4z\" class=\"pageMilestoneEnd y1m2ralj\"/></g></svg></svg>",
+      "previewCaption": "Opening excerpt of the first occurrence · engraved from quantized MIDI; spelling and articulation may differ from the printed score.",
+      "previewSource": {
+        "url": "https://kunstderfuge.com/-/mid.files/shostakovich/preludes_and_fugues_87_05b_(c)marques.mid",
+        "author": "Dmitri Shostakovich; MIDI encoding by José Oscar de Almeida Marques (2002)",
+        "voice": 2,
+        "start": 0.0,
+        "end": 4.0,
+        "license": "Underlying composition and MIDI encoding retain their respective rights; preview excluded from the annotation database license."
+      }
+    },
+    {
+      "id": "countersubject-1",
+      "label": "Countersubject 1",
+      "color": "#ba5c38",
+      "previewSvg": "<svg viewBox=\"0 0 205 90\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"isf1t17\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"E050-isf1t17\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"E262-isf1t17\"><path transform=\"scale(1,-1)\" d=\"M136 186v169h17v-164l44 14v-91l-44 -14v-165l44 12v-91l-44 -13v-155h-17v150l-76 -22v-155h-17v149l-43 -13v90l43 14v167l-43 -14v92l43 13v169h17v-163zM60 73v-167l76 22v168z\"/></g><g id=\"E082-isf1t17\"><path transform=\"scale(1,-1)\" d=\"M124 -185c-18 0 -55 -14 -65 -65h-36l-3 30c0 25 6 45 18 63c11 19 22 30 39 43l121 82l37 29c15 11 27 29 38 54c12 24 18 47 18 70c0 40 -19 88 -94 88c-25 0 -32 0 -50 -8c-14 -5 -23 -12 -26 -22c3 -9 7 -15 10 -18l24 -17c12 -7 17 -11 27 -21c5 -7 7 -16 7 -27 c0 -12 0 -57 -79 -74c-30 0 -76 26 -76 94c0 66 81 135 197 135c72 0 181 -32 181 -150c0 -53 -32 -95 -113 -133l-91 -41c-26 -11 -45 -23 -57 -37l49 7c84 0 115 -41 148 -41c20 0 33 20 39 61h35c0 -152 -68 -168 -114 -168c-17 0 -65 0 -79 7h10l-28 17 c-49 37 -69 40 -87 42z\"/></g><g id=\"E084-isf1t17\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"E0A4-isf1t17\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g></defs><style type=\"text/css\">#isf1t17 g.ending, #isf1t17 g.fing, #isf1t17 g.reh, #isf1t17 g.tempo {font-weight:bold;}#isf1t17 g.dir, #isf1t17 g.dynam, #isf1t17 g.mNum {font-style:italic;}#isf1t17 g.label {font-weight:normal;}#isf1t17 ellipse, #isf1t17 path, #isf1t17 polygon, #isf1t17 polyline, #isf1t17 rect {stroke:currentColor}#isf1t17 g.cursor {fill:dodgerblue; color:dodgerblue;}#isf1t17 g.cursor.chord {fill:limegreen; color:limegreen;}#isf1t17 g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 5110 2250\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"s1qsw159\" class=\"mdiv pageMilestone\"/><g id=\"t1y2vwb3\" class=\"score pageMilestone\"/><g id=\"q1a1deuo\" class=\"system\"><g id=\"va9c4s8\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"k15zk5zr\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"io6l4rj\" class=\"measure\"><g id=\"xnmdt42\" class=\"mNum autogenerated\"><text y=\"297\" text-anchor=\"middle\" font-size=\"0px\"><tspan id=\"y11kimwo\" class=\"text\"><tspan font-size=\"324px\">8</tspan></tspan></text></g><g id=\"r1n0mzyg\" class=\"staff\"><path d=\"M0 540 L3186 540\" stroke-width=\"13\"/><path d=\"M0 720 L3186 720\" stroke-width=\"13\"/><path d=\"M0 900 L3186 900\" stroke-width=\"13\"/><path d=\"M0 1080 L3186 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L3186 1260\" stroke-width=\"13\"/><g id=\"u1557rga\" class=\"clef\"><use xlink:href=\"#E050-isf1t17\" transform=\"translate(90, 1080) scale(0.72, 0.72)\"/></g><g id=\"v1qgglui\" class=\"keySig\"><g id=\"w18wmg2s\" class=\"keyAccid\"><use xlink:href=\"#E262-isf1t17\" transform=\"translate(735, 540) scale(0.72, 0.72)\"/></g><g id=\"x11f0h4r\" class=\"keyAccid\"><use xlink:href=\"#E262-isf1t17\" transform=\"translate(913, 810) scale(0.72, 0.72)\"/></g></g><g id=\"y1ahch0n\" class=\"meterSig\"><use xlink:href=\"#E082-isf1t17\" transform=\"translate(1220, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#E084-isf1t17\" transform=\"translate(1225, 1080) scale(0.72, 0.72)\"/></g><g class=\"ledgerLines below\"><path d=\"M1745 1440 L2067 1440\" stroke-width=\"22\"/><path d=\"M2435 1440 L2757 1440\" stroke-width=\"22\"/></g><g id=\"s580vtd\" class=\"layer\"><g id=\"tgkmzqm\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-isf1t17\" transform=\"translate(1793, 1440) scale(0.72, 0.72)\"/></g><g id=\"d6m43mk\" class=\"stem\"><path d=\"M2010 1412 L2010 810\" stroke-width=\"18\"/></g><g id=\"uwu6o14\" class=\"accid\"/></g><g id=\"vloeabz\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-isf1t17\" transform=\"translate(2483, 1530) scale(0.72, 0.72)\"/></g><g id=\"e1m8kgvw\" class=\"stem\"><path d=\"M2700 1502 L2700 900\" stroke-width=\"18\"/></g></g></g></g><g id=\"q16xcolc\" class=\"barLine\"><path d=\"M3173 540 L3173 1260\" stroke-width=\"27\"/></g></g><g id=\"w1jo5hs7\" class=\"measure\"><g id=\"f6meicd\" class=\"staff\"><path d=\"M3186 540 L4759 540\" stroke-width=\"13\"/><path d=\"M3186 720 L4759 720\" stroke-width=\"13\"/><path d=\"M3186 900 L4759 900\" stroke-width=\"13\"/><path d=\"M3186 1080 L4759 1080\" stroke-width=\"13\"/><path d=\"M3186 1260 L4759 1260\" stroke-width=\"13\"/><g class=\"ledgerLines below\"><path d=\"M3318 1440 L3640 1440\" stroke-width=\"22\"/><path d=\"M4008 1440 L4330 1440\" stroke-width=\"22\"/><path d=\"M3318 1620 L3640 1620\" stroke-width=\"22\"/><path d=\"M4008 1620 L4330 1620\" stroke-width=\"22\"/><path d=\"M4008 1800 L4330 1800\" stroke-width=\"22\"/></g><g id=\"giv6dyx\" class=\"layer\"><g id=\"h1b3wf5q\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-isf1t17\" transform=\"translate(3366, 1620) scale(0.72, 0.72)\"/></g><g id=\"felssmu\" class=\"stem\"><path d=\"M3583 1592 L3583 900\" stroke-width=\"18\"/></g></g><g id=\"i1qd8e6v\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-isf1t17\" transform=\"translate(4056, 1800) scale(0.72, 0.72)\"/></g><g id=\"g1icpafq\" class=\"stem\"><path d=\"M4273 1772 L4273 900\" stroke-width=\"18\"/></g><g id=\"jvy2hhc\" class=\"accid\"/></g></g></g><g id=\"evza7qo\" class=\"barLine\"><path d=\"M4746 540 L4746 1260\" stroke-width=\"27\"/></g></g><g id=\"t1w8r3y5\" class=\"systemMilestoneEnd k15zk5zr\"/><g id=\"u1mgmnpn\" class=\"systemMilestoneEnd va9c4s8\"/></g><g id=\"v1860ng7\" class=\"pageMilestoneEnd t1y2vwb3\"/><g id=\"wxx0xws\" class=\"pageMilestoneEnd s1qsw159\"/></g></svg></svg>",
+      "previewCaption": "Opening excerpt of the first occurrence · engraved from quantized MIDI; spelling and articulation may differ from the printed score.",
+      "previewSource": {
+        "url": "https://kunstderfuge.com/-/mid.files/shostakovich/preludes_and_fugues_87_05b_(c)marques.mid",
+        "author": "Dmitri Shostakovich; MIDI encoding by José Oscar de Almeida Marques (2002)",
+        "voice": 2,
+        "start": 14.0,
+        "end": 18.0,
+        "license": "Underlying composition and MIDI encoding retain their respective rights; preview excluded from the annotation database license."
+      }
+    },
+    {
+      "id": "countersubject-2",
+      "label": "Countersubject 2",
+      "color": "#45816e",
+      "previewSvg": "<svg viewBox=\"0 0 192 87\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"vyxr1uu\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"E050-vyxr1uu\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"E262-vyxr1uu\"><path transform=\"scale(1,-1)\" d=\"M136 186v169h17v-164l44 14v-91l-44 -14v-165l44 12v-91l-44 -13v-155h-17v150l-76 -22v-155h-17v149l-43 -13v90l43 14v167l-43 -14v92l43 13v169h17v-163zM60 73v-167l76 22v168z\"/></g><g id=\"E082-vyxr1uu\"><path transform=\"scale(1,-1)\" d=\"M124 -185c-18 0 -55 -14 -65 -65h-36l-3 30c0 25 6 45 18 63c11 19 22 30 39 43l121 82l37 29c15 11 27 29 38 54c12 24 18 47 18 70c0 40 -19 88 -94 88c-25 0 -32 0 -50 -8c-14 -5 -23 -12 -26 -22c3 -9 7 -15 10 -18l24 -17c12 -7 17 -11 27 -21c5 -7 7 -16 7 -27 c0 -12 0 -57 -79 -74c-30 0 -76 26 -76 94c0 66 81 135 197 135c72 0 181 -32 181 -150c0 -53 -32 -95 -113 -133l-91 -41c-26 -11 -45 -23 -57 -37l49 7c84 0 115 -41 148 -41c20 0 33 20 39 61h35c0 -152 -68 -168 -114 -168c-17 0 -65 0 -79 7h10l-28 17 c-49 37 -69 40 -87 42z\"/></g><g id=\"E084-vyxr1uu\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"E0A3-vyxr1uu\"><path transform=\"scale(1,-1)\" d=\"M278 64c0 22 -17 39 -43 39c-12 0 -26 -3 -41 -10c-85 -43 -165 -94 -165 -156c5 -25 15 -32 49 -32c67 11 200 95 200 159zM0 -36c0 68 73 174 200 174c66 0 114 -39 114 -97c0 -84 -106 -173 -218 -173c-64 0 -96 32 -96 96z\"/></g><g id=\"E0A4-vyxr1uu\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g></defs><style type=\"text/css\">#vyxr1uu g.ending, #vyxr1uu g.fing, #vyxr1uu g.reh, #vyxr1uu g.tempo {font-weight:bold;}#vyxr1uu g.dir, #vyxr1uu g.dynam, #vyxr1uu g.mNum {font-style:italic;}#vyxr1uu g.label {font-weight:normal;}#vyxr1uu ellipse, #vyxr1uu path, #vyxr1uu polygon, #vyxr1uu polyline, #vyxr1uu rect {stroke:currentColor}#vyxr1uu g.cursor {fill:dodgerblue; color:dodgerblue;}#vyxr1uu g.cursor.chord {fill:limegreen; color:limegreen;}#vyxr1uu g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 4780 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"fbxjyv9\" class=\"mdiv pageMilestone\"/><g id=\"g1n7u7c7\" class=\"score pageMilestone\"/><g id=\"c9hahbb\" class=\"system\"><g id=\"ixnnozn\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"w1eqynp2\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"v4w5ktw\" class=\"measure\"><g id=\"j1mpqxem\" class=\"mNum autogenerated\"><text y=\"297\" text-anchor=\"middle\" font-size=\"0px\"><tspan id=\"kkt60sc\" class=\"text\"><tspan font-size=\"324px\">19</tspan></tspan></text></g><g id=\"e1tt2xrg\" class=\"staff\"><path d=\"M0 540 L2856 540\" stroke-width=\"13\"/><path d=\"M0 720 L2856 720\" stroke-width=\"13\"/><path d=\"M0 900 L2856 900\" stroke-width=\"13\"/><path d=\"M0 1080 L2856 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L2856 1260\" stroke-width=\"13\"/><g id=\"f1egf7tb\" class=\"clef\"><use xlink:href=\"#E050-vyxr1uu\" transform=\"translate(90, 1080) scale(0.72, 0.72)\"/></g><g id=\"g1b4aiyq\" class=\"keySig\"><g id=\"h1ja0lo8\" class=\"keyAccid\"><use xlink:href=\"#E262-vyxr1uu\" transform=\"translate(735, 540) scale(0.72, 0.72)\"/></g><g id=\"i1r8asnu\" class=\"keyAccid\"><use xlink:href=\"#E262-vyxr1uu\" transform=\"translate(913, 810) scale(0.72, 0.72)\"/></g></g><g id=\"jigjbzj\" class=\"meterSig\"><use xlink:href=\"#E082-vyxr1uu\" transform=\"translate(1220, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#E084-vyxr1uu\" transform=\"translate(1225, 1080) scale(0.72, 0.72)\"/></g><g id=\"f1d5n2ld\" class=\"layer\"><g id=\"grjcba8\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A3-vyxr1uu\" transform=\"translate(1793, 1080) scale(0.72, 0.72)\"/></g><g id=\"pt3rstk\" class=\"stem\"><path d=\"M2010 1052 L2010 450\" stroke-width=\"18\"/></g></g></g></g><g id=\"h1wfhvbq\" class=\"tie\"><path d=\"M2064,1125 C2301,1232 2750,1232 2991,1125 C2763,1280 2288,1280 2064,1125\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><g id=\"dqwfnzg\" class=\"barLine\"><path d=\"M2843 540 L2843 1260\" stroke-width=\"27\"/></g></g><g id=\"i1jeofkh\" class=\"measure\"><g id=\"r1gu3aoi\" class=\"staff\"><path d=\"M2856 540 L4429 540\" stroke-width=\"13\"/><path d=\"M2856 720 L4429 720\" stroke-width=\"13\"/><path d=\"M2856 900 L4429 900\" stroke-width=\"13\"/><path d=\"M2856 1080 L4429 1080\" stroke-width=\"13\"/><path d=\"M2856 1260 L4429 1260\" stroke-width=\"13\"/><g id=\"sq9mplm\" class=\"layer\"><g id=\"t9xx8uc\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-vyxr1uu\" transform=\"translate(3036, 1080) scale(0.72, 0.72)\"/></g><g id=\"q1mkk5zm\" class=\"stem\"><path d=\"M3253 1052 L3253 450\" stroke-width=\"18\"/></g></g><g id=\"ugpwsfo\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-vyxr1uu\" transform=\"translate(3726, 1170) scale(0.72, 0.72)\"/></g><g id=\"rc91hmj\" class=\"stem\"><path d=\"M3943 1142 L3943 540\" stroke-width=\"18\"/></g><g id=\"v1oo13jz\" class=\"accid\"/></g></g></g><g id=\"q1r1py7d\" class=\"barLine\"><path d=\"M4416 540 L4416 1260\" stroke-width=\"27\"/></g></g><g id=\"flk1y9s\" class=\"systemMilestoneEnd w1eqynp2\"/><g id=\"g3mqwhz\" class=\"systemMilestoneEnd ixnnozn\"/></g><g id=\"h7wvwht\" class=\"pageMilestoneEnd g1n7u7c7\"/><g id=\"i18kop51\" class=\"pageMilestoneEnd fbxjyv9\"/></g></svg></svg>",
+      "previewCaption": "Opening excerpt of the first occurrence · engraved from quantized MIDI; spelling and articulation may differ from the printed score.",
+      "previewSource": {
+        "url": "https://kunstderfuge.com/-/mid.files/shostakovich/preludes_and_fugues_87_05b_(c)marques.mid",
+        "author": "Dmitri Shostakovich; MIDI encoding by José Oscar de Almeida Marques (2002)",
+        "voice": 2,
+        "start": 36.0,
+        "end": 40.0,
+        "license": "Underlying composition and MIDI encoding retain their respective rights; preview excluded from the annotation database license."
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "shostakovich-op87-05-entry-6",
+      "voice": "voice-a",
+      "theme": "subject",
+      "start": 0.0,
+      "end": 13.5,
+      "sourceEnd": 13.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 901,
+      "sourcePosition": "1",
+      "sourceOptions": {
+        "length": "7",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-20",
+      "voice": "voice-a",
+      "theme": "countersubject-1",
+      "start": 14.0,
+      "end": 26.0,
+      "sourceEnd": 26.0,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 906,
+      "sourcePosition": "8",
+      "sourceOptions": {
+        "length": "6"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-1",
+      "voice": "voice-s",
+      "theme": "subject",
+      "start": 14.0,
+      "end": 27.5,
+      "sourceEnd": 27.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 900,
+      "sourcePosition": "8",
+      "sourceOptions": {
+        "length": "7",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release. Source comment: 108 octave start"
+    },
+    {
+      "id": "shostakovich-op87-05-entry-28",
+      "voice": "voice-a",
+      "theme": "countersubject-2",
+      "start": 36.0,
+      "end": 46.0,
+      "sourceEnd": 46.0,
+      "label": "CS2",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 914,
+      "sourcePosition": "19",
+      "sourceOptions": {
+        "length": "5"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-17",
+      "voice": "voice-s",
+      "theme": "countersubject-1",
+      "start": 36.0,
+      "end": 48.0,
+      "sourceEnd": 48.0,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 905,
+      "sourcePosition": "19",
+      "sourceOptions": {
+        "length": "6"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-11",
+      "voice": "voice-t",
+      "theme": "subject",
+      "start": 36.0,
+      "end": 49.5,
+      "sourceEnd": 49.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 902,
+      "sourcePosition": "19",
+      "sourceOptions": {
+        "length": "7",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-21",
+      "voice": "voice-a",
+      "theme": "countersubject-1",
+      "start": 64.0,
+      "end": 76.0,
+      "sourceEnd": 76.0,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 906,
+      "sourcePosition": "33",
+      "sourceOptions": {
+        "length": "6"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release.",
+      "variant": "varied"
+    },
+    {
+      "id": "shostakovich-op87-05-entry-2",
+      "voice": "voice-s",
+      "theme": "subject",
+      "start": 64.0,
+      "end": 77.5,
+      "sourceEnd": 77.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 900,
+      "sourcePosition": "33",
+      "sourceOptions": {
+        "length": "7",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release. Source comment: 108 octave start"
+    },
+    {
+      "id": "shostakovich-op87-05-entry-31",
+      "voice": "voice-t",
+      "theme": "countersubject-2",
+      "start": 64.0,
+      "end": 74.0,
+      "sourceEnd": 74.0,
+      "label": "CS2",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 915,
+      "sourcePosition": "33",
+      "sourceOptions": {
+        "length": "5"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-26",
+      "voice": "voice-s",
+      "theme": "countersubject-2",
+      "start": 77.5,
+      "end": 88.0,
+      "sourceEnd": 88.0,
+      "label": "CS2",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 913,
+      "sourcePosition": "40",
+      "sourceOptions": {
+        "length": "5",
+        "start": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-22",
+      "voice": "voice-a",
+      "theme": "countersubject-1",
+      "start": 78.0,
+      "end": 90.0,
+      "sourceEnd": 90.0,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 906,
+      "sourcePosition": "40",
+      "sourceOptions": {
+        "length": "6"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-12",
+      "voice": "voice-t",
+      "theme": "subject",
+      "start": 78.0,
+      "end": 91.5,
+      "sourceEnd": 91.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 902,
+      "sourcePosition": "40",
+      "sourceOptions": {
+        "length": "7",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-7",
+      "voice": "voice-a",
+      "theme": "subject",
+      "start": 102.0,
+      "end": 115.5,
+      "sourceEnd": 115.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 901,
+      "sourcePosition": "52",
+      "sourceOptions": {
+        "length": "7",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-18",
+      "voice": "voice-s",
+      "theme": "countersubject-1",
+      "start": 102.0,
+      "end": 114.0,
+      "sourceEnd": 114.0,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 905,
+      "sourcePosition": "52",
+      "sourceOptions": {
+        "length": "6"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-27",
+      "voice": "voice-s",
+      "theme": "countersubject-2",
+      "start": 114.0,
+      "end": 126.0,
+      "sourceEnd": 126.0,
+      "label": "CS2",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 913,
+      "sourcePosition": "59",
+      "sourceOptions": {
+        "length": "5",
+        "start": "-1/2"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-23",
+      "voice": "voice-a",
+      "theme": "countersubject-1",
+      "start": 116.0,
+      "end": 128.0,
+      "sourceEnd": 128.0,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 906,
+      "sourcePosition": "59",
+      "sourceOptions": {
+        "length": "6"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-13",
+      "voice": "voice-t",
+      "theme": "subject",
+      "start": 116.0,
+      "end": 129.5,
+      "sourceEnd": 129.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 902,
+      "sourcePosition": "59",
+      "sourceOptions": {
+        "length": "7",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-29",
+      "voice": "voice-a",
+      "theme": "countersubject-2",
+      "start": 148.0,
+      "end": 158.0,
+      "sourceEnd": 158.0,
+      "label": "CS2",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 914,
+      "sourcePosition": "75",
+      "sourceOptions": {
+        "length": "5"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-19",
+      "voice": "voice-s",
+      "theme": "countersubject-1",
+      "start": 148.0,
+      "end": 160.0,
+      "sourceEnd": 160.0,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 905,
+      "sourcePosition": "75",
+      "sourceOptions": {
+        "length": "6"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-14",
+      "voice": "voice-t",
+      "theme": "subject",
+      "start": 148.0,
+      "end": 161.5,
+      "sourceEnd": 161.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 902,
+      "sourcePosition": "75",
+      "sourceOptions": {
+        "length": "7",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-8",
+      "voice": "voice-a",
+      "theme": "subject",
+      "start": 162.0,
+      "end": 175.5,
+      "sourceEnd": 175.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 901,
+      "sourcePosition": "82",
+      "sourceOptions": {
+        "length": "7",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-24",
+      "voice": "voice-t",
+      "theme": "countersubject-1",
+      "start": 162.0,
+      "end": 174.0,
+      "sourceEnd": 174.0,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 907,
+      "sourcePosition": "82",
+      "sourceOptions": {
+        "length": "6"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-3",
+      "voice": "voice-s",
+      "theme": "subject",
+      "start": 182.0,
+      "end": 193.5,
+      "sourceEnd": 193.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 900,
+      "sourcePosition": "92",
+      "sourceOptions": {
+        "length": "6",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release. Source comment: 108 octave start",
+      "variant": "condensed"
+    },
+    {
+      "id": "shostakovich-op87-05-entry-30",
+      "voice": "voice-a",
+      "theme": "countersubject-2",
+      "start": 194.0,
+      "end": 204.0,
+      "sourceEnd": 204.0,
+      "label": "CS2",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 914,
+      "sourcePosition": "98",
+      "sourceOptions": {
+        "length": "5"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    },
+    {
+      "id": "shostakovich-op87-05-entry-25",
+      "voice": "voice-s",
+      "theme": "countersubject-1",
+      "start": 194.0,
+      "end": 204.0,
+      "sourceEnd": 204.0,
+      "label": "CS1-inc",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 910,
+      "sourcePosition": "98",
+      "sourceOptions": {
+        "length": "5",
+        "base": "CS1",
+        "head": true
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release.",
+      "variant": "incomplete"
+    },
+    {
+      "id": "shostakovich-op87-05-entry-4",
+      "voice": "voice-s",
+      "theme": "subject",
+      "start": 214.0,
+      "end": 227.5,
+      "sourceEnd": 227.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 900,
+      "sourcePosition": "108",
+      "sourceOptions": {
+        "length": "7",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release. Source comment: 108 octave start"
+    },
+    {
+      "id": "shostakovich-op87-05-entry-9",
+      "voice": "voice-a",
+      "theme": "subject",
+      "start": 216.0,
+      "end": 231.5,
+      "sourceEnd": 231.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 901,
+      "sourcePosition": "109",
+      "sourceOptions": {
+        "length": "8",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release.",
+      "variant": "extended"
+    },
+    {
+      "id": "shostakovich-op87-05-entry-5",
+      "voice": "voice-s",
+      "theme": "subject",
+      "start": 232.0,
+      "end": 243.5,
+      "sourceEnd": 243.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 900,
+      "sourcePosition": "117",
+      "sourceOptions": {
+        "length": "6",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release. Source comment: 108 octave start",
+      "variant": "condensed"
+    },
+    {
+      "id": "shostakovich-op87-05-entry-10",
+      "voice": "voice-a",
+      "theme": "subject",
+      "start": 234.0,
+      "end": 245.5,
+      "sourceEnd": 245.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 901,
+      "sourcePosition": "118",
+      "sourceOptions": {
+        "length": "6",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release.",
+      "variant": "condensed"
+    },
+    {
+      "id": "shostakovich-op87-05-entry-15",
+      "voice": "voice-t",
+      "theme": "subject",
+      "start": 236.0,
+      "end": 247.5,
+      "sourceEnd": 247.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 902,
+      "sourcePosition": "119",
+      "sourceOptions": {
+        "length": "6",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release.",
+      "variant": "condensed"
+    },
+    {
+      "id": "shostakovich-op87-05-entry-16",
+      "voice": "voice-t",
+      "theme": "subject",
+      "start": 266.0,
+      "end": 279.5,
+      "sourceEnd": 279.5,
+      "label": "S",
+      "sourceIds": [
+        "analysis"
+      ],
+      "sourceLine": 902,
+      "sourcePosition": "134",
+      "sourceOptions": {
+        "length": "7",
+        "end": "-1/8"
+      },
+      "notes": "Endpoint follows the reference annotation: onset of the final note, not its release."
+    }
+  ],
+  "sections": [],
+  "recordings": [],
+  "notes": [
+    "Reference annotations from Algomus; these are analytical readings, not automatic detections.",
+    "Analysis only: no verified recording-specific synchronization is available. No playback timing has been estimated.",
+    "Entry endpoints mark the onset of the final note, as defined by the reference source. They do not assert the full sounding duration. Split-voice entries use the reference transition boundary and share a groupId.",
+    "Measure lengths and piece extent derive from the credited MIDI encoding, including its terminal track position. Opening pickups and a truncated final MIDI bar are represented explicitly; this is not a critical edition of the printed score."
+  ],
+  "editorialOmissions": [],
+  "sources": [
+    {
+      "id": "analysis",
+      "title": "Algomus — Shostakovich Op. 87 reference annotations",
+      "url": "https://gitlab.com/algomus.fr/algomus-data/-/blob/a1801b5b42a4f8d99783e1e52b3dc2e7407cd5ef/fugues/fugues.ref",
+      "author": "Mathieu Giraud, Richard Groult, Florence Levé / Algomus",
+      "license": "ODbL-1.0; individual contents DbCL-1.0"
+    },
+    {
+      "id": "publication",
+      "title": "Computational Fugue Analysis (2015)",
+      "url": "https://doi.org/10.1162/COMJ_a_00300",
+      "author": "Mathieu Giraud, Richard Groult, Emmanuel Leguy, Florence Levé"
+    },
+    {
+      "id": "midi",
+      "title": "Voice-separated MIDI — Op. 87, Fugue 5",
+      "url": "https://kunstderfuge.com/-/mid.files/shostakovich/preludes_and_fugues_87_05b_(c)marques.mid",
+      "author": "José Oscar de Almeida Marques (2002)",
+      "sha256": "d745699f514350c3fce666a04cbd3bde87773de0cdb3860566c0f62120d66038",
+      "license": "Source encoding and underlying composition retain their respective rights; complete MIDI is not redistributed."
+    },
+    {
+      "id": "syntax",
+      "title": "Algomus reference syntax — measure offsets and final-note endpoints",
+      "url": "https://gitlab.com/algomus.fr/algomus-data/-/blob/a1801b5b42a4f8d99783e1e52b3dc2e7407cd5ef/syntax.ref"
+    }
+  ]
+}

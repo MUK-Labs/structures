@@ -1,7 +1,18 @@
 export const PALETTE = ['#3263b9', '#ba5c38', '#45816e', '#8a5ab5', '#a78024', '#467b91'];
 export const qPerBar = piece => piece.meter.beats * 4 / piece.meter.unit;
-export const measureCount = piece => Math.ceil(piece.totalBeats / qPerBar(piece));
+export const measureCount = piece => piece.measures?.length || Math.ceil(piece.totalBeats / qPerBar(piece));
+export function measureAtIndex(piece, index) {
+  if (piece.measures) return piece.measures[index];
+  return { number: index + 1, start: index * qPerBar(piece), end: Math.min((index + 1) * qPerBar(piece), piece.totalBeats), meter: piece.meter };
+}
 export function formatPosition(piece, beat) {
+  if (piece.measures) {
+    if (Math.abs(beat - piece.totalBeats) < 1e-7) return `end of m. ${piece.measures.at(-1).number}`;
+    const measure = piece.measures.find(m => beat >= m.start - 1e-7 && beat < m.end - 1e-7);
+    if (!measure) return 'Outside score';
+    const local = (beat - measure.start) / (4 / measure.meter.unit) + 1;
+    return `m. ${measure.number}, beat ${Math.round(local * 100) / 100}`;
+  }
   const bar = qPerBar(piece);
   const measure = Math.floor((beat + 1e-7) / bar) + 1;
   const local = (beat % bar) / (4 / piece.meter.unit) + 1;
@@ -28,6 +39,16 @@ export function validatePiece(piece) {
   for (const field of ['id','title','composer']) if (typeof piece[field] !== 'string' || !piece[field].trim()) fail(`${field} is required.`);
   if (!Number.isFinite(piece.totalBeats) || piece.totalBeats <= 0) fail('totalBeats must be positive.');
   if (!piece.meter || !Number.isFinite(piece.meter.beats) || piece.meter.beats <= 0 || ![1,2,4,8,16,32].includes(piece.meter.unit)) fail('a valid meter is required.');
+  if (piece.measures !== undefined) {
+    if (!Array.isArray(piece.measures) || !piece.measures.length) fail('measures must be a nonempty array.');
+    piece.measures.forEach((measure, index) => {
+      const previous = piece.measures[index - 1];
+      if (!measure || !Number.isInteger(measure.number) || measure.number < 0 || (previous && measure.number <= previous.number)) fail('measure numbers must increase.');
+      if (!Number.isFinite(measure.start) || !Number.isFinite(measure.end) || measure.end <= measure.start || Math.abs(measure.start - (previous?.end || 0)) > 1e-7) fail('measures must cover the score contiguously from zero.');
+      if (!measure.meter || !Number.isFinite(measure.meter.beats) || measure.meter.beats <= 0 || ![1,2,4,8,16,32].includes(measure.meter.unit)) fail('each measure needs a valid meter.');
+    });
+    if (Math.abs(piece.measures.at(-1).end - piece.totalBeats) > 1e-7) fail('measure map must end at totalBeats.');
+  }
   for (const field of ['voices','themes','entries','sources','recordings']) if (!Array.isArray(piece[field])) fail(`${field} must be an array.`);
   if (!piece.voices.length || !piece.themes.length || !piece.entries.length) fail('at least one voice, theme and entry are required.');
   if (piece.sections !== undefined && !Array.isArray(piece.sections)) fail('sections must be an array.');

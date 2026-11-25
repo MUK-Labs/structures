@@ -1,6 +1,6 @@
 # Source data
 
-The initial collection contains 16 fugues from Bach's *Well-Tempered Clavier*,
+The Bach collection contains 16 fugues from Bach's *Well-Tempered Clavier*,
 Book I: BWV 846–854, 857–859, 861, and 866–868. There are 381 thematic entries,
 39 engraved theme openings, and 21 recording-specific synchronization maps.
 
@@ -45,7 +45,7 @@ The preview records identify the precise source voice and score positions.
 - Only the authors' reference annotations are imported. Labels explicitly
   marked `ignore` are omitted. Inversion, augmentation, incomplete statements,
   and other source variants remain associated with their original theme.
-- The source annotation format generally places an entry's end at the onset
+- For the Bach import, the source annotation format generally places an entry's end at the onset
   of its last note. The importer extends the displayed/playable entry through
   that note's notated duration and tied continuation. An endpoint inside a
   sounding note extends to its release; an existing release endpoint is kept.
@@ -91,3 +91,59 @@ python scripts/import-dezrann.py \
 When `--previews` is omitted, an import preserves inline previews already
 present in the destination piece files. The browser itself needs no music
 engraving dependencies.
+
+## Shostakovich Op. 87: first twelve fugues
+
+The additional twelve piece files contain **354 entry segments** and **36 theme previews**, using the **reference** annotations in Algomus
+`fugues/fugues.ref`, at revision
+`a1801b5b42a4f8d99783e1e52b3dc2e7407cd5ef`. This includes the E-minor double
+fugue (no. 4), incomplete statements, and explicitly annotated transfers between
+voices. Alternative definitions without occurrence lists are not promoted to
+additional entries. Split segments share a `groupId` and retain the source
+position, options and line number. One ambiguous source row in fugue 7 (CS2 transferred from soprano to alto at bar 25) has a zero-length first segment in the reference; it remains in `editorialOmissions` pending score verification and is not plotted.
+
+These diagrams are **analysis only**. The surveyed sources provide no verified
+recording-specific beat-to-second maps for them, and `recordings` is empty.
+No timing has been inferred from a single tempo or borrowed from another
+performance. The catalog and viewer identify this limitation.
+
+The importer observes the Algomus distinction between decimal bar offsets and
+fractions of a whole note. It retains the published final-note-onset endpoints,
+including `sourceEnd`, instead of guessing releases from humanized MIDI. Entry
+widths therefore follow analytical source boundaries, not complete sounding
+note durations. The `resolution` field is retained in `sourceOptions`; it does
+not silently extend the final-onset endpoint.
+
+Measure extent, voice separation and preview pitches derive from José Oscar de
+Almeida Marques's MIDI encodings (2002), linked individually in each piece.
+Source SHA-256 digests are recorded. The MIDI's initial offset is accounted for
+in fugues 1, 8 and 12: preceding silence is trimmed, the musical pickup is
+retained as measure 0, and measure 1 retains its analytical downbeat. A full
+`measures` map keeps these bar labels aligned. Piece extent follows the MIDI
+track extent, including any shortened final bar; it is not a critical edition
+of the printed score.
+
+The short theme previews are newly engraved from quantized MIDI with music21
+and Verovio. Their captions disclose that spelling and articulation can differ
+from the printed score. **The underlying Shostakovich compositions and MIDI
+encodings retain their respective rights; these previews are excluded from the
+ODbL annotation license.** No complete score, MIDI, or audio file is redistributed.
+The general MIT code license does not apply to these musical excerpts.
+
+Reproduce with the pinned Algomus repository and the twelve credited MIDI files
+named `01.mid` through `12.mid` in a separate directory:
+
+```sh
+python -m pip install mido music21 verovio
+python scripts/import-shostakovich.py \
+  --analysis /path/to/algomus-data/fugues/fugues.ref \
+  --midi-dir /path/to/shostakovich-midi \
+  --previews
+npm run validate
+npm run build
+```
+
+The publisher identifies the cycle as Op. **87**; “op. 57” in the historical
+Algomus web page/header is a typographical error, not a different collection.
+See the [source register](../docs/repertoire-sources.md) for the publisher link
+and prospective repertoire beyond this import.

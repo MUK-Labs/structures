@@ -7,7 +7,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 1 · BWV 846",
     "form": "Fugue",
     "key": "C major",
-    "voices": 4
+    "voices": 4,
+    "playback": "synchronized"
   },
   {
     "id": "bwv847",
@@ -17,7 +18,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 2 · BWV 847",
     "form": "Fugue",
     "key": "C minor",
-    "voices": 3
+    "voices": 3,
+    "playback": "synchronized"
   },
   {
     "id": "bwv848",
@@ -27,7 +29,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 3 · BWV 848",
     "form": "Fugue",
     "key": "C♯ major",
-    "voices": 3
+    "voices": 3,
+    "playback": "synchronized"
   },
   {
     "id": "bwv849",
@@ -37,7 +40,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 4 · BWV 849",
     "form": "Fugue",
     "key": "C♯ minor",
-    "voices": 5
+    "voices": 5,
+    "playback": "synchronized"
   },
   {
     "id": "bwv850",
@@ -47,7 +51,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 5 · BWV 850",
     "form": "Fugue",
     "key": "D major",
-    "voices": 4
+    "voices": 4,
+    "playback": "synchronized"
   },
   {
     "id": "bwv851",
@@ -57,7 +62,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 6 · BWV 851",
     "form": "Fugue",
     "key": "D minor",
-    "voices": 3
+    "voices": 3,
+    "playback": "synchronized"
   },
   {
     "id": "bwv852",
@@ -67,7 +73,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 7 · BWV 852",
     "form": "Fugue",
     "key": "E♭ major",
-    "voices": 3
+    "voices": 3,
+    "playback": "synchronized"
   },
   {
     "id": "bwv853",
@@ -77,7 +84,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 8 · BWV 853",
     "form": "Fugue",
     "key": "D♯ minor",
-    "voices": 3
+    "voices": 3,
+    "playback": "synchronized"
   },
   {
     "id": "bwv854",
@@ -87,7 +95,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 9 · BWV 854",
     "form": "Fugue",
     "key": "E major",
-    "voices": 3
+    "voices": 3,
+    "playback": "synchronized"
   },
   {
     "id": "bwv857",
@@ -97,7 +106,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 12 · BWV 857",
     "form": "Fugue",
     "key": "F minor",
-    "voices": 4
+    "voices": 4,
+    "playback": "synchronized"
   },
   {
     "id": "bwv858",
@@ -107,7 +117,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 13 · BWV 858",
     "form": "Fugue",
     "key": "F♯ major",
-    "voices": 3
+    "voices": 3,
+    "playback": "synchronized"
   },
   {
     "id": "bwv859",
@@ -117,7 +128,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 14 · BWV 859",
     "form": "Fugue",
     "key": "F♯ minor",
-    "voices": 4
+    "voices": 4,
+    "playback": "synchronized"
   },
   {
     "id": "bwv861",
@@ -127,7 +139,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 16 · BWV 861",
     "form": "Fugue",
     "key": "G minor",
-    "voices": 4
+    "voices": 4,
+    "playback": "synchronized"
   },
   {
     "id": "bwv866",
@@ -137,7 +150,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 21 · BWV 866",
     "form": "Fugue",
     "key": "B♭ major",
-    "voices": 3
+    "voices": 3,
+    "playback": "synchronized"
   },
   {
     "id": "bwv867",
@@ -147,7 +161,8 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 22 · BWV 867",
     "form": "Fugue",
     "key": "B♭ minor",
-    "voices": 5
+    "voices": 5,
+    "playback": "synchronized"
   },
   {
     "id": "bwv868",
@@ -157,6 +172,139 @@
     "subtitle": "The Well-Tempered Clavier · Book I, No. 23 · BWV 868",
     "form": "Fugue",
     "key": "B major",
-    "voices": 4
+    "voices": 4,
+    "playback": "synchronized"
+  },
+  {
+    "id": "shostakovich-op87-01",
+    "file": "data/pieces/shostakovich-op87-01.json",
+    "title": "Fugue No. 1 in C major",
+    "composer": "Dmitri Shostakovich",
+    "subtitle": "24 Preludes and Fugues, Op. 87",
+    "form": "Fugue",
+    "key": "C major",
+    "voices": 4,
+    "playback": "analysis-only"
+  },
+  {
+    "id": "shostakovich-op87-02",
+    "file": "data/pieces/shostakovich-op87-02.json",
+    "title": "Fugue No. 2 in A minor",
+    "composer": "Dmitri Shostakovich",
+    "subtitle": "24 Preludes and Fugues, Op. 87",
+    "form": "Fugue",
+    "key": "A minor",
+    "voices": 3,
+    "playback": "analysis-only"
+  },
+  {
+    "id": "shostakovich-op87-03",
+    "file": "data/pieces/shostakovich-op87-03.json",
+    "title": "Fugue No. 3 in G major",
+    "composer": "Dmitri Shostakovich",
+    "subtitle": "24 Preludes and Fugues, Op. 87",
+    "form": "Fugue",
+    "key": "G major",
+    "voices": 3,
+    "playback": "analysis-only"
+  },
+  {
+    "id": "shostakovich-op87-04",
+    "file": "data/pieces/shostakovich-op87-04.json",
+    "title": "Fugue No. 4 in E minor",
+    "composer": "Dmitri Shostakovich",
+    "subtitle": "24 Preludes and Fugues, Op. 87",
+    "form": "Double fugue",
+    "key": "E minor",
+    "voices": 4,
+    "playback": "analysis-only"
+  },
+  {
+    "id": "shostakovich-op87-05",
+    "file": "data/pieces/shostakovich-op87-05.json",
+    "title": "Fugue No. 5 in D major",
+    "composer": "Dmitri Shostakovich",
+    "subtitle": "24 Preludes and Fugues, Op. 87",
+    "form": "Fugue",
+    "key": "D major",
+    "voices": 3,
+    "playback": "analysis-only"
+  },
+  {
+    "id": "shostakovich-op87-06",
+    "file": "data/pieces/shostakovich-op87-06.json",
+    "title": "Fugue No. 6 in B minor",
+    "composer": "Dmitri Shostakovich",
+    "subtitle": "24 Preludes and Fugues, Op. 87",
+    "form": "Fugue",
+    "key": "B minor",
+    "voices": 4,
+    "playback": "analysis-only"
+  },
+  {
+    "id": "shostakovich-op87-07",
+    "file": "data/pieces/shostakovich-op87-07.json",
+    "title": "Fugue No. 7 in A major",
+    "composer": "Dmitri Shostakovich",
+    "subtitle": "24 Preludes and Fugues, Op. 87",
+    "form": "Fugue",
+    "key": "A major",
+    "voices": 3,
+    "playback": "analysis-only"
+  },
+  {
+    "id": "shostakovich-op87-08",
+    "file": "data/pieces/shostakovich-op87-08.json",
+    "title": "Fugue No. 8 in F♯ minor",
+    "composer": "Dmitri Shostakovich",
+    "subtitle": "24 Preludes and Fugues, Op. 87",
+    "form": "Fugue",
+    "key": "F♯ minor",
+    "voices": 3,
+    "playback": "analysis-only"
+  },
+  {
+    "id": "shostakovich-op87-09",
+    "file": "data/pieces/shostakovich-op87-09.json",
+    "title": "Fugue No. 9 in E major",
+    "composer": "Dmitri Shostakovich",
+    "subtitle": "24 Preludes and Fugues, Op. 87",
+    "form": "Fugue",
+    "key": "E major",
+    "voices": 2,
+    "playback": "analysis-only"
+  },
+  {
+    "id": "shostakovich-op87-10",
+    "file": "data/pieces/shostakovich-op87-10.json",
+    "title": "Fugue No. 10 in C♯ minor",
+    "composer": "Dmitri Shostakovich",
+    "subtitle": "24 Preludes and Fugues, Op. 87",
+    "form": "Fugue",
+    "key": "C♯ minor",
+    "voices": 4,
+    "playback": "analysis-only"
+  },
+  {
+    "id": "shostakovich-op87-11",
+    "file": "data/pieces/shostakovich-op87-11.json",
+    "title": "Fugue No. 11 in B major",
+    "composer": "Dmitri Shostakovich",
+    "subtitle": "24 Preludes and Fugues, Op. 87",
+    "form": "Fugue",
+    "key": "B major",
+    "voices": 3,
+    "playback": "analysis-only"
+  },
+  {
+    "id": "shostakovich-op87-12",
+    "file": "data/pieces/shostakovich-op87-12.json",
+    "title": "Fugue No. 12 in G♯ minor",
+    "composer": "Dmitri Shostakovich",
+    "subtitle": "24 Preludes and Fugues, Op. 87",
+    "form": "Fugue",
+    "key": "G♯ minor",
+    "voices": 4,
+    "playback": "analysis-only"
   }
 ]
