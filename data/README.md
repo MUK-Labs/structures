@@ -101,10 +101,11 @@ voices. Alternative definitions without occurrence lists are not promoted to
 additional entries. Split segments share a `groupId` and retain the source
 position, options and line number. One ambiguous source row in fugue 7 (CS2 transferred from soprano to alto at bar 25) has a zero-length first segment in the reference; it remains in `editorialOmissions` pending score verification and is not plotted.
 
-These diagrams are **analysis only**. The surveyed sources provide no verified
-recording-specific beat-to-second maps for them, and `recordings` is empty.
-No timing has been inferred from a single tempo or borrowed from another
-performance. The catalog and viewer identify this limitation.
+These diagrams have individual Vladimir Ashkenazy listening links, with
+`alignment.status: "unavailable"` and empty anchor arrays. The surveyed sources
+provide no verified recording-specific beat-to-second maps for them. No timing
+has been inferred from a single tempo or borrowed from another performance.
+The catalog and viewer show **Manual timing needed**.
 
 The importer observes the Algomus distinction between decimal bar offsets and
 fractions of a whole note. It retains the published final-note-onset endpoints,
@@ -155,9 +156,10 @@ retains the score's original measure numbers. A selected-entry map can span an
 entire movement without identifying every subject fragment or countersubject.
 The viewer displays these distinctions in the piece metadata, including slides.
 
-These additions have no verified recording alignment. Their empty `recordings`
-arrays are intentional, and their catalog entries are labelled analysis-only.
-Do not create a time map from a score tempo or reuse one from another performance.
+These additions have listening recordings but no verified recording alignment.
+Their `recordings` contain source links, performer credits, verification dates
+and empty anchors. The catalog marks them **Manual timing needed**. Do not
+create a time map from a score tempo or reuse one from another performance.
 
 ### Mozart, K. 546: selected subject matches
 
@@ -301,3 +303,29 @@ relabelled as an openly licensed score or image collection.
 ```sh
 python scripts/import-hindemith-expositions.py
 ```
+
+## Listening sources and manual timing
+
+All 33 additions beyond Bach now include a listening source. Sources were
+checked against public work/performer metadata on 25 November 2026:
+
+| Repertoire | Recording selection |
+| --- | --- |
+| Shostakovich Op. 87 nos. 1–12 | Vladimir Ashkenazy: individual fugue tracks |
+| Hindemith Ludus Tonalis | Jane Carlson: individual fugue tracks, verified against the Musical Heritage Society album playlist |
+| Mendelssohn Op. 35 | Roberto Prosseda: six individual fugues, excluding preludes |
+| Mozart K. 546 | WDR Sinfonieorchester / Jörg Widmann: Adagio and Fugue for strings |
+| Beethoven Op. 131/I | Amadeus Quartet: first movement |
+| Beethoven Op. 110/III | András Schiff: complete third movement, including Arioso and both fugues |
+
+Each recording retains its exact YouTube ID, URL, performer, scope and
+verification details in the piece file. Metadata checks establish the candidate's
+identity, not measured synchronization. No audio is redistributed and no musical
+timestamps have been invented. The Hindemith album's platform typo in the
+last fugue title is documented in that recording's notes.
+
+See [the manual timing checklist](../docs/manual-timing.md) for all pending
+recordings, the CSV worksheet, and existing Bach entries needing extended maps.
+The seven score-import scripts use `scripts/piece_output.py` to preserve the
+existing recording arrays, including completed and in-progress manual timing.
+Recheck timing whenever the score coordinates or chosen recording change.

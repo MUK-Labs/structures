@@ -41,7 +41,6 @@ class MozartImportTests(unittest.TestCase):
                          [('cello',0,13),('viola',12,25),('violin-2',24,37),('violin-1',36,49)])
         self.assertEqual(sum(e['evidence']['attacks']==20 for e in piece['entries']),15)
         self.assertEqual(sum(e['evidence']['attacks']==10 for e in piece['entries']),29)
-        self.assertFalse(piece['recordings'])
         for entry in piece['entries']:
             if entry['evidence']['attacks']==10:self.assertIn('partial',entry['variant'])
 

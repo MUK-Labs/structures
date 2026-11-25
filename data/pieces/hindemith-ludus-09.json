@@ -191,7 +191,32 @@
     }
   ],
   "sections": [],
-  "recordings": [],
+  "recordings": [
+    {
+      "id": "carlson-ludus-09",
+      "title": "Jane Carlson · Fugue No. 9 in B♭",
+      "youtubeId": "TK6TT2FY4Mo",
+      "url": "https://www.youtube.com/watch?v=TK6TT2FY4Mo",
+      "performer": "Jane Carlson",
+      "scope": "Individual complete fugue; the graph covers its opening excerpt.",
+      "alignment": {
+        "status": "unavailable",
+        "description": "Manual timing needed. Individual complete fugue; the graph covers its opening excerpt. No score-to-recording anchors have been measured.",
+        "anchors": []
+      },
+      "sourceTitle": "Ludus Tonalis: XVIII. Fuga Nona in B-Flat Major",
+      "notes": "Complete individual fugue recording for solo piano, from the label-linked album playlist. The Structures diagram covers only the opening excerpt. No musical onset, endpoint, or beat-to-time mapping has been inferred.",
+      "verification": {
+        "checkedDate": "2026-11-25",
+        "url": "https://www.youtube.com/watch?v=TK6TT2FY4Mo",
+        "method": "Work, performer and recording metadata checked against public source pages; no musical timing or listening quality is asserted."
+      },
+      "source": {
+        "title": "Musical Heritage Society — Hindemith: Ludus Tonalis, Jane Carlson",
+        "url": "https://themusicalheritagesociety.com/products/hindemith-ludus-tonalis-jane-carlson"
+      }
+    }
+  ],
   "sources": [
     {
       "id": "score",

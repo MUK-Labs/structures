@@ -53,6 +53,20 @@ export function getClipBounds(recording, entry) {
   return { startSeconds, endSeconds };
 }
 
+/** True only when this exact entry is covered by a usable timing map. */
+export function canPlayEntry(recording, entry) {
+  try { return Boolean(getClipBounds(recording, entry)); } catch { return false; }
+}
+
+export function hasPlayableEntries(piece) {
+  return piece.recordings.some(recording => piece.entries.some(entry => canPlayEntry(recording, entry)));
+}
+
+export function playbackStatus(piece) {
+  if (hasPlayableEntries(piece)) return 'synchronized';
+  return piece.recordings.length ? 'manual-timing' : 'analysis-only';
+}
+
 function loadYouTubeAPI(win, doc) {
   if (win.YT?.Player) return Promise.resolve(win.YT);
   if (apiLoads.has(win)) return apiLoads.get(win);

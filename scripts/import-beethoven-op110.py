@@ -187,12 +187,13 @@ def build(score_path):
 
 
 def main():
+    from piece_output import write_piece
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--score', type=Path, required=True)
     parser.add_argument('--output', type=Path, default=ROOT / 'data/pieces' / (PIECE_ID + '.json'))
     args = parser.parse_args()
     piece = build(args.score)
-    args.output.write_text(json.dumps(piece, ensure_ascii=False, indent=2) + '\n')
+    write_piece(args.output, piece)
     print(f'{PIECE_ID}: {len(piece["entries"])} verified subject statements, 1 preview, 42 quarter units.')
 
 

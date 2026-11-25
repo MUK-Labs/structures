@@ -268,6 +268,7 @@ def build_piece(number, metadata, analysis_dir, corpus_dir, score_summary, score
 
 
 def main():
+    from piece_output import write_piece
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--corpus-dir", required=True, type=Path)
     parser.add_argument("--analysis-dir", required=True, type=Path)
@@ -289,7 +290,7 @@ def main():
             theme.update({key: value for key, value in preview.items() if key.startswith("preview")})
             if theme.get("previewSource", {}).get("url"):
                 theme["previewSource"]["url"] = theme["previewSource"]["url"].replace("/blob/master/", f"/blob/{SCORE_REV}/")
-        write(args.output / "pieces" / f"{piece['id']}.json", piece)
+        write_piece(args.output / "pieces" / f"{piece['id']}.json", piece)
         catalog.append({
             "id": piece["id"],
             "file": f"data/pieces/{piece['id']}.json",

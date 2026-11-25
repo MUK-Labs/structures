@@ -1016,7 +1016,29 @@
     }
   ],
   "sections": [],
-  "recordings": [],
+  "recordings": [
+    {
+      "id": "wdr-widmann-2020",
+      "title": "WDR Sinfonieorchester; Jörg Widmann · Adagio and Fugue, K. 546",
+      "youtubeId": "DBQBNIK2Wcw",
+      "url": "https://www.youtube.com/watch?v=DBQBNIK2Wcw",
+      "performer": "WDR Sinfonieorchester; Jörg Widmann",
+      "scope": "Complete Adagio and Fugue; the graph starts at the fugue, after the Adagio.",
+      "alignment": {
+        "status": "unavailable",
+        "description": "Manual timing needed. Complete Adagio and Fugue; the graph starts at the fugue, after the Adagio. No score-to-recording anchors have been measured.",
+        "anchors": []
+      },
+      "sourceTitle": "Mozart — Adagio and Fugue in C minor, K. 546",
+      "notes": "Official ARD Klassik upload. Complete Adagio and Fugue for string orchestra, recorded at WDR Funkhaus on 10 January 2020. Correct K. 546 strings version, not K. 426 for two pianos. Live YouTube page description confirms work, performers, date and string-orchestra arrangement; playback status OK and embedding allowed at check. The graph covers the fugue only. Fugue onset and graph alignment require manual timing; no offset verified.",
+      "verification": {
+        "checkedDate": "2026-11-25",
+        "url": "https://www.youtube.com/watch?v=DBQBNIK2Wcw",
+        "method": "Work, performer and recording metadata checked against public source pages; no musical timing or listening quality is asserted.",
+        "additionalUrl": "https://www1.wdr.de/orchester-und-chor/sinfonieorchester/videos/video-wolfgang-amadeus-mozart---adagio-und-fuge-in-c-moll-kv---100.amp"
+      }
+    }
+  ],
   "analysis": {
     "kind": "pattern-matching",
     "coverage": "selected-entries",

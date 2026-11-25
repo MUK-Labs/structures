@@ -10,6 +10,8 @@ The generated [catalog](../data/index.json) is the list of available diagrams.
 The new diagrams deliberately state their coverage. A whole-movement timeline
 does not make a selected-entry diagram a complete analysis. These additions have
 newly engraved short notation previews; none currently has recording alignment.
+Listening links for every current piece are listed in the
+[manual timing checklist](manual-timing.md), with exact recording IDs and scope.
 See [data provenance](../data/README.md) and each piece's sources for exact
 revisions, editorial conventions, and rights.
 

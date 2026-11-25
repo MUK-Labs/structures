@@ -231,7 +231,28 @@
       "license": "Copyright retained by the author. Cited for musical analysis; no thesis prose or chart images reproduced."
     }
   ],
-  "recordings": [],
+  "recordings": [
+    {
+      "id": "prosseda-op35-02-fugue",
+      "title": "Roberto Prosseda (piano) · Fugue No. 2 in D major",
+      "youtubeId": "i4n1SYAPZ9g",
+      "url": "https://www.youtube.com/watch?v=i4n1SYAPZ9g",
+      "performer": "Roberto Prosseda (piano)",
+      "scope": "Individual complete fugue; the graph covers its opening excerpt.",
+      "alignment": {
+        "status": "unavailable",
+        "description": "Manual timing needed. Individual complete fugue; the graph covers its opening excerpt. No score-to-recording anchors have been measured.",
+        "anchors": []
+      },
+      "sourceTitle": "Mendelssohn — Fugue in D major, Op. 35 No. 2",
+      "notes": "Individual fugue track, excluding its prelude. Official Roberto Prosseda - Topic / Universal Music Group upload; recording credited to Universal Music Italia (2014), released in Mendelssohn: Complete Piano Works (2019). Live YouTube page metadata verified the full fugue title, performer and label; playback status OK and embedding allowed at check. The Structures diagram covers an exposition excerpt only. No bar or entry timing has been measured.",
+      "verification": {
+        "checkedDate": "2026-11-25",
+        "url": "https://www.youtube.com/watch?v=i4n1SYAPZ9g",
+        "method": "Work, performer and recording metadata checked against public source pages; no musical timing or listening quality is asserted."
+      }
+    }
+  ],
   "analysis": {
     "kind": "editorial",
     "coverage": "exposition",

@@ -257,6 +257,7 @@ def build(source_dir, midi_check=None):
 
 
 def main():
+    from piece_output import write_piece
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--score-dir',type=Path,required=True,help='Mutopia k546-lys directory')
     parser.add_argument('--midi-check',type=Path,help='Optional published k546-2.mid for exhaustive onset/pitch verification')
@@ -264,7 +265,7 @@ def main():
     args=parser.parse_args()
     piece=build(args.score_dir,args.midi_check)
     args.output.parent.mkdir(exist_ok=True,parents=True)
-    args.output.write_text(json.dumps(piece,ensure_ascii=False,indent=2)+'\n')
+    write_piece(args.output, piece)
     print(piece['id'],len(piece['entries']),'entries;',piece['analysis']['description'])
 
 if __name__=='__main__':main()

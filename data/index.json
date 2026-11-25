@@ -12,7 +12,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "beethoven-op131-01",
@@ -27,7 +27,7 @@
       "kind": "editorial",
       "coverage": "selected-entries"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "bwv846",
@@ -218,7 +218,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "hindemith-ludus-02",
@@ -233,7 +233,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "hindemith-ludus-03",
@@ -248,7 +248,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "hindemith-ludus-04",
@@ -263,7 +263,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "hindemith-ludus-05",
@@ -278,7 +278,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "hindemith-ludus-06",
@@ -293,7 +293,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "hindemith-ludus-07",
@@ -308,7 +308,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "hindemith-ludus-08",
@@ -323,7 +323,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "hindemith-ludus-09",
@@ -338,7 +338,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "hindemith-ludus-10",
@@ -353,7 +353,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "hindemith-ludus-11",
@@ -368,7 +368,7 @@
       "kind": "editorial",
       "coverage": "selected-entries"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "hindemith-ludus-12",
@@ -383,7 +383,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "mendelssohn-op35-01",
@@ -398,7 +398,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "mendelssohn-op35-02",
@@ -413,7 +413,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "mendelssohn-op35-03",
@@ -428,7 +428,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "mendelssohn-op35-04",
@@ -443,7 +443,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "mendelssohn-op35-05",
@@ -458,7 +458,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "mendelssohn-op35-06",
@@ -473,7 +473,7 @@
       "kind": "editorial",
       "coverage": "exposition"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "mozart-k546-fugue",
@@ -488,7 +488,7 @@
       "kind": "pattern-matching",
       "coverage": "selected-entries"
     },
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "shostakovich-op87-01",
@@ -499,7 +499,7 @@
     "form": "Fugue",
     "key": "C major",
     "voices": 4,
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "shostakovich-op87-02",
@@ -510,7 +510,7 @@
     "form": "Fugue",
     "key": "A minor",
     "voices": 3,
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "shostakovich-op87-03",
@@ -521,7 +521,7 @@
     "form": "Fugue",
     "key": "G major",
     "voices": 3,
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "shostakovich-op87-04",
@@ -532,7 +532,7 @@
     "form": "Double fugue",
     "key": "E minor",
     "voices": 4,
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "shostakovich-op87-05",
@@ -543,7 +543,7 @@
     "form": "Fugue",
     "key": "D major",
     "voices": 3,
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "shostakovich-op87-06",
@@ -554,7 +554,7 @@
     "form": "Fugue",
     "key": "B minor",
     "voices": 4,
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "shostakovich-op87-07",
@@ -565,7 +565,7 @@
     "form": "Fugue",
     "key": "A major",
     "voices": 3,
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "shostakovich-op87-08",
@@ -576,7 +576,7 @@
     "form": "Fugue",
     "key": "F♯ minor",
     "voices": 3,
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "shostakovich-op87-09",
@@ -587,7 +587,7 @@
     "form": "Fugue",
     "key": "E major",
     "voices": 2,
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "shostakovich-op87-10",
@@ -598,7 +598,7 @@
     "form": "Fugue",
     "key": "C♯ minor",
     "voices": 4,
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "shostakovich-op87-11",
@@ -609,7 +609,7 @@
     "form": "Fugue",
     "key": "B major",
     "voices": 3,
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   },
   {
     "id": "shostakovich-op87-12",
@@ -620,6 +620,6 @@
     "form": "Fugue",
     "key": "G♯ minor",
     "voices": 4,
-    "playback": "analysis-only"
+    "playback": "manual-timing"
   }
 ]

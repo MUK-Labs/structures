@@ -25,7 +25,9 @@ The collection contains **49 diagrams**, with different levels of analytical cov
 | Beethoven, Op. 131/I | 1 | Ten selected substantial statements across the movement |
 | Beethoven, Op. 110/III | 1 | The first fugue's opening three-voice exposition |
 
-All additions beyond Bach are currently **analysis only**, with hover notation previews. Recording playback is available only where a verified timing map exists. Selected-entry maps and exposition excerpts are labelled in the viewer; they do not imply complete analyses of those works.
+All 49 pieces have listening links. The 33 additions beyond Bach are labelled **Manual timing needed**: you can open their recordings now, while synchronized entry playback remains disabled until anchors are checked. Selected-entry maps and exposition excerpts retain their coverage labels; they do not imply complete analyses of those works.
+
+**[Manual timing checklist and instructions](docs/manual-timing.md)** · [CSV timing worksheet](docs/manual-timing-template.csv). The checklist links every pending piece and its exact recording, and separately lists four Bach entries needing timing-map extensions. Download a copy of the CSV, fill the `seconds` column for your chosen pieces, and send it back for integration.
 
 The [repertoire source register](docs/repertoire-sources.md) distinguishes these implemented diagrams from sources for further work, including whole-fugue inventories, later sections, other Beethoven and Romantic fugues, and recording alignment. [Data provenance](data/README.md) documents the exact methods and reproduction commands.
 
@@ -98,6 +100,8 @@ To enable playback, add a recording:
 
 Use the actual 11-character video ID and **many verified anchors across the performance**, ideally at every entry boundary or bar. The two anchors above demonstrate syntax only. A clip is playable only when both endpoints lie within the map. Anchor beats and seconds must strictly increase; negative beats can represent recording preroll. Use `estimated` for estimated mappings and `unavailable` for missing ones. Record where the synchronization came from.
 
+To add a listening source before timing it, keep `alignment: { "status": "unavailable", "anchors": [] }`. Supply `youtubeId` for YouTube, or an HTTP(S) `url` for an external listening page. External links are supported for listening; synchronized playback currently requires YouTube. The normal view shows the source link and **Manual timing needed**, without enabling entry playback. The score-import scripts preserve existing recordings and manual anchors when regenerating analysis.
+
 For pickups or changing meter, provide an optional `measures` array. Each item has `number`, `start`, `end` (quarter-note units), and `meter: {beats, unit}`. The map must cover the complete timeline contiguously from zero through `totalBeats`; measure numbers increase and may start at 0 for a pickup. An optional measure `label` can identify an unnumbered span such as `Closing bar` without inventing a printed bar number. Axis ticks and entry labels follow this map. Omit it for a constant-meter piece numbered from measure 1. The thematic timeline remains expressed in quarter-note units.
 
 An optional boolean `sourceDontCount` keeps an encoded but unnumbered span out of the printed-bar count; give it a descriptive `label`. Excerpts that stop within a bar retain that bar's number and report their actual ending beat.
@@ -110,6 +114,7 @@ Node 22+; no npm dependencies or installation needed for the website.
 npm run dev
 npm test
 npm run validate
+npm run timing:list
 npm run build
 ```
 

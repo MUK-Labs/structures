@@ -254,7 +254,32 @@
     }
   ],
   "sections": [],
-  "recordings": [],
+  "recordings": [
+    {
+      "id": "carlson-ludus-03",
+      "title": "Jane Carlson · Fugue No. 3 in F",
+      "youtubeId": "cWc7uFPNbFk",
+      "url": "https://www.youtube.com/watch?v=cWc7uFPNbFk",
+      "performer": "Jane Carlson",
+      "scope": "Individual complete fugue; the graph covers its opening excerpt.",
+      "alignment": {
+        "status": "unavailable",
+        "description": "Manual timing needed. Individual complete fugue; the graph covers its opening excerpt. No score-to-recording anchors have been measured.",
+        "anchors": []
+      },
+      "sourceTitle": "Ludus Tonalis: VI. Fuga Terti in F Major",
+      "notes": "Complete individual fugue recording for solo piano, from the label-linked album playlist. The Structures diagram covers only the opening excerpt. No musical onset, endpoint, or beat-to-time mapping has been inferred.",
+      "verification": {
+        "checkedDate": "2026-11-25",
+        "url": "https://www.youtube.com/watch?v=cWc7uFPNbFk",
+        "method": "Work, performer and recording metadata checked against public source pages; no musical timing or listening quality is asserted."
+      },
+      "source": {
+        "title": "Musical Heritage Society — Hindemith: Ludus Tonalis, Jane Carlson",
+        "url": "https://themusicalheritagesociety.com/products/hindemith-ludus-tonalis-jane-carlson"
+      }
+    }
+  ],
   "sources": [
     {
       "id": "score",

@@ -52,7 +52,6 @@ A 1 # keep this source comment
         self.assertEqual(len(pieces[7]['editorialOmissions']),1)
         self.assertEqual(pieces[7]['editorialOmissions'][0]['label'],'CS2')
         for piece in pieces.values():
-            self.assertFalse(piece['recordings'])
             self.assertEqual(len({t['color'] for t in piece['themes']}),len(piece['themes']))
             self.assertTrue(all(e['end']==e['sourceEnd'] for e in piece['entries']))
             for left,right in zip(piece['measures'],piece['measures'][1:]):

@@ -252,10 +252,11 @@ def generate(corpus_dir):
 
 
 if __name__ == "__main__":
+    from piece_output import write_piece
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--corpus-dir", type=Path, required=True)
     parser.add_argument("--output", type=Path, default=ROOT / f"data/pieces/{PIECE_ID}.json")
     args = parser.parse_args()
     piece = generate(args.corpus_dir)
-    args.output.write_text(json.dumps(piece, ensure_ascii=False, indent=2) + "\n")
+    write_piece(args.output, piece)
     print(f"Wrote {args.output}: {len(piece['entries'])} selected entries, {piece['totalBeats']} quarter beats")

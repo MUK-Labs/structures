@@ -57,6 +57,7 @@ def preview(item):
 
 
 def main():
+    from piece_output import write_piece
     manifest = json.loads((ROOT / "scripts/hindemith-expositions.json").read_text())
     common = manifest["source"]
     for item in manifest["pieces"]:
@@ -104,7 +105,7 @@ def main():
             "notes": item["notes"] + " " + common["method"],
         }
         output = ROOT / "data/pieces" / f"{piece_id}.json"
-        output.write_text(json.dumps(piece, ensure_ascii=False, indent=2) + "\n")
+        write_piece(output, piece)
         print(f"{piece_id}: {len(piece['entries'])} entries; {total:g} quarter-note units")
 
 

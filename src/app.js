@@ -1,5 +1,5 @@
-import { validatePiece, themeColor, analysisLabel, qPerBar, measureCount, measureAtIndex, formatPosition, formatTime, safeUrl } from './model.js';
-import { SegmentPlayer, getClipBounds } from './player.js';
+import { validatePiece, themeColor, analysisLabel, qPerBar, measureCount, measureAtIndex, formatPosition, formatTime, safeUrl, recordingUrl } from './model.js';
+import { SegmentPlayer, getClipBounds, canPlayEntry, hasPlayableEntries, playbackStatus } from './player.js';
 
 const $ = id => document.getElementById(id);
 const state = { catalog: [], pieces: [], cache: new Map(), localIds: new Set(), selected: null, recordingId: null, zoom: 1, hiddenThemes: new Map(), player: null, playing: false, loadToken: 0, compareToken: 0, present: false };
@@ -45,14 +45,14 @@ function stopPlayer() {
 async function playSelected() {
   if (!state.selected) return;
   const recording = selectedRecording();
-  if (!recording) return;
+  if (!recording || !canPlayEntry(recording, state.selected.entry)) { refreshRecording(); return; }
   hideTooltip();
   $('play-entry').textContent = 'Replay entry';
   try { await getPlayer().play(recording, state.selected.entry, {loop:$('loop').checked}); }
   catch (error) { $('player-status').textContent = error.message || 'The recording could not be started.'; }
 }
 function selectEntry(piece, entry, play = false, update = true) {
-  if (state.selected?.piece.id !== piece.id) { stopPlayer(); state.recordingId = piece.recordings[0]?.id || null; }
+  if (state.selected?.piece.id !== piece.id) { stopPlayer(); state.recordingId = (piece.recordings.find(r => canPlayEntry(r, entry)) || piece.recordings[0])?.id || null; }
   else if (state.selected?.entry.id !== entry.id) stopPlayer();
   state.selected = {piece, entry};
   const theme = piece.themes.find(t => t.id === entry.theme), voice = piece.voices.find(v => v.id === entry.voice);
@@ -82,11 +82,24 @@ function refreshRecording() {
   try { bounds = recording && state.selected ? getClipBounds(recording, state.selected.entry) : null; } catch {}
   $('play-entry').disabled = !bounds;
   $('clip-time').textContent = bounds ? `${formatTime(bounds.startSeconds)} – ${formatTime(bounds.endSeconds)}` : '';
-  $('alignment-note').textContent = recording?.alignment?.status === 'source-aligned' ? 'Source-aligned · interpolated between anchors' : recording?.alignment?.status === 'estimated' ? 'Estimated timing' : 'No timing map';
-  const url = recording ? `https://www.youtube.com/watch?v=${encodeURIComponent(recording.youtubeId)}${bounds ? `&t=${Math.floor(bounds.startSeconds)}s` : ''}` : null;
-  $('youtube-link').hidden = !url;
-  if (url) $('youtube-link').href = url;
-  if (!bounds) $('player-status').textContent = recording ? 'This entry extends beyond the available recording alignment. You can still open the recording on YouTube.' : 'Analysis only: no verified recording timing is available for this piece yet.';
+  $('alignment-note').textContent = recording?.alignment?.status === 'source-aligned' ? 'Source-aligned · interpolated between anchors' : recording?.alignment?.status === 'estimated' ? 'Estimated timing' : recording ? 'Manual timing needed' : 'No recording linked';
+  const url = recordingUrl(recording, bounds?.startSeconds);
+  const link = $('youtube-link');
+  link.hidden = !url;
+  link.textContent = recording?.youtubeId ? 'Open on YouTube' : 'Open recording';
+  if (url) link.href = url;
+  else link.removeAttribute('href');
+  // Untimed sources are links only: do not imply that a video can be loaded
+  // or that a click on the diagram will play a synchronized excerpt.
+  $('youtube-player').hidden = !bounds;
+  $('loop').disabled = !bounds;
+  const listeningNote = document.querySelector('.listening-note');
+  if (listeningNote) listeningNote.hidden = !bounds;
+  if (!bounds) $('player-status').textContent = !recording
+    ? 'Analysis only: no recording is linked to this piece yet.'
+    : recording.alignment.status === 'unavailable'
+      ? 'Manual timing needed. Open the recording to listen; entry playback is not synchronized yet.'
+      : 'This entry extends beyond the available recording alignment. Open the recording to listen.';
 }
 function showTooltip(button, piece, entry) {
   const tooltip = $('theme-tooltip'), theme = piece.themes.find(t => t.id === entry.theme);
@@ -127,7 +140,7 @@ function renderPiece(piece, index) {
   const countedBars=piece.measures?.filter(m=>m.number>0&&!m.sourceDontCount).length;
   const extraBars=piece.measures?.filter(m=>m.number===0||m.sourceDontCount).map(m=>m.label?.toLowerCase()||(m.number===0?'pickup':'unnumbered bar'))||[];
   const barSummary=extraBars.length?`${countedBars} bars + ${extraBars.join(' + ')}`:`${measureCount(piece)} bars`;
-  [subtitle, piece.form, `${piece.voices.length} voices`, barSummary, coverage, !piece.recordings.length?'Analysis only':null].filter(Boolean).forEach(v=>meta.append(node('span','',v)));
+  [subtitle, piece.form, `${piece.voices.length} voices`, barSummary, coverage, playbackLabel(playbackStatus(piece))].filter(Boolean).forEach(v=>meta.append(node('span','',v)));
   titleGroup.append(meta); head.append(titleGroup);
   if(index){const remove=node('button','remove-compare','Remove');remove.type='button';remove.addEventListener('click',()=>removeComparison(piece.id));head.append(remove);}
   card.append(head);
@@ -138,7 +151,7 @@ function renderPiece(piece, index) {
     button.addEventListener('click',()=>{const hidden=state.hiddenThemes.get(piece.id)||new Set();if(hidden.has(theme.id))hidden.delete(theme.id);else hidden.add(theme.id);state.hiddenThemes.set(piece.id,hidden);hideTooltip();renderDiagrams();});
     legend.append(button);
   }
-  legend.append(node('span','legend-hint',piece.recordings.length?'Hover to inspect · click to listen':'Hover or focus to inspect'));card.append(legend);
+  legend.append(node('span','legend-hint',hasPlayableEntries(piece)?'Hover to inspect · click to listen':'Hover or focus to inspect'));card.append(legend);
   const scroll=node('div','timeline-scroll'), timeline=node('div','timeline');timeline.style.setProperty('--timeline-width',`${state.zoom*100}%`);
   const axis=node('div','axis-row');axis.append(node('div','axis-label','Bar'));
   const axisTrack=node('div','axis-track'), step=tickStep(piece), bars=measureCount(piece);
@@ -204,7 +217,8 @@ function additionalAnalysisLabel(piece){
   if(piece.analysis?.coverage==='selected-entries'&&text.includes('selected'))return '';
   return label;
 }
-function catalogLabel(item){const coverage=additionalAnalysisLabel(item);return `${item.composer.replace('Johann Sebastian ','J. S. ')} · ${item.title}${item.subtitle?` · ${item.subtitle}`:''}${coverage?` · ${coverage}`:''}${item.playback==='analysis-only'?' · Analysis only':''}`;}
+function playbackLabel(value){return value==='manual-timing'?'Manual timing needed':value==='analysis-only'?'Analysis only':'';}
+function catalogLabel(item){const coverage=additionalAnalysisLabel(item);return `${item.composer.replace('Johann Sebastian ','J. S. ')} · ${item.title}${item.subtitle?` · ${item.subtitle}`:''}${coverage?` · ${coverage}`:''}${playbackLabel(item.playback)?` · ${playbackLabel(item.playback)}`:''}`;}
 function fillSelects(){
   $('piece-select').replaceChildren(...state.catalog.map(item=>{const o=node('option','',catalogLabel(item));o.value=item.id;return o;}));
   $('piece-select').value=state.pieces[0]?.id||'';
@@ -268,7 +282,7 @@ $('about-dialog').addEventListener('click',event=>{if(event.target===$('about-di
 $('import-open').addEventListener('click',()=>$('import-file').click());
 $('import-file').addEventListener('change',async event=>{
   const file=event.target.files[0];if(!file)return;
-  try{if(file.size>15*1024*1024)throw new Error('Choose a piece JSON smaller than 15 MB.');const piece=validatePiece(JSON.parse(await file.text()));state.cache.set(piece.id,piece);state.localIds.add(piece.id);const item={id:piece.id,title:piece.title,composer:piece.composer,subtitle:piece.subtitle,form:piece.form,analysis:piece.analysis,file:''};const index=state.catalog.findIndex(c=>c.id===piece.id);if(index<0)state.catalog.push(item);else state.catalog[index]=item;await switchPiece(piece.id);status('Opened locally. Add this JSON to the repository to make its link shareable.');}
+  try{if(file.size>15*1024*1024)throw new Error('Choose a piece JSON smaller than 15 MB.');const piece=validatePiece(JSON.parse(await file.text()));state.cache.set(piece.id,piece);state.localIds.add(piece.id);const item={id:piece.id,title:piece.title,composer:piece.composer,subtitle:piece.subtitle,form:piece.form,analysis:piece.analysis,playback:playbackStatus(piece),file:''};const index=state.catalog.findIndex(c=>c.id===piece.id);if(index<0)state.catalog.push(item);else state.catalog[index]=item;await switchPiece(piece.id);status('Opened locally. Add this JSON to the repository to make its link shareable.');}
   catch(error){status(error.message,true);}finally{event.target.value='';}
 });
 document.addEventListener('keydown',event=>{

@@ -35,6 +35,14 @@ export function formatTime(value) {
 export function safeUrl(value) {
   try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) ? url.href : null; } catch { return null; }
 }
+/** Safe listening link; timestamps are only meaningful for YouTube clips. */
+export function recordingUrl(recording, startSeconds) {
+  if (typeof recording?.youtubeId === 'string' && /^[A-Za-z0-9_-]{11}$/.test(recording.youtubeId)) {
+    const time = Number.isFinite(startSeconds) && startSeconds >= 0 ? `&t=${Math.floor(startSeconds)}s` : '';
+    return `https://www.youtube.com/watch?v=${recording.youtubeId}${time}`;
+  }
+  return typeof recording?.url === 'string' ? safeUrl(recording.url) : null;
+}
 export function themeColor(theme, index = 0) {
   return /^#[a-f\d]{6}$/i.test(theme.color || '') ? theme.color : PALETTE[index % PALETTE.length];
 }
@@ -86,10 +94,14 @@ export function validatePiece(piece) {
   for (const section of piece.sections || []) if (!section || typeof section.label!=='string' || !Number.isFinite(section.start) || !Number.isFinite(section.end) || section.start < 0 || section.end <= section.start || section.end > piece.totalBeats + 0.001) fail('invalid section boundaries or label.');
   for (const recording of piece.recordings) {
     if(typeof recording.title!=='string'||!recording.title)fail(`recording ${recording.id} needs a title.`);
-    if (!/^[A-Za-z0-9_-]{11}$/.test(recording.youtubeId || '')) fail(`invalid YouTube ID in ${recording.id}.`);
+    const hasYouTubeId = recording.youtubeId !== undefined;
+    if (hasYouTubeId && (typeof recording.youtubeId !== 'string' || !/^[A-Za-z0-9_-]{11}$/.test(recording.youtubeId))) fail(`invalid YouTube ID in ${recording.id}.`);
+    if (recording.url !== undefined && (typeof recording.url !== 'string' || !safeUrl(recording.url))) fail(`recording ${recording.id} needs an HTTP(S) URL.`);
     const anchors = recording.alignment?.anchors;
     if (!Array.isArray(anchors)) fail(`alignment anchors are required for ${recording.id}.`);
     if(!['source-aligned','estimated','unavailable'].includes(recording.alignment.status))fail(`unknown alignment status in ${recording.id}.`);
+    if (!hasYouTubeId && recording.alignment.status !== 'unavailable') fail(`synchronized recording ${recording.id} needs a YouTube ID.`);
+    if (!recordingUrl(recording)) fail(`recording ${recording.id} needs a YouTube ID or HTTP(S) URL.`);
     if(recording.alignment.status!=='unavailable'&&anchors.length<2)fail(`at least two alignment anchors are required for ${recording.id}.`);
     anchors.forEach((a, i) => {
       if (!a || !Number.isFinite(a.beat) || !Number.isFinite(a.seconds) || a.seconds < 0 || (i && (a.beat <= anchors[i-1].beat || a.seconds <= anchors[i-1].seconds))) fail(`alignment must strictly increase in ${recording.id}.`);

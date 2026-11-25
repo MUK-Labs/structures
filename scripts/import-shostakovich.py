@@ -269,6 +269,7 @@ def build_piece(source, midi_path, with_previews=False):
 
 
 def main():
+    from piece_output import write_piece
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--analysis',type=Path,required=True,help='Pinned Algomus fugues/fugues.ref')
     parser.add_argument('--midi-dir',type=Path,required=True,help='Marques files named 01.mid through 12.mid')
@@ -279,7 +280,7 @@ def main():
     args.output.mkdir(parents=True,exist_ok=True)
     for number,source in sorted(pieces.items()):
         piece=build_piece(source,args.midi_dir/f'{number:02d}.mid',args.previews)
-        (args.output/(piece['id']+'.json')).write_text(json.dumps(piece,ensure_ascii=False,indent=2)+'\n')
+        write_piece(args.output/(piece['id']+'.json'), piece)
         print(piece['id'],len(piece['entries']),'entries',len(piece['themes']),'themes',len(piece['editorialOmissions']),'omissions')
 
 if __name__=='__main__':main()

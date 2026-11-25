@@ -2667,7 +2667,28 @@
       "type": "pedal"
     }
   ],
-  "recordings": [],
+  "recordings": [
+    {
+      "id": "ashkenazy-op87-10-youtube",
+      "title": "Vladimir Ashkenazy · Fugue No. 10 in C♯ minor",
+      "youtubeId": "8JnmGC5eDak",
+      "url": "https://www.youtube.com/watch?v=8JnmGC5eDak",
+      "performer": "Vladimir Ashkenazy",
+      "scope": "Individual complete fugue, without its prelude.",
+      "alignment": {
+        "status": "unavailable",
+        "description": "Manual timing needed. Individual complete fugue, without its prelude. No score-to-recording anchors have been measured.",
+        "anchors": []
+      },
+      "sourceTitle": "Shostakovich: Preludes and Fugues for Piano, Op. 87: Prelude & Fugue No. 10 in C sharp minor: Fugue",
+      "notes": "Individual fugue-only track on Vladimir Ashkenazy – Topic. The work number, key and Fugue movement title were verified against YouTube’s live oEmbed metadata. Candidate for manual synchronization; no start time, duration estimate or timing anchors have been assigned.",
+      "verification": {
+        "checkedDate": "2026-11-25",
+        "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=8JnmGC5eDak&format=json",
+        "method": "Work, performer and recording metadata checked against public source pages; no musical timing or listening quality is asserted."
+      }
+    }
+  ],
   "notes": [
     "Reference annotations from Algomus; these are analytical readings, not automatic detections.",
     "Analysis only: no verified recording-specific synchronization is available. No playback timing has been estimated.",

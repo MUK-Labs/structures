@@ -146,7 +146,32 @@
     }
   ],
   "sections": [],
-  "recordings": [],
+  "recordings": [
+    {
+      "id": "carlson-ludus-12",
+      "title": "Jane Carlson · Fugue No. 12 in F♯",
+      "youtubeId": "hFcIK0G__4U",
+      "url": "https://www.youtube.com/watch?v=hFcIK0G__4U",
+      "performer": "Jane Carlson",
+      "scope": "Individual complete fugue; the graph covers its opening excerpt.",
+      "alignment": {
+        "status": "unavailable",
+        "description": "Manual timing needed. Individual complete fugue; the graph covers its opening excerpt. No score-to-recording anchors have been measured.",
+        "anchors": []
+      },
+      "sourceTitle": "Ludus Tonalis: XXIII. Fuga Ducecima in F Sharp Major",
+      "notes": "Complete individual fugue recording for solo piano, from the label-linked album playlist. The Structures diagram covers only the opening excerpt. No musical onset, endpoint, or beat-to-time mapping has been inferred. The platform title has the source typo \"XXIII. Fuga Ducecima\"; the label tracklist identifies the twelfth fugue in F-sharp, distinct from the preceding waltz interlude.",
+      "verification": {
+        "checkedDate": "2026-11-25",
+        "url": "https://www.youtube.com/watch?v=hFcIK0G__4U",
+        "method": "Work, performer and recording metadata checked against public source pages; no musical timing or listening quality is asserted."
+      },
+      "source": {
+        "title": "Musical Heritage Society — Hindemith: Ludus Tonalis, Jane Carlson",
+        "url": "https://themusicalheritagesociety.com/products/hindemith-ludus-tonalis-jane-carlson"
+      }
+    }
+  ],
   "sources": [
     {
       "id": "score",
