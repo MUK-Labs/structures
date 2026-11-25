@@ -143,7 +143,7 @@ def build(score_path):
         'subtitle': 'First fugue exposition · movement III, upbeat and mm. 28–41 (excerpt)',
         'form': 'Fugue', 'key': 'A-flat major',
         'meter': {'beats': 6, 'unit': 8}, 'totalBeats': 42,
-        'measures': [{'number': 27, 'label': 'Fugue upbeat', 'sourceDontCount': True, 'start': 0, 'end': 1.5,
+        'measures': [{'number': 27, 'label': 'Upbeat', 'sourceDontCount': True, 'start': 0, 'end': 1.5,
                       'meter': {'beats': 6, 'unit': 8}}]
                     + [{'number': n, 'start': (n-27)*3-1.5, 'end': min((n-26)*3-1.5, 42),
                         'meter': {'beats': 6, 'unit': 8}} for n in range(28, 42)],
@@ -159,7 +159,7 @@ def build(score_path):
         'analysis': {'kind': 'editorial', 'coverage': 'exposition', 'description': description},
         'notes': [
             description,
-            'The graph begins at the unnumbered, 1.5-quarter fugue upbeat in 6/8, labelled “Fugue upbeat”. The preceding shortened Arioso bar, numbered 27 in the source encoding and notated in 12/16, is excluded. Subsequent bars retain the pinned score’s original movement numbers 28–41. The upbeat’s internal map number 27 is only an ordering key, not a claim that it is the printed bar 27.',
+            'The graph begins at the unnumbered, 1.5-quarter fugue upbeat in 6/8, labelled “Upbeat”. The preceding shortened Arioso bar, numbered 27 in the source encoding and notated in 12/16, is excluded. Subsequent bars retain the pinned score’s original movement numbers 28–41. The upbeat’s internal map number 27 is only an ordering key, not a claim that it is the printed bar 27.',
             'This excerpt ends halfway through m. 41, after the soprano subject’s final C has completed its dotted-quarter duration. It does not span the entire movement, either entire fugue section or later inverted exposition.',
             'The first subject begins at the unnumbered fugue upbeat; the answer begins in m. 31, eighth-note beat 4; the soprano enters in m. 37, eighth-note beat 4. The subject’s final tied note overlaps the answer’s entrance by one eighth note.',
             'Ormesher’s discussion identifies the same three opening voices with entry numbers 26, 30 and 36. The diagram labels the initial upbeat separately and retains the encoding’s explicit numbers for subsequent measures, including 31 and 37 at the other entrances, rather than silently changing that source numbering.',
