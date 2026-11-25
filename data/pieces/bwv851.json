@@ -1,0 +1,540 @@
+{
+  "schemaVersion": 1,
+  "id": "bwv851",
+  "title": "Fugue in D minor",
+  "composer": "Johann Sebastian Bach",
+  "subtitle": "The Well-Tempered Clavier · Book I, No. 6 · BWV 851",
+  "form": "Fugue",
+  "key": "D minor",
+  "totalBeats": 132.0,
+  "meter": {
+    "beats": 3,
+    "unit": 4
+  },
+  "voices": [
+    {
+      "id": "voice-1",
+      "label": "Upper"
+    },
+    {
+      "id": "voice-2",
+      "label": "Middle"
+    },
+    {
+      "id": "voice-3",
+      "label": "Lower"
+    }
+  ],
+  "themes": [
+    {
+      "id": "subject",
+      "label": "Subject",
+      "color": "#3263b9",
+      "description": "Subject occurrences in the Algomus reference analysis. Variants retain the source labels.",
+      "previewSvg": "<svg viewBox=\"0 0 308 87\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"kwgv1m6\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"E050-kwgv1m6\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"E260-kwgv1m6\"><path transform=\"scale(1,-1)\" d=\"M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z\"/></g><g id=\"E083-kwgv1m6\"><path transform=\"scale(1,-1)\" d=\"M208 250c97 0 177 -52 177 -116c0 -69 -40 -111 -118 -125c56 -5 125 -44 125 -116c0 -31 -10 -57 -31 -78c-19 -21 -45 -38 -78 -49l-50 -11c-15 -3 -36 -7 -55 -7c-50 0 -86 16 -113 38c-16 10 -23 18 -34 34c-7 13 -11 25 -11 38c0 43 27 83 68 83l3 -2 c61 0 75 -42 75 -70c0 -19 -24 -42 -26 -57c7 -17 20 -25 37 -25c44 0 94 29 94 78c0 75 -34 125 -138 125v36c84 0 131 22 131 98c0 54 -37 88 -87 88c-26 0 -43 -7 -51 -22c15 -22 44 -16 44 -70c0 -37 -37 -62 -71 -62c-22 0 -69 15 -69 76c0 79 101 116 178 116z\"/></g><g id=\"E084-kwgv1m6\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"E0A4-kwgv1m6\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g><g id=\"E240-kwgv1m6\"><path transform=\"scale(1,-1)\" d=\"M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z\"/></g><g id=\"E262-kwgv1m6\"><path transform=\"scale(1,-1)\" d=\"M136 186v169h17v-164l44 14v-91l-44 -14v-165l44 12v-91l-44 -13v-155h-17v150l-76 -22v-155h-17v149l-43 -13v90l43 14v167l-43 -14v92l43 13v169h17v-163zM60 73v-167l76 22v168z\"/></g><g id=\"E4A2-kwgv1m6\"><path transform=\"scale(1,-1)\" d=\"M0 48c0 26 22 48 48 48s48 -22 48 -48s-22 -48 -48 -48s-48 22 -48 48z\"/></g><g id=\"E566-kwgv1m6\"><path transform=\"scale(1,-1)\" d=\"M162 167l-36 -115l-1 -10c0 -10 5 -16 16 -19c32 18 48 43 48 75c0 20 -9 43 -27 69zM432 225c0 -21 -11 -36 -31 -37c-15 0 -20 10 -23 25l3 14l2 11l1 9l-4 4c-1 -1 -2 -1 -3 -1c-23 -13 -36 -24 -47 -48l-12 -27c-18 -50 -31 -105 -47 -157h-60l58 214c0 7 -3 5 -5 9 c-7 0 -25 -8 -51 -28l-37 -28c20 -34 31 -67 31 -97c0 -12 -1 -21 -4 -28l-6 -15c-1 -3 -5 -10 -12 -19c-14 -18 -30 -26 -49 -26c-30 0 -67 18 -67 52c1 1 1 6 3 15l20 84c-9 -5 -21 -8 -36 -8c-21 0 -29 7 -40 19c-10 12 -16 27 -16 47c0 23 6 33 17 45s25 18 46 18 c19 0 39 -8 60 -25l34 117h63l-46 -158l38 31l32 20c21 10 35 13 62 15c16 0 24 -7 24 -21l-1 -10l-6 -24c21 37 44 55 70 55c23 0 39 -23 39 -47zM18 208c0 -27 17 -47 45 -47l3 -2l13 4l23 9l14 55c-17 15 -35 22 -55 22c-26 0 -43 -17 -43 -41z\"/></g></defs><style type=\"text/css\">#kwgv1m6 g.ending, #kwgv1m6 g.fing, #kwgv1m6 g.reh, #kwgv1m6 g.tempo {font-weight:bold;}#kwgv1m6 g.dir, #kwgv1m6 g.dynam, #kwgv1m6 g.mNum {font-style:italic;}#kwgv1m6 g.label {font-weight:normal;}#kwgv1m6 ellipse, #kwgv1m6 path, #kwgv1m6 polygon, #kwgv1m6 polyline, #kwgv1m6 rect {stroke:currentColor}#kwgv1m6 g.cursor {fill:dodgerblue; color:dodgerblue;}#kwgv1m6 g.cursor.chord {fill:limegreen; color:limegreen;}#kwgv1m6 g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 7680 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"u1kdovms\" class=\"mdiv pageMilestone\"/><g id=\"v1d6sz3t\" class=\"score pageMilestone\"/><g id=\"f12vmjfr\" class=\"system\"><g id=\"xkvx292\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"z7e703v\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"k1lkpsgx\" class=\"measure\"><g id=\"tiaqklf\" class=\"staff\"><path d=\"M0 540 L4274 540\" stroke-width=\"13\"/><path d=\"M0 720 L4274 720\" stroke-width=\"13\"/><path d=\"M0 900 L4274 900\" stroke-width=\"13\"/><path d=\"M0 1080 L4274 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L4274 1260\" stroke-width=\"13\"/><g id=\"g1wn65wk\" class=\"clef\"><use xlink:href=\"#E050-kwgv1m6\" transform=\"translate(90, 1080) scale(0.72, 0.72)\"/></g><g id=\"hz13nly\" class=\"keySig\"><g id=\"i62la9q\" class=\"keyAccid\"><use xlink:href=\"#E260-kwgv1m6\" transform=\"translate(735, 900) scale(0.72, 0.72)\"/></g></g><g id=\"j1vxg3ff\" class=\"meterSig\"><use xlink:href=\"#E083-kwgv1m6\" transform=\"translate(1049, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#E084-kwgv1m6\" transform=\"translate(1043, 1080) scale(0.72, 0.72)\"/></g><g id=\"u1wetvq9\" class=\"layer\"><g id=\"ve0679\" class=\"space\"/><g id=\"w4dd0b3\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-kwgv1m6\" transform=\"translate(1965, 1350) scale(0.72, 0.72)\"/></g><g id=\"rboqyjh\" class=\"stem\"><path d=\"M2182 1322 L2182 720\" stroke-width=\"18\"/><g id=\"s9h3vv7\" class=\"flag\"><use xlink:href=\"#E240-kwgv1m6\" transform=\"translate(2173, 720) scale(0.72, 0.72)\"/></g></g></g><g id=\"xu7kik3\" class=\"beam\"><polygon points=\"2669,540 3137,495 3137,585 2669,630\"/><g id=\"yw09f3f\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-kwgv1m6\" transform=\"translate(2461, 1260) scale(0.72, 0.72)\"/></g><g id=\"t1xi5vq7\" class=\"stem\"><path d=\"M2678 1232 L2678 558\" stroke-width=\"18\"/></g></g><g id=\"zyn8gj4\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-kwgv1m6\" transform=\"translate(2911, 1170) scale(0.72, 0.72)\"/></g><g id=\"ujoldlm\" class=\"stem\"><path d=\"M3128 1142 L3128 513\" stroke-width=\"18\"/></g></g></g><g id=\"aavbm87\" class=\"beam\"><polygon points=\"3569,405 4037,450 4037,540 3569,495\"/><g id=\"b11b9fts\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-kwgv1m6\" transform=\"translate(3361, 1080) scale(0.72, 0.72)\"/></g><g id=\"v1sr2fh5\" class=\"stem\"><path d=\"M3578 1052 L3578 423\" stroke-width=\"18\"/></g></g><g id=\"cdqcoy8\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-kwgv1m6\" transform=\"translate(3811, 1260) scale(0.72, 0.72)\"/></g><g id=\"w3bn8h5\" class=\"stem\"><path d=\"M4028 1232 L4028 468\" stroke-width=\"18\"/></g></g></g></g></g><g id=\"s1ewts8a\" class=\"barLine\"><path d=\"M4261 540 L4261 1260\" stroke-width=\"27\"/></g></g><g id=\"d1ysyjh7\" class=\"measure\"><g id=\"mi2hdi\" class=\"staff\"><path d=\"M4274 540 L7323 540\" stroke-width=\"13\"/><path d=\"M4274 720 L7323 720\" stroke-width=\"13\"/><path d=\"M4274 900 L7323 900\" stroke-width=\"13\"/><path d=\"M4274 1080 L7323 1080\" stroke-width=\"13\"/><path d=\"M4274 1260 L7323 1260\" stroke-width=\"13\"/><g class=\"ledgerLines below\"><path d=\"M5250 1440 L5572 1440\" stroke-width=\"22\"/></g><g id=\"n1wjqre9\" class=\"layer\"><g id=\"o1o6b2cm\" class=\"beam\"><polygon points=\"4662,495 5840,540 5840,630 4662,585\"/><polygon points=\"4662,630 4987,643 4987,733 4662,720\"/><polygon points=\"5515,663 5840,675 5840,765 5515,753\"/><g id=\"p1n6i0dd\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-kwgv1m6\" transform=\"translate(4454, 1170) scale(0.72, 0.72)\"/></g><g id=\"x13laxo0\" class=\"stem\"><path d=\"M4671 1142 L4671 513\" stroke-width=\"18\"/></g></g><g id=\"qb31r1j\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-kwgv1m6\" transform=\"translate(4770, 1350) scale(0.72, 0.72)\"/></g><g id=\"y1bwsfsb\" class=\"stem\"><path d=\"M4987 1322 L4987 526\" stroke-width=\"18\"/></g></g><g id=\"r17d1o4j\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-kwgv1m6\" transform=\"translate(5298, 1440) scale(0.72, 0.72)\"/></g><g id=\"zo9mkg9\" class=\"stem\"><path d=\"M5515 1412 L5515 546\" stroke-width=\"18\"/></g><g id=\"sdzttaz\" class=\"accid\"><use xlink:href=\"#E262-kwgv1m6\" transform=\"translate(5086, 1440) scale(0.72, 0.72)\"/></g></g><g id=\"t19y22os\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-kwgv1m6\" transform=\"translate(5614, 1350) scale(0.72, 0.72)\"/></g><g id=\"a1spur2f\" class=\"stem\"><path d=\"M5831 1322 L5831 558\" stroke-width=\"18\"/></g></g></g><g id=\"u1n5a2k7\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-kwgv1m6\" transform=\"translate(5930, 900) scale(0.72, 0.72)\"/></g><g id=\"bjz8tjs\" class=\"stem\"><path d=\"M5939 928 L5939 1500\" stroke-width=\"18\"/></g><g id=\"v1gs5tce\" class=\"accid\"/><g id=\"wyv0sex\" class=\"artic\"><use xlink:href=\"#E4A2-kwgv1m6\" transform=\"translate(6009, 664) scale(0.72, 0.72)\"/></g></g><g id=\"xk047j7\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-kwgv1m6\" transform=\"translate(6620, 1080) scale(0.72, 0.72)\"/></g><g id=\"cqfzzfz\" class=\"stem\"><path d=\"M6837 1052 L6837 450\" stroke-width=\"18\"/></g></g></g></g><g id=\"y1q7mvho\" class=\"trill\"><use xlink:href=\"#E566-kwgv1m6\" transform=\"translate(6577, 396) scale(0.72, 0.72)\"/></g><g id=\"lr0w3w8\" class=\"barLine\"><path d=\"M7310 540 L7310 1260\" stroke-width=\"27\"/></g></g><g id=\"is4jzvr\" class=\"systemMilestoneEnd z7e703v\"/><g id=\"jcwbp9g\" class=\"systemMilestoneEnd xkvx292\"/></g><g id=\"k1txjkvl\" class=\"pageMilestoneEnd v1d6sz3t\"/><g id=\"l1ktm8v1\" class=\"pageMilestoneEnd u1kdovms\"/></g></svg></svg>",
+      "previewCaption": "Opening excerpt · voice 1 · mm. 1–2",
+      "previewSource": {
+        "url": "https://github.com/humdrum-tools/bach-wtc-fugues/blob/5095752e0503c63663f28f4b8d21a5b6ea081a08/kern/wtc1f06.krn",
+        "credit": "J. S. Bach; Bach-Gesellschaft edition (1866). Humdrum encoding by David Huron; engraved with Verovio.",
+        "sourceType": "S",
+        "voice": 1,
+        "startBeat": 0.5,
+        "endBeat": 6.0,
+        "entryReleaseBeat": 7.25,
+        "lastNoteReleaseMatched": true,
+        "firstMeasure": 1,
+        "lastMeasure": 2,
+        "completeEntry": false
+      }
+    },
+    {
+      "id": "countersubject-1",
+      "label": "Countersubject 1",
+      "color": "#ba5c38",
+      "description": "Countersubject 1 occurrences in the Algomus reference analysis. Variants retain the source labels.",
+      "previewSvg": "<svg viewBox=\"0 0 374 87\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"o1nuwvys\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"E050-o1nuwvys\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"E260-o1nuwvys\"><path transform=\"scale(1,-1)\" d=\"M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z\"/></g><g id=\"E083-o1nuwvys\"><path transform=\"scale(1,-1)\" d=\"M208 250c97 0 177 -52 177 -116c0 -69 -40 -111 -118 -125c56 -5 125 -44 125 -116c0 -31 -10 -57 -31 -78c-19 -21 -45 -38 -78 -49l-50 -11c-15 -3 -36 -7 -55 -7c-50 0 -86 16 -113 38c-16 10 -23 18 -34 34c-7 13 -11 25 -11 38c0 43 27 83 68 83l3 -2 c61 0 75 -42 75 -70c0 -19 -24 -42 -26 -57c7 -17 20 -25 37 -25c44 0 94 29 94 78c0 75 -34 125 -138 125v36c84 0 131 22 131 98c0 54 -37 88 -87 88c-26 0 -43 -7 -51 -22c15 -22 44 -16 44 -70c0 -37 -37 -62 -71 -62c-22 0 -69 15 -69 76c0 79 101 116 178 116z\"/></g><g id=\"E084-o1nuwvys\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"E0A4-o1nuwvys\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g><g id=\"E261-o1nuwvys\"><path transform=\"scale(1,-1)\" d=\"M0 -188v539h18v-191l139 22v-533h-17v186zM18 -100l122 17v176l-122 -19v-174z\"/></g><g id=\"E262-o1nuwvys\"><path transform=\"scale(1,-1)\" d=\"M136 186v169h17v-164l44 14v-91l-44 -14v-165l44 12v-91l-44 -13v-155h-17v150l-76 -22v-155h-17v149l-43 -13v90l43 14v167l-43 -14v92l43 13v169h17v-163zM60 73v-167l76 22v168z\"/></g></defs><style type=\"text/css\">#o1nuwvys g.ending, #o1nuwvys g.fing, #o1nuwvys g.reh, #o1nuwvys g.tempo {font-weight:bold;}#o1nuwvys g.dir, #o1nuwvys g.dynam, #o1nuwvys g.mNum {font-style:italic;}#o1nuwvys g.label {font-weight:normal;}#o1nuwvys ellipse, #o1nuwvys path, #o1nuwvys polygon, #o1nuwvys polyline, #o1nuwvys rect {stroke:currentColor}#o1nuwvys g.cursor {fill:dodgerblue; color:dodgerblue;}#o1nuwvys g.cursor.chord {fill:limegreen; color:limegreen;}#o1nuwvys g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 9340 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"ymp382u\" class=\"mdiv pageMilestone\"/><g id=\"z1qe0fm9\" class=\"score pageMilestone\"/><g id=\"ub57v8h\" class=\"system\"><g id=\"b19unis5\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"oqgg4y7\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"o1fa5gcz\" class=\"measure\"><g id=\"b18pyu1x\" class=\"mNum autogenerated\"><text y=\"297\" text-anchor=\"middle\" font-size=\"0px\"><tspan id=\"cqwjlb\" class=\"text\"><tspan font-size=\"324px\">3</tspan></tspan></text></g><g id=\"x1mcn3fz\" class=\"staff\"><path d=\"M0 540 L4850 540\" stroke-width=\"13\"/><path d=\"M0 720 L4850 720\" stroke-width=\"13\"/><path d=\"M0 900 L4850 900\" stroke-width=\"13\"/><path d=\"M0 1080 L4850 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L4850 1260\" stroke-width=\"13\"/><g id=\"cld7174\" class=\"clef\"><use xlink:href=\"#E050-o1nuwvys\" transform=\"translate(90, 1080) scale(0.72, 0.72)\"/></g><g id=\"d1fk8bm9\" class=\"keySig\"><g id=\"ed2wrbu\" class=\"keyAccid\"><use xlink:href=\"#E260-o1nuwvys\" transform=\"translate(735, 900) scale(0.72, 0.72)\"/></g></g><g id=\"fvkgt45\" class=\"meterSig\"><use xlink:href=\"#E083-o1nuwvys\" transform=\"translate(1049, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#E084-o1nuwvys\" transform=\"translate(1043, 1080) scale(0.72, 0.72)\"/></g><g id=\"y1bn0mlj\" class=\"layer\"><g id=\"zs3j6e1\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(1605, 990) scale(0.72, 0.72)\"/></g><g id=\"gjho0kb\" class=\"stem\"><path d=\"M1822 962 L1822 360\" stroke-width=\"18\"/></g></g><g id=\"b1pwynb6\" class=\"beam\"><polygon points=\"2503,360 3469,540 3469,630 2503,450\"/><polygon points=\"2503,495 2828,555 2828,645 2503,585\"/><polygon points=\"3144,615 3469,675 3469,765 3144,705\"/><g id=\"cicj4b7\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(2295, 990) scale(0.72, 0.72)\"/></g><g id=\"hbxzj7a\" class=\"stem\"><path d=\"M2512 962 L2512 378\" stroke-width=\"18\"/></g></g><g id=\"df8ummq\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(2611, 1080) scale(0.72, 0.72)\"/></g><g id=\"isjnk8x\" class=\"stem\"><path d=\"M2828 1052 L2828 438\" stroke-width=\"18\"/></g></g><g id=\"egg7cy\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(2927, 1170) scale(0.72, 0.72)\"/></g><g id=\"j14escch\" class=\"stem\"><path d=\"M3144 1142 L3144 498\" stroke-width=\"18\"/></g></g><g id=\"f14h6h8e\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(3243, 1260) scale(0.72, 0.72)\"/></g><g id=\"k1r5zk2i\" class=\"stem\"><path d=\"M3460 1232 L3460 558\" stroke-width=\"18\"/></g></g></g><g id=\"g17muniz\" class=\"beam\"><polygon points=\"3767,450 4733,630 4733,720 3767,540\"/><polygon points=\"3767,585 4092,645 4092,735 3767,675\"/><polygon points=\"4408,705 4733,765 4733,855 4408,795\"/><g id=\"h1bg8gm2\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(3559, 1080) scale(0.72, 0.72)\"/></g><g id=\"lw6nt2f\" class=\"stem\"><path d=\"M3776 1052 L3776 468\" stroke-width=\"18\"/></g></g><g id=\"i1k9q1yk\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(3875, 1170) scale(0.72, 0.72)\"/></g><g id=\"mvcpe3s\" class=\"stem\"><path d=\"M4092 1142 L4092 528\" stroke-width=\"18\"/></g></g><g id=\"jk1fz55\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(4191, 1260) scale(0.72, 0.72)\"/></g><g id=\"n18l1ae8\" class=\"stem\"><path d=\"M4408 1232 L4408 588\" stroke-width=\"18\"/></g></g><g id=\"k8re9p1\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(4507, 1350) scale(0.72, 0.72)\"/></g><g id=\"o18xjkin\" class=\"stem\"><path d=\"M4724 1322 L4724 648\" stroke-width=\"18\"/></g></g></g></g></g><g id=\"axnw3eh\" class=\"tie\"><path d=\"M1876,1035 C1981,1141 2142,1141 2250,1035 C2167,1190 1956,1190 1876,1035\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><g id=\"w15bdzk0\" class=\"barLine\"><path d=\"M4837 540 L4837 1260\" stroke-width=\"27\"/></g></g><g id=\"l1r6toos\" class=\"measure\"><g id=\"u1lpppkx\" class=\"staff\"><path d=\"M4850 540 L8987 540\" stroke-width=\"13\"/><path d=\"M4850 720 L8987 720\" stroke-width=\"13\"/><path d=\"M4850 900 L8987 900\" stroke-width=\"13\"/><path d=\"M4850 1080 L8987 1080\" stroke-width=\"13\"/><path d=\"M4850 1260 L8987 1260\" stroke-width=\"13\"/><g id=\"vom509v\" class=\"layer\"><g id=\"w5glo3w\" class=\"beam\"><polygon points=\"5238,270 5706,225 5706,315 5238,360\"/><g id=\"xrqvn48\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(5030, 1260) scale(0.72, 0.72)\"/></g><g id=\"pdyg69q\" class=\"stem\"><path d=\"M5247 1232 L5247 288\" stroke-width=\"18\"/></g></g><g id=\"yzrcsly\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(5480, 810) scale(0.72, 0.72)\"/></g><g id=\"qiulzwf\" class=\"stem\"><path d=\"M5697 782 L5697 243\" stroke-width=\"18\"/></g></g></g><g id=\"a126ljql\" class=\"beam\"><polygon points=\"5930,1575 7212,1575 7212,1485 5930,1485\"/><polygon points=\"5930,1440 6413,1440 6413,1350 5930,1350\"/><polygon points=\"6729,1440 7212,1440 7212,1350 6729,1350\"/><g id=\"b95l4f1\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(5930, 810) scale(0.72, 0.72)\"/></g><g id=\"r1b5rj69\" class=\"stem\"><path d=\"M5939 838 L5939 1557\" stroke-width=\"18\"/></g></g><g id=\"c18p1jih\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(6404, 900) scale(0.72, 0.72)\"/></g><g id=\"s12letah\" class=\"stem\"><path d=\"M6413 928 L6413 1557\" stroke-width=\"18\"/></g><g id=\"dm5zwxx\" class=\"accid\"><use xlink:href=\"#E261-o1nuwvys\" transform=\"translate(6246, 900) scale(0.72, 0.72)\"/></g></g><g id=\"e1gu14iz\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(6720, 990) scale(0.72, 0.72)\"/></g><g id=\"t12lszz6\" class=\"stem\"><path d=\"M6729 1018 L6729 1557\" stroke-width=\"18\"/></g></g><g id=\"f150ooqc\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(7194, 900) scale(0.72, 0.72)\"/></g><g id=\"u1c6buvy\" class=\"stem\"><path d=\"M7203 928 L7203 1557\" stroke-width=\"18\"/></g><g id=\"gepxugz\" class=\"accid\"><use xlink:href=\"#E261-o1nuwvys\" transform=\"translate(7036, 900) scale(0.72, 0.72)\"/></g></g></g><g id=\"h57rlz3\" class=\"beam\"><polygon points=\"7718,225 8870,270 8870,360 7718,315\"/><polygon points=\"7718,360 8043,373 8043,463 7718,450\"/><polygon points=\"8545,393 8870,405 8870,495 8545,483\"/><g id=\"i1s0un4p\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(7510, 900) scale(0.72, 0.72)\"/></g><g id=\"vrriws8\" class=\"stem\"><path d=\"M7727 872 L7727 243\" stroke-width=\"18\"/></g><g id=\"j1edlpws\" class=\"accid\"/></g><g id=\"k1inkllg\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(7826, 990) scale(0.72, 0.72)\"/></g><g id=\"wjfnrik\" class=\"stem\"><path d=\"M8043 962 L8043 256\" stroke-width=\"18\"/></g></g><g id=\"lqeb2xs\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(8328, 1080) scale(0.72, 0.72)\"/></g><g id=\"xbl4ah7\" class=\"stem\"><path d=\"M8545 1052 L8545 276\" stroke-width=\"18\"/></g><g id=\"marixgf\" class=\"accid\"><use xlink:href=\"#E262-o1nuwvys\" transform=\"translate(8142, 1080) scale(0.72, 0.72)\"/></g></g><g id=\"n1plwgko\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o1nuwvys\" transform=\"translate(8644, 990) scale(0.72, 0.72)\"/></g><g id=\"yu51rli\" class=\"stem\"><path d=\"M8861 962 L8861 288\" stroke-width=\"18\"/></g></g></g></g></g><g id=\"z15dama\" class=\"tie\"><path d=\"M5593,945 C5716,1051 5917,1051 6043,945 C5940,1100 5693,1100 5593,945\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><g id=\"t42l3om\" class=\"barLine\"><path d=\"M8974 540 L8974 1260\" stroke-width=\"27\"/></g></g><g id=\"x1ju54z8\" class=\"systemMilestoneEnd oqgg4y7\"/><g id=\"y19a3g27\" class=\"systemMilestoneEnd b19unis5\"/></g><g id=\"z1x5v8hu\" class=\"pageMilestoneEnd z1qe0fm9\"/><g id=\"a1mic5zq\" class=\"pageMilestoneEnd ymp382u\"/></g></svg></svg>",
+      "previewCaption": "Opening excerpt · voice 1 · mm. 3–4",
+      "previewSource": {
+        "url": "https://github.com/humdrum-tools/bach-wtc-fugues/blob/5095752e0503c63663f28f4b8d21a5b6ea081a08/kern/wtc1f06.krn",
+        "credit": "J. S. Bach; Bach-Gesellschaft edition (1866). Humdrum encoding by David Huron; engraved with Verovio.",
+        "sourceType": "CS1",
+        "voice": 1,
+        "startBeat": 6,
+        "endBeat": 12.0,
+        "entryReleaseBeat": 12.25,
+        "lastNoteReleaseMatched": true,
+        "firstMeasure": 3,
+        "lastMeasure": 4,
+        "completeEntry": false
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "bwv851-entry-1",
+      "voice": "voice-1",
+      "theme": "subject",
+      "start": 0.5,
+      "end": 7.25,
+      "sourceEnd": 6.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv851-entry-2",
+      "voice": "voice-1",
+      "theme": "countersubject-1",
+      "start": 6,
+      "end": 12.25,
+      "sourceEnd": 12,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv851-entry-18",
+      "voice": "voice-2",
+      "theme": "subject",
+      "start": 6.5,
+      "end": 13.25,
+      "sourceEnd": 12.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv851-entry-3",
+      "voice": "voice-1",
+      "theme": "countersubject-1",
+      "start": 15.5,
+      "end": 19.0,
+      "sourceEnd": 18.0,
+      "label": "CS1a",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset.",
+      "variant": "part a"
+    },
+    {
+      "id": "bwv851-entry-29",
+      "voice": "voice-3",
+      "theme": "subject",
+      "start": 15.5,
+      "end": 22.25,
+      "sourceEnd": 21.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv851-entry-19",
+      "voice": "voice-2",
+      "theme": "countersubject-1",
+      "start": 18,
+      "end": 22.0,
+      "sourceEnd": 21,
+      "label": "CS1b",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset.",
+      "variant": "part b"
+    },
+    {
+      "id": "bwv851-entry-30",
+      "voice": "voice-3",
+      "theme": "countersubject-1",
+      "start": 21,
+      "end": 27.25,
+      "sourceEnd": 27,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv851-entry-4",
+      "voice": "voice-1",
+      "theme": "subject",
+      "start": 21.5,
+      "end": 28.0,
+      "sourceEnd": 27.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv851-entry-5",
+      "voice": "voice-1",
+      "theme": "subject",
+      "start": 36.5,
+      "end": 42.5,
+      "sourceEnd": 42.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv851-entry-21",
+      "voice": "voice-2",
+      "theme": "subject",
+      "start": 39.5,
+      "end": 45.25,
+      "sourceEnd": 45.0,
+      "label": "S-inv",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset.",
+      "variant": "inverted"
+    },
+    {
+      "id": "bwv851-entry-33",
+      "voice": "voice-3",
+      "theme": "subject",
+      "start": 48.5,
+      "end": 54.5,
+      "sourceEnd": 54.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv851-entry-22",
+      "voice": "voice-2",
+      "theme": "subject",
+      "start": 51.5,
+      "end": 57.5,
+      "sourceEnd": 57.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv851-entry-35",
+      "voice": "voice-3",
+      "theme": "subject",
+      "start": 60.5,
+      "end": 66.5,
+      "sourceEnd": 66.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv851-entry-10",
+      "voice": "voice-1",
+      "theme": "subject",
+      "start": 63.5,
+      "end": 69.25,
+      "sourceEnd": 69.0,
+      "label": "S-inv",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset.",
+      "variant": "inverted"
+    },
+    {
+      "id": "bwv851-entry-36",
+      "voice": "voice-3",
+      "theme": "subject",
+      "start": 66.5,
+      "end": 75.0,
+      "sourceEnd": 72.0,
+      "label": "S-inv",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset.",
+      "variant": "inverted"
+    },
+    {
+      "id": "bwv851-entry-12",
+      "voice": "voice-1",
+      "theme": "subject",
+      "start": 78.5,
+      "end": 84.5,
+      "sourceEnd": 84.0,
+      "label": "S-inv",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset.",
+      "variant": "inverted"
+    },
+    {
+      "id": "bwv851-entry-24",
+      "voice": "voice-2",
+      "theme": "subject",
+      "start": 81.5,
+      "end": 88.0,
+      "sourceEnd": 87.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv851-entry-39",
+      "voice": "voice-3",
+      "theme": "subject",
+      "start": 84.5,
+      "end": 91.0,
+      "sourceEnd": 90.0,
+      "label": "S-inv",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset.",
+      "variant": "inverted"
+    },
+    {
+      "id": "bwv851-entry-40",
+      "voice": "voice-3",
+      "theme": "subject",
+      "start": 99.5,
+      "end": 105.5,
+      "sourceEnd": 105.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv851-entry-41",
+      "voice": "voice-3",
+      "theme": "subject",
+      "start": 114.5,
+      "end": 120.5,
+      "sourceEnd": 120.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv851-entry-27",
+      "voice": "voice-2",
+      "theme": "subject",
+      "start": 117.5,
+      "end": 123.5,
+      "sourceEnd": 123.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    }
+  ],
+  "sections": [
+    {
+      "id": "bwv851-section-45",
+      "label": "I",
+      "start": 126,
+      "end": 132,
+      "type": "pedal",
+      "sourceIds": [
+        "analysis"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "analysis",
+      "title": "Computational Fugue Analysis — reference annotations",
+      "url": "https://gitlab.com/algomus.fr/algomus-data/-/blob/a1801b5b42a4f8d99783e1e52b3dc2e7407cd5ef/fugues/bach-wtc-i/06-bwv851-ref.dez",
+      "author": "Mathieu Giraud, Richard Groult, Florence Levé / Algomus",
+      "license": "ODbL-1.0; individual contents DbCL-1.0"
+    },
+    {
+      "id": "publication",
+      "title": "Computational Fugue Analysis (Computer Music Journal, 2015)",
+      "url": "https://doi.org/10.1162/COMJ_a_00300",
+      "author": "Mathieu Giraud, Richard Groult, Emmanuel Leguy, Florence Levé"
+    },
+    {
+      "id": "score",
+      "title": "KernScores — WTC I, Fugue 6",
+      "url": "https://raw.githubusercontent.com/humdrum-tools/bach-wtc-fugues/5095752e0503c63663f28f4b8d21a5b6ea081a08/kern/wtc1f06.krn",
+      "author": "J. S. Bach; electronic encoding by David Huron",
+      "license": "Public-domain composition; source encoding retains its own copyright notice"
+    },
+    {
+      "id": "corpus",
+      "title": "Dezrann Bach fugues — recording metadata",
+      "url": "https://gitlab.com/algomus.fr/dezrann/dezrann-corpus/-/blob/d828c501f4caf7f860780296292e38faa64a846e/metadata/bach-fugues.full.json",
+      "author": "Algomus / Dezrann"
+    },
+    {
+      "id": "sync-all-of-bach",
+      "title": "Dezrann synchronization — The Netherlands Bach Society",
+      "url": "https://gitlab.com/algomus.fr/dezrann/dezrann-corpus/-/blob/d828c501f4caf7f860780296292e38faa64a846e/corpus/bach-fugues/synchro/bwv851-AllOfBach.synchro.json",
+      "author": "Algomus / Dezrann"
+    }
+  ],
+  "recordings": [
+    {
+      "id": "all-of-bach",
+      "title": "The Netherlands Bach Society",
+      "youtubeId": "nz7JakMMG-c",
+      "performer": "Tineke Steenbrick",
+      "url": "https://www.youtube.com/watch?v=nz7JakMMG-c",
+      "sourceIds": [
+        "corpus",
+        "sync-all-of-bach"
+      ],
+      "alignment": {
+        "status": "source-aligned",
+        "description": "Recording-specific synchronization points from Dezrann. Timing between anchors is linearly interpolated; source alignment is not a claim of frame-level precision. The map ends at its last source anchor.",
+        "sourceIds": [
+          "sync-all-of-bach"
+        ],
+        "anchors": [
+          {
+            "beat": 0,
+            "seconds": 134.39
+          },
+          {
+            "beat": 3,
+            "seconds": 137.28
+          },
+          {
+            "beat": 15,
+            "seconds": 150.54
+          },
+          {
+            "beat": 27,
+            "seconds": 163.18
+          },
+          {
+            "beat": 33,
+            "seconds": 169.52
+          },
+          {
+            "beat": 42,
+            "seconds": 178.98
+          },
+          {
+            "beat": 48,
+            "seconds": 185.47
+          },
+          {
+            "beat": 54,
+            "seconds": 192.23
+          },
+          {
+            "beat": 60,
+            "seconds": 199.0
+          },
+          {
+            "beat": 72,
+            "seconds": 211.56
+          },
+          {
+            "beat": 78,
+            "seconds": 217.76
+          },
+          {
+            "beat": 90,
+            "seconds": 230.4
+          },
+          {
+            "beat": 96,
+            "seconds": 236.52
+          },
+          {
+            "beat": 99,
+            "seconds": 240.03
+          },
+          {
+            "beat": 105,
+            "seconds": 246.38
+          },
+          {
+            "beat": 111,
+            "seconds": 252.43
+          },
+          {
+            "beat": 113,
+            "seconds": 254.63
+          },
+          {
+            "beat": 114,
+            "seconds": 256.1
+          },
+          {
+            "beat": 120,
+            "seconds": 262.46
+          },
+          {
+            "beat": 123,
+            "seconds": 265.48
+          },
+          {
+            "beat": 125,
+            "seconds": 268.21
+          },
+          {
+            "beat": 126,
+            "seconds": 269.43
+          },
+          {
+            "beat": 128,
+            "seconds": 271.96
+          },
+          {
+            "beat": 129,
+            "seconds": 273.8
+          }
+        ]
+      }
+    }
+  ],
+  "notes": "Voices run from highest to lowest. All positions use zero-based quarter-note units. The source usually marks the last note's onset; entry ends include its notated duration, including tied continuations. Where a source endpoint falls within a sounding note, its release is used. Source endpoints remain available as sourceEnd. Only the source's reference thematic annotations are included; labels marked ignore are excluded. An uncolored gap does not itself establish a formal episode. Subject variants share a theme color."
+}

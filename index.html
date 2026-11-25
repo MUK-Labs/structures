@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="See counterpoint unfold. Explore fugue structures, inspect their themes, and listen to individual entries in recorded performances.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Structures — a listening atlas of counterpoint</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./src/styles.css">
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body>
+  <a href="#diagrams" class="skip-link">Skip to the diagrams</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Structures home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>Structures<span class="brand-note">A listening atlas of counterpoint</span></a>
+    <nav aria-label="View controls">
+      <button id="compare-toggle" type="button" aria-pressed="false">Compare</button>
+      <button id="present-toggle" type="button" aria-pressed="false">Presentation</button>
+      <button id="share" type="button">Copy link</button>
+      <button id="about-open" class="icon-button" type="button" aria-label="About and keyboard shortcuts">?</button>
+    </nav>
+  </header>
+  <main>
+    <div class="toolbar">
+      <label class="piece-picker">Explore a piece<select id="piece-select" aria-label="Choose a piece"><option>Loading the collection…</option></select></label>
+      <div class="compare-picker" id="compare-controls" hidden><label>Compare with<select id="compare-select"><option value="">Choose another piece</option></select></label><button id="add-compare" type="button">Add</button></div>
+      <div class="view-options">
+        <label>Zoom<select id="zoom"><option value="1">Fit</option><option value="2">2×</option><option value="4">4×</option></select></label>
+        <label class="check-label"><input type="checkbox" id="section-toggle" checked> Sections</label>
+        <button id="import-open" type="button" class="quiet">Open piece…</button>
+        <input id="import-file" type="file" accept="application/json,.json" hidden>
+      </div>
+    </div>
+    <p id="app-status" class="app-status" role="status" aria-live="polite">Loading the collection…</p>
+    <div id="diagrams" aria-label="Counterpoint timelines"></div>
+    <section class="listening-panel" aria-label="Selected entry and recording">
+      <div class="entry-detail" id="entry-detail">
+        <p class="eyebrow">A closer listen</p><h2 id="detail-title">Choose an entry</h2>
+        <p id="detail-position" class="muted">Click a colored entry to hear that passage. Hover or focus to see the theme.</p>
+        <div id="detail-preview" class="detail-preview"></div>
+        <p id="detail-note" class="detail-note"></p>
+        <div class="transport">
+          <button id="play-entry" class="primary" type="button" disabled>Play entry</button>
+          <button id="pause" type="button" disabled>Pause</button>
+          <label class="check-label"><input type="checkbox" id="loop"> Loop entry</label>
+          <span id="clip-time" class="time-label"></span>
+        </div>
+        <p class="listening-note">You hear the full ensemble during the selected entry.</p>
+        <p id="player-status" class="player-status" role="status" aria-live="polite"></p>
+      </div>
+      <div class="recording-panel">
+        <label class="recording-label">Recording<select id="recording-select" aria-label="Choose a recording"></select></label>
+        <div id="youtube-player" class="youtube-player"><div class="player-placeholder"><span class="play-symbol" aria-hidden="true">▶</span><p>The recording appears here<br>when you play an entry.</p></div></div>
+        <div class="recording-caption"><span id="alignment-note"></span><a id="youtube-link" target="_blank" rel="noopener noreferrer" hidden>Open on YouTube</a></div>
+      </div>
+    </section>
+    <details class="sources-panel" id="sources-panel"><summary>Analysis, sources &amp; timing</summary><div id="sources-content"></div></details>
+  </main>
+  <footer><span>Structures <span aria-hidden="true">/</span> MUK Labs</span><span>Explore the score. Follow the voices.</span><a href="https://github.com/MUK-Labs/structures" target="_blank" rel="noopener noreferrer">Source &amp; adding pieces</a></footer>
+  <div id="theme-tooltip" class="theme-tooltip" role="tooltip" hidden></div>
+  <dialog id="about-dialog"><div class="dialog-top"><h2>About Structures</h2><button id="about-close" type="button" aria-label="Close">Close</button></div>
+    <p>A visual listening atlas for fugues and other contrapuntal forms. Each row is a voice; each color identifies thematic material.</p>
+    <p>Click an entry to play its passage in a recorded performance. Hover or focus an entry for a notation preview. The preview shows the theme’s first occurrence; later entries may be transposed or transformed.</p>
+    <p>Playback follows recording-specific alignment points. YouTube seeking and synchronization can have a small timing tolerance; this is not sample-accurate audio editing.</p>
+    <dl><dt>Space</dt><dd>Play or pause the selected entry</dd><dt>← / →</dt><dd>Move between entries in a voice</dd><dt>↑ / ↓</dt><dd>Move to the nearest entry in another voice</dd><dt>Escape</dt><dd>Close a preview or leave presentation view</dd></dl>
+    <p>Use <strong>Open piece…</strong> to try a piece JSON from your computer. To extend the published collection, add one file to <code>data/pieces/</code>; the catalog is generated during deployment.</p>
+    <a href="https://github.com/MUK-Labs/structures#adding-a-piece" target="_blank" rel="noopener noreferrer">Read the authoring guide</a>
+  </dialog>
+</body>
+</html>

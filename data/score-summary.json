@@ -1,0 +1,146 @@
+{
+  "bwv846": {
+    "totalBeats": 108.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 4
+  },
+  "bwv847": {
+    "totalBeats": 124.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 3
+  },
+  "bwv848": {
+    "totalBeats": 220.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 3
+  },
+  "bwv849": {
+    "totalBeats": 460.0,
+    "meter": "2/2",
+    "beatsPerBar": 4.0,
+    "voices": 5
+  },
+  "bwv850": {
+    "totalBeats": 108.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 4
+  },
+  "bwv851": {
+    "totalBeats": 132.0,
+    "meter": "3/4",
+    "beatsPerBar": 3.0,
+    "voices": 3
+  },
+  "bwv852": {
+    "totalBeats": 148.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 3
+  },
+  "bwv853": {
+    "totalBeats": 348.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 3
+  },
+  "bwv854": {
+    "totalBeats": 116.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 3
+  },
+  "bwv855": {
+    "totalBeats": 126.0,
+    "meter": "3/4",
+    "beatsPerBar": 3.0,
+    "voices": 2
+  },
+  "bwv856": {
+    "totalBeats": 108.0,
+    "meter": "3/8",
+    "beatsPerBar": 1.5,
+    "voices": 3
+  },
+  "bwv857": {
+    "totalBeats": 232.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 4
+  },
+  "bwv858": {
+    "totalBeats": 140.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 3
+  },
+  "bwv859": {
+    "totalBeats": 240.0,
+    "meter": "6/4",
+    "beatsPerBar": 6.0,
+    "voices": 4
+  },
+  "bwv860": {
+    "totalBeats": 258.0,
+    "meter": "6/8",
+    "beatsPerBar": 3.0,
+    "voices": 3
+  },
+  "bwv861": {
+    "totalBeats": 136.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 4
+  },
+  "bwv862": {
+    "totalBeats": 140.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 4
+  },
+  "bwv863": {
+    "totalBeats": 164.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 4
+  },
+  "bwv864": {
+    "totalBeats": 241.5,
+    "meter": "9/8",
+    "beatsPerBar": 4.5,
+    "voices": 3
+  },
+  "bwv865": {
+    "totalBeats": 316.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 4
+  },
+  "bwv866": {
+    "totalBeats": 144.0,
+    "meter": "3/4",
+    "beatsPerBar": 3.0,
+    "voices": 3
+  },
+  "bwv867": {
+    "totalBeats": 300.0,
+    "meter": "2/2",
+    "beatsPerBar": 4.0,
+    "voices": 5
+  },
+  "bwv868": {
+    "totalBeats": 136.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 4
+  },
+  "bwv869": {
+    "totalBeats": 304.0,
+    "meter": "4/4",
+    "beatsPerBar": 4.0,
+    "voices": 4
+  }
+}

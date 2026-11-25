@@ -1,0 +1,162 @@
+[
+  {
+    "id": "bwv846",
+    "file": "data/pieces/bwv846.json",
+    "title": "Fugue in C major",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 1 · BWV 846",
+    "form": "Fugue",
+    "key": "C major",
+    "voices": 4
+  },
+  {
+    "id": "bwv847",
+    "file": "data/pieces/bwv847.json",
+    "title": "Fugue in C minor",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 2 · BWV 847",
+    "form": "Fugue",
+    "key": "C minor",
+    "voices": 3
+  },
+  {
+    "id": "bwv848",
+    "file": "data/pieces/bwv848.json",
+    "title": "Fugue in C♯ major",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 3 · BWV 848",
+    "form": "Fugue",
+    "key": "C♯ major",
+    "voices": 3
+  },
+  {
+    "id": "bwv849",
+    "file": "data/pieces/bwv849.json",
+    "title": "Fugue in C♯ minor",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 4 · BWV 849",
+    "form": "Fugue",
+    "key": "C♯ minor",
+    "voices": 5
+  },
+  {
+    "id": "bwv850",
+    "file": "data/pieces/bwv850.json",
+    "title": "Fugue in D major",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 5 · BWV 850",
+    "form": "Fugue",
+    "key": "D major",
+    "voices": 4
+  },
+  {
+    "id": "bwv851",
+    "file": "data/pieces/bwv851.json",
+    "title": "Fugue in D minor",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 6 · BWV 851",
+    "form": "Fugue",
+    "key": "D minor",
+    "voices": 3
+  },
+  {
+    "id": "bwv852",
+    "file": "data/pieces/bwv852.json",
+    "title": "Fugue in E♭ major",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 7 · BWV 852",
+    "form": "Fugue",
+    "key": "E♭ major",
+    "voices": 3
+  },
+  {
+    "id": "bwv853",
+    "file": "data/pieces/bwv853.json",
+    "title": "Fugue in D♯ minor",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 8 · BWV 853",
+    "form": "Fugue",
+    "key": "D♯ minor",
+    "voices": 3
+  },
+  {
+    "id": "bwv854",
+    "file": "data/pieces/bwv854.json",
+    "title": "Fugue in E major",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 9 · BWV 854",
+    "form": "Fugue",
+    "key": "E major",
+    "voices": 3
+  },
+  {
+    "id": "bwv857",
+    "file": "data/pieces/bwv857.json",
+    "title": "Fugue in F minor",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 12 · BWV 857",
+    "form": "Fugue",
+    "key": "F minor",
+    "voices": 4
+  },
+  {
+    "id": "bwv858",
+    "file": "data/pieces/bwv858.json",
+    "title": "Fugue in F♯ major",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 13 · BWV 858",
+    "form": "Fugue",
+    "key": "F♯ major",
+    "voices": 3
+  },
+  {
+    "id": "bwv859",
+    "file": "data/pieces/bwv859.json",
+    "title": "Fugue in F♯ minor",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 14 · BWV 859",
+    "form": "Fugue",
+    "key": "F♯ minor",
+    "voices": 4
+  },
+  {
+    "id": "bwv861",
+    "file": "data/pieces/bwv861.json",
+    "title": "Fugue in G minor",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 16 · BWV 861",
+    "form": "Fugue",
+    "key": "G minor",
+    "voices": 4
+  },
+  {
+    "id": "bwv866",
+    "file": "data/pieces/bwv866.json",
+    "title": "Fugue in B♭ major",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 21 · BWV 866",
+    "form": "Fugue",
+    "key": "B♭ major",
+    "voices": 3
+  },
+  {
+    "id": "bwv867",
+    "file": "data/pieces/bwv867.json",
+    "title": "Fugue in B♭ minor",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 22 · BWV 867",
+    "form": "Fugue",
+    "key": "B♭ minor",
+    "voices": 5
+  },
+  {
+    "id": "bwv868",
+    "file": "data/pieces/bwv868.json",
+    "title": "Fugue in B major",
+    "composer": "Johann Sebastian Bach",
+    "subtitle": "The Well-Tempered Clavier · Book I, No. 23 · BWV 868",
+    "form": "Fugue",
+    "key": "B major",
+    "voices": 4
+  }
+]

@@ -1,0 +1,1134 @@
+{
+  "schemaVersion": 1,
+  "id": "bwv847",
+  "title": "Fugue in C minor",
+  "composer": "Johann Sebastian Bach",
+  "subtitle": "The Well-Tempered Clavier · Book I, No. 2 · BWV 847",
+  "form": "Fugue",
+  "key": "C minor",
+  "totalBeats": 124.0,
+  "meter": {
+    "beats": 4,
+    "unit": 4
+  },
+  "voices": [
+    {
+      "id": "voice-1",
+      "label": "Upper"
+    },
+    {
+      "id": "voice-2",
+      "label": "Middle"
+    },
+    {
+      "id": "voice-3",
+      "label": "Lower"
+    }
+  ],
+  "themes": [
+    {
+      "id": "subject",
+      "label": "Subject",
+      "color": "#3263b9",
+      "description": "Subject occurrences in the Algomus reference analysis. Variants retain the source labels.",
+      "previewSvg": "<svg viewBox=\"0 0 433 87\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"d1s946j5\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"E050-d1s946j5\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"E260-d1s946j5\"><path transform=\"scale(1,-1)\" d=\"M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z\"/></g><g id=\"E084-d1s946j5\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"E0A4-d1s946j5\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g><g id=\"E261-d1s946j5\"><path transform=\"scale(1,-1)\" d=\"M0 -188v539h18v-191l139 22v-533h-17v186zM18 -100l122 17v176l-122 -19v-174z\"/></g></defs><style type=\"text/css\">#d1s946j5 g.ending, #d1s946j5 g.fing, #d1s946j5 g.reh, #d1s946j5 g.tempo {font-weight:bold;}#d1s946j5 g.dir, #d1s946j5 g.dynam, #d1s946j5 g.mNum {font-style:italic;}#d1s946j5 g.label {font-weight:normal;}#d1s946j5 ellipse, #d1s946j5 path, #d1s946j5 polygon, #d1s946j5 polyline, #d1s946j5 rect {stroke:currentColor}#d1s946j5 g.cursor {fill:dodgerblue; color:dodgerblue;}#d1s946j5 g.cursor.chord {fill:limegreen; color:limegreen;}#d1s946j5 g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 10820 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"n1kdxnyi\" class=\"mdiv pageMilestone\"/><g id=\"o29fjgr\" class=\"score pageMilestone\"/><g id=\"mi8dmum\" class=\"system\"><g id=\"q9invlp\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"gjxdmsj\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"dlbuymf\" class=\"measure\"><g id=\"m19fkvkr\" class=\"staff\"><path d=\"M0 540 L6168 540\" stroke-width=\"13\"/><path d=\"M0 720 L6168 720\" stroke-width=\"13\"/><path d=\"M0 900 L6168 900\" stroke-width=\"13\"/><path d=\"M0 1080 L6168 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L6168 1260\" stroke-width=\"13\"/><g id=\"q1f027dj\" class=\"clef\"><use xlink:href=\"#E050-d1s946j5\" transform=\"translate(90, 1080) scale(0.72, 0.72)\"/></g><g id=\"r8l0z7i\" class=\"keySig\"><g id=\"s17px514\" class=\"keyAccid\"><use xlink:href=\"#E260-d1s946j5\" transform=\"translate(735, 900) scale(0.72, 0.72)\"/></g><g id=\"t10va6yh\" class=\"keyAccid\"><use xlink:href=\"#E260-d1s946j5\" transform=\"translate(915, 630) scale(0.72, 0.72)\"/></g><g id=\"uho7udz\" class=\"keyAccid\"><use xlink:href=\"#E260-d1s946j5\" transform=\"translate(1095, 990) scale(0.72, 0.72)\"/></g></g><g id=\"v1t4gvqe\" class=\"meterSig\"><use xlink:href=\"#E084-d1s946j5\" transform=\"translate(1403, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#E084-d1s946j5\" transform=\"translate(1403, 1080) scale(0.72, 0.72)\"/></g><g id=\"n5c16a\" class=\"layer\"><g id=\"okd7j6i\" class=\"space\"/><g id=\"poyfdqs\" class=\"beam\"><polygon points=\"2325,1530 2817,1575 2817,1485 2325,1440\"/><polygon points=\"2325,1395 2817,1440 2817,1350 2325,1305\"/><g id=\"q1c4cpws\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(2325, 810) scale(0.72, 0.72)\"/></g><g id=\"ajbu44x\" class=\"stem\"><path d=\"M2334 838 L2334 1512\" stroke-width=\"18\"/></g></g><g id=\"r1h9iue8\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(2799, 900) scale(0.72, 0.72)\"/></g><g id=\"b1owb9hz\" class=\"stem\"><path d=\"M2808 928 L2808 1557\" stroke-width=\"18\"/></g><g id=\"s1gfl3jj\" class=\"accid\"><use xlink:href=\"#E261-d1s946j5\" transform=\"translate(2641, 900) scale(0.72, 0.72)\"/></g></g></g><g id=\"tqd35tu\" class=\"beam\"><polygon points=\"3323,225 3791,270 3791,360 3323,315\"/><g id=\"u1418915\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(3115, 810) scale(0.72, 0.72)\"/></g><g id=\"ct2vaw4\" class=\"stem\"><path d=\"M3332 782 L3332 243\" stroke-width=\"18\"/></g></g><g id=\"vvu54nh\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(3565, 1080) scale(0.72, 0.72)\"/></g><g id=\"d6blj4p\" class=\"stem\"><path d=\"M3782 1052 L3782 288\" stroke-width=\"18\"/></g></g></g><g id=\"w1dlvk4e\" class=\"beam\"><polygon points=\"4223,225 5165,225 5165,315 4223,315\"/><polygon points=\"4682,360 5165,360 5165,450 4682,450\"/><g id=\"xnn5dhs\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(4015, 990) scale(0.72, 0.72)\"/></g><g id=\"e1en6q6x\" class=\"stem\"><path d=\"M4232 962 L4232 243\" stroke-width=\"18\"/></g><g id=\"yfcf9zj\" class=\"accid\"/></g><g id=\"zdgvxmy\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(4465, 810) scale(0.72, 0.72)\"/></g><g id=\"fbx93la\" class=\"stem\"><path d=\"M4682 782 L4682 243\" stroke-width=\"18\"/></g></g><g id=\"a1200tl6\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(4939, 900) scale(0.72, 0.72)\"/></g><g id=\"g1ujjz23\" class=\"stem\"><path d=\"M5156 872 L5156 243\" stroke-width=\"18\"/></g><g id=\"b175nv6x\" class=\"accid\"><use xlink:href=\"#E261-d1s946j5\" transform=\"translate(4781, 900) scale(0.72, 0.72)\"/></g></g></g><g id=\"c14iksjm\" class=\"beam\"><polygon points=\"5255,1485 5723,1440 5723,1350 5255,1395\"/><g id=\"d13wknkl\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(5255, 810) scale(0.72, 0.72)\"/></g><g id=\"h1d0vwgr\" class=\"stem\"><path d=\"M5264 838 L5264 1467\" stroke-width=\"18\"/></g></g><g id=\"e525p3\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(5705, 720) scale(0.72, 0.72)\"/></g><g id=\"i1tpw5xo\" class=\"stem\"><path d=\"M5714 748 L5714 1422\" stroke-width=\"18\"/></g></g></g></g></g><g id=\"l5wr3ch\" class=\"barLine\"><path d=\"M6155 540 L6155 1260\" stroke-width=\"27\"/></g></g><g id=\"fqrihce\" class=\"measure\"><g id=\"o1t1fiir\" class=\"staff\"><path d=\"M6168 540 L10469 540\" stroke-width=\"13\"/><path d=\"M6168 720 L10469 720\" stroke-width=\"13\"/><path d=\"M6168 900 L10469 900\" stroke-width=\"13\"/><path d=\"M6168 1080 L10469 1080\" stroke-width=\"13\"/><path d=\"M6168 1260 L10469 1260\" stroke-width=\"13\"/><g id=\"pghyy59\" class=\"layer\"><g id=\"q125zjyx\" class=\"beam\"><polygon points=\"6556,225 7498,225 7498,315 6556,315\"/><polygon points=\"7015,360 7498,360 7498,450 7015,450\"/><g id=\"r1rl1hn4\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(6348, 1080) scale(0.72, 0.72)\"/></g><g id=\"j1vl4614\" class=\"stem\"><path d=\"M6565 1052 L6565 243\" stroke-width=\"18\"/></g></g><g id=\"slt5w37\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(6798, 810) scale(0.72, 0.72)\"/></g><g id=\"k1slxs4i\" class=\"stem\"><path d=\"M7015 782 L7015 243\" stroke-width=\"18\"/></g></g><g id=\"t1nym09o\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(7272, 900) scale(0.72, 0.72)\"/></g><g id=\"lcmqhnz\" class=\"stem\"><path d=\"M7489 872 L7489 243\" stroke-width=\"18\"/></g><g id=\"ujaiorf\" class=\"accid\"><use xlink:href=\"#E261-d1s946j5\" transform=\"translate(7114, 900) scale(0.72, 0.72)\"/></g></g></g><g id=\"vgrura5\" class=\"beam\"><polygon points=\"7588,1485 8056,1440 8056,1350 7588,1395\"/><g id=\"w1yzshhs\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(7588, 810) scale(0.72, 0.72)\"/></g><g id=\"m10i6pnr\" class=\"stem\"><path d=\"M7597 838 L7597 1467\" stroke-width=\"18\"/></g></g><g id=\"x14x1jzo\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(8038, 720) scale(0.72, 0.72)\"/></g><g id=\"n1vmzual\" class=\"stem\"><path d=\"M8047 748 L8047 1422\" stroke-width=\"18\"/></g></g></g><g id=\"y1sb30e6\" class=\"beam\"><polygon points=\"8696,450 9030,405 9030,495 8696,540\"/><polygon points=\"8696,585 9030,540 9030,630 8696,675\"/><g id=\"zf0tyue\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(8488, 1170) scale(0.72, 0.72)\"/></g><g id=\"o3f4d5o\" class=\"stem\"><path d=\"M8705 1142 L8705 468\" stroke-width=\"18\"/></g></g><g id=\"a1iphz6w\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(8804, 1080) scale(0.72, 0.72)\"/></g><g id=\"pbpbeg1\" class=\"stem\"><path d=\"M9021 1052 L9021 423\" stroke-width=\"18\"/></g></g></g><g id=\"bb0wzeb\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(9120, 990) scale(0.72, 0.72)\"/></g><g id=\"qaebws7\" class=\"stem\"><path d=\"M9337 962 L9337 360\" stroke-width=\"18\"/></g><g id=\"cp1dial\" class=\"accid\"/></g><g id=\"d1egb9kc\" class=\"beam\"><polygon points=\"10018,405 10352,450 10352,540 10018,495\"/><polygon points=\"10018,540 10352,585 10352,675 10018,630\"/><g id=\"e1hynfpd\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(9810, 1080) scale(0.72, 0.72)\"/></g><g id=\"r8q3tkh\" class=\"stem\"><path d=\"M10027 1052 L10027 423\" stroke-width=\"18\"/></g></g><g id=\"f12q8o8h\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-d1s946j5\" transform=\"translate(10126, 1170) scale(0.72, 0.72)\"/></g><g id=\"s148cwts\" class=\"stem\"><path d=\"M10343 1142 L10343 468\" stroke-width=\"18\"/></g></g></g></g></g><g id=\"n1jvi1cs\" class=\"barLine\"><path d=\"M10456 540 L10456 1260\" stroke-width=\"27\"/></g></g><g id=\"pf3akc5\" class=\"systemMilestoneEnd gjxdmsj\"/><g id=\"q1zc1ua\" class=\"systemMilestoneEnd q9invlp\"/></g><g id=\"r18h94zb\" class=\"pageMilestoneEnd o29fjgr\"/><g id=\"s1d009qg\" class=\"pageMilestoneEnd n1kdxnyi\"/></g></svg></svg>",
+      "previewCaption": "Opening excerpt · voice 2 · mm. 1–2",
+      "previewSource": {
+        "url": "https://github.com/humdrum-tools/bach-wtc-fugues/blob/5095752e0503c63663f28f4b8d21a5b6ea081a08/kern/wtc1f02.krn",
+        "credit": "J. S. Bach; Bach-Gesellschaft edition (1866). Humdrum encoding by David Huron; engraved with Verovio.",
+        "sourceType": "S",
+        "voice": 2,
+        "startBeat": 0.5,
+        "endBeat": 8.0,
+        "entryReleaseBeat": 8.25,
+        "lastNoteReleaseMatched": true,
+        "firstMeasure": 1,
+        "lastMeasure": 2,
+        "completeEntry": false
+      }
+    },
+    {
+      "id": "countersubject-1",
+      "label": "Countersubject 1",
+      "color": "#ba5c38",
+      "description": "Countersubject 1 occurrences in the Algomus reference analysis. Variants retain the source labels.",
+      "previewSvg": "<svg viewBox=\"0 0 437 87\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"g1jda8iu\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"E050-g1jda8iu\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"E260-g1jda8iu\"><path transform=\"scale(1,-1)\" d=\"M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z\"/></g><g id=\"E084-g1jda8iu\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"E0A4-g1jda8iu\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g><g id=\"E261-g1jda8iu\"><path transform=\"scale(1,-1)\" d=\"M0 -188v539h18v-191l139 22v-533h-17v186zM18 -100l122 17v176l-122 -19v-174z\"/></g><g id=\"E262-g1jda8iu\"><path transform=\"scale(1,-1)\" d=\"M136 186v169h17v-164l44 14v-91l-44 -14v-165l44 12v-91l-44 -13v-155h-17v150l-76 -22v-155h-17v149l-43 -13v90l43 14v167l-43 -14v92l43 13v169h17v-163zM60 73v-167l76 22v168z\"/></g></defs><style type=\"text/css\">#g1jda8iu g.ending, #g1jda8iu g.fing, #g1jda8iu g.reh, #g1jda8iu g.tempo {font-weight:bold;}#g1jda8iu g.dir, #g1jda8iu g.dynam, #g1jda8iu g.mNum {font-style:italic;}#g1jda8iu g.label {font-weight:normal;}#g1jda8iu ellipse, #g1jda8iu path, #g1jda8iu polygon, #g1jda8iu polyline, #g1jda8iu rect {stroke:currentColor}#g1jda8iu g.cursor {fill:dodgerblue; color:dodgerblue;}#g1jda8iu g.cursor.chord {fill:limegreen; color:limegreen;}#g1jda8iu g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 10920 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"qzppd9w\" class=\"mdiv pageMilestone\"/><g id=\"r1nil4ui\" class=\"score pageMilestone\"/><g id=\"unsgfqh\" class=\"system\"><g id=\"tmb3y0x\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"o1epavqr\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"ga3o2m1\" class=\"measure\"><g id=\"b1pi43pg\" class=\"mNum autogenerated\"><text y=\"297\" text-anchor=\"middle\" font-size=\"0px\"><tspan id=\"c8eopzr\" class=\"text\"><tspan font-size=\"324px\">3</tspan></tspan></text></g><g id=\"prd5dit\" class=\"staff\"><path d=\"M0 540 L6516 540\" stroke-width=\"13\"/><path d=\"M0 720 L6516 720\" stroke-width=\"13\"/><path d=\"M0 900 L6516 900\" stroke-width=\"13\"/><path d=\"M0 1080 L6516 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L6516 1260\" stroke-width=\"13\"/><g id=\"y1vdzv3e\" class=\"clef\"><use xlink:href=\"#E050-g1jda8iu\" transform=\"translate(90, 1080) scale(0.72, 0.72)\"/></g><g id=\"z2qcaok\" class=\"keySig\"><g id=\"amzxy95\" class=\"keyAccid\"><use xlink:href=\"#E260-g1jda8iu\" transform=\"translate(735, 900) scale(0.72, 0.72)\"/></g><g id=\"bnl0ngi\" class=\"keyAccid\"><use xlink:href=\"#E260-g1jda8iu\" transform=\"translate(915, 630) scale(0.72, 0.72)\"/></g><g id=\"cmm0tjf\" class=\"keyAccid\"><use xlink:href=\"#E260-g1jda8iu\" transform=\"translate(1095, 990) scale(0.72, 0.72)\"/></g></g><g id=\"d6dg9b8\" class=\"meterSig\"><use xlink:href=\"#E084-g1jda8iu\" transform=\"translate(1403, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#E084-g1jda8iu\" transform=\"translate(1403, 1080) scale(0.72, 0.72)\"/></g><g class=\"ledgerLines below\"><path d=\"M4655 1440 L4977 1440\" stroke-width=\"22\"/></g><g id=\"qnbzmgl\" class=\"layer\"><g id=\"r11sj501\" class=\"space\"/><g id=\"sugvx4t\" class=\"beam\"><polygon points=\"2175,1440 3141,1620 3141,1530 2175,1350\"/><polygon points=\"2175,1305 2658,1395 2658,1305 2175,1215\"/><polygon points=\"2658,1395 3141,1485 3141,1395 2658,1305\"/><g id=\"tlmkc45\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(2175, 810) scale(0.72, 0.72)\"/></g><g id=\"ipdckro\" class=\"stem\"><path d=\"M2184 838 L2184 1422\" stroke-width=\"18\"/></g></g><g id=\"u1u5bcvo\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(2649, 900) scale(0.72, 0.72)\"/></g><g id=\"j14cnspc\" class=\"stem\"><path d=\"M2658 928 L2658 1512\" stroke-width=\"18\"/></g><g id=\"v1glqlx1\" class=\"accid\"><use xlink:href=\"#E261-g1jda8iu\" transform=\"translate(2491, 900) scale(0.72, 0.72)\"/></g></g><g id=\"w177ttke\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(3123, 990) scale(0.72, 0.72)\"/></g><g id=\"k1acyi0s\" class=\"stem\"><path d=\"M3132 1018 L3132 1602\" stroke-width=\"18\"/></g><g id=\"xvsac7s\" class=\"accid\"><use xlink:href=\"#E261-g1jda8iu\" transform=\"translate(2965, 990) scale(0.72, 0.72)\"/></g></g></g><g id=\"y1e9vjb4\" class=\"beam\"><polygon points=\"3647,450 4613,630 4613,720 3647,540\"/><polygon points=\"3647,585 3972,645 3972,735 3647,675\"/><polygon points=\"4288,705 4613,765 4613,855 4288,795\"/><g id=\"zgj98bt\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(3439, 1080) scale(0.72, 0.72)\"/></g><g id=\"l1j2cbhq\" class=\"stem\"><path d=\"M3656 1052 L3656 468\" stroke-width=\"18\"/></g></g><g id=\"a1jvrzer\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(3755, 1170) scale(0.72, 0.72)\"/></g><g id=\"m154kaad\" class=\"stem\"><path d=\"M3972 1142 L3972 528\" stroke-width=\"18\"/></g></g><g id=\"b157g1de\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(4071, 1260) scale(0.72, 0.72)\"/></g><g id=\"n1c7aki8\" class=\"stem\"><path d=\"M4288 1232 L4288 588\" stroke-width=\"18\"/></g><g id=\"c18qzh06\" class=\"accid\"/></g><g id=\"d6gtycb\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(4387, 1350) scale(0.72, 0.72)\"/></g><g id=\"o1wfigq0\" class=\"stem\"><path d=\"M4604 1322 L4604 648\" stroke-width=\"18\"/></g></g></g><g id=\"e5v9yad\" class=\"beam\"><polygon points=\"4911,180 5379,135 5379,225 4911,270\"/><g id=\"fq2fhy9\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(4703, 1440) scale(0.72, 0.72)\"/></g><g id=\"p11xv5nl\" class=\"stem\"><path d=\"M4920 1412 L4920 198\" stroke-width=\"18\"/></g></g><g id=\"gwawm34\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(5153, 630) scale(0.72, 0.72)\"/></g><g id=\"q1b61rzo\" class=\"stem\"><path d=\"M5370 602 L5370 153\" stroke-width=\"18\"/></g><g id=\"hsublis\" class=\"accid\"/></g></g><g id=\"i4d3vzd\" class=\"beam\"><polygon points=\"5603,1440 6071,1485 6071,1395 5603,1350\"/><g id=\"j1328gca\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(5603, 720) scale(0.72, 0.72)\"/></g><g id=\"rlxt662\" class=\"stem\"><path d=\"M5612 748 L5612 1422\" stroke-width=\"18\"/></g></g><g id=\"k1mqengo\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(6053, 810) scale(0.72, 0.72)\"/></g><g id=\"ssoj6re\" class=\"stem\"><path d=\"M6062 838 L6062 1467\" stroke-width=\"18\"/></g></g></g></g></g><g id=\"o60uf59\" class=\"barLine\"><path d=\"M6503 540 L6503 1260\" stroke-width=\"27\"/></g></g><g id=\"l1pwke7q\" class=\"measure\"><g id=\"u1owf68c\" class=\"staff\"><path d=\"M6516 540 L10568 540\" stroke-width=\"13\"/><path d=\"M6516 720 L10568 720\" stroke-width=\"13\"/><path d=\"M6516 900 L10568 900\" stroke-width=\"13\"/><path d=\"M6516 1080 L10568 1080\" stroke-width=\"13\"/><path d=\"M6516 1260 L10568 1260\" stroke-width=\"13\"/><g id=\"vk75j4t\" class=\"layer\"><g id=\"w1sarw23\" class=\"beam\"><polygon points=\"7091,315 7583,360 7583,450 7091,405\"/><g id=\"xuh3qro\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(6883, 900) scale(0.72, 0.72)\"/></g><g id=\"t15p7swu\" class=\"stem\"><path d=\"M7100 872 L7100 333\" stroke-width=\"18\"/></g><g id=\"yz5zz5j\" class=\"accid\"><use xlink:href=\"#E260-g1jda8iu\" transform=\"translate(6696, 900) scale(0.72, 0.72)\"/></g></g><g id=\"z1g7elwv\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(7357, 990) scale(0.72, 0.72)\"/></g><g id=\"uf7vtrm\" class=\"stem\"><path d=\"M7574 962 L7574 378\" stroke-width=\"18\"/></g><g id=\"a1ndx9cm\" class=\"accid\"><use xlink:href=\"#E261-g1jda8iu\" transform=\"translate(7199, 990) scale(0.72, 0.72)\"/></g></g></g><g id=\"b1mhdzip\" class=\"beam\"><polygon points=\"7807,1485 8275,1440 8275,1350 7807,1395\"/><g id=\"c16c90yw\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(7807, 900) scale(0.72, 0.72)\"/></g><g id=\"v1blhy6p\" class=\"stem\"><path d=\"M7816 928 L7816 1467\" stroke-width=\"18\"/></g><g id=\"dkog3xx\" class=\"accid\"/></g><g id=\"e1o9avnt\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(8257, 810) scale(0.72, 0.72)\"/></g><g id=\"w1hqkbgw\" class=\"stem\"><path d=\"M8266 838 L8266 1422\" stroke-width=\"18\"/></g></g></g><g id=\"fexhtmd\" class=\"beam\"><polygon points=\"8915,450 9383,405 9383,495 8915,540\"/><g id=\"g1cylqn9\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(8707, 1170) scale(0.72, 0.72)\"/></g><g id=\"xjv5nel\" class=\"stem\"><path d=\"M8924 1142 L8924 468\" stroke-width=\"18\"/></g><g id=\"hoc8271\" class=\"accid\"><use xlink:href=\"#E262-g1jda8iu\" transform=\"translate(8521, 1170) scale(0.72, 0.72)\"/></g></g><g id=\"ihe34hs\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(9157, 1080) scale(0.72, 0.72)\"/></g><g id=\"y1nfk0sw\" class=\"stem\"><path d=\"M9374 1052 L9374 423\" stroke-width=\"18\"/></g></g></g><g id=\"j1rfgh42\" class=\"beam\"><polygon points=\"9839,315 10331,360 10331,450 9839,405\"/><g id=\"knjg5ps\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(9631, 990) scale(0.72, 0.72)\"/></g><g id=\"ztykpn\" class=\"stem\"><path d=\"M9848 962 L9848 333\" stroke-width=\"18\"/></g><g id=\"l1nsgp4i\" class=\"accid\"><use xlink:href=\"#E261-g1jda8iu\" transform=\"translate(9473, 990) scale(0.72, 0.72)\"/></g></g><g id=\"mpr251r\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-g1jda8iu\" transform=\"translate(10105, 1170) scale(0.72, 0.72)\"/></g><g id=\"a17tb58z\" class=\"stem\"><path d=\"M10322 1142 L10322 378\" stroke-width=\"18\"/></g><g id=\"nj8gby9\" class=\"accid\"><use xlink:href=\"#E262-g1jda8iu\" transform=\"translate(9919, 1170) scale(0.72, 0.72)\"/></g></g></g></g></g><g id=\"t1i3inkm\" class=\"barLine\"><path d=\"M10555 540 L10555 1260\" stroke-width=\"27\"/></g></g><g id=\"xx7bjtl\" class=\"systemMilestoneEnd o1epavqr\"/><g id=\"y17og3rn\" class=\"systemMilestoneEnd tmb3y0x\"/></g><g id=\"z1mwglob\" class=\"pageMilestoneEnd r1nil4ui\"/><g id=\"a16ev5by\" class=\"pageMilestoneEnd qzppd9w\"/></g></svg></svg>",
+      "previewCaption": "Opening excerpt · voice 2 · mm. 3–4",
+      "previewSource": {
+        "url": "https://github.com/humdrum-tools/bach-wtc-fugues/blob/5095752e0503c63663f28f4b8d21a5b6ea081a08/kern/wtc1f02.krn",
+        "credit": "J. S. Bach; Bach-Gesellschaft edition (1866). Humdrum encoding by David Huron; engraved with Verovio.",
+        "sourceType": "CS1",
+        "voice": 2,
+        "startBeat": 8.25,
+        "endBeat": 16.0,
+        "entryReleaseBeat": 17.0,
+        "lastNoteReleaseMatched": true,
+        "firstMeasure": 3,
+        "lastMeasure": 4,
+        "completeEntry": false
+      }
+    },
+    {
+      "id": "countersubject-2",
+      "label": "Countersubject 2",
+      "color": "#45816e",
+      "description": "Countersubject 2 occurrences in the Algomus reference analysis. Variants retain the source labels.",
+      "previewSvg": "<svg viewBox=\"0 0 363 87\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" overflow=\"visible\" id=\"o3qqpz0\"><desc>Engraved by Verovio 6.4.1-fbe8f46</desc><defs><g id=\"E050-o3qqpz0\"><path transform=\"scale(1,-1)\" d=\"M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z\"/></g><g id=\"E260-o3qqpz0\"><path transform=\"scale(1,-1)\" d=\"M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z\"/></g><g id=\"E084-o3qqpz0\"><path transform=\"scale(1,-1)\" d=\"M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z\"/></g><g id=\"E0A4-o3qqpz0\"><path transform=\"scale(1,-1)\" d=\"M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z\"/></g><g id=\"E241-o3qqpz0\"><path transform=\"scale(1,-1)\" d=\"M179 646c-4 8 -17 30 -18 33l-4 10c0 3 2 5 5 5s7 -2 13 -7c23 -33 46 -81 66 -132c22 -57 35 -125 35 -163c0 -104 -60 -183 -122 -241c-63 -59 -57 -53 -61 -56c-38 -34 -63 -95 -71 -95h-22v190c40 7 69 11 87 16c88 27 168 95 168 200c0 30 -12 89 -30 138 c-17 47 -31 73 -46 102z\"/></g><g id=\"E4E6-o3qqpz0\"><path transform=\"scale(1,-1)\" d=\"M0 123c7 34 33 56 69 60c29 -3 43 -9 53 -29c4 -8 7 -15 10 -22c0 -21 -1 -25 -11 -35c-5 -8 -18 -14 -40 -20l12 -3l15 -1c44 0 97 26 122 56c10 11 18 26 24 42c7 1 15 2 22 3l-140 -424h-36l111 330c-10 -6 -27 -12 -53 -16l-52 -8h-10l-20 1c-1 0 -8 3 -21 6 c-37 9 -55 28 -55 60z\"/></g><g id=\"E240-o3qqpz0\"><path transform=\"scale(1,-1)\" d=\"M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z\"/></g></defs><style type=\"text/css\">#o3qqpz0 g.ending, #o3qqpz0 g.fing, #o3qqpz0 g.reh, #o3qqpz0 g.tempo {font-weight:bold;}#o3qqpz0 g.dir, #o3qqpz0 g.dynam, #o3qqpz0 g.mNum {font-style:italic;}#o3qqpz0 g.label {font-weight:normal;}#o3qqpz0 ellipse, #o3qqpz0 path, #o3qqpz0 polygon, #o3qqpz0 polyline, #o3qqpz0 rect {stroke:currentColor}#o3qqpz0 g.cursor {fill:dodgerblue; color:dodgerblue;}#o3qqpz0 g.cursor.chord {fill:limegreen; color:limegreen;}#o3qqpz0 g.placeholder {visibility:hidden}</style><svg class=\"definition-scale\" color=\"black\" font-family=\"Times, serif\" viewBox=\"0 0 9070 2160\"><g class=\"page-margin\" transform=\"translate(180, 180)\"><g id=\"y1katsj5\" class=\"mdiv pageMilestone\"/><g id=\"z1e5u6f\" class=\"score pageMilestone\"/><g id=\"l3eqb4s\" class=\"system\"><g id=\"b15c54ez\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"-540\" rx=\"90\" ry=\"90\"/></g><g id=\"feytc5y\" class=\"section placeholder systemMilestone\"><ellipse cx=\"0\" cy=\"0\" rx=\"90\" ry=\"90\"/></g><g id=\"o7yunsp\" class=\"measure\"><g id=\"swwmvkf\" class=\"mNum autogenerated\"><text y=\"297\" text-anchor=\"middle\" font-size=\"0px\"><tspan id=\"t15km0yi\" class=\"text\"><tspan font-size=\"324px\">7</tspan></tspan></text></g><g id=\"x12yiu6k\" class=\"staff\"><path d=\"M0 540 L4738 540\" stroke-width=\"13\"/><path d=\"M0 720 L4738 720\" stroke-width=\"13\"/><path d=\"M0 900 L4738 900\" stroke-width=\"13\"/><path d=\"M0 1080 L4738 1080\" stroke-width=\"13\"/><path d=\"M0 1260 L4738 1260\" stroke-width=\"13\"/><g id=\"jgdmbk2\" class=\"clef\"><use xlink:href=\"#E050-o3qqpz0\" transform=\"translate(90, 1080) scale(0.72, 0.72)\"/></g><g id=\"kyxjnuf\" class=\"keySig\"><g id=\"l1cn3g59\" class=\"keyAccid\"><use xlink:href=\"#E260-o3qqpz0\" transform=\"translate(735, 900) scale(0.72, 0.72)\"/></g><g id=\"m80p75s\" class=\"keyAccid\"><use xlink:href=\"#E260-o3qqpz0\" transform=\"translate(915, 630) scale(0.72, 0.72)\"/></g><g id=\"n1g3wx7f\" class=\"keyAccid\"><use xlink:href=\"#E260-o3qqpz0\" transform=\"translate(1095, 990) scale(0.72, 0.72)\"/></g></g><g id=\"o1o6u5t9\" class=\"meterSig\"><use xlink:href=\"#E084-o3qqpz0\" transform=\"translate(1403, 720) scale(0.72, 0.72)\"/><use xlink:href=\"#E084-o3qqpz0\" transform=\"translate(1403, 1080) scale(0.72, 0.72)\"/></g><g id=\"y1uzynlh\" class=\"layer\"><g id=\"zn0cgji\" class=\"space\"/><g id=\"acuzua5\" class=\"space\"/><g id=\"b1ubzgnr\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o3qqpz0\" transform=\"translate(3375, 540) scale(0.72, 0.72)\"/></g><g id=\"z16w7vkc\" class=\"stem\"><path d=\"M3384 568 L3384 1170\" stroke-width=\"18\"/><g id=\"a58x50f\" class=\"flag\"><use xlink:href=\"#E241-o3qqpz0\" transform=\"translate(3375, 1170) scale(0.72, 0.72)\"/></g></g></g><g id=\"cdg9guj\" class=\"beam\"><polygon points=\"3825,1350 4293,1395 4293,1305 3825,1260\"/><g id=\"d170uo58\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o3qqpz0\" transform=\"translate(3825, 630) scale(0.72, 0.72)\"/></g><g id=\"be0ck4m\" class=\"stem\"><path d=\"M3834 658 L3834 1332\" stroke-width=\"18\"/></g><g id=\"e100vxa9\" class=\"accid\"/></g><g id=\"f3kc4qn\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o3qqpz0\" transform=\"translate(4275, 720) scale(0.72, 0.72)\"/></g><g id=\"c15xwle6\" class=\"stem\"><path d=\"M4284 748 L4284 1377\" stroke-width=\"18\"/></g></g></g></g></g><g id=\"wzl3anx\" class=\"barLine\"><path d=\"M4725 540 L4725 1260\" stroke-width=\"27\"/></g></g><g id=\"g1up9w2v\" class=\"measure\"><g id=\"p1mktmob\" class=\"staff\"><path d=\"M4738 540 L8713 540\" stroke-width=\"13\"/><path d=\"M4738 720 L8713 720\" stroke-width=\"13\"/><path d=\"M4738 900 L8713 900\" stroke-width=\"13\"/><path d=\"M4738 1080 L8713 1080\" stroke-width=\"13\"/><path d=\"M4738 1260 L8713 1260\" stroke-width=\"13\"/><g id=\"qpvk6fk\" class=\"layer\"><g id=\"r1vzev68\" class=\"rest\"><use xlink:href=\"#E4E6-o3qqpz0\" transform=\"translate(4918, 900) scale(0.72, 0.72)\"/></g><g id=\"s1m6icw4\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o3qqpz0\" transform=\"translate(5368, 990) scale(0.72, 0.72)\"/></g><g id=\"dhv505k\" class=\"stem\"><path d=\"M5585 962 L5585 360\" stroke-width=\"18\"/><g id=\"e1qdx7p1\" class=\"flag\"><use xlink:href=\"#E240-o3qqpz0\" transform=\"translate(5576, 360) scale(0.72, 0.72)\"/></g></g><g id=\"tozuq8e\" class=\"accid\"/></g><g id=\"ukamrlb\" class=\"beam\"><polygon points=\"6026,405 6494,450 6494,540 6026,495\"/><g id=\"v10giohd\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o3qqpz0\" transform=\"translate(5818, 1080) scale(0.72, 0.72)\"/></g><g id=\"fjkb0uv\" class=\"stem\"><path d=\"M6035 1052 L6035 423\" stroke-width=\"18\"/></g></g><g id=\"wi2fjm5\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o3qqpz0\" transform=\"translate(6268, 1170) scale(0.72, 0.72)\"/></g><g id=\"g1dsejhf\" class=\"stem\"><path d=\"M6485 1142 L6485 468\" stroke-width=\"18\"/></g></g></g><g id=\"x1de29af\" class=\"beam\"><polygon points=\"6926,450 7710,450 7710,540 6926,540\"/><polygon points=\"7385,585 7710,585 7710,675 7385,675\"/><g id=\"y19z18zt\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o3qqpz0\" transform=\"translate(6718, 1080) scale(0.72, 0.72)\"/></g><g id=\"hwhkfd7\" class=\"stem\"><path d=\"M6935 1052 L6935 468\" stroke-width=\"18\"/></g></g><g id=\"zor3yi7\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o3qqpz0\" transform=\"translate(7168, 1170) scale(0.72, 0.72)\"/></g><g id=\"i8t9tee\" class=\"stem\"><path d=\"M7385 1142 L7385 468\" stroke-width=\"18\"/></g></g><g id=\"ae4tqny\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o3qqpz0\" transform=\"translate(7484, 1260) scale(0.72, 0.72)\"/></g><g id=\"j15hzzm5\" class=\"stem\"><path d=\"M7701 1232 L7701 468\" stroke-width=\"18\"/></g><g id=\"b1bh5sze\" class=\"accid\"/></g></g><g id=\"c1a2gqoh\" class=\"beam\"><polygon points=\"8008,495 8476,540 8476,630 8008,585\"/><g id=\"d199kwxo\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o3qqpz0\" transform=\"translate(7800, 1170) scale(0.72, 0.72)\"/></g><g id=\"k1o1k73g\" class=\"stem\"><path d=\"M8017 1142 L8017 513\" stroke-width=\"18\"/></g></g><g id=\"egofq0z\" class=\"note\"><g class=\"notehead\"><use xlink:href=\"#E0A4-o3qqpz0\" transform=\"translate(8250, 1350) scale(0.72, 0.72)\"/></g><g id=\"l118lgv1\" class=\"stem\"><path d=\"M8467 1322 L8467 558\" stroke-width=\"18\"/></g></g></g></g></g><g id=\"o14u2v1t\" class=\"barLine\"><path d=\"M8700 540 L8700 1260\" stroke-width=\"27\"/></g></g><g id=\"o1ghurxh\" class=\"systemMilestoneEnd feytc5y\"/><g id=\"pxcwkh2\" class=\"systemMilestoneEnd b15c54ez\"/></g><g id=\"q1g2mt8c\" class=\"pageMilestoneEnd z1e5u6f\"/><g id=\"ryoioqd\" class=\"pageMilestoneEnd y1katsj5\"/></g></svg></svg>",
+      "previewCaption": "Opening excerpt · voice 2 · mm. 7–8",
+      "previewSource": {
+        "url": "https://github.com/humdrum-tools/bach-wtc-fugues/blob/5095752e0503c63663f28f4b8d21a5b6ea081a08/kern/wtc1f02.krn",
+        "credit": "J. S. Bach; Bach-Gesellschaft edition (1866). Humdrum encoding by David Huron; engraved with Verovio.",
+        "sourceType": "CS2",
+        "voice": 2,
+        "startBeat": 26.5,
+        "endBeat": 32.0,
+        "entryReleaseBeat": 33.0,
+        "lastNoteReleaseMatched": true,
+        "firstMeasure": 7,
+        "lastMeasure": 8,
+        "completeEntry": false
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "bwv847-entry-9",
+      "voice": "voice-2",
+      "theme": "subject",
+      "start": 0.5,
+      "end": 8.25,
+      "sourceEnd": 8.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-10",
+      "voice": "voice-2",
+      "theme": "countersubject-1",
+      "start": 8.25,
+      "end": 17.0,
+      "sourceEnd": 16.0,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-1",
+      "voice": "voice-1",
+      "theme": "subject",
+      "start": 8.5,
+      "end": 16.5,
+      "sourceEnd": 16.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-2",
+      "voice": "voice-1",
+      "theme": "countersubject-1",
+      "start": 23,
+      "end": 32.5,
+      "sourceEnd": 32,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-16",
+      "voice": "voice-3",
+      "theme": "subject",
+      "start": 24.5,
+      "end": 32.25,
+      "sourceEnd": 32.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-11",
+      "voice": "voice-2",
+      "theme": "countersubject-2",
+      "start": 26.5,
+      "end": 33.0,
+      "sourceEnd": 32.0,
+      "label": "CS2",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-17",
+      "voice": "voice-3",
+      "theme": "countersubject-1",
+      "start": 40.25,
+      "end": 48.5,
+      "sourceEnd": 48.0,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-3",
+      "voice": "voice-1",
+      "theme": "subject",
+      "start": 40.5,
+      "end": 48.25,
+      "sourceEnd": 48.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-12",
+      "voice": "voice-2",
+      "theme": "countersubject-2",
+      "start": 42.5,
+      "end": 48.5,
+      "sourceEnd": 48.0,
+      "label": "CS2",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-4",
+      "voice": "voice-1",
+      "theme": "countersubject-1",
+      "start": 56,
+      "end": 64.5,
+      "sourceEnd": 64,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-13",
+      "voice": "voice-2",
+      "theme": "subject",
+      "start": 56.5,
+      "end": 64.5,
+      "sourceEnd": 64.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-18",
+      "voice": "voice-3",
+      "theme": "countersubject-2",
+      "start": 58.5,
+      "end": 64.5,
+      "sourceEnd": 64.0,
+      "label": "CS2",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-14",
+      "voice": "voice-2",
+      "theme": "countersubject-1",
+      "start": 76.25,
+      "end": 85.0,
+      "sourceEnd": 84.0,
+      "label": "CS1",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-5",
+      "voice": "voice-1",
+      "theme": "subject",
+      "start": 76.5,
+      "end": 84.5,
+      "sourceEnd": 84.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-19",
+      "voice": "voice-3",
+      "theme": "countersubject-2",
+      "start": 78.5,
+      "end": 84.25,
+      "sourceEnd": 84.0,
+      "label": "CS2",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-6",
+      "voice": "voice-1",
+      "theme": "countersubject-1",
+      "start": 102.25,
+      "end": 104.5,
+      "sourceEnd": 104.0,
+      "label": "CS1a",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset.",
+      "variant": "part a"
+    },
+    {
+      "id": "bwv847-entry-20",
+      "voice": "voice-3",
+      "theme": "subject",
+      "start": 102.5,
+      "end": 111.0,
+      "sourceEnd": 110.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-15",
+      "voice": "voice-2",
+      "theme": "countersubject-1",
+      "start": 104,
+      "end": 111.0,
+      "sourceEnd": 110.5,
+      "label": "CS1b",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset.",
+      "variant": "part b"
+    },
+    {
+      "id": "bwv847-entry-7",
+      "voice": "voice-1",
+      "theme": "countersubject-2",
+      "start": 104.5,
+      "end": 111.0,
+      "sourceEnd": 110.5,
+      "label": "CS2",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    },
+    {
+      "id": "bwv847-entry-8",
+      "voice": "voice-1",
+      "theme": "subject",
+      "start": 114.5,
+      "end": 124.0,
+      "sourceEnd": 122.0,
+      "label": "S",
+      "sourceIds": [
+        "analysis",
+        "score"
+      ],
+      "notes": "End includes the final note's notated duration, including any tied continuation; the source end marks its onset."
+    }
+  ],
+  "sections": [
+    {
+      "id": "bwv847-section-25",
+      "label": "Tonic pedal",
+      "start": 114,
+      "end": 124,
+      "type": "pedal",
+      "sourceIds": [
+        "analysis"
+      ]
+    },
+    {
+      "id": "bwv847-section-26",
+      "label": "codetta",
+      "start": 16,
+      "end": 24,
+      "type": "structure",
+      "sourceIds": [
+        "analysis"
+      ]
+    },
+    {
+      "id": "bwv847-section-27",
+      "label": "episode",
+      "start": 32.25,
+      "end": 40.25,
+      "type": "structure",
+      "sourceIds": [
+        "analysis"
+      ]
+    },
+    {
+      "id": "bwv847-section-28",
+      "label": "episode",
+      "start": 48,
+      "end": 56,
+      "type": "structure",
+      "sourceIds": [
+        "analysis"
+      ]
+    },
+    {
+      "id": "bwv847-section-29",
+      "label": "episode",
+      "start": 64,
+      "end": 76.25,
+      "type": "structure",
+      "sourceIds": [
+        "analysis"
+      ]
+    },
+    {
+      "id": "bwv847-section-30",
+      "label": "episode",
+      "start": 84,
+      "end": 102,
+      "type": "structure",
+      "sourceIds": [
+        "analysis"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "analysis",
+      "title": "Computational Fugue Analysis — reference annotations",
+      "url": "https://gitlab.com/algomus.fr/algomus-data/-/blob/a1801b5b42a4f8d99783e1e52b3dc2e7407cd5ef/fugues/bach-wtc-i/02-bwv847-ref.dez",
+      "author": "Mathieu Giraud, Richard Groult, Florence Levé / Algomus",
+      "license": "ODbL-1.0; individual contents DbCL-1.0"
+    },
+    {
+      "id": "publication",
+      "title": "Computational Fugue Analysis (Computer Music Journal, 2015)",
+      "url": "https://doi.org/10.1162/COMJ_a_00300",
+      "author": "Mathieu Giraud, Richard Groult, Emmanuel Leguy, Florence Levé"
+    },
+    {
+      "id": "score",
+      "title": "KernScores — WTC I, Fugue 2",
+      "url": "https://raw.githubusercontent.com/humdrum-tools/bach-wtc-fugues/5095752e0503c63663f28f4b8d21a5b6ea081a08/kern/wtc1f02.krn",
+      "author": "J. S. Bach; electronic encoding by David Huron",
+      "license": "Public-domain composition; source encoding retains its own copyright notice"
+    },
+    {
+      "id": "corpus",
+      "title": "Dezrann Bach fugues — recording metadata",
+      "url": "https://gitlab.com/algomus.fr/dezrann/dezrann-corpus/-/blob/d828c501f4caf7f860780296292e38faa64a846e/metadata/bach-fugues.full.json",
+      "author": "Algomus / Dezrann"
+    },
+    {
+      "id": "sync-all-of-bach",
+      "title": "Dezrann synchronization — The Netherlands Bach Society",
+      "url": "https://gitlab.com/algomus.fr/dezrann/dezrann-corpus/-/blob/d828c501f4caf7f860780296292e38faa64a846e/corpus/bach-fugues/synchro/bwv847-AllOfBach.synchro.json",
+      "author": "Algomus / Dezrann"
+    },
+    {
+      "id": "sync-ishizaka",
+      "title": "Dezrann synchronization — Open Well-Tempered Clavier",
+      "url": "https://gitlab.com/algomus.fr/dezrann/dezrann-corpus/-/blob/d828c501f4caf7f860780296292e38faa64a846e/corpus/bach-fugues/synchro/bwv847-Ishizaka-yt.synchro.json",
+      "author": "Algomus / Dezrann"
+    }
+  ],
+  "recordings": [
+    {
+      "id": "all-of-bach",
+      "title": "The Netherlands Bach Society",
+      "youtubeId": "XkSJq_W58TU",
+      "performer": "Masato Suzuki",
+      "url": "https://www.youtube.com/watch?v=XkSJq_W58TU",
+      "sourceIds": [
+        "corpus",
+        "sync-all-of-bach"
+      ],
+      "alignment": {
+        "status": "source-aligned",
+        "description": "Recording-specific synchronization points from Dezrann. Timing between anchors is linearly interpolated; source alignment is not a claim of frame-level precision. The map ends at its last source anchor.",
+        "sourceIds": [
+          "sync-all-of-bach"
+        ],
+        "anchors": [
+          {
+            "beat": 0,
+            "seconds": 99.46
+          },
+          {
+            "beat": 0.5,
+            "seconds": 99.85
+          },
+          {
+            "beat": 24.5,
+            "seconds": 120.27
+          },
+          {
+            "beat": 40.5,
+            "seconds": 133.68
+          },
+          {
+            "beat": 48,
+            "seconds": 140.25
+          },
+          {
+            "beat": 48.25,
+            "seconds": 140.55
+          },
+          {
+            "beat": 52,
+            "seconds": 143.7
+          },
+          {
+            "beat": 56.5,
+            "seconds": 147.73
+          },
+          {
+            "beat": 63.5,
+            "seconds": 153.63
+          },
+          {
+            "beat": 68.5,
+            "seconds": 157.8
+          },
+          {
+            "beat": 70.5,
+            "seconds": 159.43
+          },
+          {
+            "beat": 72.5,
+            "seconds": 160.95
+          },
+          {
+            "beat": 74.5,
+            "seconds": 162.51
+          },
+          {
+            "beat": 76.5,
+            "seconds": 164.15
+          },
+          {
+            "beat": 83.5,
+            "seconds": 169.88
+          },
+          {
+            "beat": 86.5,
+            "seconds": 172.44
+          },
+          {
+            "beat": 90.5,
+            "seconds": 175.49
+          },
+          {
+            "beat": 96,
+            "seconds": 180.07
+          },
+          {
+            "beat": 100.5,
+            "seconds": 183.82
+          },
+          {
+            "beat": 101.5,
+            "seconds": 184.57
+          },
+          {
+            "beat": 104,
+            "seconds": 186.62
+          },
+          {
+            "beat": 108.5,
+            "seconds": 190.58
+          },
+          {
+            "beat": 110,
+            "seconds": 191.93
+          },
+          {
+            "beat": 113,
+            "seconds": 194.84
+          },
+          {
+            "beat": 114,
+            "seconds": 195.9
+          },
+          {
+            "beat": 114.5,
+            "seconds": 196.62
+          },
+          {
+            "beat": 116.5,
+            "seconds": 198.27
+          },
+          {
+            "beat": 118.5,
+            "seconds": 200.12
+          },
+          {
+            "beat": 120,
+            "seconds": 201.47
+          },
+          {
+            "beat": 121.5,
+            "seconds": 203.08
+          },
+          {
+            "beat": 122,
+            "seconds": 204.38
+          }
+        ]
+      }
+    },
+    {
+      "id": "ishizaka",
+      "title": "Open Well-Tempered Clavier",
+      "youtubeId": "vxZL0Fizx-E",
+      "performer": "Kimiko Ishizaka",
+      "url": "https://www.youtube.com/watch?v=vxZL0Fizx-E",
+      "sourceIds": [
+        "corpus",
+        "sync-ishizaka"
+      ],
+      "alignment": {
+        "status": "source-aligned",
+        "description": "Recording-specific synchronization points from Dezrann. Timing between anchors is linearly interpolated; source alignment is not a claim of frame-level precision. The map ends at its last source anchor.",
+        "sourceIds": [
+          "sync-ishizaka"
+        ],
+        "anchors": [
+          {
+            "beat": -2,
+            "seconds": 0.0
+          },
+          {
+            "beat": 2,
+            "seconds": 1.93
+          },
+          {
+            "beat": 3,
+            "seconds": 2.79
+          },
+          {
+            "beat": 4,
+            "seconds": 3.65
+          },
+          {
+            "beat": 5,
+            "seconds": 4.54
+          },
+          {
+            "beat": 6,
+            "seconds": 5.42
+          },
+          {
+            "beat": 7,
+            "seconds": 6.31
+          },
+          {
+            "beat": 8,
+            "seconds": 7.32
+          },
+          {
+            "beat": 9,
+            "seconds": 8.08
+          },
+          {
+            "beat": 10,
+            "seconds": 8.93
+          },
+          {
+            "beat": 11,
+            "seconds": 9.81
+          },
+          {
+            "beat": 12,
+            "seconds": 10.65
+          },
+          {
+            "beat": 13,
+            "seconds": 11.55
+          },
+          {
+            "beat": 14,
+            "seconds": 12.43
+          },
+          {
+            "beat": 15,
+            "seconds": 13.31
+          },
+          {
+            "beat": 16,
+            "seconds": 14.28
+          },
+          {
+            "beat": 17,
+            "seconds": 15.05
+          },
+          {
+            "beat": 18,
+            "seconds": 15.84
+          },
+          {
+            "beat": 19,
+            "seconds": 16.71
+          },
+          {
+            "beat": 20,
+            "seconds": 17.5
+          },
+          {
+            "beat": 21,
+            "seconds": 18.35
+          },
+          {
+            "beat": 22,
+            "seconds": 19.1
+          },
+          {
+            "beat": 23,
+            "seconds": 19.92
+          },
+          {
+            "beat": 24,
+            "seconds": 20.85
+          },
+          {
+            "beat": 25,
+            "seconds": 21.63
+          },
+          {
+            "beat": 26,
+            "seconds": 22.46
+          },
+          {
+            "beat": 27,
+            "seconds": 23.35
+          },
+          {
+            "beat": 28,
+            "seconds": 24.22
+          },
+          {
+            "beat": 29,
+            "seconds": 25.13
+          },
+          {
+            "beat": 30,
+            "seconds": 26.03
+          },
+          {
+            "beat": 31,
+            "seconds": 26.84
+          },
+          {
+            "beat": 32,
+            "seconds": 27.81
+          },
+          {
+            "beat": 33,
+            "seconds": 28.63
+          },
+          {
+            "beat": 34,
+            "seconds": 29.43
+          },
+          {
+            "beat": 35,
+            "seconds": 30.28
+          },
+          {
+            "beat": 36,
+            "seconds": 31.09
+          },
+          {
+            "beat": 37,
+            "seconds": 31.94
+          },
+          {
+            "beat": 38,
+            "seconds": 32.71
+          },
+          {
+            "beat": 39,
+            "seconds": 33.56
+          },
+          {
+            "beat": 40,
+            "seconds": 34.4
+          },
+          {
+            "beat": 41,
+            "seconds": 35.2
+          },
+          {
+            "beat": 42,
+            "seconds": 36.03
+          },
+          {
+            "beat": 43,
+            "seconds": 36.9
+          },
+          {
+            "beat": 44,
+            "seconds": 37.75
+          },
+          {
+            "beat": 45,
+            "seconds": 38.61
+          },
+          {
+            "beat": 46,
+            "seconds": 39.52
+          },
+          {
+            "beat": 47,
+            "seconds": 40.39
+          },
+          {
+            "beat": 48,
+            "seconds": 41.25
+          },
+          {
+            "beat": 49,
+            "seconds": 42.05
+          },
+          {
+            "beat": 50,
+            "seconds": 42.86
+          },
+          {
+            "beat": 51,
+            "seconds": 43.64
+          },
+          {
+            "beat": 52,
+            "seconds": 44.5
+          },
+          {
+            "beat": 53,
+            "seconds": 45.3
+          },
+          {
+            "beat": 54,
+            "seconds": 46.09
+          },
+          {
+            "beat": 55,
+            "seconds": 46.88
+          },
+          {
+            "beat": 56,
+            "seconds": 47.7
+          },
+          {
+            "beat": 57,
+            "seconds": 48.55
+          },
+          {
+            "beat": 58,
+            "seconds": 49.37
+          },
+          {
+            "beat": 59,
+            "seconds": 50.17
+          },
+          {
+            "beat": 60,
+            "seconds": 51.05
+          },
+          {
+            "beat": 61,
+            "seconds": 51.92
+          },
+          {
+            "beat": 62,
+            "seconds": 52.83
+          },
+          {
+            "beat": 63,
+            "seconds": 53.69
+          },
+          {
+            "beat": 64,
+            "seconds": 54.54
+          },
+          {
+            "beat": 65,
+            "seconds": 55.42
+          },
+          {
+            "beat": 66,
+            "seconds": 56.27
+          },
+          {
+            "beat": 67,
+            "seconds": 57.11
+          },
+          {
+            "beat": 68,
+            "seconds": 57.91
+          },
+          {
+            "beat": 69,
+            "seconds": 58.73
+          },
+          {
+            "beat": 70,
+            "seconds": 59.53
+          },
+          {
+            "beat": 71,
+            "seconds": 60.41
+          },
+          {
+            "beat": 72,
+            "seconds": 61.24
+          },
+          {
+            "beat": 73,
+            "seconds": 62.07
+          },
+          {
+            "beat": 74,
+            "seconds": 62.91
+          },
+          {
+            "beat": 75,
+            "seconds": 63.72
+          },
+          {
+            "beat": 76,
+            "seconds": 64.52
+          },
+          {
+            "beat": 77,
+            "seconds": 65.34
+          },
+          {
+            "beat": 78,
+            "seconds": 66.19
+          },
+          {
+            "beat": 79,
+            "seconds": 67.07
+          },
+          {
+            "beat": 80,
+            "seconds": 67.91
+          },
+          {
+            "beat": 81,
+            "seconds": 68.78
+          },
+          {
+            "beat": 82,
+            "seconds": 69.65
+          },
+          {
+            "beat": 83,
+            "seconds": 70.52
+          },
+          {
+            "beat": 84,
+            "seconds": 71.37
+          },
+          {
+            "beat": 85,
+            "seconds": 72.18
+          },
+          {
+            "beat": 86,
+            "seconds": 73.03
+          },
+          {
+            "beat": 87,
+            "seconds": 73.83
+          },
+          {
+            "beat": 88,
+            "seconds": 74.66
+          },
+          {
+            "beat": 89,
+            "seconds": 75.49
+          },
+          {
+            "beat": 90,
+            "seconds": 76.31
+          },
+          {
+            "beat": 91,
+            "seconds": 77.19
+          },
+          {
+            "beat": 92,
+            "seconds": 77.99
+          },
+          {
+            "beat": 93,
+            "seconds": 78.77
+          },
+          {
+            "beat": 94,
+            "seconds": 79.56
+          },
+          {
+            "beat": 95,
+            "seconds": 80.36
+          },
+          {
+            "beat": 96,
+            "seconds": 81.23
+          },
+          {
+            "beat": 97,
+            "seconds": 82.08
+          },
+          {
+            "beat": 98,
+            "seconds": 83.01
+          },
+          {
+            "beat": 99,
+            "seconds": 83.84
+          },
+          {
+            "beat": 100,
+            "seconds": 84.63
+          },
+          {
+            "beat": 101,
+            "seconds": 85.43
+          },
+          {
+            "beat": 102,
+            "seconds": 86.22
+          },
+          {
+            "beat": 103,
+            "seconds": 87.03
+          },
+          {
+            "beat": 104,
+            "seconds": 87.89
+          },
+          {
+            "beat": 105,
+            "seconds": 88.77
+          },
+          {
+            "beat": 106,
+            "seconds": 89.62
+          },
+          {
+            "beat": 107,
+            "seconds": 90.51
+          },
+          {
+            "beat": 108,
+            "seconds": 91.4
+          },
+          {
+            "beat": 109,
+            "seconds": 92.37
+          },
+          {
+            "beat": 110,
+            "seconds": 93.51
+          },
+          {
+            "beat": 111,
+            "seconds": 94.86
+          },
+          {
+            "beat": 112,
+            "seconds": 96.6
+          },
+          {
+            "beat": 113,
+            "seconds": 97.51
+          },
+          {
+            "beat": 114,
+            "seconds": 98.35
+          },
+          {
+            "beat": 115,
+            "seconds": 99.18
+          },
+          {
+            "beat": 116,
+            "seconds": 100.02
+          },
+          {
+            "beat": 117,
+            "seconds": 100.89
+          },
+          {
+            "beat": 118,
+            "seconds": 101.8
+          },
+          {
+            "beat": 119,
+            "seconds": 102.71
+          },
+          {
+            "beat": 120,
+            "seconds": 103.58
+          },
+          {
+            "beat": 121,
+            "seconds": 104.5
+          },
+          {
+            "beat": 122,
+            "seconds": 106.03
+          }
+        ]
+      }
+    }
+  ],
+  "notes": "Voices run from highest to lowest. All positions use zero-based quarter-note units. The source usually marks the last note's onset; entry ends include its notated duration, including tied continuations. Where a source endpoint falls within a sounding note, its release is used. Source endpoints remain available as sourceEnd. Only the source's reference thematic annotations are included; labels marked ignore are excluded. An uncolored gap does not itself establish a formal episode. Subject variants share a theme color."
+}
