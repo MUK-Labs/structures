@@ -67,7 +67,7 @@ export function playbackStatus(piece) {
   return piece.recordings.length ? 'manual-timing' : 'analysis-only';
 }
 
-function loadYouTubeAPI(win, doc) {
+export function loadYouTubeAPI(win, doc) {
   if (win.YT?.Player) return Promise.resolve(win.YT);
   if (apiLoads.has(win)) return apiLoads.get(win);
   let script;

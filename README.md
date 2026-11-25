@@ -36,6 +36,8 @@ The first Bartók selection offers three ways to follow returning material:
 
 **[Manual timing checklist and instructions](docs/manual-timing.md)** · [CSV timing worksheet](docs/manual-timing-template.csv). The checklist links every pending piece and its exact recording, and separately lists four Bach entries needing timing-map extensions. Download a copy of the CSV, fill the `seconds` column for your chosen pieces, and send it back for integration.
 
+For a quicker first pass, use the **[barline timing tool](https://muk-labs.github.io/structures/timing.html)**. Open **Time this recording** beside the viewer's recording selector, load the video, and press **Space at the start of each bar**, then at the final displayed endpoint. It counts the score's actual measures, including pickups and meter changes. Undo, edit and review timestamps, then **Use in my diagram** to hear an estimated alignment in your browser. Drafts save locally; download the piece JSON or timing CSV to contribute the result. [Timing-tool instructions](docs/barline-timing.md).
+
 The [repertoire source register](docs/repertoire-sources.md) distinguishes these implemented diagrams from sources for further work, including whole-fugue inventories, later sections, other Beethoven and Romantic fugues, and recording alignment. [Data provenance](data/README.md) documents the exact methods and reproduction commands.
 
 The [counterpoint research register](docs/counterpoint-research.md) extends the search to Bartók, recurring themes, canons, rhythmic layers, and other contrapuntal repertoire. It includes verified analyses, page and measure references, data sources, and priorities for future diagrams, with the first three Bartók implementations identified explicitly.

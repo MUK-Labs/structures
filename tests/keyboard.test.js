@@ -4,13 +4,14 @@ import { readFile } from 'node:fs/promises';
 import vm from 'node:vm';
 import * as model from '../src/model.js';
 import * as playback from '../src/player.js';
+import * as timingStorage from '../src/timing-storage.js';
 
 // Run the actual application handlers with a small DOM and a controllable
 // player. Only ES-module imports are replaced; no handler logic is duplicated.
 const app = (await readFile(new URL('../src/app.js', import.meta.url), 'utf8'))
   .replace(/^import .*;\n/gm, '');
 
-function environment({ recordings, analysis } = {}) {
+function environment({ recordings, analysis, initialize = false, url = 'https://structures.example/?piece=test-fugue' } = {}) {
   const elements = new Map(), listeners = new Map(), players = [];
   const document = {};
   class Element {
@@ -61,7 +62,8 @@ function environment({ recordings, analysis } = {}) {
     stop() { this.stops++; this.emit('paused'); }
     destroy() { this.destroyed = true; }
   }
-  const location = new URL('https://structures.example/?piece=test-fugue');
+  const location = new URL(url);
+  document.baseURI = location.href;
   const piece = {
     schemaVersion:1, sources:[], id: 'test-fugue', title:'Test fugue', composer:'Composer', totalBeats: 16, meter:{beats:4,unit:4},
     voices:[{id:'upper',label:'Upper'}], themes:[{id:'subject',label:'Subject'}],
@@ -73,16 +75,16 @@ function environment({ recordings, analysis } = {}) {
   if (recordings !== undefined) piece.recordings = recordings;
   if (analysis !== undefined) piece.analysis = analysis;
   const sandbox = vm.createContext({
-    ...model, ...playback, SegmentPlayer: Player, document,
+    ...model, ...playback, ...timingStorage, SegmentPlayer: Player, document,
     window: { addEventListener() {} }, location,
     history: { replaceState: (_state, _unused, url) => { location.href = url.href; } },
     URL, URLSearchParams, setTimeout, clearTimeout,
     getComputedStyle: () => ({ getPropertyValue: () => '84px' }),
     // Initialization deliberately remains pending: this fixture exercises the
     // registered controls independently of catalog fetching and chart rendering.
-    fetch: () => new Promise(() => {}), fixture: piece,
+    fetch: initialize ? async resource => ({ok:true,json:async()=>String(resource).includes('index.json')?[{id:piece.id,title:piece.title,composer:piece.composer,file:'data/pieces/test-fugue.json'}]:piece}) : () => new Promise(() => {}), fixture: piece,
   });
-  vm.runInContext(app, sandbox, { filename: 'src/app.js' });
+  vm.runInContext(initialize ? app.replace('void init();', 'globalThis.initialization = init();') : app, sandbox, { filename: 'src/app.js' });
   vm.runInContext('state.pieces = [fixture]; state.selected = { piece: fixture, entry: fixture.entries[0] };', sandbox);
   const entry = new Element('button', null, ['entry']);
   function key(target = entry, overrides = {}) {
@@ -91,7 +93,7 @@ function environment({ recordings, analysis } = {}) {
     listeners.get('keydown')(event);
     return event;
   }
-  return { Element, document, element, panel, playhead, players, location, entry, key,
+  return { Element, document, element, panel, playhead, players, location, entry, key, initialization:sandbox.initialization,
     presentation: () => element('present-toggle').listeners.get('click')(),
     select: () => vm.runInContext('selectEntry(fixture, fixture.entries[0], true, false)', sandbox),
     render: () => vm.runInContext('renderPiece(fixture, 0)', sandbox),
@@ -222,6 +224,7 @@ test('local JSON imports preserve untimed playback and analytical coverage in th
   assert.match(label,/Exposition excerpt/);
   assert.match(label,/Manual timing needed/);
   assert.equal(env.element('play-entry').disabled,true);
+  assert.equal(env.element('timing-link').hidden,true,'a local import must not open a different repository piece in the timing tool');
 });
 
 test('formal outlines identify thematic rows and keep untimed blocks inspectable', () => {
@@ -240,4 +243,24 @@ test('formal outlines identify thematic rows and keep untimed blocks inspectable
   env.select();
   assert.equal(env.element('play-entry').disabled,true);
   assert.equal(env.players.length,0);
+});
+
+
+test('timing-page links and shared URLs retain the selected recording', async () => {
+  const recordings = [
+    {id:'first',title:'First recording',youtubeId:'abcdefghijk',alignment:{status:'unavailable',anchors:[]}},
+    {id:'second',title:'Second recording',youtubeId:'lmnopqrstuv',alignment:{status:'unavailable',anchors:[]}},
+  ];
+  const env = environment({recordings,initialize:true,url:'https://structures.example/?piece=test-fugue&recording=second'});
+  await env.initialization;
+  assert.equal(env.element('app-status').classList.contains('error'),false);
+  assert.equal(env.element('recording-select').value,'second');
+  assert.equal(env.element('timing-link').hidden,false);
+  const link = new URL(env.element('timing-link').href);
+  assert.equal(link.pathname,'/timing.html');
+  assert.equal(link.searchParams.get('piece'),'test-fugue');
+  assert.equal(link.searchParams.get('recording'),'second');
+  env.element('recording-select').listeners.get('change')({target:{value:'first'}});
+  assert.equal(env.location.searchParams.get('recording'),'first');
+  assert.equal(new URL(env.element('timing-link').href).searchParams.get('recording'),'first');
 });

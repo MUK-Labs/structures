@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="Tap barlines while listening, then preview estimated timing in a Structures diagram.">
+  <title>Barline timing — Structures</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./src/styles.css">
+  <link rel="stylesheet" href="./src/timing.css">
+  <script type="module" src="./src/timing-app.js"></script>
+</head>
+<body class="timing-page">
+  <header class="site-header">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>Structures<span class="brand-note">Barline timing</span></a>
+    <a id="back-to-diagram" href="./">Back to diagram</a>
+  </header>
+  <main>
+    <div class="timing-heading"><div><p class="eyebrow">Listen. Count. Tap.</p><h1>Give the diagram a pulse.</h1></div><p>Press <kbd>Space</kbd> at the <strong>start of each bar</strong>. Tap once more at the end of the displayed score.</p></div>
+    <div class="timing-choices">
+      <label>Piece<select id="timing-piece" disabled><option>Loading the collection…</option></select></label>
+      <label>Recording<select id="timing-recording" disabled><option>Choose a piece</option></select></label>
+    </div>
+    <p id="timing-status" role="status" aria-live="polite">Loading the collection…</p>
+    <section class="timing-workspace" aria-label="Listen and mark barlines">
+      <div class="timing-listening">
+        <div id="timing-player" class="timing-video"><p>Load the recording when you’re ready to listen.</p></div>
+        <div class="timing-transport">
+          <button id="load-recording" type="button" disabled>Load recording</button>
+          <button id="timing-play" type="button" disabled>Play / pause <kbd>P</kbd></button>
+          <span id="media-clock" class="media-clock">0:00.0</span><span id="playback-state" class="media-clock" role="status">Not loaded</span>
+          <a id="source-link" target="_blank" rel="noopener noreferrer" hidden>Open recording</a>
+        </div>
+        <p id="media-status" class="muted" role="status" aria-live="polite"></p>
+        <p class="timing-hint">After using the video controls, click <strong>Focus for Space</strong> to return the keyboard here.</p>
+      </div>
+      <div class="capture-panel">
+        <div class="capture-top"><label>Next boundary<select id="next-boundary" disabled></select></label><button id="focus-capture" type="button">Focus for Space</button></div>
+        <button id="mark-bar" class="mark-bar" type="button" disabled><span class="mark-prompt">Mark the start of</span><strong id="next-bar">—</strong><span class="mark-key"><kbd>Space</kbd> or tap here</span></button>
+        <p id="capture-progress" aria-live="polite">No barlines marked yet.</p>
+        <progress id="capture-meter" value="0" max="1" aria-label="Boundaries marked"></progress>
+        <div class="capture-actions"><button id="undo-mark" type="button" disabled>Undo <kbd>⌫</kbd></button><button id="finish-timing" type="button" disabled>Finish &amp; review</button></div>
+        <p id="save-state" class="save-state" role="status"></p>
+      </div>
+    </section>
+    <section class="timing-results" aria-label="Review and use timing">
+      <div class="results-heading"><div><h2>Review &amp; use</h2><p id="coverage-summary">Mark at least two boundaries to estimate entry timings between them.</p></div><button id="clear-draft" type="button" class="quiet" disabled>Clear draft</button></div>
+      <div class="result-actions">
+        <button id="preview-timing" class="primary" type="button" disabled>Use in my diagram</button>
+        <button id="export-piece" type="button" disabled>Download piece JSON</button>
+        <button id="export-csv" type="button" disabled>Download timing CSV</button>
+        <button id="restore-published" type="button" hidden>Use published timing</button>
+      </div>
+      <p class="timing-hint">Your draft saves in this browser. “Use in my diagram” applies it here; download the JSON or CSV to share your timing for the published collection.</p>
+      <details id="review-details"><summary id="review-summary">Barline timestamps</summary><div class="timing-table-wrap"><table><thead><tr><th scope="col">Boundary</th><th scope="col">Seconds in recording</th><th scope="col">Review</th></tr></thead><tbody id="marks-table"></tbody></table></div></details>
+    </section>
+    <details class="timing-help"><summary>How the estimate works</summary>
+      <p>The first tap belongs to the boundary shown under “Next boundary”—usually the start of bar 1, even when the recording has leading silence. Pickups, changing meters and the diagram’s original bar labels are already accounted for. You can start later by choosing another boundary.</p>
+      <p>Each tap reads the recording’s current media time. Pausing, buffering or changing playback speed does not change the score count. Press <kbd>P</kbd> to play or pause; <kbd>Backspace</kbd> undoes a mark while the capture area has keyboard focus. If you miss a bar, choose the correct next boundary or undo and replay the passage.</p>
+      <p>Entry positions between your marks are interpolated in score beats. This is an <strong>estimate</strong>: rubato, fermatas and timing within a bar may need later refinement. Entries outside the marked span stay unavailable. Repeated score passages need one continuous pass through the diagram; do not count a repeated bar as the next new bar.</p>
+      <p>Finish with the final displayed boundary to cover the end of the piece or excerpt. You can also finish early and save a partial map. Your marks never replace the published timing until an exported file is integrated into the repository.</p>
+    </details>
+  </main>
+</body>
+</html>

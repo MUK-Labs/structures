@@ -1,5 +1,6 @@
 import { validatePiece, themeColor, analysisLabel, qPerBar, measureCount, measureAtIndex, formatPosition, formatTime, safeUrl, recordingUrl } from './model.js';
 import { SegmentPlayer, getClipBounds, canPlayEntry, hasPlayableEntries, playbackStatus } from './player.js';
+import { loadTimingOverrides, hasTimingOverride } from './timing-storage.js';
 
 const $ = id => document.getElementById(id);
 const state = { catalog: [], pieces: [], cache: new Map(), localIds: new Set(), selected: null, recordingId: null, zoom: 1, hiddenThemes: new Map(), player: null, playing: false, loadToken: 0, compareToken: 0, present: false };
@@ -83,13 +84,21 @@ function refreshRecording() {
   try { bounds = recording && state.selected ? getClipBounds(recording, state.selected.entry) : null; } catch {}
   $('play-entry').disabled = !bounds;
   $('clip-time').textContent = bounds ? `${formatTime(bounds.startSeconds)} – ${formatTime(bounds.endSeconds)}` : '';
-  $('alignment-note').textContent = recording?.alignment?.status === 'source-aligned' ? 'Source-aligned · interpolated between anchors' : recording?.alignment?.status === 'estimated' ? 'Estimated timing' : recording ? 'Manual timing needed' : 'No recording linked';
+  $('alignment-note').textContent = hasTimingOverride(state.selected?.piece, recording) ? 'Estimated timing · saved in this browser' : recording?.alignment?.status === 'source-aligned' ? 'Source-aligned · interpolated between anchors' : recording?.alignment?.status === 'estimated' ? 'Estimated timing' : recording ? 'Manual timing needed' : 'No recording linked';
   const url = recordingUrl(recording, bounds?.startSeconds);
   const link = $('youtube-link');
   link.hidden = !url;
   link.textContent = recording?.youtubeId ? 'Open on YouTube' : 'Open recording';
   if (url) link.href = url;
   else link.removeAttribute('href');
+  const timingLink = $('timing-link');
+  timingLink.hidden = !recording || state.localIds.has(state.selected?.piece.id);
+  if (!timingLink.hidden) {
+    const timingUrl = new URL('./timing.html', location.href);
+    timingUrl.searchParams.set('piece', state.selected.piece.id);
+    timingUrl.searchParams.set('recording', recording.id);
+    timingLink.href = timingUrl.href;
+  } else timingLink.removeAttribute('href');
   // Untimed sources are links only: do not imply that a video can be loaded
   // or that a click on the diagram will play a synchronized excerpt.
   $('youtube-player').hidden = !bounds;
@@ -236,7 +245,8 @@ async function loadPiece(id){
   if(state.cache.has(id))return state.cache.get(id);
   const item=state.catalog.find(c=>c.id===id);if(!item)throw new Error(`Piece “${id}” is not in this collection.`);
   const response=await fetch(new URL(item.file,document.baseURI));if(!response.ok)throw new Error(`Could not load ${item.title}.`);
-  const piece=validatePiece(await response.json());state.cache.set(id,piece);return piece;
+  const piece=loadTimingOverrides(validatePiece(await response.json()));
+  item.playback=playbackStatus(piece);state.cache.set(id,piece);return piece;
 }
 async function switchPiece(id){
   const token=++state.loadToken;stopPlayer();status('Loading the piece…');
@@ -271,6 +281,7 @@ function updateUrl(){
   if(!state.pieces.length)return;const url=new URL(location.href);url.search='';url.searchParams.set('piece',state.pieces[0].id);
   if(state.pieces.length>1)url.searchParams.set('compare',state.pieces.slice(1).map(p=>p.id).join(','));
   if(state.selected){url.searchParams.set('entry',state.selected.entry.id);if(state.selected.piece.id!==state.pieces[0].id)url.searchParams.set('entryPiece',state.selected.piece.id);}
+  if(state.recordingId)url.searchParams.set('recording',state.recordingId);
   if(state.present)url.searchParams.set('view','slides');history.replaceState(null,'',url);
 }
 $('piece-select').addEventListener('change',event=>void switchPiece(event.target.value));
@@ -279,10 +290,17 @@ $('add-compare').addEventListener('click',()=>void addComparison());
 $('present-toggle').addEventListener('click',()=>setPresentation(!state.present));
 $('zoom').addEventListener('change',event=>{state.zoom=Number(event.target.value);renderDiagrams();});
 $('section-toggle').addEventListener('change',renderDiagrams);
-$('recording-select').addEventListener('change',event=>{stopPlayer();state.recordingId=event.target.value;$('player-status').textContent='';refreshRecording();});
+$('recording-select').addEventListener('change',event=>{stopPlayer();state.recordingId=event.target.value;$('player-status').textContent='';refreshRecording();updateUrl();});
 $('play-entry').addEventListener('click',()=>void playSelected());$('pause').addEventListener('click',()=>state.player?.pause());
 $('loop').addEventListener('change',event=>state.player?.setLoop(event.target.checked));
-$('share').addEventListener('click',async()=>{if(state.pieces.some(p=>state.localIds.has(p.id))){status('This view includes a local piece. Add its JSON to the repository before sharing a link.');return;}updateUrl();try{await navigator.clipboard.writeText(location.href);status('Link copied.');setTimeout(()=>status(),2500);}catch{status('Copy this page’s address to share the current view.');}});
+$('share').addEventListener('click',async()=>{
+  if(state.pieces.some(p=>state.localIds.has(p.id))){status('This view includes a local piece. Add its JSON to the repository before sharing a link.');return;}
+  updateUrl();
+  const localTiming=state.pieces.some(piece=>piece.recordings.some(recording=>hasTimingOverride(piece,recording)));
+  const note=localTiming?' Your local timing is not included; export the timed piece JSON to share it.':'';
+  try{await navigator.clipboard.writeText(location.href);status(`Link copied.${note}`);if(!localTiming)setTimeout(()=>status(),2500);}
+  catch{status(`Copy this page’s address to share the current view.${note}`);}
+});
 $('about-open').addEventListener('click',()=>$('about-dialog').showModal());$('about-close').addEventListener('click',()=>$('about-dialog').close());
 $('about-dialog').addEventListener('click',event=>{if(event.target===$('about-dialog')){const r=event.target.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)event.target.close();}});
 $('import-open').addEventListener('click',()=>$('import-file').click());
@@ -307,6 +325,8 @@ async function init(){
     state.pieces=await Promise.all(ids.map(loadPiece));fillSelects();renderDiagrams();if(state.pieces.length>1)toggleComparison(true);
     const selectedPiece=state.pieces.find(p=>p.id===params.get('entryPiece'))||state.pieces[0];
     const entry=selectedPiece.entries.find(e=>e.id===params.get('entry'))||selectedPiece.entries[0];if(entry)selectEntry(selectedPiece,entry,false,false);
+    const requestedRecording=params.get('recording');
+    if(selectedPiece.recordings.some(recording=>recording.id===requestedRecording)){state.recordingId=requestedRecording;$('recording-select').value=requestedRecording;refreshRecording();}
     setPresentation(params.get('view')==='slides');
     document.title=`${state.pieces[0].title} — Structures`;status(requested&&requested!==first?'That piece is not in this collection. Showing the C-minor fugue.':'');
   }catch(error){status(error.message,true);$('piece-select').replaceChildren(node('option','','Collection unavailable'));}
