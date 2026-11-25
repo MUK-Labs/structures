@@ -5,6 +5,10 @@ from data that are ready for the viewer. A source being listed here does **not**
 mean its pieces, notation previews, or synchronized recordings have been added.
 The generated [catalog](../data/index.json) is the list of available diagrams.
 
+For the subsequent deep search focused on Bartók and contrapuntal material beyond
+fugues, see the [counterpoint and recurring-theme research register](counterpoint-research.md).
+It includes chamber, piano, orchestral and choral analyses, plus encoded datasets.
+
 ## Implemented expansion
 
 The new diagrams deliberately state their coverage. A whole-movement timeline
