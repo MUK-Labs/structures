@@ -103,6 +103,40 @@ test('capture state follows provider playback and timing is read from its timeli
   env.player.destroy();
 });
 
+test('chapter cues prepare playback without starting it or shifting the media timeline', async () => {
+  const env = environment();
+  const source = {...recording, cueStartSeconds:193.25, alignment:{status:'unavailable', anchors:[]}};
+  const original = structuredClone(source);
+  const yt = await ready(env, source);
+  assert.deepEqual(yt.cues, [{videoId:source.youtubeId, startSeconds:193.25}]);
+  assert.equal(yt.plays, 0);
+  assert.equal(env.player.isPlaying, false);
+  assert.match(env.statuses.at(-1).message, /chapter 3:13/);
+  env.player.play(); yt.emit(1); yt.time = 198.7; env.tick();
+  assert.equal(env.player.currentTime(), 198.7, 'timestamps stay absolute, not relative to the chapter');
+  assert.equal(env.times.at(-1).seconds, 198.7);
+  env.player.pause(); env.player.play();
+  assert.equal(yt.cues.length, 1, 'resuming does not jump back to the chapter');
+  assert.deepEqual(source, original, 'cueing creates no timing anchors');
+  const sameVideo = await ready(env, {...source, id:'another-fugue', cueStartSeconds:400});
+  assert.deepEqual(sameVideo.cues, [{videoId:source.youtubeId, startSeconds:400}], 'different pieces in the same upload have independent cues');
+  const other = await ready(env, second);
+  assert.deepEqual(other.cues, [{videoId:second.youtubeId, startSeconds:0}], 'a source without a cue resets to zero');
+  const reloaded = await ready(env, source);
+  assert.deepEqual(reloaded.cues, [{videoId:source.youtubeId, startSeconds:193.25}]);
+  env.player.destroy();
+});
+
+test('invalid chapter cues defensively fall back to the recording beginning', async () => {
+  const env = environment();
+  for (const cueStartSeconds of [-1, NaN, Infinity, '193', null]) {
+    const yt = await ready(env, {...recording, cueStartSeconds});
+    assert.deepEqual(yt.cues, [{videoId:recording.youtubeId, startSeconds:0}]);
+    assert.equal(yt.plays, 0);
+  }
+  env.player.destroy();
+});
+
 test('seeking guards invalid positions and interrupts capture while playback relocates', async () => {
   const env = environment(); const yt = await ready(env);
   assert.equal(env.player.seek(12.25), true);

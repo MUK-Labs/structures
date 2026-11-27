@@ -169,7 +169,7 @@ function chooseRecording(id) {
   state.marks = draft?.marks || []; state.nextIndex = draft?.nextIndex || 0; state.history = [];
   $('media-clock').textContent = '0:00.0'; $('media-status').textContent = '';
   $('timing-player').replaceChildren(element('p', 'Load the recording when you’re ready to listen.'));
-  const source = recordingUrl(state.recording); $('source-link').hidden = !source;
+  const source = recordingUrl(state.recording, state.recording?.cueStartSeconds); $('source-link').hidden = !source;
   if (source) $('source-link').href = source; else $('source-link').removeAttribute('href');
   $('back-to-diagram').href = diagramURL().href;
   const url = new URL(location.href); url.search = ''; url.searchParams.set('piece', state.piece.id);

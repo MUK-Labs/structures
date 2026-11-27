@@ -82,3 +82,17 @@ test('invalid or unavailable local storage cannot break published viewing', () =
   assert.equal(loadTimingOverrides(piece, storage), piece);
   assert.throws(() => saveTimingOverride(piece, recording, marks.slice(0,1), storage), /at least two/);
 });
+
+test('adding or correcting a chapter cue preserves absolute-time drafts and applied maps', () => {
+  const storage = memory();
+  saveTimingDraft(piece, recording, {marks, nextIndex:5}, storage);
+  saveTimingOverride(piece, recording, marks, storage);
+  for (const cueStartSeconds of [0, 3, 193]) {
+    const revised = structuredClone(piece);
+    revised.recordings[0].cueStartSeconds = cueStartSeconds;
+    assert.deepEqual(readTimingDraft(revised, revised.recordings[0], storage), {marks, nextIndex:5});
+    const timed = loadTimingOverrides(revised, storage);
+    assert.equal(hasTimingOverride(timed, revised.recordings[0]), true);
+    assert.deepEqual(timed.recordings[0].alignment.anchors.map(anchor => anchor.seconds), marks.map(mark => mark.seconds));
+  }
+});

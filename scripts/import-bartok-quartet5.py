@@ -255,6 +255,7 @@ def build():
                 "id": "doric-bartok-quartet5-youtube",
                 "title": "Doric String Quartet · Quartet No. 5 · I. Allegro (from 00:31)",
                 "youtubeId": "MpyoHFjIcVY",
+                "cueStartSeconds": 31,
                 "url": "https://www.youtube.com/watch?v=MpyoHFjIcVY",
                 "performer": "Doric String Quartet",
                 "scope": "Complete String Quartet No. 5; the diagram covers movement I, whose uploader chapter starts at 00:31.",

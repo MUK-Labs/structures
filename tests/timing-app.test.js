@@ -126,6 +126,22 @@ test('Space captures the provider timeline once per press, advances the bar coun
   assert.match(env.element('save-state').textContent, /saved in this browser/);
 });
 
+test('a chapter cue reaches the player and source link without creating a barline', async () => {
+  const env = environment();
+  env.piece.recordings[0].cueStartSeconds = 193;
+  env.change('timing-recording', 'first');
+  assert.equal(env.element('source-link').href, 'https://www.youtube.com/watch?v=abcdefghijk&t=193s');
+  const player = await env.load();
+  assert.equal(player.recording.cueStartSeconds, 193);
+  assert.equal(player.plays, 0);
+  assert.deepEqual(env.snapshot().marks, []);
+  assert.equal(env.snapshot().nextIndex, 0);
+  env.tap(player, 194.25);
+  assert.deepEqual(env.snapshot().marks, [{boundaryIndex:0, seconds:194.25}]);
+  env.change('timing-recording', 'second');
+  assert.equal(env.element('source-link').href, 'https://www.youtube.com/watch?v=lmnopqrstuv');
+});
+
 test('keyboard handling preserves editing and native controls while P and undo act on capture focus', async () => {
   const env = environment(), player = await env.load();
   player.emit('playing'); player.seconds = 3;

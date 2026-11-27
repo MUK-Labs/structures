@@ -43,6 +43,8 @@ export function recordingUrl(recording, startSeconds) {
   }
   return typeof recording?.url === 'string' ? safeUrl(recording.url) : null;
 }
+/** Optional navigation cue on the full recording timeline, never an alignment anchor. */
+export const recordingCueSeconds = recording => Number.isFinite(recording?.cueStartSeconds) && recording.cueStartSeconds >= 0 ? recording.cueStartSeconds : 0;
 export function themeColor(theme, index = 0) {
   return /^#[a-f\d]{6}$/i.test(theme.color || '') ? theme.color : PALETTE[index % PALETTE.length];
 }
@@ -98,6 +100,7 @@ export function validatePiece(piece) {
     const hasYouTubeId = recording.youtubeId !== undefined;
     if (hasYouTubeId && (typeof recording.youtubeId !== 'string' || !/^[A-Za-z0-9_-]{11}$/.test(recording.youtubeId))) fail(`invalid YouTube ID in ${recording.id}.`);
     if (recording.url !== undefined && (typeof recording.url !== 'string' || !safeUrl(recording.url))) fail(`recording ${recording.id} needs an HTTP(S) URL.`);
+    if (recording.cueStartSeconds !== undefined && (!Number.isFinite(recording.cueStartSeconds) || recording.cueStartSeconds < 0)) fail(`recording ${recording.id} needs a nonnegative finite cueStartSeconds.`);
     const anchors = recording.alignment?.anchors;
     if (!Array.isArray(anchors)) fail(`alignment anchors are required for ${recording.id}.`);
     if(!['source-aligned','estimated','unavailable'].includes(recording.alignment.status))fail(`unknown alignment status in ${recording.id}.`);

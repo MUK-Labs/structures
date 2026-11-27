@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { validatePiece, recordingUrl } from '../src/model.js';
+import { validatePiece, recordingUrl, recordingCueSeconds } from '../src/model.js';
 import { canPlayEntry, hasPlayableEntries, playbackStatus } from '../src/player.js';
 
 const entry={id:'s1',voice:'upper',theme:'subject',start:0,end:4};
@@ -45,4 +45,21 @@ test('recording links preserve external URLs and add time only for valid YouTube
     assert.equal(recordingUrl(aligned,seconds),'https://www.youtube.com/watch?v=abcdefghijk');
   }
   for(const value of [null,{}, {url:'javascript:alert(1)'},{youtubeId:'invalid'}]) assert.equal(recordingUrl(value),null);
+});
+
+test('chapter cues are optional finite navigation metadata and never enable entry playback', () => {
+  for (const cueStartSeconds of [0, 193, 193.25]) {
+    const recording = {...untimed, youtubeId:'abcdefghijk', cueStartSeconds};
+    assert.equal(validatePiece(piece([recording])).recordings[0], recording);
+    assert.equal(recordingCueSeconds(recording), cueStartSeconds);
+    assert.equal(canPlayEntry(recording, entry), false);
+    assert.deepEqual(recording.alignment.anchors, []);
+  }
+  for (const cueStartSeconds of [-1, NaN, Infinity, '193', null, true]) {
+    const recording = {...untimed, cueStartSeconds};
+    assert.throws(() => validatePiece(piece([recording])), /cueStartSeconds/);
+    assert.equal(recordingCueSeconds(recording), 0);
+  }
+  assert.equal(recordingCueSeconds(untimed), 0);
+  assert.equal(recordingCueSeconds(null), 0);
 });

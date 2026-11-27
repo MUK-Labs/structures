@@ -1,4 +1,5 @@
 import { loadYouTubeAPI } from './player.js';
+import { recordingCueSeconds, formatTime } from './model.js';
 
 // Continuous playback for barline capture. Capture uses getCurrentTime(), never
 // elapsed wall-clock time, so pauses, buffering and playback speed cannot drift.
@@ -150,9 +151,12 @@ export class TimingPlayer {
       if (!current()) return false;
       this.ready = true;
       this._state('ready');
-      this.player.cueVideoById({ videoId: recording.youtubeId, startSeconds: 0 });
+      const startSeconds = recordingCueSeconds(recording);
+      this.player.cueVideoById({ videoId: recording.youtubeId, startSeconds });
       this.timer = this.win.setInterval(() => this._reportTime(), 100);
-      this._status('Recording ready. Play it, then mark each barline.');
+      this._status(startSeconds > 0
+        ? `Ready to play from chapter ${formatTime(startSeconds)}. Press Play, then mark the first barline when you hear it.`
+        : 'Recording ready. Play it, then mark each barline.');
       return true;
     } catch (error) {
       if (current()) this._fail(error);

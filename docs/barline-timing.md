@@ -4,13 +4,15 @@
 
 ## Capture a first pass
 
-1. Read the recording scope below the selectors and locate the relevant fugue or movement. Some uploads include a prelude or a complete cycle; a published chapter cue is only a navigation aid. Click **Load recording**, then **Play**. The embedded YouTube player remains visible for listening, seeking and playback-speed controls.
+1. Click **Load recording**, then **Play**. When a verified chapter cue is available, the recording is automatically prepared to start there; the ready message shows the chapter time. **Open recording** also links to that time. Without a cue, playback starts at the beginning: read the scope below the selectors and locate the relevant fugue or movement. The embedded YouTube player remains visible for listening, seeking and playback-speed controls.
 2. Check **Next boundary**. Press **Space** (or tap the large button) at the start of that bar. The first tap is the first score boundary, not the instant the video starts. The counter advances after each accepted tap.
 3. Continue at each barline. Pickups, changing time signatures, excerpt numbering, and labels such as the Duo's P1/C1 are taken from the score map. Tap once more at the **final displayed endpoint** to cover the end of the piece or excerpt.
 4. Use **P** to pause/play and **Undo** or **Backspace** to undo a mark. After touching the video controls, click **Focus for Space**: keypresses inside a cross-origin video player cannot reach the timing page. Text fields and selectors retain their normal keyboard behavior.
 5. Click **Finish & review**. The timestamp table lets you listen near a boundary, edit its absolute seconds, or remove it. If you missed a bar, use **Next boundary** to select the correct score location before continuing. The tool rejects duplicate barlines and times that would run backward.
 
 You may start at a later boundary or finish early. A partial map is useful: only diagram entries whose start and end lie inside its marked span become playable. Repeated score passages must be timed along one continuous pass through the diagram. The tool does not infer repeats, omitted bars, or a missed tap.
+
+Chapter cues are navigation aids, not measured barlines. Loading does not play automatically or add a mark; press Space when you hear the actual first boundary. Pause/resume continues at your current position, while **Reload recording** returns to the chapter cue. A saved draft remains intact. The clock and exported timings always use absolute seconds on the complete video, including any prelude before the fugue.
 
 ## Use and share the result
 
