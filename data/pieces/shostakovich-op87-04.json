@@ -2130,26 +2130,6 @@
         "url": "https://www.youtube.com/watch?v=KHnDUDTiZZ0",
         "method": "Title, performer, venue, performance date and the 02:37 chapter checked in YouTube's visible description. Watch-page playback and chapter seeking checked briefly; no score-to-recording anchors measured."
       }
-    },
-    {
-      "id": "ashkenazy-op87-04-youtube",
-      "title": "Vladimir Ashkenazy · Fugue No. 4 in E minor",
-      "youtubeId": "YZqo9DIOJUE",
-      "url": "https://www.youtube.com/watch?v=YZqo9DIOJUE",
-      "performer": "Vladimir Ashkenazy",
-      "scope": "Individual complete fugue, without its prelude.",
-      "alignment": {
-        "status": "unavailable",
-        "description": "Manual timing needed. Individual complete fugue, without its prelude. No score-to-recording anchors have been measured.",
-        "anchors": []
-      },
-      "sourceTitle": "Shostakovich: Preludes and Fugues for Piano, Op. 87: Prelude & Fugue No. 4 in E minor: Fugue",
-      "notes": "Individual fugue-only track on Vladimir Ashkenazy – Topic. The work number, key and Fugue movement title were verified against YouTube’s live oEmbed metadata. Candidate for manual synchronization; no start time, duration estimate or timing anchors have been assigned.",
-      "verification": {
-        "checkedDate": "2026-11-25",
-        "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=YZqo9DIOJUE&format=json",
-        "method": "Work, performer and recording metadata checked against public source pages; no musical timing or listening quality is asserted."
-      }
     }
   ],
   "notes": [

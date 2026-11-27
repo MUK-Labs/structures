@@ -1536,23 +1536,23 @@
   ],
   "recordings": [
     {
-      "id": "amadeus-quartet-op131-i",
-      "title": "Amadeus Quartet · Op. 131 · movement I",
-      "youtubeId": "-wWdDHxHfo4",
-      "url": "https://www.youtube.com/watch?v=-wWdDHxHfo4",
-      "performer": "Amadeus Quartet",
-      "scope": "Complete first movement; the graph marks selected subject statements.",
+      "id": "arcadia-op131-youtube",
+      "title": "Arcadia Quartet · Op. 131 · opening movement I",
+      "youtubeId": "Cf3BxtsE06M",
+      "url": "https://www.youtube.com/watch?v=Cf3BxtsE06M",
+      "performer": "Arcadia Quartet",
+      "scope": "Complete String Quartet Op. 131; the diagram covers the opening first movement and selected subject statements.",
+      "sourceTitle": "Arcadia Quartet plays Ludwig van Beethoven - String Quartet Op. 131 in C# minor",
+      "notes": "Published on the Arcadia Quartet’s own channel and embedded on its official video gallery (https://arcadiaquartet.com/gallery-video/). The description identifies a live performance in the final round of the 8th Osaka International Chamber Music Competition & Festa. Replaces the Universal Music Group / Deutsche Grammophon Topic upload. Monetization and future ad delivery are unknown; this source is not certified ad-free.",
+      "verification": {
+        "checkedDate": "2026-11-27",
+        "url": "https://www.youtube.com/watch?v=Cf3BxtsE06M",
+        "method": "YouTube watch-page title, channel and description checked; playback status OK and embedding allowed. YouTube oEmbed returned HTTP 200 and confirmed title and channel. Metadata checks do not establish ad-free playback or musical synchronization."
+      },
       "alignment": {
         "status": "unavailable",
-        "description": "Manual timing needed. Complete first movement; the graph marks selected subject statements. No score-to-recording anchors have been measured.",
+        "description": "Manual timing needed for the opening first movement; the exact musical start and score-to-recording anchors have not been measured.",
         "anchors": []
-      },
-      "sourceTitle": "Beethoven: String Quartet In C Sharp Minor, Op. 131: 1. Adagio ma non troppo e molto espressivo",
-      "notes": "Individual first movement of the string quartet. Amadeus Quartet - Topic; provided by Universal Music Group, from Beethoven: The Last String Quartets (Deutsche Grammophon, 1982). YouTube search metadata supplies the label credit; live YouTube oEmbed returned HTTP 200 and confirmed title and channel. The recording is a listening link only; no note, bar or entry timing has been measured. Live YouTube watch-page title, description, Topic channel, playback status OK and allowed embedding were also verified on the checked date.",
-      "verification": {
-        "checkedDate": "2026-11-25",
-        "url": "https://www.youtube.com/watch?v=-wWdDHxHfo4",
-        "method": "Work, performer and recording metadata checked against public source pages; no musical timing or listening quality is asserted."
       }
     }
   ]

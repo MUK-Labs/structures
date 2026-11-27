@@ -250,17 +250,28 @@ def build():
         "dataLicense": "CC BY 4.0 (formal annotation data only; composition, previews and recording retain separate rights)",
         "voices": [{"id": theme, "label": label} for theme, label, _, _ in definitions],
         "themes": themes, "entries": entries, "sections": sections, "sources": sources,
-        "recordings": [{
-            "id": "takacs-quartet-5-i", "title": "Takács Quartet · Quartet No. 5 · I. Allegro",
-            "youtubeId": "7f29-B2XVDA", "url": "https://www.youtube.com/watch?v=7f29-B2XVDA",
-            "performer": "Takács Quartet", "scope": "Complete first movement only.",
-            "sourceTitle": "Bartók: String Quartet No. 5, BB 110 (Sz.102) : 1. Allegro",
-            "alignment": {"status": "unavailable", "anchors": [],
-                          "description": "Manual timing needed. No recording-specific measure or section anchors have been measured."},
-            "notes": "Takács Quartet - Topic; provided by Universal Music Group, ℗ 1997 Decca Music Group Limited. Individual first-movement track. No audio is redistributed and no timing is inferred from its duration or the score tempo.",
-            "verification": {"checkedDate": "2026-11-25", "url": "https://www.youtube.com/watch?v=7f29-B2XVDA",
-                             "method": "YouTube watch-page metadata verified the work, movement, performer, Topic channel and label credit; playability OK and embedding allowed on the checked date. Musical timing was not measured."},
-        }],
+        "recordings": [
+            {
+                "id": "doric-bartok-quartet5-youtube",
+                "title": "Doric String Quartet · Quartet No. 5 · I. Allegro (from 00:31)",
+                "youtubeId": "MpyoHFjIcVY",
+                "url": "https://www.youtube.com/watch?v=MpyoHFjIcVY",
+                "performer": "Doric String Quartet",
+                "scope": "Complete String Quartet No. 5; the diagram covers movement I, whose uploader chapter starts at 00:31.",
+                "sourceTitle": "Bartók String Quartet No  5 - Doric String Quartet",
+                "notes": "Published on the Doric String Quartet’s own channel. The description names Alex Redington, Ying Xue, Hélène Clément and John Myerscough, and gives movement starts at 00:31, 09:28, 15:46, 21:21 and 27:11. The first chapter is a navigation cue, not a measured barline anchor. Replaces the Universal Music Group Topic upload. Monetization and future ad delivery are unknown; this source is not certified ad-free.",
+                "verification": {
+                    "checkedDate": "2026-11-27",
+                    "url": "https://www.youtube.com/watch?v=MpyoHFjIcVY",
+                    "method": "YouTube watch-page title, channel and description checked; playback status OK and embedding allowed. YouTube oEmbed returned HTTP 200 and confirmed title and channel. Metadata checks do not establish ad-free playback or musical synchronization."
+                },
+                "alignment": {
+                    "status": "unavailable",
+                    "description": "Manual timing needed for movement I. Use the uploader’s 00:31 chapter to locate it; no recording-specific measure or section anchors have been measured.",
+                    "anchors": []
+                }
+            }
+        ],
         "notes": [
             "Only movement I is represented. Every duration uses quarter-note units, including the changing notated meters. Numbered measures follow the score; dotted local pulse guides are not counted as new measures.",
             "Bartók’s outline calls the lyrical theme the second theme and the preceding contrasting region a transition. The three families here use descriptive names to avoid confusing that terminology with Ligeti’s three-theme account.",

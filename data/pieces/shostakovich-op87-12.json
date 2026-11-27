@@ -1758,23 +1758,23 @@
   ],
   "recordings": [
     {
-      "id": "ashkenazy-op87-12-youtube",
-      "title": "Vladimir Ashkenazy · Fugue No. 12 in G♯ minor",
-      "youtubeId": "86LFiI95kk0",
-      "url": "https://www.youtube.com/watch?v=86LFiI95kk0",
-      "performer": "Vladimir Ashkenazy",
-      "scope": "Individual complete fugue, without its prelude.",
+      "id": "sacco-op87-12-youtube",
+      "title": "Sofia Sacco · Fugue No. 12 in G♯ minor (from 04:01)",
+      "youtubeId": "qjh_P9SZd9k",
+      "url": "https://www.youtube.com/watch?v=qjh_P9SZd9k",
+      "performer": "Sofia Sacco",
+      "scope": "Complete Prelude and Fugue No. 12; the uploader labels the fugue at 04:01.",
       "alignment": {
         "status": "unavailable",
-        "description": "Manual timing needed. Individual complete fugue, without its prelude. No score-to-recording anchors have been measured.",
+        "description": "Manual timing needed for this performance. The uploader's 04:01 fugue chapter is a navigation cue, not a measured barline or alignment anchor.",
         "anchors": []
       },
-      "sourceTitle": "Shostakovich: Preludes and Fugues for Piano, Op. 87: Prelude & Fugue No. 12 in G sharp minor: Fugue",
-      "notes": "Individual fugue-only track on Vladimir Ashkenazy – Topic. The work number, key and Fugue movement title were verified against YouTube’s live oEmbed metadata. Candidate for manual synchronization; no start time, duration estimate or timing anchors have been assigned.",
+      "sourceTitle": "Shostakovich: Prelude & Fugue No. 12 in G Sharp Minor, Op. 87 – Sofia Sacco (Piano)",
+      "notes": "Performer-published film from Sofia Sacco's complete Op. 87 cycle at the Royal Academy of Music, produced by Fly on the Wall with City Music Foundation support. Replaces the Ashkenazy Topic upload following a request to avoid potentially disruptive ads. Monetization is not publicly verified; this is an alternative performance, not a guarantee of ad-free playback. No timing from the former upload is reused.",
       "verification": {
-        "checkedDate": "2026-11-25",
-        "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=86LFiI95kk0&format=json",
-        "method": "Work, performer and recording metadata checked against public source pages; no musical timing or listening quality is asserted."
+        "checkedDate": "2026-11-27",
+        "url": "https://www.youtube.com/watch?v=qjh_P9SZd9k",
+        "method": "Work number, key, performer/channel and 04:01 chapter checked against the live YouTube watch-page title and description. Public player metadata reported status OK and playableInEmbed true; these flags do not measure ads or guarantee playback in every session. The filmed cycle is corroborated at https://sofiasacco.com/shostakovich-50. No score-to-recording anchors measured."
       }
     }
   ],

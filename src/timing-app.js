@@ -140,6 +140,9 @@ function renderTable() {
 }
 function render() {
   const ready = Boolean(state.piece && state.recording), next = state.boundaries[state.nextIndex];
+  const scope = typeof state.recording?.scope === 'string' ? state.recording.scope.trim() : '';
+  $('recording-scope').textContent = scope;
+  $('recording-scope').hidden = !scope;
   $('mark-bar').disabled = !ready || !supported();
   $('next-boundary').disabled = !ready;
   $('next-boundary').value = String(state.nextIndex);

@@ -206,23 +206,23 @@
   ],
   "recordings": [
     {
-      "id": "prosseda-op35-01-fugue",
-      "title": "Roberto Prosseda (piano) · Fugue No. 1 in E minor",
-      "youtubeId": "9SblFKS4tz8",
-      "url": "https://www.youtube.com/watch?v=9SblFKS4tz8",
-      "performer": "Roberto Prosseda (piano)",
-      "scope": "Individual complete fugue; the graph covers its opening excerpt.",
+      "id": "formaro-op35-01-cck-2019",
+      "title": "Antonio Formaro · Fugue No. 1 in E minor (from 02:05)",
+      "youtubeId": "xcrh11fLlmo",
+      "url": "https://www.youtube.com/watch?v=xcrh11fLlmo",
+      "performer": "Antonio Formaro (piano)",
+      "scope": "Complete live Op. 35 cycle; uploader labels Fugue No. 1 at 02:05. The diagram covers only its opening exposition.",
       "alignment": {
         "status": "unavailable",
-        "description": "Manual timing needed. Individual complete fugue; the graph covers its opening excerpt. No score-to-recording anchors have been measured.",
+        "description": "Manual timing needed for this performance. Seek to the uploader's 02:05 fugue chapter before marking the first score boundary. This is a navigation cue, not a measured barline or alignment anchor.",
         "anchors": []
       },
-      "sourceTitle": "Mendelssohn — Fugue in E minor, Op. 35 No. 1",
-      "notes": "Individual fugue track, excluding its prelude. Official Roberto Prosseda - Topic / Universal Music Group upload; recording credited to Universal Music Italia (2014), released in Mendelssohn: Complete Piano Works (2019). Live YouTube page metadata verified the full fugue title, performer and label; playback status OK and embedding allowed at check. The Structures diagram covers an exposition excerpt only. No bar or entry timing has been measured.",
+      "sourceTitle": "Mendelssohn 6 Preludes & Fugues op 35 Live at Buenos Aires (complete). Antonio Formaro, piano",
+      "notes": "Performer-channel upload of the complete live cycle at the CCK in Buenos Aires, in the Mozarteum Argentina series, 4 September 2019. Replaces the Prosseda/Universal Music album upload with an original concert source. The uploader supplies individual prelude and fugue chapter times. Monetization and ad delivery are unverified; a performer-owned upload is not a guarantee of ad-free playback. No score-to-recording timing has been transferred.",
       "verification": {
-        "checkedDate": "2026-11-25",
-        "url": "https://www.youtube.com/watch?v=9SblFKS4tz8",
-        "method": "Work, performer and recording metadata checked against public source pages; no musical timing or listening quality is asserted."
+        "checkedDate": "2026-11-27",
+        "url": "https://www.youtube.com/watch?v=xcrh11fLlmo",
+        "method": "YouTube watch-page public title, author and description verified the performer, complete Op. 35 cycle, event and 02:05 fugue cue. Public player metadata reported status OK and playableInEmbed true. This was a metadata check, not an ad-free playback or musical timing certification."
       }
     }
   ],

@@ -218,17 +218,28 @@ def build():
              'author': 'Structures editorial transcription',
              'license': 'Importer code MIT; newly authored annotation data ODbL-1.0. Musical excerpts and source materials retain separate rights.'},
         ],
-        'recordings': [{
-            'id': 'krebbers-olof-1955', 'title': 'Herman Krebbers & Theo Olof · Prelude and Canon',
-            'youtubeId': 'B6qvrSSL7AY', 'url': 'https://www.youtube.com/watch?v=B6qvrSSL7AY',
-            'performer': 'Herman Krebbers and Theo Olof',
-            'scope': 'Complete Duo No. 37, including Prelude and Canon.',
-            'sourceVerificationUrl': 'https://www.youtube.com/watch?v=B6qvrSSL7AY',
-            'checkedDate': '2026-11-25',
-            'notes': 'Official Universal Music Group delivery to Herman Krebbers – Topic. Metadata credits the 1955 phonogram; this digital release is dated 25 August 2023. Work, performers and embedding availability verified, without timing the score.',
-            'alignment': {'status': 'unavailable', 'anchors': [],
-                          'description': 'Manual score-to-recording timing needed. No anchors have been inferred from tempo or another performance.'},
-        }],
+        'recordings': [
+            {
+                "id": "nikolic-vasiljevic-duo37-youtube",
+                "title": "Gordan Nikolić & Igor Vasiljević · Duos 37–44 · opening Prelude and Canon",
+                "youtubeId": "mlCu0rTebh8",
+                "url": "https://www.youtube.com/watch?v=mlCu0rTebh8",
+                "performer": "Gordan Nikolić and Igor Vasiljević",
+                "scope": "Concert upload of Duos Nos. 37–44; the diagram covers the opening Duo No. 37, Prelude and Canon.",
+                "sourceTitle": "Bela Bartok Duos 37-44. Gordan Nikolic and Igor Vasiljevic",
+                "notes": "Published by performer Igor Vasiljević on his own channel. The description identifies both violinists, lists Duos 37–44 in order, and dates the live Kozart Festival recording to 22 August 2013. Replaces the Universal Music Group Topic upload. Monetization and future ad delivery are unknown; this source is not certified ad-free.",
+                "verification": {
+                    "checkedDate": "2026-11-27",
+                    "url": "https://www.youtube.com/watch?v=mlCu0rTebh8",
+                    "method": "YouTube watch-page title, channel and description checked; playback status OK and embedding allowed. YouTube oEmbed returned HTTP 200 and confirmed title and channel. Metadata checks do not establish ad-free playback or musical synchronization."
+                },
+                "alignment": {
+                    "status": "unavailable",
+                    "description": "Manual timing needed for Duo No. 37 at the beginning of this multi-piece recording; the exact musical start and all barlines remain unmeasured.",
+                    "anchors": []
+                }
+            }
+        ],
     }
 
 

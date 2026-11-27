@@ -380,23 +380,23 @@
   "sections": [],
   "recordings": [
     {
-      "id": "schiff-op110-iii",
-      "title": "András Schiff · Op. 110 · complete movement III",
-      "youtubeId": "-XIt5pcbyYE",
-      "url": "https://www.youtube.com/watch?v=-XIt5pcbyYE",
-      "performer": "András Schiff",
-      "scope": "Complete movement III; the graph starts at the first fugue upbeat, after the Arioso.",
+      "id": "salman-op110-youtube",
+      "title": "Mark Salman · Op. 110 · first fugue from 25:00",
+      "youtubeId": "kdZ0PuwHIZg",
+      "url": "https://www.youtube.com/watch?v=kdZ0PuwHIZg",
+      "performer": "Mark Salman",
+      "scope": "Complete Sonata Op. 110 preceded by commentary; the diagram covers the first fugue exposition, starting near the uploader’s 25:00 cue.",
+      "sourceTitle": "Beethoven Sonata No. 31 in A-flat Major, Op. 110, Mark Salman, pianist, performance with commentary",
+      "notes": "Published on pianist Mark Salman’s own channel and embedded on his official website (https://www.marksalman.net/videos-old) as part of the Corvallis–Oregon State University Beethoven 250 project. The description places movement III at 20:30 and the first Fuga at 25:00. This is an uploader navigation cue, not a measured barline anchor. Replaces the Universal Music Group / ECM Topic upload. Monetization and future ad delivery are unknown; this source is not certified ad-free.",
+      "verification": {
+        "checkedDate": "2026-11-27",
+        "url": "https://www.youtube.com/watch?v=kdZ0PuwHIZg",
+        "method": "YouTube watch-page title, channel and description checked; playback status OK and embedding allowed. YouTube oEmbed returned HTTP 200 and confirmed title and channel. Metadata checks do not establish ad-free playback or musical synchronization."
+      },
       "alignment": {
         "status": "unavailable",
-        "description": "Manual timing needed. Complete movement III; the graph starts at the first fugue upbeat, after the Arioso. No score-to-recording anchors have been measured.",
+        "description": "Manual timing needed. Navigate to the uploader’s first-fugue cue at 25:00, then locate its exact upbeat and barlines. No score-to-recording anchors have been measured.",
         "anchors": []
-      },
-      "sourceTitle": "Beethoven: Piano Sonata No. 31 in A-Flat Major, Op. 110: III. Adagio ma non troppo – Fuga. Allegro ma non troppo (Live at Reitstadel, Neumarkt, 2006)",
-      "notes": "Complete third movement, including the opening Adagio/Arioso and both fugue sections. The diagram covers only the first fugue exposition; its entry point within this recording must be located manually. András Schiff - Topic; provided by Universal Music Group, ECM recording dated 2008, reissued on András Schiff plays Beethoven in 2023. YouTube search metadata supplies the live 2006 venue and label credit; live YouTube oEmbed returned HTTP 200 and confirmed title and channel. No recording offset or score alignment has been inferred. Live YouTube watch-page title, description, Topic channel, playback status OK and allowed embedding were also verified on the checked date.",
-      "verification": {
-        "checkedDate": "2026-11-25",
-        "url": "https://www.youtube.com/watch?v=-XIt5pcbyYE",
-        "method": "Work, performer and recording metadata checked against public source pages; no musical timing or listening quality is asserted."
       }
     }
   ],

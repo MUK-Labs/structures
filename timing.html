@@ -21,8 +21,9 @@
     <div class="timing-heading"><div><p class="eyebrow">Listen. Count. Tap.</p><h1>Give the diagram a pulse.</h1></div><p>Press <kbd>Space</kbd> at the <strong>start of each bar</strong>. Tap once more at the end of the displayed score.</p></div>
     <div class="timing-choices">
       <label>Piece<select id="timing-piece" disabled><option>Loading the collection…</option></select></label>
-      <label>Recording<select id="timing-recording" disabled><option>Choose a piece</option></select></label>
+      <label>Recording<select id="timing-recording" aria-describedby="recording-scope" disabled><option>Choose a piece</option></select></label>
     </div>
+    <p id="recording-scope" class="timing-hint" hidden></p>
     <p id="timing-status" role="status" aria-live="polite">Loading the collection…</p>
     <section class="timing-workspace" aria-label="Listen and mark barlines">
       <div class="timing-listening">

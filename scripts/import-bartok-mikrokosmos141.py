@@ -288,16 +288,28 @@ def build(path):
              'author':'Structures editorial transcription and selection',
              'license':'Script code MIT; new editorial annotation data ODbL-1.0. Score-encoding attribution and its CC BY 4.0 notice retained; original composition/edition rights are separate.'},
         ],
-        'recordings':[{
-            'id':'kocsis-mikrokosmos-141','title':'Zoltán Kocsis · Subject and Reflection',
-            'youtubeId':'pcwknfkxkOA','url':'https://www.youtube.com/watch?v=pcwknfkxkOA','performer':'Zoltán Kocsis',
-            'scope':'Complete Mikrokosmos No. 141; the diagram marks selected phrases.',
-            'sourceTitle':'Bartók: Mikrokosmos, Sz. 107 - Book 6: No. 141 Subject and Reflection',
-            'notes':'Zoltán Kocsis - Topic; provided by Universal Music Group. Bartók: Complete Solo Piano Works; phonogram 1999 Universal International Music B.V., platform release 2005-01-01. Listening link only; no recording file is redistributed.',
-            'verification':{'checkedDate':'2026-11-25','url':'https://www.youtube.com/watch?v=pcwknfkxkOA',
-                            'method':'Live YouTube watch-page title, performer, label description, playback status OK and allowed embedding checked. No musical synchronization asserted.'},
-            'alignment':{'status':'unavailable','description':'Manual timing needed; no score-to-recording anchors have been measured.','anchors':[]},
-        }],
+        'recordings':[
+            {
+                "id": "wagner-mikrokosmos141-youtube",
+                "title": "Jeffrey Wagner · Subject and Reflection",
+                "youtubeId": "aHO9tZ7_Evg",
+                "url": "https://www.youtube.com/watch?v=aHO9tZ7_Evg",
+                "performer": "Jeffrey Wagner",
+                "scope": "Complete Mikrokosmos No. 141; the diagram marks selected phrases.",
+                "sourceTitle": "Béla Bartók: Subject & Reflection (from Mikrokosmos, Sz. 107, Volume 6, No. 141)",
+                "notes": "Published on pianist Jeffrey Wagner’s own channel. The description credits Jeffrey Wagner, piano, and identifies the Jim Fellows Center for Creative Media, Park Ridge, Illinois, as the recording location. Replaces the Universal Music Group Topic upload. Monetization and future ad delivery are unknown; this source is not certified ad-free.",
+                "verification": {
+                    "checkedDate": "2026-11-27",
+                    "url": "https://www.youtube.com/watch?v=aHO9tZ7_Evg",
+                    "method": "YouTube watch-page title, channel and description checked; playback status OK and embedding allowed. YouTube oEmbed returned HTTP 200 and confirmed title and channel. Metadata checks do not establish ad-free playback or musical synchronization."
+                },
+                "alignment": {
+                    "status": "unavailable",
+                    "description": "Manual timing needed; no score-to-recording anchors have been measured.",
+                    "anchors": []
+                }
+            }
+        ],
     }
 
 

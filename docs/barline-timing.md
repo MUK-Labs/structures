@@ -4,7 +4,7 @@
 
 ## Capture a first pass
 
-1. Click **Load recording**, then **Play**. The embedded YouTube player remains visible for listening, seeking and playback-speed controls.
+1. Read the recording scope below the selectors and locate the relevant fugue or movement. Some uploads include a prelude or a complete cycle; a published chapter cue is only a navigation aid. Click **Load recording**, then **Play**. The embedded YouTube player remains visible for listening, seeking and playback-speed controls.
 2. Check **Next boundary**. Press **Space** (or tap the large button) at the start of that bar. The first tap is the first score boundary, not the instant the video starts. The counter advances after each accepted tap.
 3. Continue at each barline. Pickups, changing time signatures, excerpt numbering, and labels such as the Duo's P1/C1 are taken from the score map. Tap once more at the **final displayed endpoint** to cover the end of the piece or excerpt.
 4. Use **P** to pause/play and **Undo** or **Backspace** to undo a mark. After touching the video controls, click **Focus for Space**: keypresses inside a cross-origin video player cannot reach the timing page. Text fields and selectors retain their normal keyboard behavior.

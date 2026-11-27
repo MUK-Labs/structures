@@ -157,27 +157,27 @@
   "sections": [],
   "recordings": [
     {
-      "id": "carlson-ludus-10",
-      "title": "Jane Carlson · Fugue No. 10 in D♭",
-      "youtubeId": "EUCZe-K4Q-g",
-      "url": "https://www.youtube.com/watch?v=EUCZe-K4Q-g",
-      "performer": "Jane Carlson",
-      "scope": "Individual complete fugue; the graph covers its opening excerpt.",
+      "id": "sgarbanti-ludus-10-amsterdam-2026",
+      "title": "Simone Sgarbanti · Fugue No. 10 in D♭ (locate in complete cycle)",
+      "youtubeId": "ZTqdIpZ19ZU",
+      "url": "https://www.youtube.com/watch?v=ZTqdIpZ19ZU",
+      "performer": "Simone Sgarbanti",
+      "scope": "Complete Ludus Tonalis cycle. Locate Fugue No. 10 before marking its first bar; no uploader chapter cue is available. The diagram covers only its opening excerpt.",
       "alignment": {
         "status": "unavailable",
-        "description": "Manual timing needed. Individual complete fugue; the graph covers its opening excerpt. No score-to-recording anchors have been measured.",
+        "description": "Manual timing needed. Locate Fugue No. 10 within the complete cycle before tapping its first barline. No chapter cue or score-to-recording anchors have been measured.",
         "anchors": []
       },
-      "sourceTitle": "Ludus Tonalis: XX. Fuga Decima in D-Flat Major",
-      "notes": "Complete individual fugue recording for solo piano, from the label-linked album playlist. The Structures diagram covers only the opening excerpt. No musical onset, endpoint, or beat-to-time mapping has been inferred.",
+      "sourceTitle": "Paul Hindemith: Ludus Tonalis (1942)",
+      "notes": "Performer-owned upload of a lecture-recital for students at the Conservatorium van Amsterdam, 19 March 2026. Selected to replace the label-linked Jane Carlson album track. Monetization status is unknown; no nonmonetized or ad-free claim is made. The recording contains the complete cycle and has no published movement chapters. Each fugue needs its own alignment on this video timeline; timing from the retired recording is not transferred.",
       "verification": {
-        "checkedDate": "2026-11-25",
-        "url": "https://www.youtube.com/watch?v=EUCZe-K4Q-g",
-        "method": "Work, performer and recording metadata checked against public source pages; no musical timing or listening quality is asserted."
+        "checkedDate": "2026-11-27",
+        "url": "https://www.youtube.com/watch?v=ZTqdIpZ19ZU",
+        "method": "Work title and performer verified through live YouTube oEmbed metadata; date, venue and lecture-recital context checked in the public YouTube description and the performer's own video page. No score timestamps or ad behavior verified."
       },
       "source": {
-        "title": "Musical Heritage Society — Hindemith: Ludus Tonalis, Jane Carlson",
-        "url": "https://themusicalheritagesociety.com/products/hindemith-ludus-tonalis-jane-carlson"
+        "title": "Simone Sgarbanti — video page",
+        "url": "https://www.simonesgarbanti.com/video"
       }
     }
   ],
