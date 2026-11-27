@@ -45,9 +45,11 @@ export async function generateTimingChecklist() {
 
 **${new Set(pending.map(x=>x.piece.id)).size} pieces / ${pending.length} recordings need initial manual timing.** ${missing.length} pieces have no listening source. ${partial.length} additional entries in otherwise synchronized pieces fall outside every available map.
 
-Listening links are available now. An empty timing map deliberately keeps entry playback disabled. Recording identity was checked from public metadata on 25 November 2026; no musical timestamps were inferred from those metadata.
+Listening links are available now. An empty timing map deliberately keeps entry playback disabled. Recording verification dates and methods are recorded in each piece; no score-to-recording anchors are inferred from metadata.
 
 **[Open the barline timing tool](https://muk-labs.github.io/structures/timing.html)** for a first estimate: load a recording and tap Space at each bar start, then at the score endpoint. The viewer's **Time this recording** link opens the exact piece and source. Drafts save in your browser; review, use locally, and export JSON or CSV for integration. See [step-by-step instructions](barline-timing.md). Barline-derived timing remains labelled **estimated**.
+
+If a source interrupts listening with ads, try another recording in the viewer's selector. The [recording alternatives register](recording-alternatives.md) lists reports and checked candidates. Each performance needs its own timing map; upload chapter labels are navigation cues only.
 
 ## Work list
 

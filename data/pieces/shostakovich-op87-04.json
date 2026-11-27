@@ -2092,6 +2092,46 @@
   "sections": [],
   "recordings": [
     {
+      "id": "sacco-op87-04-youtube",
+      "title": "Sofia Sacco · Fugue No. 4 in E minor (from 03:13)",
+      "youtubeId": "lZbJIzrUSzI",
+      "url": "https://www.youtube.com/watch?v=lZbJIzrUSzI",
+      "performer": "Sofia Sacco",
+      "scope": "Complete Prelude and Fugue No. 4; the uploader labels the fugue at 03:13.",
+      "alignment": {
+        "status": "unavailable",
+        "description": "Manual timing needed for this performance. The uploader's 03:13 fugue chapter is a navigation cue, not a measured barline or alignment anchor.",
+        "anchors": []
+      },
+      "sourceTitle": "Shostakovich: Prelude & Fugue No. 4 in E Minor, Op. 87 – Sofia Sacco (Piano)",
+      "notes": "Performance on Sofia Sacco's own channel, part of her filmed complete Op. 87 cycle at the Royal Academy of Music, produced by Fly on the Wall with City Music Foundation support. Added as an alternative to the Ashkenazy upload after a user report of frequent ads. No ad appeared during a brief watch-page start/seek check; this does not guarantee future or embedded playback without ads. This recording needs its own timing map.",
+      "verification": {
+        "checkedDate": "2026-11-27",
+        "url": "https://www.youtube.com/watch?v=lZbJIzrUSzI",
+        "method": "Title, performer, production details and the 03:13 chapter checked in YouTube's visible description; project corroborated at https://sofiasacco.com/shostakovich-50. Watch-page playback and chapter seeking checked briefly; no score-to-recording anchors measured."
+      }
+    },
+    {
+      "id": "sviridov-op87-04-youtube",
+      "title": "Ruslan Sviridov · Fugue No. 4 in E minor (from 02:37)",
+      "youtubeId": "KHnDUDTiZZ0",
+      "url": "https://www.youtube.com/watch?v=KHnDUDTiZZ0",
+      "performer": "Ruslan Sviridov",
+      "scope": "Complete Prelude and Fugue No. 4; the uploader labels the fugue at 02:37.",
+      "alignment": {
+        "status": "unavailable",
+        "description": "Manual timing needed for this performance. The uploader's 02:37 fugue chapter is a navigation cue, not a measured barline or alignment anchor.",
+        "anchors": []
+      },
+      "sourceTitle": "RUSLAN SVIRIDOV - Shostakovich. Prelude and Fugue in e minor, op. 87, no. 4",
+      "notes": "Piano Synergy upload identifying Ruslan Sviridov's live performance at the Small Hall of Moscow Conservatory on 22 May 1996. Added as an alternative to the Ashkenazy upload after a user report of frequent ads. No ad appeared during a brief watch-page start/seek check; this does not guarantee future or embedded playback without ads. This recording needs its own timing map.",
+      "verification": {
+        "checkedDate": "2026-11-27",
+        "url": "https://www.youtube.com/watch?v=KHnDUDTiZZ0",
+        "method": "Title, performer, venue, performance date and the 02:37 chapter checked in YouTube's visible description. Watch-page playback and chapter seeking checked briefly; no score-to-recording anchors measured."
+      }
+    },
+    {
       "id": "ashkenazy-op87-04-youtube",
       "title": "Vladimir Ashkenazy · Fugue No. 4 in E minor",
       "youtubeId": "YZqo9DIOJUE",

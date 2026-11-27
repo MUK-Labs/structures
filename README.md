@@ -42,6 +42,8 @@ The [repertoire source register](docs/repertoire-sources.md) distinguishes these
 
 The [counterpoint research register](docs/counterpoint-research.md) extends the search to Bartók, recurring themes, canons, rhythmic layers, and other contrapuntal repertoire. It includes verified analyses, page and measure references, data sources, and priorities for future diagrams, with the first three Bartók implementations identified explicitly.
 
+For recordings disrupted by ads, the [recording alternatives register](docs/recording-alternatives.md) tracks reported problems and alternative YouTube performances. Op. 87 no. 4 now offers Sofia Sacco and Ruslan Sviridov alongside Ashkenazy; each source has a separate manual timing task. Brief successful checks do not certify an upload as ad-free.
+
 ## Timing and interpretation
 
 Each piece identifies its analytical method and coverage. Bach and Shostakovich use the Algomus reference corpus. Later additions may use independently checked exposition excerpts or conservative score-pattern matching; **selected matches are not a complete thematic analysis**. Method descriptions and source references are included in each file and in **Analysis, sources & timing**.

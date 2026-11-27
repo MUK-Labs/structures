@@ -1,10 +1,12 @@
 # Manual recording timing
 
-**36 pieces / 36 recordings need initial manual timing.** 0 pieces have no listening source. 4 additional entries in otherwise synchronized pieces fall outside every available map.
+**36 pieces / 38 recordings need initial manual timing.** 0 pieces have no listening source. 4 additional entries in otherwise synchronized pieces fall outside every available map.
 
-Listening links are available now. An empty timing map deliberately keeps entry playback disabled. Recording identity was checked from public metadata on 25 November 2026; no musical timestamps were inferred from those metadata.
+Listening links are available now. An empty timing map deliberately keeps entry playback disabled. Recording verification dates and methods are recorded in each piece; no score-to-recording anchors are inferred from metadata.
 
 **[Open the barline timing tool](https://muk-labs.github.io/structures/timing.html)** for a first estimate: load a recording and tap Space at each bar start, then at the score endpoint. The viewer's **Time this recording** link opens the exact piece and source. Drafts save in your browser; review, use locally, and export JSON or CSV for integration. See [step-by-step instructions](barline-timing.md). Barline-derived timing remains labelled **estimated**.
+
+If a source interrupts listening with ads, try another recording in the viewer's selector. The [recording alternatives register](recording-alternatives.md) lists reports and checked candidates. Each performance needs its own timing map; upload chapter labels are navigation cues only.
 
 ## Work list
 
@@ -39,6 +41,8 @@ Each row links the editable piece JSON and the exact recording. Match the record
 | [Dmitri Shostakovich · Fugue No. 1 in C major](../data/pieces/shostakovich-op87-01.json) | [Vladimir Ashkenazy](https://www.youtube.com/watch?v=g5OwvlEHtwo) | `ashkenazy-op87-01-youtube` | Individual complete fugue, without its prelude. |
 | [Dmitri Shostakovich · Fugue No. 2 in A minor](../data/pieces/shostakovich-op87-02.json) | [Vladimir Ashkenazy](https://www.youtube.com/watch?v=52yoEqJxlXk) | `ashkenazy-op87-02-youtube` | Individual complete fugue, without its prelude. |
 | [Dmitri Shostakovich · Fugue No. 3 in G major](../data/pieces/shostakovich-op87-03.json) | [Vladimir Ashkenazy](https://www.youtube.com/watch?v=v8rVxdHnwOo) | `ashkenazy-op87-03-youtube` | Individual complete fugue, without its prelude. |
+| [Dmitri Shostakovich · Fugue No. 4 in E minor](../data/pieces/shostakovich-op87-04.json) | [Sofia Sacco](https://www.youtube.com/watch?v=lZbJIzrUSzI) | `sacco-op87-04-youtube` | Complete Prelude and Fugue No. 4; the uploader labels the fugue at 03:13. |
+| [Dmitri Shostakovich · Fugue No. 4 in E minor](../data/pieces/shostakovich-op87-04.json) | [Ruslan Sviridov](https://www.youtube.com/watch?v=KHnDUDTiZZ0) | `sviridov-op87-04-youtube` | Complete Prelude and Fugue No. 4; the uploader labels the fugue at 02:37. |
 | [Dmitri Shostakovich · Fugue No. 4 in E minor](../data/pieces/shostakovich-op87-04.json) | [Vladimir Ashkenazy](https://www.youtube.com/watch?v=YZqo9DIOJUE) | `ashkenazy-op87-04-youtube` | Individual complete fugue, without its prelude. |
 | [Dmitri Shostakovich · Fugue No. 5 in D major](../data/pieces/shostakovich-op87-05.json) | [Vladimir Ashkenazy](https://www.youtube.com/watch?v=Pku1h1tckFk) | `ashkenazy-op87-05-youtube` | Individual complete fugue, without its prelude. |
 | [Dmitri Shostakovich · Fugue No. 6 in B minor](../data/pieces/shostakovich-op87-06.json) | [Vladimir Ashkenazy](https://www.youtube.com/watch?v=EovIiOFAnX4) | `ashkenazy-op87-06-youtube` | Individual complete fugue, without its prelude. |
