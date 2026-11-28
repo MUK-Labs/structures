@@ -26,7 +26,7 @@ The collection contains **52 diagrams**, with different levels of analytical cov
 | Beethoven, Op. 110/III | 1 | The first fugue's opening three-voice exposition |
 | Bartók | 3 | Selected Duo 37 and Mikrokosmos 141 phrases; a thematic-form map of Quartet 5/I |
 
-All 52 pieces have listening links. The 36 additions beyond Bach are labelled **Manual timing needed**: you can open their recordings now, while synchronized entry playback remains disabled until anchors are checked. Selected-entry maps, exposition excerpts and thematic-form maps retain their coverage labels; they do not imply complete inventories of voice entries.
+All 52 pieces have listening links. Shostakovich Op. 87 no. 4 now has **estimated barline timing** for Sofia Sacco’s recording, contributed by Adrián Artacho. The other 35 additions beyond Bach are labelled **Manual timing needed**: you can open their recordings now, while synchronized entry playback remains disabled until timing maps are added. Selected-entry maps, exposition excerpts and thematic-form maps retain their coverage labels; they do not imply complete inventories of voice entries.
 
 The first Bartók selection offers three ways to follow returning material:
 

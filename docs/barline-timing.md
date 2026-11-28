@@ -23,6 +23,16 @@ Chapter cues are navigation aids, not measured barlines. Loading does not play a
 
 Drafts autosave separately for each piece and recording. Applied estimates are also local: sharing a viewer URL does not transfer them to someone else's browser. Export a file to preserve work outside the browser or share it. Storage failures are reported, and exports remain available. A changed source or changed measure grid invalidates old local timing so it cannot silently attach to a different performance or bar layout.
 
+## Publish your timing
+
+The **piece JSON is sufficient**; the CSV is an alternative export of the same timestamps, not a second file required by the viewer.
+
+1. Download the piece JSON and check that its recording ID and YouTube ID match the performance you timed. Keep the timing status `estimated` for a tapped first pass.
+2. In the repository's [`data/pieces/` folder](https://github.com/MUK-Labs/structures/tree/main/data/pieces), replace the matching JSON file and commit the change. The filename must stay the same, for example `shostakovich-op87-04.json`. If the repository's piece has changed since your export, merge only the matching recording's `alignment` object into the latest file so newer analyses, recordings and chapter cues are preserved.
+3. Update any outdated “manual timing needed” notes. Run `npm test`, `npm run validate`, `npm run timing:list`, and `npm run build` in a checkout; include the refreshed catalog and checklist. Remove this recording's blank rows from the pending CSV worksheet after publishing a complete map. GitHub Actions checks the committed files and republishes the site automatically.
+
+You can also send the exported JSON or CSV back for integration. A CSV contribution must be matched to its exact piece and recording before its beat/seconds pairs are merged as alignment anchors.
+
 ## What is estimated
 
 Every mark uses the player's **media timestamp**, rather than elapsed wall-clock time. Pauses, buffering and playback-rate changes therefore do not accumulate clock drift. Marks are accepted only while the source is playing. Keyboard repeats do not add extra marks.

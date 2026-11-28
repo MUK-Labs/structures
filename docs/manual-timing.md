@@ -1,6 +1,6 @@
 # Manual recording timing
 
-**36 pieces / 37 recordings need initial manual timing.** 0 pieces have no listening source. 4 additional entries in otherwise synchronized pieces fall outside every available map.
+**36 pieces / 36 recordings need initial manual timing.** 0 pieces have no listening source. 4 additional entries in otherwise synchronized pieces fall outside every available map.
 
 Listening links are available now. An empty timing map deliberately keeps entry playback disabled. Recording verification dates and methods are recorded in each piece; no score-to-recording anchors are inferred from metadata.
 
@@ -41,7 +41,6 @@ Each row links the editable piece JSON and the exact recording. Match the record
 | [Dmitri Shostakovich · Fugue No. 1 in C major](../data/pieces/shostakovich-op87-01.json) | [Sofia Sacco](https://www.youtube.com/watch?v=rfSx3nnQeSw) | `sacco-op87-01-youtube` | Complete Prelude and Fugue No. 1; the uploader labels the fugue at 02:56. |
 | [Dmitri Shostakovich · Fugue No. 2 in A minor](../data/pieces/shostakovich-op87-02.json) | [Sofia Sacco](https://www.youtube.com/watch?v=g3EcK4wQ8Og) | `sacco-op87-02-youtube` | Complete Prelude and Fugue No. 2; the uploader labels the fugue at 00:57. |
 | [Dmitri Shostakovich · Fugue No. 3 in G major](../data/pieces/shostakovich-op87-03.json) | [Sofia Sacco](https://www.youtube.com/watch?v=cIwQ9mxvtBQ) | `sacco-op87-03-youtube` | Complete Prelude and Fugue No. 3; the uploader labels the fugue at 02:00. |
-| [Dmitri Shostakovich · Fugue No. 4 in E minor](../data/pieces/shostakovich-op87-04.json) | [Sofia Sacco](https://www.youtube.com/watch?v=lZbJIzrUSzI) | `sacco-op87-04-youtube` | Complete Prelude and Fugue No. 4; the uploader labels the fugue at 03:13. |
 | [Dmitri Shostakovich · Fugue No. 4 in E minor](../data/pieces/shostakovich-op87-04.json) | [Ruslan Sviridov](https://www.youtube.com/watch?v=KHnDUDTiZZ0) | `sviridov-op87-04-youtube` | Complete Prelude and Fugue No. 4; the uploader labels the fugue at 02:37. |
 | [Dmitri Shostakovich · Fugue No. 5 in D major](../data/pieces/shostakovich-op87-05.json) | [Sofia Sacco](https://www.youtube.com/watch?v=gWTlKKHIID0) | `sacco-op87-05-youtube` | Complete Prelude and Fugue No. 5; the uploader labels the fugue at 02:12. |
 | [Dmitri Shostakovich · Fugue No. 6 in B minor](../data/pieces/shostakovich-op87-06.json) | [Sofia Sacco](https://www.youtube.com/watch?v=Zn7gp9HihB8) | `sacco-op87-06-youtube` | Complete Prelude and Fugue No. 6; the uploader labels the fugue at 01:53. |

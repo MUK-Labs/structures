@@ -2100,12 +2100,529 @@
       "performer": "Sofia Sacco",
       "scope": "Complete Prelude and Fugue No. 4; the uploader labels the fugue at 03:13.",
       "alignment": {
-        "status": "unavailable",
-        "description": "Manual timing needed for this performance. The uploader's 03:13 fugue chapter is a navigation cue, not a measured barline or alignment anchor.",
-        "anchors": []
+        "status": "estimated",
+        "description": "Barline timing contributed by Adrián Artacho on 2026-11-28: 128 bar starts and the final endpoint, from 193.907 to 497.923 seconds in this Sofia Sacco upload. Positions between marked score boundaries are estimated by linear interpolation in quarter-note units; playback is limited to the marked span. Tap accuracy and within-bar tempo changes have not been independently checked.",
+        "anchors": [
+          {
+            "beat": 0,
+            "seconds": 193.907
+          },
+          {
+            "beat": 4,
+            "seconds": 196.76
+          },
+          {
+            "beat": 8,
+            "seconds": 200.048
+          },
+          {
+            "beat": 12,
+            "seconds": 203.246
+          },
+          {
+            "beat": 16,
+            "seconds": 206.546
+          },
+          {
+            "beat": 20,
+            "seconds": 209.49
+          },
+          {
+            "beat": 24,
+            "seconds": 212.656
+          },
+          {
+            "beat": 28,
+            "seconds": 215.743
+          },
+          {
+            "beat": 32,
+            "seconds": 219.664
+          },
+          {
+            "beat": 36,
+            "seconds": 222.234
+          },
+          {
+            "beat": 40,
+            "seconds": 225.319
+          },
+          {
+            "beat": 44,
+            "seconds": 228.529
+          },
+          {
+            "beat": 48,
+            "seconds": 231.748
+          },
+          {
+            "beat": 52,
+            "seconds": 234.78
+          },
+          {
+            "beat": 56,
+            "seconds": 237.983
+          },
+          {
+            "beat": 60,
+            "seconds": 241.333
+          },
+          {
+            "beat": 64,
+            "seconds": 244.342
+          },
+          {
+            "beat": 68,
+            "seconds": 247.519
+          },
+          {
+            "beat": 72,
+            "seconds": 250.745
+          },
+          {
+            "beat": 76,
+            "seconds": 254.133
+          },
+          {
+            "beat": 80,
+            "seconds": 257.006
+          },
+          {
+            "beat": 84,
+            "seconds": 260.242
+          },
+          {
+            "beat": 88,
+            "seconds": 263.448
+          },
+          {
+            "beat": 92,
+            "seconds": 266.47
+          },
+          {
+            "beat": 96,
+            "seconds": 269.567
+          },
+          {
+            "beat": 100,
+            "seconds": 272.745
+          },
+          {
+            "beat": 104,
+            "seconds": 275.836
+          },
+          {
+            "beat": 108,
+            "seconds": 279.031
+          },
+          {
+            "beat": 112,
+            "seconds": 281.992
+          },
+          {
+            "beat": 116,
+            "seconds": 285.16
+          },
+          {
+            "beat": 120,
+            "seconds": 288.597
+          },
+          {
+            "beat": 124,
+            "seconds": 291.261
+          },
+          {
+            "beat": 128,
+            "seconds": 294.551
+          },
+          {
+            "beat": 132,
+            "seconds": 297.484
+          },
+          {
+            "beat": 136,
+            "seconds": 300.459
+          },
+          {
+            "beat": 140,
+            "seconds": 303.643
+          },
+          {
+            "beat": 144,
+            "seconds": 306.508
+          },
+          {
+            "beat": 148,
+            "seconds": 309.483
+          },
+          {
+            "beat": 152,
+            "seconds": 312.407
+          },
+          {
+            "beat": 156,
+            "seconds": 315.529
+          },
+          {
+            "beat": 160,
+            "seconds": 318.555
+          },
+          {
+            "beat": 164,
+            "seconds": 321.768
+          },
+          {
+            "beat": 168,
+            "seconds": 324.905
+          },
+          {
+            "beat": 172,
+            "seconds": 327.968
+          },
+          {
+            "beat": 176,
+            "seconds": 331.26
+          },
+          {
+            "beat": 180,
+            "seconds": 334.516
+          },
+          {
+            "beat": 184,
+            "seconds": 338.377
+          },
+          {
+            "beat": 188,
+            "seconds": 341.168
+          },
+          {
+            "beat": 192,
+            "seconds": 343.031
+          },
+          {
+            "beat": 196,
+            "seconds": 344.69
+          },
+          {
+            "beat": 200,
+            "seconds": 346.342
+          },
+          {
+            "beat": 204,
+            "seconds": 348.101
+          },
+          {
+            "beat": 208,
+            "seconds": 349.809
+          },
+          {
+            "beat": 212,
+            "seconds": 351.433
+          },
+          {
+            "beat": 216,
+            "seconds": 353.007
+          },
+          {
+            "beat": 220,
+            "seconds": 354.645
+          },
+          {
+            "beat": 224,
+            "seconds": 356.251
+          },
+          {
+            "beat": 228,
+            "seconds": 357.941
+          },
+          {
+            "beat": 232,
+            "seconds": 359.525
+          },
+          {
+            "beat": 236,
+            "seconds": 361.366
+          },
+          {
+            "beat": 240,
+            "seconds": 362.992
+          },
+          {
+            "beat": 244,
+            "seconds": 364.547
+          },
+          {
+            "beat": 248,
+            "seconds": 366.218
+          },
+          {
+            "beat": 252,
+            "seconds": 367.878
+          },
+          {
+            "beat": 256,
+            "seconds": 369.541
+          },
+          {
+            "beat": 260,
+            "seconds": 371.215
+          },
+          {
+            "beat": 264,
+            "seconds": 372.776
+          },
+          {
+            "beat": 268,
+            "seconds": 374.411
+          },
+          {
+            "beat": 272,
+            "seconds": 376.125
+          },
+          {
+            "beat": 276,
+            "seconds": 377.819
+          },
+          {
+            "beat": 280,
+            "seconds": 379.435
+          },
+          {
+            "beat": 284,
+            "seconds": 381.167
+          },
+          {
+            "beat": 288,
+            "seconds": 382.757
+          },
+          {
+            "beat": 292,
+            "seconds": 384.458
+          },
+          {
+            "beat": 296,
+            "seconds": 386.035
+          },
+          {
+            "beat": 300,
+            "seconds": 387.675
+          },
+          {
+            "beat": 304,
+            "seconds": 389.241
+          },
+          {
+            "beat": 308,
+            "seconds": 390.902
+          },
+          {
+            "beat": 312,
+            "seconds": 392.512
+          },
+          {
+            "beat": 316,
+            "seconds": 394.094
+          },
+          {
+            "beat": 320,
+            "seconds": 395.805
+          },
+          {
+            "beat": 324,
+            "seconds": 397.425
+          },
+          {
+            "beat": 328,
+            "seconds": 399.071
+          },
+          {
+            "beat": 332,
+            "seconds": 400.758
+          },
+          {
+            "beat": 336,
+            "seconds": 402.209
+          },
+          {
+            "beat": 340,
+            "seconds": 403.782
+          },
+          {
+            "beat": 344,
+            "seconds": 405.369
+          },
+          {
+            "beat": 348,
+            "seconds": 407.761
+          },
+          {
+            "beat": 352,
+            "seconds": 409.916
+          },
+          {
+            "beat": 356,
+            "seconds": 411.813
+          },
+          {
+            "beat": 360,
+            "seconds": 413.746
+          },
+          {
+            "beat": 364,
+            "seconds": 415.818
+          },
+          {
+            "beat": 368,
+            "seconds": 418.017
+          },
+          {
+            "beat": 372,
+            "seconds": 419.741
+          },
+          {
+            "beat": 376,
+            "seconds": 421.49
+          },
+          {
+            "beat": 380,
+            "seconds": 423.494
+          },
+          {
+            "beat": 384,
+            "seconds": 425.095
+          },
+          {
+            "beat": 388,
+            "seconds": 426.867
+          },
+          {
+            "beat": 392,
+            "seconds": 428.462
+          },
+          {
+            "beat": 396,
+            "seconds": 430.31
+          },
+          {
+            "beat": 400,
+            "seconds": 431.988
+          },
+          {
+            "beat": 404,
+            "seconds": 433.602
+          },
+          {
+            "beat": 408,
+            "seconds": 435.637
+          },
+          {
+            "beat": 412,
+            "seconds": 437.494
+          },
+          {
+            "beat": 416,
+            "seconds": 439.156
+          },
+          {
+            "beat": 420,
+            "seconds": 440.859
+          },
+          {
+            "beat": 424,
+            "seconds": 442.58
+          },
+          {
+            "beat": 428,
+            "seconds": 444.186
+          },
+          {
+            "beat": 432,
+            "seconds": 445.924
+          },
+          {
+            "beat": 436,
+            "seconds": 447.487
+          },
+          {
+            "beat": 440,
+            "seconds": 449.348
+          },
+          {
+            "beat": 444,
+            "seconds": 451.76
+          },
+          {
+            "beat": 448,
+            "seconds": 453.582
+          },
+          {
+            "beat": 452,
+            "seconds": 455.385
+          },
+          {
+            "beat": 456,
+            "seconds": 457.485
+          },
+          {
+            "beat": 460,
+            "seconds": 459.691
+          },
+          {
+            "beat": 464,
+            "seconds": 461.355
+          },
+          {
+            "beat": 468,
+            "seconds": 462.986
+          },
+          {
+            "beat": 472,
+            "seconds": 465.881
+          },
+          {
+            "beat": 476,
+            "seconds": 468.243
+          },
+          {
+            "beat": 480,
+            "seconds": 470.249
+          },
+          {
+            "beat": 484,
+            "seconds": 472.742
+          },
+          {
+            "beat": 488,
+            "seconds": 475.758
+          },
+          {
+            "beat": 492,
+            "seconds": 477.962
+          },
+          {
+            "beat": 496,
+            "seconds": 480.88
+          },
+          {
+            "beat": 500,
+            "seconds": 483.375
+          },
+          {
+            "beat": 504,
+            "seconds": 486.441
+          },
+          {
+            "beat": 508,
+            "seconds": 489.88
+          },
+          {
+            "beat": 512,
+            "seconds": 497.923
+          }
+        ]
       },
       "sourceTitle": "Shostakovich: Prelude & Fugue No. 4 in E Minor, Op. 87 – Sofia Sacco (Piano)",
-      "notes": "Performance on Sofia Sacco's own channel, part of her filmed complete Op. 87 cycle at the Royal Academy of Music, produced by Fly on the Wall with City Music Foundation support. Added as an alternative to the Ashkenazy upload after a user report of frequent ads. No ad appeared during a brief watch-page start/seek check; this does not guarantee future or embedded playback without ads. This recording needs its own timing map.",
+      "notes": "Performance on Sofia Sacco's own channel, part of her filmed complete Op. 87 cycle at the Royal Academy of Music, produced by Fly on the Wall with City Music Foundation support. Added as an alternative to the Ashkenazy upload after a user report of frequent ads. No ad appeared during a brief watch-page start/seek check; this does not guarantee future or embedded playback without ads. Barline timing for this upload was contributed on 2026-11-28; see the alignment description.",
       "verification": {
         "checkedDate": "2026-11-27",
         "url": "https://www.youtube.com/watch?v=lZbJIzrUSzI",
@@ -2136,7 +2653,7 @@
   ],
   "notes": [
     "Reference annotations from Algomus; these are analytical readings, not automatic detections.",
-    "Analysis only: no verified recording-specific synchronization is available. No playback timing has been estimated.",
+    "Estimated playback timing is available for Sofia Sacco from manually tapped barline times contributed by Adrián Artacho on 2026-11-28. This does not change the reference analysis; other performances need their own timing maps.",
     "Entry endpoints mark the onset of the final note, as defined by the reference source. They do not assert the full sounding duration. Split-voice entries use the reference transition boundary and share a groupId.",
     "Measure lengths and piece extent derive from the credited MIDI encoding, including its terminal track position. Opening pickups and a truncated final MIDI bar are represented explicitly; this is not a critical edition of the printed score."
   ],

@@ -577,7 +577,7 @@
     "form": "Double fugue",
     "key": "E minor",
     "voices": 4,
-    "playback": "manual-timing"
+    "playback": "synchronized"
   },
   {
     "id": "shostakovich-op87-05",
